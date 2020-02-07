@@ -2,12 +2,50 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Caesar Cipher</title>
+    <title>Comunicación segura</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <div id="root">
-      <h1>Hello world!</h1>
+      <h1>Comunicación segura</h1>
+      <p1> En esta página podrás cifrar y descifrar texto usando la técnica de <strong>Cifrado César.</strong><br>
+        Esta aplicación te servirá para generar cifrar y descifrar mensajes<br> que se pueden mandar a través de cualquier canal que eligas, por ejemplo correo electrónico, y hacer de esta forma un poco más segura la comunicación.
+        Utilizamos cifrado César que es una técnica de reemplazo de caracteres,<br>no confíes en ésta aplicación para mensajes para los que necesitas mucha seguridad, en ese caso te puede servir más algo como GPG.
+        <br>
+        <br>
+        <button> ¡Entendido, comenzar!</button>
+        <hr></hr>
+<br>
+<br>
+<br>
+<br>
+        <label for="story">Aquí puedes escribir el texto que quieres cifrar o descifrar</label><br>
+        <textarea id="str" name="str"
+                  rows="5" cols="33">
+                </textarea>
+<br>
+Elige el número con el que quieres cifrar o descifrar el mensaje, éste servirá como contraseña:
+<br>
+<label for="offset">Contraseña:</label>
+<input type="number" id="offset" name="offset"
+       min="1" max="1000000000">
+<br><br><br>
+<button> Cifrar </button>       <button> Descifrar </button>
+<br>
+<br>
+
+<hr> </hr>
+<br>
+<br>
+<label for="story">¡Genial!¡Comparte tu texto con quien tengas confianza!</label><br>
+<textarea id="str" name="str" rows="5" cols="33"> </textarea>
+<br>
+<br>
+<button> Copiar</button><br><br>
+<button>Volver al inicio</button>
+<br>
+<br>
+    </p1>
     </div>
     <script src="index.js" type="module"></script>
   </body>

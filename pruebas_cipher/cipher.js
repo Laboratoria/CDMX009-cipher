@@ -1,5 +1,7 @@
-const cipher = {encode, decode};
-export default cipher;
+export default const cipher = {
+  encode,
+  decode
+}
 
 function encode(str, offset) {
   var solved = "";
@@ -17,11 +19,12 @@ function encode(str, offset) {
           solved+= str[i];
       }*/
 
-return(solved);
+console.log(solved);
 }
 
+//encode("SERR PNZC", 33);
 //encode("HOLA", 7);
-/*encode("ABCDEFGHIJKLMNOPQRSTUVWXYZ", 1);
+encode("ABCDEFGHIJKLMNOPQRSTUVWXYZ", 1);
 encode("ABCDEFGHIJKLMNOPQRSTUVWXYZ", 2);
 encode("ABCDEFGHIJKLMNOPQRSTUVWXYZ", 3);
 encode("ABCDEFGHIJKLMNOPQRSTUVWXYZ", 4);
@@ -44,26 +47,26 @@ encode("ABCDEFGHIJKLMNOPQRSTUVWXYZ", 20);
 encode("ABCDEFGHIJKLMNOPQRSTUVWXYZ", 21);
 
 encode("TEQUIEROMUCHOTAVO", 33);
-*/
+
 //DECODE
-function decode(str, offset) {
-  var solved = "";
-  var oldAscii;
-  var newAscii;
-  for (var i=0; i < str.length; i++) {
-        oldAscii = str.charCodeAt(i);
-        newAscii = (((oldAscii +65 - parseInt(offset)) %26)+ 65);
-        solved += String.fromCharCode(newAscii);
+function decode(str2, offset2) {
+  var solved2 = "";
+  var oldAscii2;
+  var newAscii2;
+  for (var i=0; i < str2.length; i++) {
+        oldAscii2 = str2.charCodeAt(i);
+        newAscii2 = (((oldAscii2 +65 - parseInt(offset2)) %26)+ 65);
+        solved2 += String.fromCharCode(newAscii2);
 
         }
         /*else { //Esto recupera los espacios y cualquier otro dígito fuera 65 y 90 y sólo los pasa al resultado en la posición original.
-
           solved+= str[i];
       }*/
-return(solved);
+
+console.log(solved2);
 }
 
-/*decode("BCDEFGHIJKLMNOPQRSTUVWXYZA", 1);
+decode("BCDEFGHIJKLMNOPQRSTUVWXYZA", 1);
 decode("CDEFGHIJKLMNOPQRSTUVWXYZAB", 2);
 decode("DEFGHIJKLMNOPQRSTUVWXYZABC", 3);
 decode("EFGHIJKLMNOPQRSTUVWXYZABCD", 4);
