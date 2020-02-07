@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+body {
+position: relative;
+width: 1440px;
+height: 1024px;
+background: #011616;
+}
+h1 {
+position: absolute;
+width: 712px;
+height: 134px;
+left: 336px;
+top: 0px;
+
+font-family: Josefin Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 38px;
+line-height: 38px;
+text-align: center;
+
+color: #5AC9E3;
+}
+.bienvenida {
+position: absolute;
+width: 339px;
+height: 48px;
+left: 486px;
+top: 251px;
+
+font-family: Josefin Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 24px;
+text-align: center;
+
+color: #5AC9E3;
+}
+#cifrar {
+position: absolute;
+width: 215px;
+height: 50px;
+left: 418px;
+top: 383px;
+}
+#descifrar {
+position: absolute;
+width: 215px;
+height: 50px;
+left: 677px;
+top: 383px;
+}
