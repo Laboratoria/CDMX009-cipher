@@ -1,17 +1,67 @@
+*{
+  padding: 0;
+  margin: 0;
+}
 body {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding:40px;
-  padding-top: 60px;
+  padding: 0;
+  margin: 0;
   background-color: #ED5D5D;
   font-family: 'Ropa Sans', sans-serif;
 }
+.page{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
 
-.dot{
-  height: 130px;
-  width: 130px;
+}
+
+.container{
+  display: flex;
+
+  justify-content: center;
+  height: 80vh;
+  width: 70vw;
+
+}
+
+
+.text{
+  display: flex;
+  margin-top: 70vh;
+
+
+
+}
+
+.dot-one{
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 140px;
+  width: 140px;
   background-color: #F2C57C;
   border-radius:50%;
-  display:flex;
+  top: 20%;
 }
+.dot-two{
+  position: fixed;
+  top: 50%;
+  left: 20%;
+  transform: translateY(-50%);
+  height: 140px;
+  width: 140px;
+  background-color: #F2C57C;
+  border-radius:50%;
+}
+  .dot-three{
+    position: fixed;
+    top: 50%;
+    right: 20%;
+    transform: translateY(-50%);
+    height: 140px;
+    width: 140px;
+    background-color: #F2C57C;
+    border-radius:50%;
+  }
