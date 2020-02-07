@@ -1,0 +1,17 @@
+body {
+     background-color:#F2BFFF;
+     font-family: 'Open Sans', sans-serif;
+}
+
+.cajaprincipal {
+    background-color: cadetblue;
+    text-align: center;
+    position: relative;
+
+}
+
+.boton {
+
+    background-color: darkblue;
+    width: 109px;
+}
