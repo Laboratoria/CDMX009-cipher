@@ -1,0 +1,12 @@
+body {
+    background-image: url("https://i.imgur.com/HAWLTfDr.jpg");
+    height: 800px;
+    padding-right: 100px;
+    margin-top: 20px;
+}
+
+.h1 {
+    color: cornsilk;
+    text-align: right;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
