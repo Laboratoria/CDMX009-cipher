@@ -7,7 +7,40 @@
   </head>
   <body>
     <div id="root">
-      <h1>Hello world!</h1>
+      <img src="../imgs/Logo Ok 140319.png" width="10%" alt="Logotipo Empresa">
+
+      <h1>Facturación Electrónica y Sellos Digitales</h1>
+  
+      <div class="instrucciones">
+        <p>Para la generación de sus Facturas o Sellos Digitales es necesario proporcionar su Nombre Completo y Fecha de
+          Nacimiento.</p>
+  
+        <p>Para que usted pueda descargar sus Facturas y/o Sellos Digitales, le proporcionaremos una <strong>Clabe
+          Cifrada.</strong></p>
+  
+        <p>Para Salir de la aplicación <strong>Desencripte su Clabe.</strong></p>
+      </div>
+  
+      <div class="datos">
+        <label for="">Ingrese su Completo
+          <input type="text" placeholder="Nombre">
+          <input type="text" placeholder="Apellido Paterno" id="cifrar">
+          <input type="text" placeholder="Apellido Materno">
+        </label>
+  
+        <br>
+        <br>
+  
+        <label for="">Ingrese su Fecha de Nacimiento
+          <input type="number" placeholder="Dia" min="01" max="31">
+          <input type="number" placeholder="Mes" min="01" max="12" id="movimientos">
+          <input type="number" placeholder="Año" min="1950" max="2020">
+        </label>
+      </div>
+  
+      <br>
+  
+      <a href="./cifrado.html"><input type="button" value="Siguiente"></a>
     </div>
     <script src="index.js" type="module"></script>
   </body>
