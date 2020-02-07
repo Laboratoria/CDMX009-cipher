@@ -12,9 +12,9 @@
 
 ***
 
-## 1. Preámbulo
+## 1. Proyecto Our Secret
 
-Cifrar significa codificar. El [cifrado César](https://en.wikipedia.org/wiki/Caesar_cipher)
+C. El [cifrado César](https://en.wikipedia.org/wiki/Caesar_cipher)
 es uno de los primeros métodos de cifrado conocidos. El emperador romano Julio
 César lo usaba para enviar órdenes secretas a sus generales en los campos de
 batalla.
