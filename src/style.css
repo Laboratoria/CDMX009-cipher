@@ -1,0 +1,17 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding:40px;
+  padding-top: 60px;
+  background-color: #ED5D5D;
+  font-family: 'Ropa Sans', sans-serif;
+}
+
+.dot{
+  height: 130px;
+  width: 130px;
+  background-color: #F2C57C;
+  border-radius:50%;
+  display:flex;
+}
