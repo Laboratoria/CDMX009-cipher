@@ -6,9 +6,25 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div id="root">
-      <h1>intentar aprender</h1>
-    </div>
-    <script src="index.js" type="module"></script>
+      <h1>cifracil</h1>
+
+      <div class="ingresaInfo">
+        <label for="cipherText">Introduce el texto </label>
+        <input type="textarea" id="cipherText" value=" ">
+        <label for="cipherKey" >Numero de desplazamientos </label>
+        <input type="text" id="cipherKey" size="2" value="">
+      </div>
+
+      <div class=accionBotones>
+        <button onclick="cifrar()"> Cifrar </button>
+        <button onclick="descifrar()"> Descifrar </button>
+      </div>
+
+      <div class= resultado>
+        <button onclick="limpiar()"> Limpiar </button>
+      </div>
+
+      <script src="index.js" type="module"></script>
+
   </body>
 </html>
