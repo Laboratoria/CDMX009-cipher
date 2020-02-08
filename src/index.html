@@ -6,9 +6,20 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div id="root">
-      <h1>Hello world!</h1>
-    </div>
+  <div id="root">
+      <h1> <img id="logo" src="images/logoopia.png"/> </h1>
+      <!-- Aqui me estoy haciendo bolas el texto -->
+     <p>El cifrado César sustituye una letra por otra <br> que se encuentra a un número de posciones fijas delante en el alfabeto. <br> Por ejemplo, en un desplazamiento de 3,<br> la A es sustituída por la D y así sucesivamente.
+     <br>
+     <br>
+     <img src="images/ccesar.png" style="float: center" width="260px" height="70px"/>
+     <br>
+     <br>
+     Este método de encriptación, debe su nombre al emperador <br> romano, quién lo usó para comunicarse con sus generales.</p>
+     <br>
+    <input  id="usuario" type="text" name="usuario" placeholder="Validar Usuario"></input>
+     <button type="button" class="btn" onclick="validaUser()"> >> </button>
+   </div>
     <script src="index.js" type="module"></script>
   </body>
 </html>
