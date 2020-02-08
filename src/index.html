@@ -6,24 +6,27 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-      <h1>cifracil</h1>
+      <h1>Cifracil</h1>
 
       <div class="ingresaInfo">
         <label for="cipherText">Introduce el texto </label>
         <input type="textarea" id="cipherText" value=" ">
         <label for="cipherKey" >Numero de desplazamientos </label>
-        <input type="text" id="cipherKey" size="2" value="">
+        <input type="number" id="cipherKey" size="2" value="">
       </div>
+      <br>
 
       <div class=accionBotones>
         <button onclick="cifrar()"> Cifrar </button>
         <button onclick="descifrar()"> Descifrar </button>
       </div>
+      <br>
 
-      <div class= resultado>
+      <div class= resultadof>
         <button onclick="limpiar()"> Limpiar </button>
+        <div id="resultado" class="salida" ></div>
       </div>
-
+      
       <script src="index.js" type="module"></script>
 
   </body>

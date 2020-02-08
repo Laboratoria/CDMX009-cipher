@@ -20,7 +20,7 @@ body {
     font-weight: Light;
     color: #707070;
   }
-  .resultado{
+  .resultadof{
     text-align: center;
     font-family: Segoe UI;
     font-weight: Light;
@@ -57,4 +57,11 @@ body {
     
     width   : 8em; /* 100px */
     background : #FFB848;
+  }
+  .salida {
+    height: 18pt;
+    border-radius: 2px;
+    border: 1px dotted black;
+    width: 100%;
+    margin-top: 4px;
   }
