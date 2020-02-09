@@ -1,8 +1,5 @@
-import cipher from './cipher.js';
 
-console.log(cipher);
-
-    function cifrar() {
+    function cifrar(){
     let cipherText = document.getElementById("cipherText");
     let texto = cipherText.value;
                  
@@ -18,12 +15,12 @@ console.log(cipher);
     for (let i = 0; i < texto.length; i++){
                                             charnum = texto.charAt(i).charCodeAt(0);
                                             varnumber = parseInt(numero);
-                                            charnum = charnum + varnumber;
+                                            charnum = (charnum -65 + varnumber)%26+65;
                                             caracteres[i]=String.fromCharCode(charnum);
                                             concatenarCaracteres += caracteres[i]+"";
                                         }          
     let element = document.getElementById("resultado");
-    element.innerHTML = concatenarCaracteres.toString();
+    element.innerHTML=concatenarCaracteres.toString();
 }
 
 let limpiar = document.getElementById("limpiar");
