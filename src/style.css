@@ -6,13 +6,13 @@ body {
     text-align: center;
     font-family: Segoe UI;
     font-weight: bold;
-    color: #707070;
+    color: white;
   }
   .ingresaInfo{
     text-align: center;
     font-family: Segoe UI;
     font-weight: Light;
-    color: #707070;
+    color: white;
   }
   .accionBotones{
     text-align: center;
@@ -24,7 +24,9 @@ body {
     text-align: center;
     font-family: Segoe UI;
     font-weight: Light;
-    color: #000000;
+    color: #333333;
+    width: 50%;
+    margin-left: 26%;
   }
    input, select, textarea {
    text-align: center;
@@ -42,21 +44,21 @@ body {
    
     
     /* The first declaration is for browsers that do not support linear gradients. */
-    background : #F0F0F0;
+    background : #707070;
     background : linear-gradient(0deg, #E3E3E3, #fcfcfc 100%, #f0f0f0);
   }
   button {
    text-align: center;
     font-family: Segoe UI;
     font-weight: Light;
-    color: #707070;
+    color: white;
     box-sizing : border-box;  
     
     border        : 0; 
     border-radius : .50em;
     
     width   : 8em; /* 100px */
-    background : #FFB848;
+    background : #4F43B1;
   }
   .salida {
     height: 18pt;
@@ -64,4 +66,11 @@ body {
     border: 1px dotted black;
     width: 100%;
     margin-top: 4px;
+    border        : 0; 
+    border-radius : .50em; 
+   
+    
+    /* The first declaration is for browsers that do not support linear gradients. */
+    background : #707070;
+    background : linear-gradient(0deg, #E3E3E3, #fcfcfc 100%, #f0f0f0);
   }
