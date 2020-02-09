@@ -1,39 +1,186 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Clío Cipher</title>
+    <title>Code Clío</title>
     <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <link rel="short cut icon" type="image/x-icon" href="https://image.flaticon.com/icons/png/512/120/120693.png" />
   </head>
-<body>
-<nav>
-  <input type="image" id="kickoff" alt="womanicon" class="womanicon"
-         src="https://image.flaticon.com/icons/png/512/120/120693.png">
-
-  <input type="image" id="menu" alt="menuicon" class="menuicon"
-          src="https://image.flaticon.com/icons/png/128/56/56763.png">
-</nav>
-    <!--<div id="root"> ¿qué onda con esto-->
-<main>
-  <h1>CLÍO CODE</h1>
-  <br>
-  <!--Login-->
-  <form class="form" id="form" name="form">
-    <div class="input folio">
-      <input type="text" id="name" placeholder="Folio">
-      <button type="button" class="btn" value="Login" onclick="writeFolio()">Entrar
-      </button>
+  <body>
+<header>
+    <nav class="navbar">
+      <div class="logo">
+        <img class="logoimg" src="https://image.flaticon.com/icons/png/512/120/120693.png">
+      </div>
+    </nav>
+    <div id="login">
+      <h1 class="title">CLÍO CODE</h1>
+      <br>
+      <form class="imput" id="imput" name="imput">
+          <input type="text" id="folio" placeholder="Folio">
+          <br>
+          <button type="button" class="button" value="Login" onclick="writeFolio()">ENTRAR
+          </button>
+        <p>¿Eres nueva?</p>
+        <button type="button" class="button" value="Resgister" onclick=loadQestions()>SI
+        </button>
+      </form>
     </div>
-  </form>
-<!--New account-->
-  <form class="form" id="form" name="form">
-    <div class="input request">
-      <input type="text" id="name" placeholder="name">
-      <input type="text" id="email" placeholder="email">      
+
+      <br>
+      <br>
+
+    <div id="questions" class="questions">
+      <br>
+      <br>
+    <form class="user" id="user" name="user">
+        <div class="container-inputs">
+          <img class="womanicon" src="https://image.flaticon.com/icons/png/512/103/103277.png"
+          alt="womanicon">
+          <input type="text" id="name" placeholder="name" >
+        </div>
+    </form>
+    <form class="email" id="email" name="email">
+          <div class="container-imputs">
+          <img class="emailicon" src="https://cdn.icon-icons.com/icons2/656/PNG/512/mail_email_message_electronic_online_web_icon-icons.com_59986.png"
+          alt="email">
+          <input type="text" id="email" placeholder="email">
+          </div>
+    </form>
+    <button type="button" id="btSend" value="send" onClick="sendMessage">ENVIAR
+    </button>
+</header>
+      <br>
+      <br>
+<main id="intro" class="intro">
+      <br>
+      <br>
+      <img class="womanphoto" src="https://image.freepik.com/foto-gratis/amigos-divirtiendose-parque_53876-46870.jpg" alt="womanphoto">
+      <h2>CLÍO CODE</h2>
+      <br>
+      <br>
+      <blockquote cite="http://https://forbes.es/emprendedores/3910/15-frases-de-oprah-winfrey-sobre-el-exito/13/">"Convierte
+  tus heridas en sabiduría"</blockquote><cite>Oprah Winfrey</cite>
+  <br>
+  <br>
+  <h3>Febrero 2020</h3>
+  <br>
+  <p>
+    Code Clío nace por la necesidad de una red de confianza para mujeres que han sufrido algún abuso: creemos en
+    la comunicación como herramienta de conscientización.
+  </p>
+  <br>
+  <p>
+    Sabemos que toda experiencia traumática conlleva un proceso y que para sanar primero debemos estar informadas y
+    lograr identificar cuando estamos siendo abusadas.
+  </p>
+  <br>
+  <p>
+    Además, en cuanto escribes sobre los detalles de tu historia y reflexionas sobre lo ocurrido, haces un ejercicio de
+    catarsis.
+  </p>
+  <br>
+  <h3>Cifrado César</h3>
+  <br>
+  <a href="https://www.youtube.com/watch?v=sMOZf4GN3oc" target="_blank" title="Cifrado César">Vídeo explicativo aquí </a>
+  <br>
+  <br>
+  <h3>Confidencialidad</h3>
+  <br>
+  <p>
+    Code Clío te solicita un nombre y un correo para mantener la red segura, por lo que antes de enviarte tu número de
+    folio te contactamos vía mail para identificarte.
+  <br>
+    La herramienta de codificación de tu historia no requiere que ingreses datos personales al momento de escribir tu historia.
+  </p>
+  <br>
+  <h3>Compartiendo</h3>
+  <br>
+  <p>
+    Si decides compartir tu historia, únicamente envía tu mensaje codificado (el cual contendrá sólo letras mayúsculas y, agrega
+    un número al final que será el número de desplazamiento que hayas elegido al codificar tu historia, ejemplo:
+    <br>
+    <br>
+    <strong>BSDLIHSDKBVHFDVBLFXKHVBHLXKFVBKHFVBKFXLÑKSDNFLSDNFKJVXCVJNFSKJVBFKDJVBÑKFJVBÑ<span><em>6<em></span></strong>
+    <br>
+    <br>
+    <ul>
+      <li>
+        - Si decides compartir tu historia o la de alguien más con otra mujer, ella tendrá que hacer el mismo proceso que tú de
+        identificación.
+      </li>
+      <li>
+        - Si decides solicitar apoyo emocional o ayuda jurídica, ya tendremos tus datos y ellos sabrán como ayudarte en caso de
+        recibir un mensaje codificado con número de desplazamiento.
+      </li>
+    </ul>
+  </p>
+  <br>
+  <h4 class="welcome">Bienvenida</h3>
 </main>
 
+<aside>
+    </div>
+    <aside class="menu">
+      <a href="https://image.flaticon.com/icons/png/128/56/56763.png"
+      class="bt-menu"><span class="menuicon"></span></a>
+      <ul>
+        <li><a href="#">¿CLÍO CODE?</a></li>
+        <li><a href="#">CODE-DECODE</a></li>
+        <li><a href="#">RED DE APOYO</a></li>
+      </ul>
+</aside>
 
+<section>
+
+  <h4>CODE-DECODE</h4>
+
+<label>
+  <select number="select-number">
+  <option value="3">3</option>
+  <option value="6" selected>6</option>
+  <option value="9">9</option>
+</select>
+</label>
+
+<br>
+
+<label>
+  <input type="radio" name="function" value="code"> CODE
+</label>
+<label>
+  <input type="radio" name="function" value="decode"> DECODE
+</label>
+
+<br>
+
+<textarea name="messagebox" class="messagebox" placeholder="Escribe aquí...">
+</textarea>
+
+<button type="button" id="btSend" value="send" onClick="sendMessage">¡LISTO!
+</button>
+
+<br>
+
+</section>
+
+<figure>
+ <img src="https://image.freepik.com/foto-gratis/grupo-mujeres-activistas-protestando-juntas_23-2148409924.jpg" alt="support">
+<h4>APOYO EMOCIONAL</h4>
+<br>
+<p>envía tu historia codificada <span>aquí</span></p>
+<br>
+<h4>AYUDA JURÍDICA</h4>
+<br>
+<p>envía tu historia codificada <span>aquí</span></p>
+<br>
+<h4>CODE CLÍO EMAIL</h4>
+<p>app@cliocode.com</p>
+</figure>
+<br>
+<br>
+<footer>Creación @veroalrodriguez</footer>
 
     <script src="index.js" type="module"></script>
   </body>
