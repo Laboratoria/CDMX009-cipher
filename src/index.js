@@ -1,3 +1,6 @@
-import cipher from './cipher.js';
+let nombre= document.getElementById("formulario").value;
 
-console.log(cipher);
+if (nombre==" "){
+    document.getElementById("formulario");
+    .innerHTML = "Favor de poner nombre"
+}
