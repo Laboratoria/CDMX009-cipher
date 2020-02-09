@@ -1,0 +1,22 @@
+main {
+  margin:auto;
+  text-align: center;
+}
+
+.contenedor{
+font-family: Segoe UI;
+
+
+
+
+
+}
+
+input#boton{
+  padding:5px 50px;
+  color: black;
+  font-size: 1em;
+  background-color: white;
+  border-color: red;
+
+}
