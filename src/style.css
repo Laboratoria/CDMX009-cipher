@@ -6,8 +6,37 @@ body {
   padding: 0;
   margin: 0;
   background-color: #ED5D5D;
-  font-family: 'Ropa Sans', sans-serif;
+  font-family: 'Ropa Sans', sans-serif; font-size:33px;
+  color: #1C040E;
+  font-weight: bold;
 }
+
+h1{
+  color: #F0F0F0;
+  font size: 50%;
+  display: flex;
+  margin-top: 50%;
+}
+
+a{
+  color: #1C040E;
+  text-decoration: none;
+}
+
+a:hover {
+  color: hotpink;
+}
+
+.indeximg{
+  position: fixed;
+  transform: translateX(-50%);
+  transform: translateY(-50%);
+  top: 54%;
+  max-height: 55%;
+  max-width: 55%;
+
+}
+
 .page{
   display: flex;
   align-items: center;
@@ -26,32 +55,48 @@ body {
 
 }
 
+.txt-content{
+position:absolute;
+width:inherit;
+height: auto;
+top: 55%;
+transform: translateY(-50%);
+text-align: center;
+}
 
-.text{
-  display: flex;
-  margin-top: 70vh;
-
-
-
+.txt-content-about{
+margin-top: 37%;
 }
 
 .dot-one{
   position: fixed;
   left: 50%;
   transform: translateX(-50%);
-  height: 140px;
-  width: 140px;
-  background-color: #F2C57C;
+  height: 145px;
+  width: 145px;
+    background-color: #F2C57C;
   border-radius:50%;
-  top: 20%;
+  top: 8%;
+  text-align: center
+
+}
+.dot-one:hover,.dot-two:hover,.dot-three:hover{
+
+transition: all 1s ease-in-out;
+transform: width 1s;
+transform: height 1s;
+height: 180px;
+width: 180px;
+background-color: #7C84F2;
+color: black;
 }
 .dot-two{
   position: fixed;
   top: 50%;
   left: 20%;
   transform: translateY(-50%);
-  height: 140px;
-  width: 140px;
+  height: 145px;
+  width: 145px;
   background-color: #F2C57C;
   border-radius:50%;
 }
@@ -60,8 +105,37 @@ body {
     top: 50%;
     right: 20%;
     transform: translateY(-50%);
-    height: 140px;
-    width: 140px;
+    height: 145px;
+    width: 145px;
     background-color: #F2C57C;
     border-radius:50%;
+  }
+
+  .yellow-box {
+  position: absolute;
+  top: 25%;
+  left: 10%;
+  width: 40%;
+  height: 40%;
+  background: #F2C57C;
+  border-radius: 5px;
+  border:none;
+  }
+
+  .submit-button{
+    position:absolute;
+background: #7CEBF2;
+width: 40%;
+height:5%;
+top:66%;
+left:10%;
+border-radius: 5px;
+border: none;
+  }
+  .title {
+    margin-top: 59%;
+  }
+  .title h1:hover{
+    color: #200919;
+    transition: all 1s ease-in-out;
   }
