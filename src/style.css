@@ -1,0 +1,111 @@
+body{
+  font-family: georgia, times, serif;
+  color:#5E2281C;
+  font size: 2rem;
+  line-height: 2em;
+  background-color:#E9DDC3;
+  margin: 0;
+};
+
+h1{
+  font-size: 4rem
+  line-height:1.3em;
+  background-color: #5E2281;
+};
+
+p1{
+  color:#5E2281C;
+  font size: 2rem;
+  line-height: 2em;
+};
+
+container {
+  widht:85%
+  max-widht:850px
+  margin:0 auto
+};
+
+
+.header{
+ background-color: #0C485E;
+ color: #5E2281;
+ padding: 4rem 0;
+ position: fixed;
+ left:0;
+ top: 0;
+ right: 0;
+ widht: 100%;
+};
+
+.header {
+  background-color: #5E2281 ;
+  text-decoration: .logo-header;
+};
+
+.header :hover {
+  background-color: #56274A
+};
+.header a :hover {
+  color: azure;
+};
+
+.logo-header {
+  display: flex;
+  justify-content: space-around;
+};
+
+.main {
+  padding-top: 10rem;
+}
+
+.footer {
+  background: #C97130;
+  padding: 20px;
+  margin top: 40px;
+  text-align: right;
+}
+
+.footer a {
+		color: white;
+	}
+
+  #pantallaDos{
+    display:none;
+  }
+
+#pantallaTres{
+    display:none;
+  }
+/*
+//Café para las letras #5E2281C
+
+//Naranja #C15D2
+//vermellon #D14E4E
+//Light carmin pink #D96E6E
+
+//PAle cooper #CA866C
+
+//Indian red-rosaranja #C95D63
+//PINK-RED #ff6972
+//inverso de pink-red #00968D
+
+//Bronze-mostaza #C97130
+
+//Midnight green-Turquesa #0C485E
+
+//Japanese Violet-morado cósmico #56274A
+//Patriarca #800080
+
+
+//Azul maya #73C2FB
+//Azul maya máás oscuro #2CA3F9
+
+
+//Rojo sandía  	#C03E3E
+//Salmón #FA8072
+//Jade #34C2A7
+//Coral #EB6362
+
+//Lino #D7D0B7
+//Blanco navajo #FFDEAD
+//Beige #E9DDC3
