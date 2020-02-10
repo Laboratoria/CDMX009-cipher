@@ -7,15 +7,19 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Audiowide&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Quantico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Handlee|Quantico:400,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Handlee&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <center>
-        <p>INTRODUCE EL TEXTO:</p>
-        <textarea name="textarea" rows="10" cols="50">Escribe aquí</textarea>
+        <p class="p1">INTRODUCE EL TEXTO EN MAYÚSCULAS:</p>
+        <textarea id="text" name="textarea" rows="10" cols="50">Escribe aquí</textarea>
         <br><br>
 
-        <label for="desplazamiento"> No. de desplazamiento:</label>
+        <label class="p1" for="desplazamiento"> No. de desplazamiento:</label>
         <select id="desplazamiento" class="desp">
 
             <option>1 </option>
@@ -41,12 +45,12 @@
         </div>
 
         <br><br>
-        <P>RESULTADO:</P>
+        <P class="p1">RESULTADO:</P>
 
         <textarea name="textarea" rows="10" cols="50" readonly></textarea>
         <br><br>
         <div class="bloqueBtn">
-
+            <input type="reset" class="buttons" value="INSTRUCCIONES" onclick=" window.location='./page2.html';" />
             <input type="reset" class="buttons" value="LIMPIAR" onclick=" window.location='./page3.html';" />
             <input type="button" class="buttons" value="SALIR" onclick=" window.location='./page4.html';" />
         </div>

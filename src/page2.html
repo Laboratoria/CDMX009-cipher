@@ -7,17 +7,37 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Page2</title>
     <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Audiowide&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Quantico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Handlee|Quantico:400,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Handlee&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <Center>
-        <h2>INSTRUCCIONES</h2>
-        <br><br>
-        <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur beatae ab quae minima maxime numquam asperiores molestias reprehenderit voluptatibus consequuntur possimus quasi praesentium quod laboriosam veritatis facere sunt, eaque nemo.</P>
-        <input type="button" class="buttons" value="INICIAR" onclick=" window.location='./page3.html';" />
-        <BR>
-        <BR></BR>
-        <input type="button" class="buttons" value="SALIR" onclick=" window.location='./page4.html';" />
+        <h1>INSTRUCCIONES</h1>
+
+
+        <P class="p1">El cifrado César es un tipo de cifrado por sustitución, es decir que cada letra del texto original es reemplazada por otra que se encuentra un número fijo de posiciones (desplazamiento) más adelante en el mismo alfabeto. <br> Con CIPHER puedes
+            introducir un texto y cifrarlo o decifrarlo utilizando el cifrado Cesar.</P>
+        <ul style="list-style-type: none;" class="p1"> CIFRAR:
+
+            <li>Introduce el texto que deseas cifrar, en mayúsculas.</li>
+            <li>Selecciona un numero del 1 al 26 el cual será el desplazamiento utilizado para cifrar el texto</li>
+
+        </ul>
+
+        <ul style="list-style-type:  none;" class="p1"> DECIFRAR:
+
+            <li>Introduce el texto que deseas decifrar, en mayúsculas.</li>
+            <li>Debes saber el número de desplazamiento que se utilizó para cifrar el mensaje, debe ser un número del 1 al 26.</li>
+
+        </ul>
+        <div class="bloqueBtn">
+            <input type="button" class="buttons" value="INICIAR" onclick=" window.location='./page3.html';" />
+
+            <input type="button" class="buttons" value="SALIR" onclick=" window.location='./page4.html';" />
+        </div>
     </Center>
 </body>
 
