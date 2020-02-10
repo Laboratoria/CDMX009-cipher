@@ -27,7 +27,6 @@
             <br> 
             <br> 
             <button type="button" class="boton" id="botonSiguiente" onclick="recogeDatos()">SIGUIENTE</button>
-        <section>
 
         </form>
 
@@ -35,7 +34,10 @@
  <!-- Aquí comienza pantalla dos--->
     <section id="pantallaDos">
 
-        <h1 id="bienvenido">Bienvenid@</h1>   
+        <h1 id="bienvenido">Bienvenid@</h1> 
+        
+        <h2>Escribe tu clave secreta</h2>
+        <input id="cajaClave" class="cajaClave">
        
         <form id=formulario2>
             <input id="cajanombre" class="cajatexto" placeholder="Coloca tu mensaje secreto aquí">
@@ -44,6 +46,23 @@
             <button class=boton>CIFRAR</button>
             <button class=boton>DESCIFRAR</button>
 
+    </section>
+        
+    <!-- Aquí comienza pantalla tres--->
+    <section id="pantallaTres">
+
+        <h1 id="bienvenido">Bienvenid@</h1> 
+        
+        <h2>Tu clave secreta</h2>
+        <input id="tuClave" class="cajaClave">
+       
+        <form id=formulario2>
+            <input id="cajanombre" class="cajatexto" placeholder="Tu mensaje descifrado/cifrado es:">
+            <br> 
+            <br> 
+            <button class=boton>CIFRAR</button>
+            <button class=boton>VOLVER</button>
+            <button class=boton>SALIR</button>
     </section>
         
 

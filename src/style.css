@@ -89,6 +89,25 @@ footer {
     display: none;
 }
 
+#pantallaTres {
+    display: none;
+}
+
 .pantalla2 {
     display: none;
+}
+
+.cajaClave {
+    margin-top: 50px;
+    width: 234px; 
+    height: 57px;
+    font-size: 36px;
+    text-align: center;
+    border-radius: 30px;
+    color: #FF8970;
+    border: none;
+}
+
+h2 {
+    font-size: 28px;   
 }
