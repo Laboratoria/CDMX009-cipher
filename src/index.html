@@ -40,7 +40,7 @@
         <input id="cajaClave" class="cajaClave">
        
         <form id=formulario2>
-            <input id="cajanombre" class="cajatexto" placeholder="Coloca tu mensaje secreto aquí">
+            <input id="cajaMensaje" class="cajatexto" placeholder="Coloca tu mensaje secreto aquí">
             <br> 
             <br> 
             <button class=boton>CIFRAR</button>
@@ -51,18 +51,19 @@
     <!-- Aquí comienza pantalla tres--->
     <section id="pantallaTres">
 
-        <h1 id="bienvenido">Bienvenid@</h1> 
+        <h1 id="respuesta">Tu mensaje para este 14 de Febrero es:</h1> 
         
         <h2>Tu clave secreta</h2>
         <input id="tuClave" class="cajaClave">
        
         <form id=formulario2>
-            <input id="cajanombre" class="cajatexto" placeholder="Tu mensaje descifrado/cifrado es:">
+            <p id="advertencia2" class="advertencia"></p>
+            <input id="cajaMensaje" class="cajatexto" placeholder="Tu mensaje descifrado/cifrado es:">
             <br> 
             <br> 
-            <button class=boton>CIFRAR</button>
-            <button class=boton>VOLVER</button>
-            <button class=boton>SALIR</button>
+            <button id="cifrar" class="boton" onclick="cifrar()">CIFRAR</button>
+            <button id="volver" class=boton>VOLVER</button>
+            <button id= "salir" class=boton>SALIR</button>
     </section>
         
 
@@ -70,5 +71,6 @@
         Creado por Edith Ortiz
     </footer>
     <script src="index.js"></script>
+    <script src="cipher.js"></script>
 </body>
 </html>

@@ -111,3 +111,14 @@ footer {
 h2 {
     font-size: 28px;   
 }
+
+.cajaMensaje {
+    margin-top: 50px;
+    width: 1052px; 
+    height: 246px;
+    font-size: 36px;
+    text-align: center;
+    border-radius: 10px;
+    color: #FF8970;
+    border: none;
+}
