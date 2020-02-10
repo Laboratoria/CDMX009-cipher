@@ -36,7 +36,7 @@
                     </li>
 
                     <li>
-                        <a href="">Comprar</a>
+                        <a href="">Contacto</a>
                     </li>
                 </ul>
 
@@ -58,11 +58,11 @@
     </div>
 
     <!--PASO UNO   INGRESAR UN TEXTO Y CIFRARLO-->
-    <button id="botonIngresarTextoP ">Ingresa texto personalizado que quieras que tenga el boleto</button> <br>
+    <h2>Ingresa el Texto que quieras Personalizar</h2>
     <!--input es un campo de entrada donde el usuario puede ingresar datos-->
-    <textarea id="mensaje_input " rows="4 " cols="50 " placeholder="texto personalizado aquí "></textarea> <br>
+    <textarea id="mensaje_input" rows="4" cols="50" placeholder="texto personalizado aquí"></textarea>
     <p>clave</p>
-    <select id="numerosCodificar ">  
+    <select id="numerosCodificar">  
     <option value="0 ">0</option>
     <option value="1 ">1</option>
     <option value="2 ">2</option>
@@ -85,15 +85,14 @@
     <option value="19 ">19</option>
     <option value="20 ">20</option>
     </select>
-
+    <button onclick="caesar()" id="botonIngresarTextoP">Click Para generar tu código</button> <br>
 
     <p>Tú código es sdfghjkl</p>
 
     <!--PASO DOS  DESCIFRAR EL CÓDIGO-->
 
     <p>¿Olvidaste el mensaje que colocaste en tú personalización?</p>
-    <p>Para verla</p>
-    <button id="botonIngresarTextoP ">Click Aquí</button> <br>
+    <button onclick="decaesar()" id="descifrar">Descifra tu código</button> <br>
 
     <!--PASO TRES  OPCIONES Y CONDICIONES DE PAGO-->
 
@@ -103,8 +102,19 @@
     </p>
     <p>En caso de querer cambiar lo que escribiste refresca la página y empieza otra vez</p>
 
-    <button id="botonIngresarTextoP ">Estoy seguro.<strong>Quiero comprar</strong> </button>
+    <button id="comprar">Estoy seguro.<strong>Quiero comprar</strong> </button>
     <script src="index.js" type="module"></script>
+
+    <!--PIE DE PÁGINA-->
+    <footer id="footer">
+        <div class="clearfix"></div>
+        </div>
+        <div class="center">
+            <p>
+                &copy; 2020 DreamTickets @Dianyela-Maldonado</p>
+            <!-- &copy; es para que salga la C tipo copright en el pie de página-->
+        </div>
+    </footer>
 </body>
 
 </html>
