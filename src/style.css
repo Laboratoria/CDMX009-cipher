@@ -1,0 +1,12 @@
+/*color del fondo rosa */
+
+body    {
+    background-color: rgb(255, 0, 200);
+  
+  }
+/*centrar las letras de los parrafos que estan en htm */
+p{
+    display: block;
+    text-align: center;
+    color: #ffffff;
+
