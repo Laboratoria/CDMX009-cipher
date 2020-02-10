@@ -1,0 +1,87 @@
+body{
+    font-family: 'Heebo', sans-serif;
+}
+#encabezado{
+    background-color: #3F2F2F;
+    padding: 50px 600px;
+    position: relative;
+
+}
+.safefont{
+    font-family: 'Dancing Script', cursive;
+    color: #F2DDDD;
+    font-size:50px;
+
+}
+.menu{
+    background-color: #97E9C6;
+    padding: 15px 0px;
+    font-size: .9em;
+    
+  
+}
+.menu ul{
+    list-style: none ;
+
+}
+
+img{
+    width: 30px;
+    height: 30px;
+
+
+}
+li, img{
+    float: left;
+    margin: 0px 5px;
+}
+h1,span{
+    font-family: 'Dancing Script', cursive;
+    color: #000000;
+    text-align: center;
+
+}
+h2{
+    margin-left: 40px;
+}
+#quien{
+    text-align: justify;
+    margin: 30px 50px;
+}
+#ejemplo{
+    margin: 20px 150px;
+    text-align: justify;
+}
+p{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
+
+.caja{
+    border-radius: 5px;
+    border-color: #97E9C6;
+    margin: 30px 580px;
+}
+
+.boton{
+    margin: 30px 620px;
+    text-decoration: none;
+    background-color: #97E9C6;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100px;
+}
+
+#pie{
+    background-color: #3F2F2F;
+    padding: 55px;
+    
+}
+#pie ul li{
+    color: #F2DDDD;
+    text-align: center;
+    list-style: none;
+    margin: 0px 4px;
+}
