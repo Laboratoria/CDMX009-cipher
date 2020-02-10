@@ -1,12 +1,38 @@
 body {
-    background-image: url("https://i.imgur.com/HAWLTfDr.jpg");
-    height: 800px;
-    padding-right: 100px;
-    margin-top: 20px;
+    background-image: url(background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px;
+    padding-right: 30px;
+
 }
 
-.h1 {
+.logins_first-page > h1, h2, h3 {
     color: cornsilk;
-    text-align: right;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align-last: end;
+    padding-bottom: 10px;
+}
+
+div {
+    padding-top: 70px;    
+}
+nav { 
+    padding-left: initial;
+}
+button {
+    background-color:darkslateblue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border: ridge;
+    color:darkturquoise;
+    padding: 15px;
+    font-size: x-large;
+    border-radius: 15px;
+    margin-left: 400px;
+}
+
+footer {
+    color: rgb(104, 97, 148);
+    font-size: small;
+    text-align: center;
 }
