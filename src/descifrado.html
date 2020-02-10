@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Protección de Información</title>
+    <title>Cifrado de Información</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -15,12 +15,12 @@
     </header>
 <!--MAIN, contiene la parte central de la pagina-->
     <main>
-      <h2 class="bienvenida">Bienvenido. ¿Qué función desea realizar?</h2>
+      <p class="instrucciones">Ingrese el texto a descifrar (sin numeros ni caracteres especiales)</p>
+      <textarea class="ingresoDeTexto"id="textoADescifrar"></textarea>
+      <p class="posiciones"># de posiciones:</p>
+      <input type="text" size="5" maxlength="2" id="numDePosiciones">
 <!--botones de opciones-->
-    <div>
-      <button id="cifrar" class="opciones"><a href="cifrado.html">Cifrar</a></button>
-      <button id="descifrar" class="opciones"><a href="descifrado.html">Descifrar</a></button>
-    </div>
+     
     </main>
     <script src="index.js" type="module"></script>
   </body>
