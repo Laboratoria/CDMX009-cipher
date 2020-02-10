@@ -5,7 +5,9 @@
     <title>Descifrado de Información</title>
     <link rel="stylesheet" href="style.css" />
   </head>
+
   <body>
+
 <!--HEADER, tiene el titulo de la pagina y el logotipo-->    
     <header>
       <div id="root">
@@ -13,9 +15,9 @@
         <h1>Sistema de Protección de Información de Correos Electrónicos</h1>
       </div>  
     </header>
-<!--MAIN, contiene la parte central de la pagina-->
-    <main>
-        <div>
+    
+<!--formulario para ingresar texto a cifrar-->
+    <form action="">  
       <p class="instrucciones">Ingrese el texto a cifrar (sin numeros ni caracteres especiales)</p>
       <textarea class="ingresoDeTexto"id="textoACifrar"></textarea>
       <p class="posiciones"># de posiciones:</p>
@@ -25,8 +27,9 @@
         <input class="opciones" type="submit" value="Enviar">
         <input type="reset" class="opciones" value="Borrar">
         <button class="opciones"><a href="index.html">Regresar</a></button>
-     
-    </main>
+      </div>
+    </form>
+    
     <script src="index.js" type="module"></script>
   </body>
 </html>

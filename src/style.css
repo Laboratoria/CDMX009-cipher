@@ -94,14 +94,14 @@ background-color: rgba(110, 139, 139, 0.534);
 color: rgb(0, 0, 0);
 }
 .ingresoDeTexto {
-    position: absolute;
-    width: 1153px;
-    height: 187px;
-    left: 99px;
-    top: 255px;
+position: absolute;
+width: 1153px;
+height: 187px;
+left: 99px;
+top: 255px;
 }
 .posiciones {
-    position: absolute;
+position: absolute;
 width: 158px;
 height: 45px;
 left: 99px;
@@ -125,10 +125,8 @@ top: 450px;
 }
 .botones {
 position: absolute;
-width: 215px;
-height: 45px;
 left: 589px;
-top: 479px;
+top: 450px;
 }
 .opciones {
     background:    #062037;
