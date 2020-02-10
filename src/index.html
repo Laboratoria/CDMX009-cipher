@@ -8,28 +8,48 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header class=encabezado> <p>Love Secret</p>
+    <header class=encabezado> <img src="images/logo.png">
 
     </header>
 
-    <main class="cajaprincipal"> 
-        <section class=caja1>¿Quieres decirle algo a esa persona especial? 
+<!-- Aquí comienza pantalla uno--->
+
+    <main class="cajaprincipal" id="pantallaUno"> 
+        <section class=caja1 >¿Quieres decirle algo a esa persona especial? 
             Atrévete a expresarlo o a descubrirlo con esta webapp. 
             Manda un mensaje secreto que sólo tú y la otra persona 
             podrán ver con una clave secreta (de 3 digítos).</section>
         
         <section class="caja2">
-        <form id=formulario>
+        <form id="formulario">
+            <p id="advertencia" class="advertencia"></p>
             <input id="cajanombre" class="cajanombre" placeholder="Pon tu nombre aquí">
             <br> 
             <br> 
-            <button class=boton>SIGUIENTE</button>
+            <button type="button" class="boton" id="botonSiguiente" onclick="recogeDatos()">SIGUIENTE</button>
         <section>
 
         </form>
+
     </main>
+ <!-- Aquí comienza pantalla dos--->
+    <section id="pantallaDos">
+
+        <h1 id="bienvenido">Bienvenid@</h1>   
+       
+        <form id=formulario2>
+            <input id="cajanombre" class="cajatexto" placeholder="Coloca tu mensaje secreto aquí">
+            <br> 
+            <br> 
+            <button class=boton>CIFRAR</button>
+            <button class=boton>DESCIFRAR</button>
+
+    </section>
+        
+
     <footer class="footer">
         Creado por Edith Ortiz
     </footer>
+    <script src="index.js"></script>
 </body>
 </html>

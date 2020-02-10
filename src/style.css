@@ -1,5 +1,5 @@
 body {
-    background-color: #FFC4B7;
+    background-color: #FFB5A4;
     font-family: 'Roboto', sans-serif;
     color: white;
     font-size: 1.6rem;
@@ -9,7 +9,7 @@ body {
 }
 
 .encabezado {
-    background-color: red;
+    height: 150px;
 }
 
 .cajaprincipal {
@@ -25,9 +25,6 @@ body {
   margin-top: 70px;
 }
 
-.caja2 {
-margin-top: px;
-}
 
 .cajanombre {
     margin-top: 50px;
@@ -37,6 +34,7 @@ margin-top: px;
     text-align: center;
     border-radius: 10px;
     color: #FF8970;
+    border: none;
     
 }
 
@@ -53,10 +51,12 @@ margin-top: px;
     font-size: 25px;
     font-weight: bold;
     transition: background-color .5s;
+    margin-right: 50px;
+    margin-left: 50px;
 
 }
 
-boton.hover: {
+boton.hover {
     background-color: #FFFFFF;
 }
 
@@ -66,4 +66,29 @@ margin-top: 200px;
 
 footer {
     display: block;
+}
+
+.cajatexto {
+    margin-top: 50px;
+    width: 1052px; 
+    height: 246px;
+    font-size: 36px;
+    text-align: center;
+    border-radius: 10px;
+    color: #FF8970;
+    border: none;
+}
+
+    .advertencia {
+        color: #FF5733;
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+    }
+
+#pantallaDos {
+    display: none;
+}
+
+.pantalla2 {
+    display: none;
 }

@@ -1,3 +1,4 @@
-funtion () {
+let numeroCifrado= 
+function cifrar() {
     
 }
