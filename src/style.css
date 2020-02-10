@@ -1,0 +1,30 @@
+body {
+  font-family: 'Calibri';
+  color: white;
+  background-color: black;
+  }
+
+
+#home {
+  align-content: auto;
+  display: none;
+}
+
+#number {
+  display:block;
+  align-content: flex-end;
+
+
+}
+
+#user {
+  display: none;
+}
+
+#keyword {
+  display: none;
+}
+
+#results {
+  display: none;
+}

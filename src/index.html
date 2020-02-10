@@ -3,15 +3,43 @@
   <head>
     <meta charset="utf-8">
     <title>Mamamoo FanKey</title>
-    <link rel = "icon" type = "image/png" href = "mmmicon.png">
+    <link rel = "icon" type = "image/png" href = "images\mmmicon.png">
     <!-- For apple devices -->
-    <link rel = "apple-touch-icon" type = "image/png" href = "/mmmicon.png"/>
+    <link rel = "apple-touch-icon" type = "image/png" href = "images\mmmicon.png"/>
     <link rel="stylesheet" href="style.css" />
   </head>
+
   <body>
-    <div id="root">
-      <h1>¡Hola Mundo!</h1>
+
+    <div id="home">
+      <img src="images\MainLogo.svg" id="homeImage" onclick = "testTwo()"/>
+      <h1 id="test"></h1>
     </div>
+
+    <div id="number">
+      <img src="images\LogoS.svg" id="numberScreen"/>
+      <p id="titleOne">Número del día</p>
+      <p>Es el número de la fecha de hoy</p>
+      <input type="text" id="dayNo">
+      <br>
+      <img src="images\NextS.svg" class="next"/>
+    </div>
+
+    <div id="user">
+      <img src="images\LogoM.svg" id="userScreen"/>
+    </div>
+
+    <div id="keyword">
+      <img src="images\LogoH.svg" id="keywordScreen"/>
+    </div>
+
+    <div id="results">
+      <img src="images\LogoW.svg" id="resultScreen"/>
+    </div>
+
     <script src="index.js" type="module"></script>
+    <script src="cipher.js"></script>
+    <script src="app.js"></script>
   </body>
+
 </html>
