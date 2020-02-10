@@ -1,10 +1,18 @@
 body {
     background-image: url(background.png);
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-size: cover;
     height: 550px;
     padding-right: 30px;
 
+}
+
+header { 
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: lightseagreen;
+    font-size: x-large;
+    text-align: end;
+    text-shadow: mediumslateblue;
 }
 
 .logins_first-page > h1, h2, h3 {
@@ -12,27 +20,43 @@ body {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-align-last: end;
     padding-bottom: 10px;
+    font-size: x-large;
 }
 
 div {
     padding-top: 70px;    
 }
 nav { 
-    padding-left: initial;
+    padding-left: 185px;
 }
 button {
     background-color:darkslateblue;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    border: ridge;
-    color:darkturquoise;
-    padding: 15px;
+    border: double;
+    color: darkturquoise;
+    padding: 18px;
     font-size: x-large;
-    border-radius: 15px;
-    margin-left: 400px;
+    border-radius: 25px;
+    margin-left: 355px;
+    padding-right: 35px;
+    padding-inline-start: 35px;
 }
 
 footer {
     color: rgb(104, 97, 148);
     font-size: small;
     text-align: center;
+    text-align: ;
+}
+
+article {
+    display: inline;
+}
+
+.titlesecondpage {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    color: lightsteelblue;
+    margin: .4rem 0;
+    
 }
