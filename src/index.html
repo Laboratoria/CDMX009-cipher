@@ -6,9 +6,58 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div id="root">
-      <h1>Hello world!</h1>
+    <div id="titulo">
+      <img src="Imagenes/avion.png">
+      <h1> Cifrado Cesar Cools </h1>
     </div>
+  </br>
+  </br>
+    <div id="descripcion">
+      <p> El cifrado César es una técnica de cifrado sencilla. </br>
+          Consiste en en el que una letra en el texto original </br>
+          es reemplazada por otra letra que se encuentra un </br>
+          número fijo de posiciones más adelante en el alfabeto. 
+      </p>
+    </div>
+      <p id="instrucciones1"> 
+       Instrucciones:
+      </p>
+    <div id="instrucciones">
+      <ul>
+        <li> 1) Ingresa solo una palabra. </li>
+        <li> 2) Solo mayúsculas. </li>
+        <li> 3) Solo letras (no espacios ni signos de puntuacion). </li>
+      </ul>
+    </div>
+    <div id="rifa">
+      <p>
+       ¡Obten tu còdigo para la </br> 
+       rifa del aviòn presidencial! 
+      </p>
+    </div>
+  </br>
+  </br>
+    <div id="inputs">
+     <label for="texto"> Ingresa tu texto: </label> 
+      <input type="text" id="texto" size="15" maxlength="7" value="Tu texto aqui" name="texto">
+     <label for="numero"> Ingresa un nùmero </label>
+      <input type="number" id="numero" min="1" name="desplazamiento">
+    </div>
+  </br>
+  </br>
+    <div class="buttons">
+      <button id="cifrar"> Cifrar </button>
+      <button id="descifrar"> Descifrar </button>
+    </div>
+  </br>
+  <p id="resultado"> Tu resultado: 
+
+  </p>
+
     <script src="index.js" type="module"></script>
+
+
+
+
   </body>
 </html>
