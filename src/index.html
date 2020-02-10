@@ -3,23 +3,37 @@
   <head>
     <meta charset="utf-8">
     <title>Caesar Cipher</title>
-    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-  <div id="root">
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic:400,700&display=swap" rel="stylesheet">
+  <section id="pantalla1" class="card">
       <h1> <img id="logo" src="images/logoopia.png"/> </h1>
       <!-- Aqui me estoy haciendo bolas el texto -->
-     <p>El cifrado César sustituye una letra por otra <br> que se encuentra a un número de posciones fijas delante en el alfabeto. <br> Por ejemplo, en un desplazamiento de 3,<br> la A es sustituída por la D y así sucesivamente.
-     <br>
-     <br>
-     <img src="images/ccesar.png" style="float: center" width="260px" height="70px"/>
-     <br>
-     <br>
-     Este método de encriptación, debe su nombre al emperador <br> romano, quién lo usó para comunicarse con sus generales.</p>
-     <br>
-    <input  id="usuario" type="text" name="usuario" placeholder="Validar Usuario"></input>
-     <button type="button" class="btn" onclick="validaUser()"> >> </button>
-   </div>
-    <script src="index.js" type="module"></script>
+       <p>El cifrado César sustituye una letra por otra <br> que se encuentra a un número de posciones fijas delante en el alfabeto. <br> Por ejemplo, en un desplazamiento de 3,<br> la A es sustituída por la D y así sucesivamente.
+       <br>
+       <br>
+       <img src="images/ccesar.png" style="float: center" width="260px" height="70px"/>
+       <br>
+       <br>
+       Este método de encriptación, debe su nombre al emperador <br> romano, quién lo usó para comunicarse con sus generales.</p>
+       <br>
+     <button id="ir" type="button"> IR </button>
+   </section>
+  <section id="pantalla2">
+       <br>
+       <br>
+       <p>Selecciona un número <br> de desplazamiento para <br> cifrar o descifrar un mensaje </p>
+       <br>
+       <br>
+       <div id="cajas">
+       <input id="desplaza" type="number" min="1" name="desplaza"/>
+       <br>
+       <input id="mensaje" type="text" maxlength="120"/> </div>
+       <br>
+       <button type="submit" name="cifrar"> Cifrar </button>
+       <button type="submit" name="descifrar"> Descifrar </button>
+   </section>
+   <script src="index.js"> </script>
   </body>
 </html>

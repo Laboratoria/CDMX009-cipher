@@ -1,4 +1,6 @@
+ function pantalla2() {
+   let pantallas = document.getElementById('pantalla1')
+   pantallas.style = "display:none";
+   document.getElementById('pantalla2').style.display = "block";}
 
-import cipher from './cipher.js';
-
-console.log(cipher);
+document.getElementById('ir').addEventListener('click',pantalla2)
