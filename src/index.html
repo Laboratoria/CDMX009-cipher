@@ -2,46 +2,28 @@
 <html>
 <body>
 
-<article>
+<section  id= "página-de-inicio">
   <header>
     <h1>Periodismo libre</h1>
     <p>Acerca de nosotros</p>
   </header>
   <p>Somos un grupo interesado en la defensa de la libertad de expresión, apoyamos el analisis y la publicación de documentos que han sido censurados o su acceso ha sido restrigido.
 Estamos en busca de colaboradores que necesiten un espacio libre y seguro para compartir información.</p>
-</article>
+<button onclick="Contribution()">Colaborar</button>
+<button onclick="Check-content()">Revisar Contenido</button>
+</section>
 
-</body>
 
-
+<section id="ingresar-datos">
   <header>
     <h1>Gracias por tu colaboración</h1>
     <p>Por favor escribe tus datos,  nosotros te daremos un nombre de usuario seguro para que puedas ingresar tus colaboraciones</p>
 
-    <form>
-  <input
-    type="nombre"
-    id="nombre-example"
-    placeholder="Nombre"
-    name="nombre-example"
-    required
-  />
-  </form>
-
-  <form>
-    <input
-      type="email"
-      id="email-example"
-      placeholder="Email"
-      name="email-example"
-      required
-    />
-  </form>
-  <form>
+   <form>
     <label for="nombre-example">nombre</label>
     <input
-    type="nombre"
-    id="nombre-example"
+    type="Nombre"
+    id="Nombre-example"
     placeholder="Nombre"
     name="nombre-example"
     required
@@ -63,6 +45,30 @@ Estamos en busca de colaboradores que necesiten un espacio libre y seguro para c
   <option value="value2" selected>audio</option>
   <option value="value3">imagenes</option>
 </select>
+  <button onclick="goBack()">Regresar</button>
+<button id="Next">Siguiente</button>
 
-<button type="submit">Enviar</button>
-</html>
+<section  id= "ingresar-colaboración">
+  <header>
+    <h1>Saludos <!--agregar la función de presentar el nombre codificado de usuario !--> </h1>
+    <p>Ingresar colaboración</p>
+  </header>
+
+    <textarea id="subject" name="subject" placeholder="Ingresar colaboración..." style="height:200px"></textarea>
+
+    <button onclick="goBack()">Regresar</button>
+      <button id="submit">Enviar</button>
+
+</section>
+<section  id= "pantalla-final">
+  <header>
+    <h1>Gracias por tu colaboración <!--agregar la función de presentar el nombre codificado de usuario !--> </h1>
+
+  </header>
+
+  <button id="Main menu">Menú Principal</button>
+        <button id="Exit">Salir</button>
+
+
+
+</body>
