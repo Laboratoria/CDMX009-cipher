@@ -1,52 +1,51 @@
-//Ingresar argumentos de Cipher
-var str= document.getElementById(inputString).value;
-var offset= document.getElementById(offset);
+//Ingresar argumentos de Cipher NODOSSS
+let str= document.getElementById('inputString');
+let offset= document.getElementById('offset');
+let pantallaInicial= document.getElementById("pantallaUno");
+let pantallaSegunda=document.getElementById("pantallaDos");
+let pantallaResultados=document.getElementById('pantallaTres');
 
 //Cipher
 import cipher from './cipher.js';
 
-console.log(cipher);
-
-//Pantallas
-
-//Cambio de pantalla 1 a 2
-  function Entrar(){
-       document.getElementById("pantallaUno").style.display="none";
-       document.getElementById("pantallaDos").style.display="block";
-  };
-document.getElementById("entrar").addEventListener("click", Entrar());
-
-//Cambio de pantalla 1 a 2
-function segundapantalla(){
-  var pantallaMostrada= document.getElementById("pantallaUno");
-  pantallaMostrada.style= "display:none";
-  document.getElementById("pantallaDos").style.display="block";
-  };
-
-document.getElementById("entrar").addEventListener("click", segundapantalla());
-
-//Cambio de pantalla 2 a 3
-function tercerapantalla(){
-  pantallaMostrada= document.getElementById("pantallaDos");
-  pantallaMostrada.style= "display:none";
-  document.getElementById("pantallaTres").style.display="block";
-  };
+// console.log(cipher);
 
 
-//Regresar de pantalla 3 a 2
-function pantallaUno(){
-    pantallaMostrada=document.getElementById("pantallaTres");
-    pantallaMostrada.style="display:none";
-    document.getElementById("pantallaDos").style.display="block";
-  };
-document.getElementById("Volver").addEventListener("click", pantallaUno());
+// functions !!
+//Función del botón Cifrar
+function clickCifrar(){
+  let word = cipher.encode(str.value, offset.value);
+  document.getElementById("output").innerText=word;
+  pantallaInicial.style="display:none";
+  pantallaSegunda.style="display:none";
+  pantallaTres.style="display:block";
+};
+//Función del Botón Descifrar
+function clickDescifrar(){
+  let word = cipher.decode(str.value, offset.value);
+  document.getElementById("output").innerText=word;
+  pantallaInicial.style="display:none";
+  pantallaSegunda.style="display:none";
+  pantallaTres.style="display:block";
+};
 
+//Función cambiar de pantalla 1 a 2
+function entrar(){
+      pantallaInicial.style="display:none";
+      pantallaSegunda.style="display:block";
+      pantallaTres.style="display:none";
+    };
 
+//Función cambiar de pantalla 3 a 2
+function volver(){
+      pantallaInicial.style="display:none";
+      pantallaSegunda.style="display:block";
+      pantallaTres.style="display:none";
+      };
+
+/// listeners
 //Botones Cifrar y Descifrar
-document.getElementById("Cifrar").addEventListener("click", cipher.encode(str, offset));
-document.getElementById("Descifrar").addEventListener("click", cipher.decode(str, offset));
-
-//prueba
-function Entrar() {
-  alert("¡Acá probando!");
-}
+document.getElementById("Entrar").addEventListener("click", entrar);
+document.getElementById("Cifrar").addEventListener("click", clickCifrar);
+document.getElementById("Descifrar").addEventListener("click", clickDescifrar);
+document.getElementById("Volver").addEventListener("click", volver);
