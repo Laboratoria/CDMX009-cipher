@@ -1,0 +1,63 @@
+/*
+font-family: 'Comfortaa', cursive;
+font-family: 'Didact Gothic', sans-serif;
+*/
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #FA6E84;
+}
+
+article{
+    width: 800px;
+    height: auto;
+    margin:  auto;
+    background-color: aqua;
+}
+
+.emoji {
+    margin: 70px auto;
+    width: 262px;
+    height: auto;
+    text-align: center;
+}
+
+h1 {
+    font-size: 30px;
+    color: white;
+    font-family: 'Comfortaa', cursive;
+    text-align: center;
+    margin-top: 70px;
+}
+
+#boton1 , #boton2{
+    color: white;
+    font-family: 'Comfortaa', cursive;
+    font-size: 20px;
+    background-color: #192A38;
+    border-radius: 40px;
+    width: 160px;
+    height: auto;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    margin-bottom: 70px;
+}
+
+#boton1{
+    position: relative;
+    margin-left: 200px;
+    min-width: 160px;
+
+
+
+}
+
+#boton2{
+    position: absolute;
+    margin-left: 100px;
+    margin-top: -15px;
+    margin-bottom: 70px;
+
+}

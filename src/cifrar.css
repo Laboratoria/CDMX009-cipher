@@ -1,0 +1,51 @@
+/*
+font-family: 'Comfortaa', cursive;
+font-family: 'Didact Gothic', sans-serif;
+*/
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #FA6E84;
+}
+
+article{
+    width: 800px;
+    height: auto;
+    margin:  auto;
+    background-color: aqua;  
+     
+}
+#titulo {
+    width: 60%;
+    height: 20px;
+    margin-top: 70px;
+    margin-left: 20px;
+}
+
+#instruccion{
+    margin-top: 70px;
+    background-color: #192A38;
+    width: 700px;
+    height: 100px;
+    margin-left: 50px;
+    border-radius: 20px 20px 0 0;
+}
+.mark{
+    width: 60px;
+    height: auto;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+ul{
+    position: absolute;
+    margin-left: 100px;
+    margin-top: -68px;
+    color: white;
+    font-family: 'Didact Gothic', sans-serif;
+    
+}
+
+
+
