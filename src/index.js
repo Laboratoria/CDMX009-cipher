@@ -1,3 +1,8 @@
-import cipher from './cipher.js';
+// import cipher from './cipher.js';
 
-console.log(cipher);
+
+function hi () {
+    console.log("hi");
+}
+
+// console.log(cipher);
