@@ -2,16 +2,19 @@
 //var inputText= "Este es un texto de prueba.";
 var inputText= "FTUF FT VO UFYUP EF QSVFCB";
 var offset = -1; 
-var outputText = [];
+//var outputText = [];
 
-console.log("texto:"+inputText+" - "+"offset:"+offset);
-cipher(inputText, offset, outputText);
+//console.log("texto:"+inputText+" - "+"offset:"+offset);
+//cipher(inputText, offset, outputText);
+cipher(inputText, offset);
 //console.log(cipheredLetter);
-console.log(outputText.join(""));
+//console.log(cipher(inputText,offset).join(""));
+console.log(cipher(inputText,offset));
 
 function cipher(){
-    
+    var outputText = [];
     for (i in inputText){
+        
         var letterOriginal= inputText.charAt(i);
         var letter = letterOriginal.toUpperCase();
         var letterCode = letter.charCodeAt();
@@ -26,9 +29,15 @@ function cipher(){
         //return cipheredLetter;
         outputText.push(cipheredLetter);
     }
-    return outputText;
+    return outputText.join("");
     //console.log("texto cifrado:"+outputText.join(""));
    /* var outputText = ["Que"];
     var outputText = outputText.push(cipheredLetter);
     console.log("texto cifrado:"+outputText);*/
 }
+
+//Prueba sobre uso de objeto
+const objeto = (x,y) => {
+    return x+y;
+};
+console.log(objeto(5,5));
