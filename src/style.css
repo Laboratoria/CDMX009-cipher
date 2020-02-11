@@ -1,0 +1,60 @@
+body {
+    
+  font-family: 'Montserrat', sans-serif;
+  background-color: #8BA9D4;
+  margin: 0px;
+}
+h1 {
+font-size: 2.5rem;
+text-transform: uppercase;
+margin: 0px;
+}
+
+h2 {
+font-size: 1.2rem;
+text-transform: uppercase;
+margin: 0px;
+}
+
+section {
+display: flex;
+height: 100vh;
+
+}
+
+nav {
+  float: right;
+}
+
+
+#mainLogo {
+
+}
+
+#specsButton {
+  justify-content: center;
+  align-items: flex-start;
+}
+
+
+.faqButton {
+  align-self: baseline;
+}
+
+[type=radio] { 
+position: absolute;
+opacity: 0;
+width: 0;
+height: 0;
+}
+    
+[type=radio] + img {
+cursor: pointer;
+border-radius: 5px;
+}
+    
+[type=radio]:checked + img {
+background-color:  rgba(15, 76, 129, 0.15);
+padding: 5px;
+}
+

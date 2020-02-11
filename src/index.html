@@ -2,13 +2,130 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Caesar Cipher</title>
+    <meta http-equiv="Pragma" content="no-cache">
+    <title>spx | Caesar Cipher</title>
     <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
   </head>
   <body>
-    <div id="root">
-      <h1>Hello world!</h1>
+  <section id="home">
+     <nav> 
+      <div id="specsButton">
+        <a href="#cipher"><img src="img/hideButton.svg" alt="Cifrar"></a>
+        <img src="img/bridgeGlass.svg">
+        <a href="#decipher"><img src="img/showButton.svg" alt="Descifrar"></div></a>
+      </nav>
+  </section>
+  <section id="cipher">
+    <nav>
+      <div id="specsLogo">
+        <img src="img/mainLogo.svg" alt="Inicio">
+      </div>
+    </nav>
+    <article>
+      <div id="menuKeys">
+        <label>
+          <input type="radio" name="test" value="3" checked>
+          <img src="img/pic.svg">
+        </label>
+        <label>
+          <input type="radio" name="test" value="5">
+          <img src="img/cloud.svg">
+        </label>
+        <label>
+          <input type="radio" name="test" value="7" checked>
+          <img src="img/cassete.svg">
+        </label>
+        <label>
+          <input type="radio" name="test" value="9">
+          <img src="img/landscape.svg">
+        </label>
+        <label>
+          <input type="radio" name="test" value="9">
+          <img src="img/cup.svg">
+        </label>
+        <label>
+          <input type="radio" name="test" value="9">
+          <img src="img/camera.svg">
+        </label>
+        <label>
+          <input type="radio" name="test" value="11">
+          <img src="img/pencil.svg">
+        </label>
+      </div>
+      <div id="getArea">
+        <input id="getBox" type="textarea">
+        <button id="get">
+          <img src="img/cipherButton.svg" alt="Cifrar"></button>
+      </div>
+    </article>  
+    <div id="resultsBox">
+      <input id="gBox" type="textarea">
+      <button id="show">
+        <img src="img/likeButton.svg" alt="Copiar">
+      </button>
     </div>
-    <script src="index.js" type="module"></script>
+    <footer>
+      <div id="faqButton">
+        <img src="img/faqButton.svg" alt="Ayuda">
+      </div>
+    </footer>
+  </section>
+  <section id="decipher">
+    <nav>
+      <div id="specsLogo">
+        <img src="img/mainLogo.svg" alt="Inicio">
+      </div>
+    </nav>
+    <article>
+      <div id="menuKeys">
+        <label>
+          <input type="radio" name="test" value="3" checked>
+          <img src="img/pic.svg">
+        </label>
+        <label>
+          <input type="radio" name="test" value="5">
+          <img src="img/cloud.svg">
+        </label>
+        <label>
+          <input type="radio" name="test" value="7" checked>
+          <img src="img/cassete.svg">
+        </label>
+        <label>
+          <input type="radio" name="test" value="9">
+          <img src="img/landscape.svg">
+        </label>
+        <label>
+          <input type="radio" name="test" value="9">
+          <img src="img/cup.svg">
+        </label>
+        <label>
+          <input type="radio" name="test" value="9">
+          <img src="img/camera.svg">
+        </label>
+        <label>
+          <input type="radio" name="test" value="11">
+          <img src="img/pencil.svg">
+        </label>
+      </div>
+      <div id="getArea">
+        <input id="getBox" type="textarea">
+        <button id="get">
+          <img src="img/decipherButton.svg" alt="Descifrar"></button>
+      </div>
+      <div id="resultsBox">
+        <input id="resultsArea" type="textarea">
+        <button id="show">
+          <img src="img/likeButton.svg" alt="Copiar">
+        </button>
+      </div>
+    </article>
+    <footer>
+      <div id="faqButton">
+        <img src="img/faqButton.svg" alt="Ayuda">
+      </div>
+    </footer>
+  </section>
+  <script src="index.js" type="module"></script>
   </body>
 </html>
