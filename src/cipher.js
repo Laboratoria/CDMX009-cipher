@@ -1,5 +1,11 @@
 const cipher = {
-  encode: function(offset, mensaje) { 
+  encode,
+  decode
+  };
+
+export default cipher;
+
+function encode(offset, mensaje) { 
     let nuevoMensaje = "";
     for(i = 0; i<mensaje.length; i++){
       let mensajeCifrar = mensaje.charAt(i);
@@ -11,7 +17,7 @@ const cipher = {
 return nuevoMensaje; 
 };
 
-  decode: function(offset, mensaje) { 
+function decode(offset, mensaje) { 
   let nuevoMensaje = "";
   for(i = 0; i<mensaje.length; i++){
    let mensajeCifrar = mensaje.charAt(i);
@@ -23,6 +29,3 @@ return nuevoMensaje;
  return nuevoMensaje;
  };
  
-
-export default cipher;
-
