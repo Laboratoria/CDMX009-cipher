@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Cifrar-Safevent</title>
     <script src="cipher.js" type="module"></script>
+    <script src="index.js"></script>
     <link rel="stylesheet" href="style.css" />
     <link href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Heebo&display=swap" rel="stylesheet">
@@ -34,9 +35,9 @@
           <div><!--Se puso div para poder ocultar el div y salga el 2do div y no hacer tantos htmls-->
             <p>Paso 3. Ingresa el nombre del lugar de tu evento (omite números)</p>
             <br>
-            <input type="text" class="caja">
+            <textarea type="text" class="caja" id="cadenacif"></textarea>
             <br>
-            <button class="boton">Ingresar</button>
+            <button class="boton" onclick="cifrar()">Ingresar</button>
             <br>
           </div>
         
@@ -44,7 +45,7 @@
         <div>
             <p>Paso 4. Listo! Has creado un <span>safevent</span> cifrado, el código es:</p>
             <br>
-            <input type="text" class="caja">
+            <div id="resultadocif"></div>
             <br>
             <button class="boton"><a href="index.html">Finalizar</a></button>
             <br>

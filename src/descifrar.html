@@ -34,9 +34,9 @@
         <div><!--Se puso div para poder ocultar el div y salga el 2do div y no hacer tantos htmls-->
           <p>Paso 3. Ingresa el nombre cifrado del <span>safevent</span></p>
           <br>
-          <input type="text" class="caja">
+          <textarea type="text" class="caja" id="cadenades"></textarea>
           <br>
-          <button class="boton">Ingresar</button>
+          <button class="boton" onclick="descifrar()">Ingresar</button>
           <br>
         </div>
       
@@ -44,7 +44,7 @@
       <div>
           <p>Paso 4. Listo! Acabas de descifrar el nombre del lugar del <span>safevent</span>:</p>
           <br>
-          <input type="text" class="caja">
+          <div id="resultadodes"></div>
           <br>
           <button class="boton"><a href="index.html">Finalizar</a></button>
           <br>

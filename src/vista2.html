@@ -3,13 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <title>Bienvenido-Safevent</title>
-    <script src="index.js" type="module"></script>
+    
     <link rel="stylesheet" href="style.css" />
     <link href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Heebo&display=swap" rel="stylesheet">
-</head>
-<body>
-  <header>
+    <script src="cipher.js" type="module"></script>
+    <script src="index.js"></script>
+  </head>
+  <body>
+    <header>
     <div id="encabezado">
       <h1 class="safefont">Safevent</h1>
 
@@ -35,10 +37,11 @@
 
         <p>Paso 1. Ingresa el número de posiciones  que quieres recorrer el alfabeto para decifrar o cifrar un <span>safevent</span></p>
         <br>
-        <input type="text" class="caja">
+        <textarea class="caja" id="posiciones"></textarea>
         <br>
-        <button class="boton"><a href="vista3.html">Ingresar</a></button>
+        <button class="boton" onclick="saveNumber()"><a href="vista3.html">Ingresar</a></button>
         <br>
+        
         
   
       </main>

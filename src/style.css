@@ -59,10 +59,11 @@ a{
     text-decoration: none;
 }
 
-.caja{
+.caja,#resultadocif,#resultadodes{
     border-radius: 5px;
     border-color: #97E9C6;
     margin: 30px 580px;
+    border-width: 2px;
 }
 
 .boton{
