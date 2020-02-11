@@ -45,13 +45,10 @@ footer {
 footer a {
 		color: white;
 	}
-#pantallaTres{
+#pantallaDos, #pantallaTres{
     display:none;
   };
 
-#pantallaDos{
-    display:none;
-  };
 
 /*
 //Café para las letras #5E2281C

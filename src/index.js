@@ -42,6 +42,10 @@ function volver(){
       pantallaSegunda.style="display:block";
       pantallaTres.style="display:none";
       };
+function copiar(){
+  document.execCommand("copy")
+  copy
+};
 
 /// listeners
 //Botones Cifrar y Descifrar
@@ -49,3 +53,4 @@ document.getElementById("Entrar").addEventListener("click", entrar);
 document.getElementById("Cifrar").addEventListener("click", clickCifrar);
 document.getElementById("Descifrar").addEventListener("click", clickDescifrar);
 document.getElementById("Volver").addEventListener("click", volver);
+document.getElementById("Copiar").addEventListener("click", copiar);
