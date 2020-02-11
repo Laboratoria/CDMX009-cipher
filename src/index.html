@@ -9,19 +9,21 @@
   <body>
 
     <! --INICIO  -->
+<section id = "first">
   <DIV class="quiz_wrapper" id="quiz_wrapper" >
        <div id ="cabecera"><img src="https://i.ibb.co/RcdYGZf/thumbnail-textsecure.png" alt="thumbnail-textsecure" border="0"  width="150" height="150" ></a><br></div>
 
        <div id ="descripcion"><br>Encripta tus sus mensajes para que, aun siendo interceptados por los terricolas, no puedan ser descifrados.</div>
 
-  		 <div id ="descifrar" align="center"><a href="decipher.html" onclick = "inicio();"><img src="https://i.ibb.co/37yJPmd/b-verde.png" alt="b-verde" border="0" width="80" height="80"><br>Descifrar</a></div>
+  		 <div id ="descifrar" align="center"> <button class="button" id="boton" onclick = "showAndHide();"><img src="https://i.ibb.co/37yJPmd/b-verde.png"  alt="b-verde" border="0" width="80" height="80"><br>Descifrar</a></div>
 
-  		 <div id ="cifrar" align="center"><a href="cipher.html"><img src="https://i.ibb.co/mtnh9ry/thumbnail-b-rojo.png" alt="thumbnail-b-rojo" border="0" width="80" height="80"><br>Cifrar</a></div>
+  		 <div id ="cifrar" align="center"><button class="button" id="boton1" onclick = "showAndHide1();"><img src="https://i.ibb.co/mtnh9ry/thumbnail-b-rojo.png" onclick = "showCipher();" alt="thumbnail-b-rojo" border="0" width="80" height="80"><br>Cifrar</a></div>
 
   </div>
-
+</section>
 
 <! --CIFRAR  -->
+<section id = "second">
   <DIV class="quiz_wrapper1" id = "quiz_wrapper1">
 
       <form id = "quiz" name = "quiz">
@@ -56,8 +58,10 @@
     </div>
   </div>
 
+</section>
 
   <! --DESCIFRAR -->
+<section id "tercer">
   <DIV class="quiz_wrapper2" id="quiz_wrapper2">
 
       <form id = "quiz" name = "quiz">
@@ -77,7 +81,7 @@
 
 
 
-    <div id ="textarea4"><br>Escribe texto a cifrar<br>
+    <div id ="textarea4"><br><br>Escribe texto a cifrar<br>
       <textarea id="textarea2" name="textarea2" rows="10" cols="50"  required></textarea></div>
 
 
@@ -91,6 +95,10 @@
       <input id="botondeenvio2" type="image" name="botondeenvio2" src="https://i.ibb.co/J3pjCgB/thumbnail-regresar.png" width="30" height="30" alt="Enviar formulario"  title ="Regresar"></a>
     </div>
   </div>
+</section>
+
+
+
 
 
   <script src="index.js" type="module">
