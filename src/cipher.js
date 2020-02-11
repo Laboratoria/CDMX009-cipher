@@ -1,4 +1,7 @@
-const cipher = {encode, decode};
+const cipher = {
+  encode,
+  decode
+}
 export default cipher;
 
 function encode(str, offset) {
