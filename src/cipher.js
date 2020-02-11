@@ -17,6 +17,8 @@ button.onclick = function(){
 document.getElementById("blissito").onclick = function() {cipher()};
 
 
+
+
 //document.getElementById('blissito').addEventListener('click',cipher(myString1));
 /*
 button.onclick = function(){
