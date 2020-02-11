@@ -1,0 +1,48 @@
+h1{
+         text-align: center;
+         font-family:cursive;
+         color: gray;
+         font-size: 120px;
+         margin:2px;
+         text-shadow: 5px 4px  #EA899A;
+}
+
+#alineacion{
+    background-image: url(images/prueba.jpg);
+    /*height: 500px; width: 1500px;*/
+    background-size: 20%;
+    height: 300px;  
+      
+}
+#botonpersonalizado a{
+
+    text-decoration: none;
+    display: inline-block;
+    border: 1px solid gray;
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    padding-top: 15px;
+    margin: 50px;
+    margin-left: 2s50px;
+    margin-right: 30px;
+
+    background-color: violet;
+    color:white;
+    font-size: 20px;
+
+}
+
+p{
+    color: blanchedalmond;
+    text-align: center;
+    font-size: 35px;
+    border:90px;
+    padding: 90px; 
+    text-shadow: gray 1px 2px;  
+}
+
+body{
+    background-color: #c1d2db;
+
+}

@@ -1,5 +1,11 @@
-const cipher = {
+const alpabeth = 'a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z'
+const posicion = 2
+
+letra = prompt
+
+
+/* const cipher = {
   // ...
 };
 
-export default cipher;
+export default cipher;/ */
