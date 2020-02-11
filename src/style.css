@@ -1,31 +1,31 @@
+.contenedor{
+  font-family: Segoe UI;
+  width:350px;
+  height:250px;
+  background: #fff;
+  padding: 10px;
+  border: 5px solid #FF0000;
+  margin: auto;
+  display: flex;
+  display:-webkit-flex;
+  display:-ms-flexbox;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
 main {
   margin:auto;
   text-align: center;
 }
 
-.contenedor{
-font-family: Segoe UI;
-background-color: white;
-width: 300px;
-text-align: center;
-margin:auto;
-}
-
-input#boton{
-  padding:5px 50px;
-  color: black;
-  font-size: 1em;
-  background-color: white;
-  border-color: red;
-
-}
-html{
-background-image: url("cipher completo.png");
-background-size: 100%;
-background-position: center center;
-background-repeat: no-repeat;
-background-attachment: fixed;
-background-color: white;
+.elemento{
+  text-align: center;
+  width: 350px;
+  height: 150px;
 }
 
 body {
@@ -36,16 +36,31 @@ body {
   align-items: center;
   }
 
-  h1{
-    font-family: Script MT;
-    font-size: 50px;
-    }
+
+html{
+  background-image: url("cipher completo.png");
+  background-size: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: white;
+}
+
+/*Boton Switch*/
+input#boton{
+  padding:5px 50px;
+  color: black;
+  font-size: 1em;
+  background-color: white;
+  border-color: red;
+}
+
 
 input[type="checkbox"]{
   position: relative;
   width: 100px;
   height: 40px;
-  background: green;
+  background: #3AFF00;
   -webkit-appearance: none;
   border-radius: 20px;
   outline: none;
@@ -55,7 +70,7 @@ input[type="checkbox"]{
   }
 
 input:checked[type="checkbox"]{
-    background: red
+    background: #FF0000
   }
 
 input[type="checkbox"]::before{
@@ -81,10 +96,11 @@ input:checked[type="checkbox"]::before{
       display: inline;
     }
 
-label{
+/*label{
   position: absolute;
   color: #fff;
-  font-weight: 600;
+  font-weight: 200px;
   font-size: 20px;
   pointer-events: none;
 }
+*/
