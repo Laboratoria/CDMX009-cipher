@@ -1,4 +1,4 @@
-let mensaje= document.getElementById ("cajaMensaje").value;
+/*let mensaje= document.getElementById ("cajaMensaje").value;
 let desplazamiento= document.getElementById("cajaClave").value;
 
 
@@ -13,5 +13,18 @@ if cifrar() {
 
  }
  console.log(cifrar)
+}
+*/
+
+
+string= document.getElementById ("cajaMensaje").value;
+
+
+function cifrar(){
+    document.getElementById("pantallaDos").style.display="none";
+    document.getElementById("pantallaTres").style.display="block";
+    //mensaje= string.charCodeAt();
+    //return mensaje;
+
 }
 
