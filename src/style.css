@@ -1,30 +1,93 @@
 body {
   font-family: 'Calibri';
-  color: white;
+  font-size: 17pt;
+  color: rgba(224, 224, 224, 1);
   background-color: black;
+  margin-left: 1%;
   }
 
+p {
+  margin-top: 0%;
+  margin-bottom: 0%;
+}
+  .text {
+    margin: 2em;
+    font-family: 'Calibri';
+    font-size: 17pt;
+  }
+  .next {
+    margin: 2em;
+    cursor: pointer;
+  }
+  .logo {
+    margin: 2em;
+  }
+  .title {
+    font-size: 25pt;
+  }
+  .subtitle
+  {
+    font-size: 17pt;
+  }
 
 #home {
-  align-content: auto;
-  display: none;
+    display: block;
 }
+    #homeImage {
+      cursor: pointer;
+      margin-top: 5%;
+    }
 
 #number {
-  display:block;
-  align-content: flex-end;
-
-
+  display: block;
 }
+    #dayNo {
+      background: rgba(33, 49, 109, 0.53);
+      border-color: rgba(112, 112, 112, 1);
+      border-width: 1px;
+      color: rgba(224, 224, 224, 1);
+      margin-left: 4em;
+      font-family: 'Calibri';
+      font-size: 17pt;
+    }
 
 #user {
-  display: none;
+    display: block;
 }
+    #userName {
+      background-color: rgba(193, 19, 35, 0.53);
+      border-color: rgba(112, 112, 112, 1);
+      border-width: 1px;
+      color: rgba(224, 224, 224, 1);
+      margin: 1em;
+    }
 
 #keyword {
-  display: none;
+    display: block;
 }
-
+    #pass{
+      background-color: rgba(243, 185, 16, 0.52);
+      border-color: rgba(112, 112, 112, 1);
+      border-width: 1px;
+      color: rgba(224, 224, 224, 1);
+      margin: 1em;
+    }
 #results {
-  display: none;
+    display: block;
 }
+    #backhome {
+      margin-left: 6em;
+      cursor: pointer;
+    }
+    #ciphered {
+      border-color: rgba(112, 112, 112, 1);
+      border-width: 1px;
+      background-color: rgba(221, 215, 251, 1);
+      margin: 1em;
+    }
+    #deciphered {
+      border-color: rgba(112, 112, 112, 1);
+      border-width: 1px;
+      background-color: rgba(221, 215, 251, 1);
+      margin: 1em;
+    }

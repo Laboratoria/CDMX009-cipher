@@ -17,24 +17,41 @@
     </div>
 
     <div id="number">
-      <img src="images\LogoS.svg" id="numberScreen"/>
-      <p id="titleOne">Número del día</p>
+      <img src="images\LogoS.svg" class="logo"/>
+      <p class="title">Número del día</p>
       <p>Es el número de la fecha de hoy</p>
-      <input type="text" id="dayNo">
+      <input type="number" id="dayNo" maxlength="2" min="1" max="31" background src="images\NextS.svg"/ >
       <br>
       <img src="images\NextS.svg" class="next"/>
     </div>
 
     <div id="user">
-      <img src="images\LogoM.svg" id="userScreen"/>
+      <img src="images\LogoM.svg" class="logo"/>
+      <p class="title">Ingresa tu usuario para cifrar</p>
+      <p class="subtitle">Recuerda solo utilizar mayúsculas</p>
+      <input type="text" class="text" id="userName"/>
+      <br>
+      <img src="images\NextM.svg" class="next"/>
     </div>
 
     <div id="keyword">
-      <img src="images\LogoH.svg" id="keywordScreen"/>
+      <img src="images\LogoH.svg" class="logo"/>
+      <p class="title">Ingresa la palabra clave</p>
+      <p class="subtitle">Se encuentra en el foro de MamamooMX</p>
+      <input type="text" class="text" id="pass"/>
+      <br>
+      <img src="images\NextH.svg" class="next"/>
     </div>
 
     <div id="results">
-      <img src="images\LogoW.svg" id="resultScreen"/>
+      <img src="images\LogoW.svg" class="logo"/>
+      <p class="title">Tu usuario cifrado es:</p>
+      <input type="text" class= "text" id="ciphered" readonly><br>
+      <p class="title">La clave es:</p>
+      <input type="text" class= "text" id="deciphered" readonly><br>
+      <p class="subtitle">¡Ya puedes ingresar al Fan Café Exclusivo!</p>
+      <br>
+      <img src="images\homebutton.svg" id="backhome"/>
     </div>
 
     <script src="index.js" type="module"></script>
