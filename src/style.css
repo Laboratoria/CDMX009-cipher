@@ -9,6 +9,7 @@
 }
 #descifrar{
         height:10%;
+          margin: 20px 5px;
 
 }
 #cifrar{
@@ -16,7 +17,7 @@
 
         float:center;
           width:100%;
-        margin: 150px 5px;
+        margin: 80px 5px;
 }
 
 #descripcion{
@@ -40,7 +41,7 @@
 
   float:right;
 
-    border-radius: 8px;
+
       margin: -20px 400px;
 }
 
@@ -70,7 +71,15 @@
       border-radius: 8px;
 }
 
+#textarea{
+  height: 150px;
+  width: 370px;
 
+  float:right;
+  margin:-20px -80px;
+
+      border-radius: 8px;
+}
 #textarea1{
   height: 300px;
   width: 300px;
@@ -86,6 +95,7 @@
         float:center;
         font-style: normal;
 
+              border-radius: 8px;
 }
 
 #textarea3{
@@ -140,3 +150,6 @@
 
       line-height: 1;
   letter-spacing: 1px;
+}
+
+  /*background-color:#D3D1C1;*/

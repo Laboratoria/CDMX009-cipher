@@ -1,3 +1,2 @@
-import cipher from './cipher.js';
-
-console.log(cipher);
+let input = document.querySelector('#textarea2');
+console.log(input.value);
