@@ -44,66 +44,73 @@
 
     </header>
 
-    <div id="expliacióndeentrada ">
+    <div id="expliaciondeentrada">
         <p>
             Ahora puedes personalizar los boletos, ¡es fácil!
         </p>
         <p>
-            si quieres sorprender a tu pareja invitándola a ver a su artista favorito,a un amigo,conocido,familiar o hasta para ti mismo...
+            si quieres sorprender a tu pareja invitándola a ver a su artista favorito, <br>a un amigo, conocido, familiar o hasta para ti mismo...
         </p>
         <p>
-            Los tickets pueden contener mensajes especiales, escritos por ti.
+            Los tickets pueden contener mensajes especiales escritos por ti.
         </p>
-
     </div>
 
+
     <!--PASO UNO   INGRESAR UN TEXTO Y CIFRARLO-->
-    <h2>Ingresa el Texto que quieras Personalizar</h2>
-    <!--input es un campo de entrada donde el usuario puede ingresar datos-->
-    <textarea id="mensaje_input" rows="4" cols="50" placeholder="texto personalizado aquí"></textarea>
-    <p>clave</p>
-    <select id="numerosCodificar">  
-    <option value="0 ">0</option>
-    <option value="1 ">1</option>
-    <option value="2 ">2</option>
-    <option value="3 ">3</option>
-    <option value="4 ">4</option>
-    <option value="5 ">5</option>
-    <option value="6 ">6</option>
-    <option value="7 ">7</option>
-    <option value="8 ">8</option>
-    <option value="9 ">9</option>
-    <option value="10 ">10</option>
-    <option value="11 ">11</option>
-    <option value="12 ">12</option>
-    <option value="13 ">13</option>
-    <option value="14 ">14</option>
-    <option value="15 ">15</option>
-    <option value="16 ">16</option>
-    <option value="17 ">17</option>
-    <option value="18 ">18</option>
-    <option value="19 ">19</option>
-    <option value="20 ">20</option>
-    </select>
-    <button onclick="caesar()" id="botonIngresarTextoP">Click Para generar tu código</button> <br>
+    <section id="cifradoydescifrado">
+        <div>
+            <h2>Ingresa en letra Mayúscula el Texto que quieras Personalizar</h2>
+            <!--input es un campo de entrada donde el usuario puede ingresar datos-->
+            <textarea id="mensajeInput" rows="4" cols="50" placeholder="texto personalizado aquí"></textarea>
+            <p id="clave">Primero debes elegir cual será tu número que servirá como tu clave</p>
+            <div id="numbers">
+                <select id="numerosCodificar" type="number">
+             <option value="0 ">0</option>
+             <option value="1 ">1</option>
+             <option value="2 ">2</option>
+             <option value="3 ">3</option>
+             <option value="4 ">4</option>
+             <option value="5 ">5</option>
+             <option value="6 ">6</option>
+             <option value="7 ">7</option>
+             <option value="8 ">8</option>
+             <option value="9 ">9</option>
+             <option value="10 ">10</option>
+             <option value="11 ">11</option>
+             <option value="12 ">12</option>
+             <option value="13 ">13</option>
+             <option value="14 ">14</option>
+              <option value="15 ">15</option>
+             <option value="16 ">16</option>
+              <option value="17 ">17</option>
+             <option value="18 ">18</option>
+             <option value="19 ">19</option>
+             <option value="20 ">20</option>
+            </select>
+            </div>
 
-    <p>Tú código es sdfghjkl</p>
+            <center><button onclick="caesar()" id="cifrar" class="botooonc">Click Para generar tu código</button></center> <br>
 
-    <!--PASO DOS  DESCIFRAR EL CÓDIGO-->
+            <p id="ejemplo">Tú código es sdfghjkl</p>
 
-    <p>¿Olvidaste el mensaje que colocaste en tú personalización?</p>
-    <button onclick="decaesar()" id="descifrar">Descifra tu código</button> <br>
+            <!--PASO DOS  DESCIFRAR EL CÓDIGO-->
+
+            <p id="olvidar">¿Olvidaste el mensaje que colocaste en tú personalización?</p>
+            <center><button onclick="decaesar()" id="descifrar" class="botooond">Descifra tu código</button></center> <br>
+        </div>
+    </section>
 
     <!--PASO TRES  OPCIONES Y CONDICIONES DE PAGO-->
+    <div id="terminos">
+        <P>Recuerda que antes de hacer el pago debes estar seguro de la personalización que hiciste</P>
+        <p>Una vez ingresado el código cifrado en los datos de compra y habiendo efectuado todo el proceso de pago, <br>
+            <STrong>No hay cambios, ni devoluciones</STrong>
+        </p>
+        <p>En caso de querer cambiar lo que escribiste refresca la página y empieza otra vez</p>
+    </div>
+    <center><button id="comprar" class="botooon">Estoy seguro.<strong>Quiero comprar</strong></button></center>
 
-    <P>Recuerda que antes de hacer el pago debes estar seguro de la personalización que hiciste</P>
-    <p>Una vez ingresado el código cifrado en los datos de compra y habiendo efectuado todo el proceso de pago,
-        <STrong>No hay cambios, ni devoluciones</STrong>
-    </p>
-    <p>En caso de querer cambiar lo que escribiste refresca la página y empieza otra vez</p>
-
-    <button id="comprar">Estoy seguro.<strong>Quiero comprar</strong> </button>
-    <script src="index.js" type="module"></script>
 
     <!--PIE DE PÁGINA-->
     <footer id="footer">
@@ -115,6 +122,8 @@
             <!-- &copy; es para que salga la C tipo copright en el pie de página-->
         </div>
     </footer>
+    <script src="index.js"></script>
+    <script src="cipher.js"></script>
 </body>
 
 </html>

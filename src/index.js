@@ -36,8 +36,50 @@ FromCharCode: me muestra las letras
 */
 
 
-/*String.fromCharCode(65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90);
+//String.fromCharCode(65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90);
 
-function caesar() {
 
+//let String = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz';
+//document.write(String.charCodeAt(0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20));
+
+/*let cipher = document.getElementById('cifrar'),
+    descipher = document.getElementById('descifrar'),
+    input = document.getElementById('mensajeInput'),
+    show = document.getElementById('show'),
+    number = document.getElementById('key');
+
+cifrarbotooonc.addEventListener('click', cifrar);
+
+function cipher() {
+    let newTxt = '';
+    let inpuTxt = input.value;
+    let key = parseInt(number.value);
+    for (i = 0; i < inpuTxt.length; i++) {
+        let toAscii = inpuTxt.charCodeAt(i);
+        if (toAscii >= 65 && toAscii <= 90) {
+            newTxt += String.fromCharCode((toAscii - 65 + key) % 26 + 65); // Mayus
+            descipher.className = 'visible';
+        } else if (toAscii >= 97 && toAscii <= 122) {
+            newTxt += String.fromCharCode((toAscii - 97 + key) % 26 + 97); // Minus
+            descipher.className = 'visible';
+        } else
+            show.innerHTML = `<p> Resultado: ${newTxt} </p>`;
+    }
+    show.innerHTML = `<p> Resultado: ${newTxt} </p>`;
 }*/
+
+let buttoncifrar = document.getElementById("cifrar");
+let buttondescifrar = document.getElementById("descifrar");
+let buttoncomprar = document.getElementById("comprar");
+
+buttoncifrar.onclick = function() {
+    alert("gggg");
+}
+
+buttondescifrar.onclick = function() {
+    alert("estoy funcionando");
+}
+
+buttoncomprar.onclick = function() {
+    alert("No hay entradas disponibles");
+}
