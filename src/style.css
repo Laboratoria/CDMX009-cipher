@@ -1,0 +1,101 @@
+.top {
+  font-family: 'Kaushan Script', cursive;
+  text-align: center;
+  font-size: 48pt;
+
+}
+.content {
+    font-family: 'Tinos', serif;
+    font-family: 'Kaushan Script', cursive;
+    font-family: 'Oleo Script', cursive;
+    font-size: 16px;
+}
+
+.instructions {
+  font-family: 'Tinos', serif;
+  font-family: 'Kaushan Script', cursive;
+  font-family: 'Oleo Script', cursive;
+  font-size: 27px;
+}
+#FirstPage {
+  text-align: center;
+  background: rgba(238, 124, 74, 0.93);
+  background-image: url(..Desktop\imagenes código cipher\candado viejo);
+   background-color: red;
+   background-size: cover;
+   background-position: right bottom; 
+}
+#texto {
+width: 846px;
+height: 174px;
+background: #D0C9C9;
+mix-blend-mode: hard-light;
+
+}
+
+#espacios{
+  background: #D0C9C9;
+  mix-blend-mode: hard-light;
+}
+ #FirstButton {
+border-radius: 65%;
+padding: 12px 28px;
+background-color:
+#3E2A1B;
+mix-blend-mode: hard-light;
+width: 200px;
+color: white;
+font-size: 25px
+
+ }
+
+ #secodButton {
+   border-radius: 65%;
+   padding: 12px 28px;
+   background-color:
+   #3E2A1B;
+   mix-blend-mode: hard-light;
+   width: 200px;
+   color: white;
+   font-size: 25px
+ }
+#SecondPage{
+  text-align: center;
+}
+ #result_cipher{
+   border-radius: 65%;
+   padding: 12px 28px;
+   background-color:
+   #C4C4C4;
+   mix-blend-mode: lighten;
+   width: 200px;
+   color: white;
+   font-size: 25px
+ }
+
+ .Button{
+   border-radius: 65%;
+   padding: 12px 28px;
+   background-color:
+   #FFFDFD;
+   mix-blend-mode: soft-light;
+   width: 200px;
+   color: #000000;
+   font-size: 25px
+   font-family: 'Tinos', serif;
+   font-family: 'Kaushan Script', cursive;
+   font-family: 'Oleo Script', cursive;
+  }
+#ThirdPage{
+    text-align: center;
+}
+ #Result{
+   border-radius: 65%;
+   padding: 12px 28px;
+   background-color:
+   #C4C4C4;
+   mix-blend-mode: lighten;
+   width: 200px;
+   color: white;
+   font-size: 25px
+ }

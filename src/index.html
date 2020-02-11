@@ -4,19 +4,41 @@
     <meta charset="utf-8">
     <title>Caesar Cipher</title>
     <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Oleo+Script|Tinos&display=swap" rel="stylesheet">
   </head>
   <body>
-    <div id="root">
-      <h1>Contraseñas</h1>
-      <p> Instrucciones: </p>
+    <div id="FirstPage">
+      <h1 class="top" >Contraseñas</h1>
+      <p class="instructions"> <strong>Instrucciones:</strong> </p>
 
-<p> 1.- Escribe en el cuadro de texto la contraseña a crear o descifrar, recuerda usar sólo letras mayúsculas! <br> 2.- Agrega el número de espacios a deslizar en el cifrado, usa sólo números. <br> 3.- Presiona el botón de cifrar ó descifrar según sea el caso. </p>
-<p> Núm de espacios : <input type= "text" id= "espacios"> </p>
-<p> <input type= "text" id="texto" placeholder="texto a cifrar o descifrar "> </p>
-    <button id="FirstButton" onclick="cipher_one()"> Cifrar </button>   <button id="secodButton" onclick="unCipher_one()"> Descifrar </button>
+      <p class="content"> 1.- Escribe en el cuadro de texto la contraseña a crear o descifrar, recuerda usar sólo letras mayúsculas! <br> 2.- Agrega el número de espacios a deslizar en el cifrado, usa sólo números. <br> 3.- Presiona el botón de cifrar ó descifrar según sea el caso. </p>
+
+      <p class="content"> Núm de espacios : <input type= "number" id= "espacios"> </p><br>
+
+      <p  class="content"> <input type= "text" id="texto" placeholder="texto a cifrar o descifrar "> </p><br><br><br><br><br>
+
+      <button class="content"  id="FirstButton" onclick="cipher_one()" >Cifrar </button>            <button class="content" id="secodButton" onclick="unCipher_one()" > Descifrar </button> <br><br><br><br><br>
 
 
     </div>
+
+    <div id= "SecondPage">
+
+      <h2 class="top"> Tu contraseña es: </h2>
+      <p><input type= "text" class="content" id="result_cipher"> </p><br><br><br><br>
+      <button id="BackToTheTop1" class="Button" onclick="Back_one()" >Volver </button> <button id="safePassword" class="Button" onclick="Saving()" > Guardar </button>
+
+    </div>
+    <div id="ThirdPage">
+
+      <h3 class="top"> Tu cifrado significa... </h3>
+      <p class="content"> <input type="text" id="Result"> <p/><br><br><br><br>
+       <button id= "BackToTheTop2" class="Button"  onclick="Back_two()" > Volver </button></p>
+
+
+    </div>
+
     <script src="index.js" type="module"></script>
   </body>
 </html>
