@@ -1,60 +1,118 @@
 <!DOCTYPE html>
+
 <html lang="en">
 
+
+
 <head>
+
     <meta charset="UTF-8">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
     <title>Document</title>
+
     <link rel="stylesheet" href="style.css" />
+
     <link href="https://fonts.googleapis.com/css?family=Audiowide&display=swap" rel="stylesheet">
+
     <link href="https://fonts.googleapis.com/css?family=Quantico&display=swap" rel="stylesheet">
+
     <link href="https://fonts.googleapis.com/css?family=Handlee|Quantico:400,700&display=swap" rel="stylesheet">
+
     <link href="https://fonts.googleapis.com/css?family=Handlee&display=swap" rel="stylesheet">
+
 </head>
 
+
+
 <body>
+    
+
     <center>
-        <p class="p1">INTRODUCE EL TEXTO EN MAYÚSCULAS:</p>
-        <textarea id="text" name="textarea" rows="10" cols="50">Escribe aquí</textarea>
-        <br><br>
 
+        <p class="p1">INTRODUCE EL TEXTO:</p>
+
+        <textarea id="text" name="textarea" rows="10" cols="50" onKeyUp="document.getElementById(this.id).value=document.getElementById(this.id).value.toUpperCase()"></textarea>
+
+        <br><br>
+        <!-- el siguiente botòn es de preba -->
+                
+        <p id="demo"></p>
+
+        <button type="button" onclick="myFunctionTest()">Try it</button> 
+
+        <p id="demo1"></p>
+        
+           <!-- termina la prueba -->
+        
         <label class="p1" for="desplazamiento"> No. de desplazamiento:</label>
-        <select id="desplazamiento" class="desp">
 
-            <option>1 </option>
-            <option>2</option>
-            <option>3</option>
-            <option>4 </option>
-            <option>5</option>
-            <option>6</option>
-            <option>7 </option>
-            <option>8</option>
-            <option>9</option>
-            <option>10 </option>
-            <option>11</option>
-            <option>12</option> 
+        <select id="desplazamiento" class="desp"  >
+
+            <!-- no se como enlazarlo desde javascript a la lista de desplazamiento -->
+
+            <script type="text/javascript">
+            for (let x = 1; x < 26; x++) {
+                document.write("<option>" + x + "<option>");
+                
+            }
+
+            </script>
+
+            <!-- termina el script  -->
+
         </select>
+
         <br><br>
+
         <div class="bloqueBtn">
 
-            <input type="button" class="buttons" value="CIFRAR" onclick=" window.location='./page3.html';" />
+
+
+            <input type="button" class="buttons" value="CIFRAR" onclick="test()" />
+
+
 
             <input type="button" class="buttons" value="DESCIFRAR" />
 
+
+
         </div>
 
+
+
         <br><br>
+
         <P class="p1">RESULTADO:</P>
 
+
+
         <textarea name="textarea" rows="10" cols="50" readonly></textarea>
+
         <br><br>
+
         <div class="bloqueBtn">
+
             <input type="reset" class="buttons" value="INSTRUCCIONES" onclick=" window.location='./page2.html';" />
+
             <input type="reset" class="buttons" value="LIMPIAR" onclick=" window.location='./page3.html';" />
+
             <input type="button" class="buttons" value="SALIR" onclick=" window.location='./page4.html';" />
+
         </div>
 
 
+
+
+
+        </select </center>
+        <script src="./index1.js"></script>
 </body>
+
+
+
+
 </html>
