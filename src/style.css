@@ -5,31 +5,8 @@ body {
     background-size: cover;
     height: 550px;
     padding-right: 23px;
-
 }
 
-header { 
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: lightseagreen;
-    font-size: x-large;
-    text-align: end;
-    text-shadow: mediumslateblue;
-}
-
-.logins_first-page > h1, h2, h3 {
-    color: cornsilk;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    text-align-last: end;
-    padding-bottom: 10px;
-    font-size: x-large;
-}
-
-div {
-    padding-top: 70px;    
-}
-nav { 
-    padding-left: 185px;
-}
 button {
     background-color:darkslateblue;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -43,14 +20,43 @@ button {
     padding-inline-start: 35px;
 }
 
+.buttons_logins {
+    /* padding-left: 185px; */
+    display: flex;
+}
+
+.buttons_logins-diplay {
+    flex:  1 1 auto;
+    margin-right:5px;
+}
+
 footer {
     color: plum;
     font-size: small;
     text-align: center;
+    white-space: pre;
 }
 
-article {
-    display: inline;
+header { 
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: lightseagreen;
+    font-size: x-large;
+    text-align: end;
+    text-shadow: mediumslateblue;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.logins_first-page > h1, h2, h3 {
+    color: cornsilk;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align-last: end;
+    padding-bottom: 10px;
+    font-size: x-large;
+}
+
+#loginssecondpage {
+    display: none;
 }
 
 .titlesecondpage {

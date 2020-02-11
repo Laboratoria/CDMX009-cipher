@@ -9,34 +9,37 @@
   <body>
       <div id="root">
          <header>
-           <!-- primera pantalla --->
             <h1>Logins Extra Secure - To Go!</h1>
-         </header><section >
-        <div class="logins_first-page">
-            
-            <h3>Con esta herramienta agregas seguridad extra para tus <br>contraseñas y
-              podrás guardar todos tus inicios de sesión <br> en un archivo, visible para 
-              los demás pero imposible <br> de descifrar por cualquiera.</h3>
-            <h2>Elige una opción:</h2> <br> <br> 
+         </header>
+
+         <!-- first page start -->
+         <section id="loginsfirstpage">
+          <h3>
+          Con esta herramienta agregas seguridad extra para tus <br>contraseñas y
+          podrás guardar todos tus inicios de sesión <br> en un archivo, visible para
+          los demás pero imposible <br> de descifrar por cualquiera.
+        </h3>
+        <h2>Elige una opción:</h2> <br> <br>
+          <div class="buttons_logins">
+            <button class="buttons_logins-diplay">CIFRAR</button>
+            <button class="buttons_logins-diplay">DESCIFRAR</button>
           </div>
-            <nav>
-                <button class="">CIFRAR</button>
-            <article><button class="">DESCIFRAR</button>  <br> <br></article>
-            </nav>
         </section>
-        <!-- segunda pantalla --->
+        <!-- first page end -->
 
-      <section class="titlesecondpage">
-        <p>Para que sólo tu sepas como descifrar tu código, <br> ingresa un número que recuerdes fácilmente</p>
-        <label for="scrollnumber">Número de desplazamiento (1-25):</label>
-        <input type="number" id="scroll" name="numbercipher" min="1" max="25"> </input> <br><br>
-        <ul>
-          <li>Utiliza sólo mayúsculas</li>
-          <li>La letra "Ñ" no está permitida</li>
-       </ul>
-      </section>
+        <!-- second page start -->
+        <section id="loginssecondpage">
+          <p>Para que sólo tu sepas como descifrar tu código, <br> ingresa un número que recuerdes fácilmente</p>
+          <label for="scrollnumber">Número de desplazamiento (1-25):</label>
+          <input type="number" id="scroll" name="numbercipher" min="1" max="25"> </input> <br><br>
+          <ul>
+            <li>Utiliza sólo mayúsculas</li>
+            <li>La letra "Ñ" no está permitida</li>
+          </ul>
+        </section>
+        <!-- second page end -->
 
-        <footer style="white-space: pre">
+        <footer>
           <p>Created by Di . </p>
         </footer>
         <script src="index.js" type="module"></script>
