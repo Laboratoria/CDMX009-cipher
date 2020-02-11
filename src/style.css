@@ -91,3 +91,12 @@ body {
     height: 50px;
     width: 50px;
 }
+.main{
+    background-color: dimgray;
+    margin: 0px;
+    padding: 20px;
+    align-items: center;
+}
+
+
+
