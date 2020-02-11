@@ -1,14 +1,59 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Caesar Cipher</title>
-    <link rel="stylesheet" href="style.css" />
+    <title>¿qué dices, césar?</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=PT+Mono|Press+Start+2P&display=swap" rel="stylesheet">
   </head>
   <body>
-    <div id="root">
-      <h1>Hello world!</h1>
-    </div>
-    <script src="index.js" type="module"></script>
+     <section class="fisrtpage" id="firstPage"> <!-- primera pantalla -->
+         <div class="welcome-message">
+              <h1 class="titles">¿QUÉ DICES, CÉSAR?</h1>
+              <p class="main-type">Hola!, El cifrado césar es una de las técnicas mas simples para cifrar
+                un mensaje. Es un tipo de cifrado por sustitución, es decir que cada letra del
+                texto original es reemplazada por otra que se encuentra un numero fijo de
+                posiciones (desplazamiento) más adelante en el mismo alfabeto.
+              </p> <!-- descripción del cifrado césar -->
+              <div class="instructions">
+                <h4 class="titles">INSTRUCCIONES</h4>
+                <p class="main-type">
+                    1. Inserta el texto a <strong>cifrar / descifrar </strong> <br>
+                    2. Inserta el número de desplazamientos <br>
+                    3. Presiona <strong>cifrar / decifrar </strong>según lo que desees <br>
+                    4. Listo!
+                </p>
+              </div> 
+              <p class="main-type" id="note"> <strong> NOTA: Recuerda tener muy presente el número de desplazamientos
+                con todas las personas que quieras compartir tus mensajes secretos</strong>
+              </p>
+          </div>
+          <div>
+              <button class="start-button" onclick="secondPage()"> COMENZAR </button>
+         </div>
+     </section>
+     <section class="secondpage" id="secondPage"> <!--segunda pantalla-->
+        <div class="content-message">
+          <textarea  class="content-message" id="textleft" placeholder="Ingrese su mensaje"></textarea>
+        </div>
+        <div class="offset">
+          <p id="numD">Número de desplazamiento</p>
+          <input class="offsetnumber" type="number">
+        </div>
+        <div class="buttons">
+          <button class="button-encodeDecode" id="encode">Cifrar</button>
+          <button class="button-encodeDecode" id="decode">Decifrar</button>
+        </div>
+        <div class="result">
+          <p class="content-message" id="textright"></p>
+        </div>
+        <button  id="clean">Limpiar</button>
+      </section>
+      <div class="footer">
+        <footer> Proyecto Cipher </footer>
+      </div>
+
+      
   </body>
+  <script src="index.js"></script>
 </html>

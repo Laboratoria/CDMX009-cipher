@@ -1,3 +1,6 @@
-import cipher from './cipher.js';
-
-console.log(cipher);
+function secondPage() {
+    let pantallas = document.getElementById("firstPage")
+    pantallas.style = "display:none";
+    document.getElementById("secondPage").style.display = "block";
+  }
+  
