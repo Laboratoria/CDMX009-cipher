@@ -14,13 +14,13 @@
       </header>
       <div>
         <label class="switch">
-          <input id ="bluetoothSwitch" type="checkbox">
+          <input id ="bluetoothSwitch" type="checkbox" checked>
           <span class="slider round"></span>
           <label id ="bluetoothLabel" for="bluetoothSwitch">Bluetooth</label>
         </label>
       </div>
       <div>
-        <select id="contacts" placeholder="Contactos">
+        <select id="contacts" placeholder="Contactos" class="BtStatus" disabled>
           <option value="contactsTitle">Contactos en rango</option>
           <option value="ana1">Ana 50m</option>
           <option value="jose1">José 100m</option>
@@ -30,31 +30,31 @@
       </div>
       <div class="configBox">
         <div>
-          <input type="radio" name="cipherSelector" value="cipher" id="cipher">
-          <label for="cipher">Cifrar</label><br>
-          <input type="radio" name="cipherSelector" value="decipher" id="decipher">
-          <label for="decipher">Descifrar</label>
+          <input type="radio" name="cipherSelector" value="cipher" id="cipher" class="BtStatus" disabled>
+          <label for="cipher" >Cifrar</label><br>
+          <input type="radio" name="cipherSelector" value="decipher" id="decipher" class="BtStatus" disabled>
+          <label for="decipher" >Descifrar</label>
         </div>
         <div>
-          <label for="offset">Offset</label><br>
-          <input id="offset" type="text" >
+          <label for="offset" >Offset</label><br>
+          <input id="offset" type="text" class="BtStatus" disabled>
         </div>
       </div>
       <div>
-        <textarea id="inputText" cols="30" rows="5" placeholder="Mensaje"></textarea>
+        <textarea id="inputTextarea" cols="30" rows="5" placeholder="Mensaje" class="BtStatus" disabled></textarea>
       </div>
       <div>
-        <button id="cleanButton" type="button">Limpiar</button>
-        <button id="lookButton" type="button">Ver</button>
+        <button id="cleanButton" type="button" class="BtStatus" disabled>Limpiar</button>
+        <button id="lookButton" type="button" class="BtStatus" disabled>Ver</button>
       </div>
       <div>
-        <textarea id="" cols="30" rows="5"></textarea>
+        <textarea id="outputTextarea" cols="30" rows="5" class="BtStatus" disabled></textarea>
       </div>
       <div>
-        <button id="sendButton" type="button">Enviar</button>
+        <button id="sendButton" type="button" class="BtStatus" disabled>Enviar</button>
       </div>
     </section>
-    <!--<script src="index.js" type="module"></script>-->
-    <script src="pruebas.js" type="text/javascript"></script>
+    <script src="index.js" type="module"></script>
+    <!--<script src="pruebas.js" type="text/javascript"></script>-->
   </body>
 </html>
