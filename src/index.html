@@ -9,14 +9,16 @@
   </head>
   <body>
     <div id="FirstPage">
-      <h1 class="top" >Contraseñas</h1>
+
+
+<h1 class="top" >Contraseñas</h1>
       <p class="instructions"> <strong>Instrucciones:</strong> </p>
 
-      <p class="content"> 1.- Escribe en el cuadro de texto la contraseña a crear o descifrar, recuerda usar sólo letras mayúsculas! <br> 2.- Agrega el número de espacios a deslizar en el cifrado, usa sólo números. <br> 3.- Presiona el botón de cifrar ó descifrar según sea el caso. </p>
+      <p class="content"> <strong> 1.- Escribe en el cuadro de texto la contraseña a crear o descifrar, recuerda usar sólo letras mayúsculas! <br> 2.- Agrega el número de espacios a deslizar en el cifrado, usa sólo números. <br> 3.- Presiona el botón de cifrar ó descifrar según sea el caso. </strong> </p>
 
       <p class="content"> Núm de espacios : <input type= "number" id= "espacios"> </p><br>
 
-      <p  class="content"> <input type= "text" id="texto" placeholder="texto a cifrar o descifrar "> </p><br><br><br><br><br>
+      <p> <input type= "text" class="content" id="texto" placeholder= "texto a cifrar o descifrar"></p><br><br><br><br><br>
 
       <button class="content"  id="FirstButton" onclick="cipher_one()" >Cifrar </button>            <button class="content" id="secodButton" onclick="unCipher_one()" > Descifrar </button> <br><br><br><br><br>
 
@@ -25,16 +27,17 @@
 
     <div id= "SecondPage">
 
+
       <h2 class="top"> Tu contraseña es: </h2>
       <p><input type= "text" class="content" id="result_cipher"> </p><br><br><br><br>
-      <button id="BackToTheTop1" class="Button" onclick="Back_one()" >Volver </button> <button id="safePassword" class="Button" onclick="Saving()" > Guardar </button>
+      <button id="BackToTheTop1" class="Button" onclick="Back_one()" >Volver </button> <button id="safePassword" class="Button" onclick="Saving()" > Guardar </button><br><br><br><br><br><br><br><br><br>
 
     </div>
     <div id="ThirdPage">
 
       <h3 class="top"> Tu cifrado significa... </h3>
       <p class="content"> <input type="text" id="Result"> <p/><br><br><br><br>
-       <button id= "BackToTheTop2" class="Button"  onclick="Back_two()" > Volver </button></p>
+       <button id= "BackToTheTop2" class="Button"  onclick="Back_two()" > Volver </button></p> <br><br><br><br><br><br><br>
 
 
     </div>

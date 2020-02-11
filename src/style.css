@@ -1,3 +1,18 @@
+body{
+ /*background-image: url(images/CandadoViejo.jpeg);*/
+background: rgba(238, 124, 74, 0.93);
+
+}
+/*#candadoViejo{
+  width: 100px;
+  height: 200px;
+  /*-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    /*filter: grayscale(100%);*/
+    /* filter: saturate(800%);*/
+
+
+
+
 .top {
   font-family: 'Kaushan Script', cursive;
   text-align: center;
@@ -8,7 +23,7 @@
     font-family: 'Tinos', serif;
     font-family: 'Kaushan Script', cursive;
     font-family: 'Oleo Script', cursive;
-    font-size: 16px;
+    font-size: 25px;
 }
 
 .instructions {
@@ -19,13 +34,19 @@
 }
 #FirstPage {
   text-align: center;
-  background: rgba(238, 124, 74, 0.93);
-  background-image: url(..Desktop\imagenes código cipher\candado viejo);
-   background-color: red;
-   background-size: cover;
-   background-position: right bottom; 
+  background-image: url(images/CandadoViejo.jpeg);
+background-size: cover;
+ /*filter: saturate(800%);
+/*  background: rgba(238, 124, 74, 0.93);*/
+
 }
-#texto {
+/*#candadoViejo {
+
+  background-size: cover;
+   background-position: right bottom;
+ }
+*/
+  #texto {
 width: 846px;
 height: 174px;
 background: #D0C9C9;
@@ -61,7 +82,24 @@ font-size: 25px
  }
 #SecondPage{
   text-align: center;
+  background-image: url(images/CANDADOS.jpeg);
+background-size: cover;
+/*: contrast(10%);*/
+filter: grayscale(100%);
+filter: opacity(80%);
+filter: saturate(15%);
+
+
 }
+
+/*#candados {
+  width: 100px;
+  height: 200px;
+  /*-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    /*filter: grayscale(100%);*/
+    /* filter: saturate(800%);*/
+
+
  #result_cipher{
    border-radius: 65%;
    padding: 12px 28px;
@@ -77,17 +115,25 @@ font-size: 25px
    border-radius: 65%;
    padding: 12px 28px;
    background-color:
-   #FFFDFD;
+   #ADA8A8;
    mix-blend-mode: soft-light;
    width: 200px;
    color: #000000;
-   font-size: 25px
+   font-size: 40px;
+   font-height: 28px;
    font-family: 'Tinos', serif;
    font-family: 'Kaushan Script', cursive;
    font-family: 'Oleo Script', cursive;
   }
 #ThirdPage{
     text-align: center;
+    background-image: url(images/candadoabierto.jpeg);
+    background-size:cover;
+    /*: contrast(10%);*/
+    filter: grayscale(80%);
+    filter: opacity(80%);
+    filter: saturate(15%);
+
 }
  #Result{
    border-radius: 65%;
