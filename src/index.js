@@ -1,3 +1,6 @@
 import cipher from './cipher.js';
 
-console.log(cipher.encode(3 , "ABC"))
+var textOrigen=document.getElementById("ingresaTexto").innerHTML;
+
+console.log(cipher.encode(2 , "ABC"))
+
