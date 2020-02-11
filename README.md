@@ -1,3 +1,23 @@
+# SPX / Caesar Cipher
+
+## Resumen de proyecto
+
+SPX es una página para la encriptación de la cartera de clientes en startups y estudios de diseño, marketing y publicidad.
+
+## Resumen de proyecto
+
+* Investigación UX:
+  1. Los usuarios son CEOs, CFOs, Partners, Account directors, Sales directors y KAMs de startups y microempresas dedicadas al ramo del diseño, marketing y publicidad. Se crea en función de la necesidad del manejo de datos confidenciales de sus clientes y proovedores.
+  2. SPX protege los datos personales o sensibles que los usuarios puedan tener de sus clientes, proveedores de servicios y posibles clientes con la intención de protegerlos de amenazas accidentales o intencionadas provocadas por acciones ya sea de curiosidad, lucrativas, sabotaje, vandalismo o fraude. La página encripta la información ingresada para que pueda almacenarse y manipularse sin que sea vulnerable a la vista de empleados de areas ajenas a las mencionadas, estableciendo una opción segura para compartir la información.
+
+  3. ![sketch](http://url/to/img.png)
+
+  4. En el sketch se proponía que hubiera una cantidad de 26 corazones para que la persona pudiera elegir el nivel de seguridad, sin embargo en el feedback se custionó la facilidad para poder recordar cuál había sido el nivel seleccionado por el usuario, es decir que era fácil de olvidar o confundirlo; por lo que se determinó elegir diferentes íconos y limitarlos a 7 objetos, siguiendo con la Ley de Miller de UX, que nos indica que un usuario promedio sólo es capaz de recordar grupos de 5 a 9 elementos.
+
+  5. [Prototipo](https://www.figma.com/proto/T21x6eLxiBjpZRCN7B9cMw/cipher-mockup?node-id=32%3A36&scaling=scale-down)
+
+
+
 # Cifrado César
 
 ## Índice
