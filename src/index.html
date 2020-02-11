@@ -1,14 +1,71 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Caesar Cipher</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div id="root">
-      <h1>Bienvenidx a Our Secret ¿Qué quieres hacer?</h1>
-    </div>
-    <script src="index.js" type="module"></script>
-  </body>
+
+<head>
+  <meta charset="utf-8">
+  <title>Caesar Cipher</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div id="root">
+    <header>
+      <p>Proyecto Cifher Cesar</p>
+    </header>
+    <main>
+      <h1>Bienvenidx a Our Secret <br>¿Qué quieres hacer hoy?</h1>
+      <a href="#pageCifher">
+        <input class="button" type="button" value="Cifrar un mensaje">
+      </a>
+      <a href="#pageDecifher">
+        <input class="button" type="button" value="Descifrar un mensaje">
+      </a>
+    </main>
+  </div>
+
+  <div id="pageCifher" class="page">
+    <main>
+      <h1>Ingresa tu mensaje</h1>
+      <form action="">
+        <input type="text">
+        <a href="#pageMessage">
+          <input class="button" type="button" value="Enter">
+        </a>
+      </form>
+    </main>
+  </div>
+
+  <div id="pageMessage" class="page">
+    <main>
+      <h1>Tu mensaje es:</h1>
+
+      **** <br>
+      <a href="#pageCifher">
+        <input class="button" type="button" value="Cifrar un mensaje">
+      </a>
+      <a href="#pageDecifher">
+        <input class="button" type="button" value="Descifrar un mensaje">
+      </a>
+    </main>
+  </div>
+
+
+  <div id="pageDecifher" class="page">
+    <main>
+      <h1>Ingresa tu mensaje</h1>
+      **** <br>
+      <a href="#pageCifher">
+        <input class="button" type="button" value="Cifrar un mensaje">
+      </a>
+      <a href="#pageDecifher">
+        <input class="button" type="button" value="Descifrar un mensaje">
+      </a>
+    </main>
+  </div>
+  <footer>
+    Karina Pérez 
+  </footer>
+  <script src="index.js" type="module"></script>
+</body>
+
 </html>

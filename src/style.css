@@ -1,0 +1,47 @@
+body {
+    background-image: url(https://i.ytimg.com/vi/J2npu7JoHJQ/maxresdefault_live.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    position: relative;
+   }
+    
+h1 {
+    text-align: center;
+    font-size: 450%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color : rgb(223, 221, 226);
+    position: relative;
+   }
+
+
+}
+header {
+  background-color: aqua;
+/*dar formato*/ 
+}
+main {
+  overflow: hidden;
+/*esconder pagina
+class page???*/
+
+footer {
+  background-color: black;
+  color: white;
+  text-align: right;
+/*dar formato*/
+}
+
+.button {
+  background-color: rgb(144, 91, 168);
+  border: none;
+  color: rgb(200, 198, 204);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 24px;
+  border-radius: 12px;
+  position: relative;
+ }
+
