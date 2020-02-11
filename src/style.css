@@ -2,88 +2,127 @@ body {
 
   background-color: #453F56;
 }
+
+
+/*Pantalla de Inicio */
+
+.quiz_wrapper{
+    height: 500px;
+    width: 500px;
+    margin:auto;
+    border-radius: 8px;
+    background-color:#8B7D7D;
+    color: black;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: 1px;
+}
+
 #cabecera{
-
-        width:100%;
-        font-style: Sans-serif;
-        text-align: center;
-        font-size: 40px;
-        border-radius: 8px;
-}
-#descifrar{
-        height:10%;
-          margin: 20px 5px;
-
-}
-#cifrar{
-        height:100%;
-
-        float:center;
-          width:100%;
-        margin: 80px 5px;
+    width:100%;
+    font-style: Sans-serif;
+    text-align: center;
+    font-size: 40px;
+    border-radius: 8px;
 }
 
 #descripcion{
-
-  text-align: center;
-        float:center;
-        font-style: normal;
-        font-size: 20px;
-
-
+    text-align: center;
+    float:center;
+    font-style: normal;
+    font-size: 20px;
 }
 
+#descifrar{
+    height:10%;
+    margin: 20px 5px;
+}
 
-#pie{
-        height:20%;
+#cifrar{
+    height:100%;
+    float:center;
+    width:100%;
+    margin: 80px 5px;
+}
 
-        clear:both;
+/*Pantalla de Cifrar*/
+
+.quiz_wrapper1{
+    height: 500px;
+    width: 500px;
+    margin:auto;
+    border-radius: 8px;
+    background-color:#8B7D7D;
+    color: black;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: 1px;
+    display:none;
 }
 
 #secretkey{
-
-
-  float:right;
-
-
-      margin: -20px 400px;
+    float:right;
+    margin: -20px 400px;
 }
 
 #code{
-
-
-      float:right;
-      width:200;
-        border-radius: 8px;
-        margin:-10px 120px;
-
+    float:right;
+    width:200;
+    border-radius: 8px;
+    margin:-10px 120px;
 }
 
 #info{
     margin: -30px -20px;
     float:right;
     width:25%;
-      border-radius: 8px;
+    border-radius: 8px;
 }
 
-#textCifrado{
+#textarea3{
   height: 300px;
   width: 300px;
-
-    float:right;
-
-      border-radius: 8px;
-}
-
-#textarea{
-  height: 150px;
-  width: 370px;
-
   float:right;
-  margin:-20px -80px;
-
-      border-radius: 8px;
+  margin:-10px 150px;
+  border-radius: 8px;
 }
+
+#textarea4{
+  height: 300px;
+  width: 300px;
+  float:right;
+  margin:-100px 150px;
+  border-radius: 8px;
+}
+
+#descifrar1{
+  float:right;
+  margin:-20px 30px;
+  border-radius: 8px;
+}
+
+#regresar{
+  float:right;
+  margin:-20px 450px;
+  border-radius: 8px;
+}
+
+
+/*Pantalla de Dscifrar*/
+
+.quiz_wrapper2{
+    height: 500px;
+    width: 500px;
+    margin:auto;
+    border-radius: 8px;
+    background-color:#8B7D7D;
+    color: black;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: 1px;
+      display:none;
+}
+
 #textarea1{
   height: 300px;
   width: 300px;
@@ -93,67 +132,3 @@ body {
 
       border-radius: 8px;
 }
-
-#textarea2{
-  text-align: left;
-        float:center;
-        font-style: normal;
-
-              border-radius: 8px;
-}
-
-#textarea3{
-  height: 300px;
-  width: 300px;
-
-  float:right;
-  margin:10px 150px;
-
-      border-radius: 8px;
-}
-
-#textarea4{
-  height: 300px;
-  width: 300px;
-
-  float:right;
-  margin:-140px 150px;
-
-      border-radius: 8px;
-}
-
-#regresar{
-
-
-  float:right;
-  margin:-45px 450px;
-
-      border-radius: 8px;
-}
-
-#descifrar1{
-
-
-  float:right;
-  margin:10px 30px;
-
-      border-radius: 8px;
-}
-
-
-
-.quiz_wrapper{
-    height: 500px;
-    width: 500px;
-    margin:auto;
-
-    border-radius: 8px;
-    background-color:#8B7D7D;
-    color: black;
-    font-style: normal;
-
-      line-height: 1;
-  letter-spacing: 1px;
-}
-
-  /*background-color:#D3D1C1;*/

@@ -1,3 +1,6 @@
+
+
+
 //trayendo variables de DOM
 //let secretkey1 = document.querySelector('#secretkey1');//texto a cifrar
 
