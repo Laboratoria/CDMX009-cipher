@@ -1,14 +1,55 @@
 <!DOCTYPE html>
 <html>
-  <head>
+  <head> 
+    <!--Todo lo que esta en head es información que no percibe el usuario,
+     sin embargo es importante para la pagina-->
     <meta charset="utf-8">
-    <title>Caesar Cipher</title>
-    <link rel="stylesheet" href="style.css" />
+    <title>AliaSECRETO</title>
+    <link rel="stylesheet" href="style.css" /> 
+    <link href="https://fonts.googleapis.com/css?family=Caveat&display=swap" rel="stylesheet">
+    <!--Los links que se coloquen siempre deben ir en la parte superior del html-->
   </head>
+
   <body>
-    <div id="root">
-      <h1>Hello world!</h1>
+   <!--Las divisiones son como "cajas" las secciones de la página web
+  para después poder darle formato de css-->
+  <div id= title>
+    <h1>AliaSECRETO</h1> 
+    <!--H1 Se utiliza para titulares.Solo puede utilizarse un h1 por pagina
+    por semantica del lenguaje de marcado html-->
+    <h2>Sabemos que los quieres... 
+      ¡Ahórrales el susto!</h2>
+    </div> 
+    <p>Cuando queremos a alguien haríamos cualquier cosa por su bienestar y eso nos vuelve un blanco 
+      fácil para extorsionadores.
+      <br>
+     <b>AliaSECRETO</b> es una herramienta que oculta la identidad de tus contactos por medio del cifrado César  
+      para que en caso de robo o extravío de tu teléfono celular no puedan comunicarse con tus seres queridos
+      para extorsión o simulación de secuestro.
+    </p>
+    <div id= image>
+      <img src="imagenes/Imagenselfie.png"/> 
     </div>
-    <script src="index.js" type="module"></script>
+    <div id= text>
+      Nombre/Alias <input type="text">
+      <br>
+      ¿Cuántas letras nos movemos? <input type = text>
+      <br>
+      <input type="button" value= "Cifrar nombre">   <input type="button" value= "Descifar alias">
+      <br>
+      Resultado <input type= text>
+    </div>
+      <!--Siempre es importante tener las imagenes
+      dentro de una carpeta y que se encuentre junto con los archivos js, html,css-->
+      <br /> <!--Esta etiqueta sirve para los saltos de linea-->
+    </div>
+
+     <div id= footer>
+      <a target= "a_blank" href="https://es.wikipedia.org/wiki/Cifrado_C%C3%A9sar">¿Criptado César?</a>
+    </div> 
+      <!--Input son el tipo de menús, botones, etc 
+     que se pueden colocar en html para recoleccion de datos, o seleccion de opciones entre otras-->
+    <script src="index.js" type="module"></script> <!--Script src sirve para enlazar el archivo de JS
+    src es la carpeta donde se encuentra-->
   </body>
 </html>
