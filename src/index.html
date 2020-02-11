@@ -3,31 +3,73 @@
   <head>
     <meta charset="utf-8">
     <title>Caesar Cipher</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/png" href="imagenes/logo.png"/>
+    <link rel="stylesheet" href="style.css"/>
   </head>
-  <body>
-    <div id="root">
-      <h1>¡bienvenido sherlock!</h1>
-      <h2>¿Tienes un mesaje secreto?</h2>
-    </div>
+  <style>
+  body {
+    background-image:url(imagenes/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  </style>
 
+  <body>
+  <header>
+<div>
+  <img src="imagenes/logo.png" class="home">
+  <nav>
+    <ul>
+        <li><a href="queesesto.html">¿Qué es esto?</a></li>
+      </ul>
+  </nav>
+</div>
+  </header>
+<br>
+
+<div id="root">
+  <br>
+  <br>
+      <h1>¡bienvenido sherlock!</h1>
+  <br>
+  <script type="text/javascript" src="index.js"></script>
+  <br>
+
+      <h2>¿Tienes un mensaje secreto?</h2>
+  <br>
+  <br>
+</div>
+
+<div class="contenedor1">
     <p>
       Agrega tu número clave
    </p>
-   <form>
-      <input type="text" placeholder="núm" size="5">
-   </form>
-   <p>
-     Agrega tu mensaje por decifrar o para cifrar
-  </p>
-   <form>
-     <input type="text" placeholder="mensaje secreto aquí">
-  </form>
 
-  <form>
-    <button> Cifrar </button>
-    <button> decifrar </button>
- </form>
-    <script src="index.js" type="module"></script>
+      <input type="text" placeholder="núm" size="5" class="numerosecreto">
+
+</div>
+
+<div class="contenedor3">
+  <p>
+    Agrega tu mensaje para cifrar o descifrar
+ </p>
+     <input type="text" placeholder="mensaje secreto aquí" class="mensajesinconvertir">
+</div>
+
+<div class="contenedor2">
+           <button> Cifrar </button>
+           <button> descifrar </button>
+</div>
+<div class="contenedor4">
+
+     <p>
+       Tu mensaje es
+    </p>
+
+       <input type="text" placeholder="Copia y disfruta tu mensaje" class="mensajeconvertido">
+</div>
+
+    <script src="index.js"></script>
   </body>
 </html>

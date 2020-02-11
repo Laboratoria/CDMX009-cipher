@@ -1,0 +1,171 @@
+*{
+  margin:0;
+}
+
+header{
+  background-color:#FFFFFF;
+}
+
+li{
+  float: left;
+  list-style: none;
+  padding-top: 10px;
+  padding-bottom:20px;
+  margin-top:10px;
+  margin-bottom: 20px;
+  margin-right:30px;
+  font-family:"Century Gothic";
+  font-weight:bold;
+  text-decoration-color: #7D4E96;
+}
+
+li:hover a{
+  background-color: #7D4E96;
+  list-style: none;
+  color: #FFFFFF;
+  border-radius: 10px;
+  transition: ease .5s;
+  padding: 5px;
+
+
+}
+a{
+  text-decoration: none;
+  color:#7D4E96;
+}
+
+nav{
+  float: right;
+
+}
+body {
+  background-color: #36244A;
+  background-position: center;
+}
+
+
+h1{
+  color: white;
+  font-family: "Century Gothic";
+  text-align: center;
+  font-size: 65px;
+}
+
+.cifradocesar{
+  color: white;
+  font-family: "Century Gothic";
+  text-align: center;
+  font-size: 40px;
+  width: 200px;
+  margin-top:100px;
+  margin-left:70px;
+}
+
+.cifrado{
+  color: white;
+  font-family: "Century Gothic";
+  text-align: center;
+  font-size: 40px;
+  width: 200px;
+  margin-top:100px;
+  margin-left:70px;
+}
+
+h2{
+  color: white;
+  font-family: "Century Gothic";
+  text-align: center;
+  font-size: 40px;
+}
+
+p{
+  color: white;
+  font-family: "Century Gothic";
+  text-align: center;
+  font-size:20px;
+  width: 800px;
+  margin-left: 245px;
+	margin-right: auto;
+}
+
+.parrafogrande{
+  color: white;
+  font-family: "Century Gothic";
+  text-align:left;
+  font-size:18px;
+  width: 800px;
+  margin-left: 300px;
+	margin-right: 100px;
+  margin-top: auto;
+}
+
+
+button{
+  background: #7D4E96;
+  color: #FFFFFF;
+  display: inline-block;
+  font-size: 20px;
+  margin: 20px;
+  padding: 10px 10px;
+  border: 0px;
+  text-align: center;
+  width: 200px;
+  border-radius: 50px;
+  position: relative;
+  left: 400px;
+
+}
+
+.mensajesinconvertir{
+  background:#FFFFFF;
+  display: inline-block;
+  font-size: 20px;
+  margin: 50px;
+  padding: 50px 150px;
+  border: 0px;
+  text-align: center;
+  width: 200px;
+  border-radius: 50px;
+  position: relative;
+  left: 345px;
+
+}
+
+.mensajeconvertido{
+  background:#FFFFFF;
+  display: inline-block;
+  font-size: 20px;
+  margin: 50px;
+  padding: 50px 150px;
+  border: 0px;
+  text-align: center;
+  width: 200px;
+  border-radius: 50px;
+  position: relative;
+  left: 345px;
+
+}
+
+.numerosecreto{
+  background:#FFFFFF;
+  display: inline-block;
+  font-size: 20px;
+  margin: 50px;
+  padding: 10px 10px;
+  border: 0px;
+  text-align: center;
+  width: 100px;
+  border-radius: 50px;
+  position: relative;
+  left: 530px;
+
+}
+header img {
+  width: 50px;
+  margin-left: 20px;
+}
+
+img{
+  width: 200px;
+  margin-left: 200px;
+}
