@@ -21,13 +21,11 @@ button {
 }
 
 .buttons_logins {
-    /* padding-left: 185px; */
-    display: flex;
+    padding-left: 59%;
 }
 
 .buttons_logins-diplay {
-    flex:  1 1 auto;
-    margin-right:5px;
+    margin-left: 89px;
 }
 
 footer {
