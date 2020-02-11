@@ -33,6 +33,10 @@ footer {
     font-size: small;
     text-align: center;
     white-space: pre;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }
 
 header { 
