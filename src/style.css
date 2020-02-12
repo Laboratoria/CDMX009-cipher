@@ -128,7 +128,7 @@ p{
 #enter{
     position:absolute;
     margin-left: 500px;
-    margin-top: -123px;
+    margin-top: -113px;
     
 }
 
@@ -139,4 +139,13 @@ textarea{
 	width: 400px;
 	height: 80px;
 	margin-left: 200px;
+}
+
+
+
+/* seccion 3*/
+
+.des{
+	width: 350px;
+	height: auto;
 }
