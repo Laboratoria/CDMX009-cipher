@@ -1,3 +1,6 @@
+
+
+
 function showAndHide (){
   console.log("entre");
   let screen = document.getElementById("quiz_wrapper");
