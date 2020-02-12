@@ -1,3 +1,5 @@
+
+//varible para obtener texto a cifrar/descifrar
 string= document.getElementById ("cajaMensaje").value;
 
 
