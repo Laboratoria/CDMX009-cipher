@@ -1,14 +1,37 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Caesar Cipher</title>
-    <link rel="stylesheet" href="style.css" />
+    <title>¡cifrado cesar!</title>
+    <link href="https://fonts.googleapis.com/css?family=Ropa+Sans|ZCOOL+KuaiLe&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <div id="root">
-      <h1>Hello world!</h1>
-    </div>
-    <script src="index.js" type="module"></script>
+    <section class="contenido">
+    <h1>Crea tu contraseña</h1>
+    <strong>Antes de empezar</strong>
+    <p>Tu contraseña se creara por meddio del num de deplazamientos <br>
+      por tal motivo no garantizamos total seguridad</p>
+<button class="cif" onclick="">cifrado</button>
+
+<button class="des" onclick="">descifra</button>
+
+        <div id="content-msg-decode" class="msg-style display_none">
+            <p>Ingrese Su Mensaje:</p>
+            <textarea id="box-msg-decode" class="box-msg-style" placeholder="Ingrese su mensaje..."></textarea>
+            <div class="content-offset">
+                <label class="label">Ingrese N° de desplazamiento</label>
+                <input type="number" id="n_offset_d" class="n_offset_style">
+            </div>
+            <button id="btn_decode" class="btn-code">Decodifica tu Mensaje</button>
+            <div id="msg-decode" class="msg-ckeck">
+                <p id="msg-decode-check"></p>
+            </div>
+            <button onclick="location.reload();" class="btn_reload">Limpiar</button>
+        </div>
+    </section>
+
+
+
   </body>
 </html>
