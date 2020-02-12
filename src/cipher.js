@@ -8,6 +8,8 @@ export default cipher;
 
 */
 
+//PROBANDO CIFRAR
+
 let string = "COMPRAR BOLETOS"; //luego cambiar a textarea
 
 let offset = 5; //luego cambiar a select
@@ -34,4 +36,10 @@ function cifrar() {
         resultado += c;
     });
     console.log(resultado); //probando en consola
+}
+
+//PROBANDO DESCIFRAR
+
+function descifrar() {
+
 }
