@@ -5,13 +5,12 @@ const cipher = {
 export default cipher;
 
 function encode(str, offset) {
-  let solved = "";
+  let solved;
   let oldAscii;
   let newAscii;
   for (var i=0; i < str.length; i++) {              //Esta parte le dice al bucle que debe repetirse hasta llegar a la última letra.
         oldAscii = str.charCodeAt(i);               //Esto genera el códigos ascii de cada letra
         newAscii = (((oldAscii -65 + parseInt(offset)) %26)+ 65);//Esto genera el número por el que se debe desplazar el alfabeto y lo suma a la posicion original de cada letra
-
         solved += String.fromCharCode(newAscii);    //Esta parte llama a la nueva letra a partir de los nuevos codigos ascii de las nuevas posiciones, el += genera un array(string vertical), pues va agregando en cada iteración la siguiente letra
         }
         /*if (oldAscii>=65 && oldAscii =<90) {
@@ -50,7 +49,7 @@ encode("TEQUIEROMUCHOTAVO", 33);
 */
 //DECODE
 function decode(str, offset) {
-  let solved = "";
+  let solved;
   let oldAscii;
   let newAscii;
   for (var i=0; i < str.length; i++) {

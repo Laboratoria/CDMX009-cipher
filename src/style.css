@@ -1,35 +1,37 @@
+
+.header{
+ background-color: #2CA3F9;
+ color: white;
+ padding: 2rem 0;
+ position: fixed;
+ font-size: 2rem;
+ left:0;
+ top: 0;
+ right: 0;
+}
+
+.header :hover {
+  background-color: #56274A
+}
+.header a :hover {
+  color: azure;
+}
+
 body{
   font-family: georgia, times, serif;
-  color:#5E2281C;
+  color:#5E2281;
   font size: 2rem;
   line-height: 2em;
   background-color:#E9DDC3;
   margin: 0;
-};
+}
 
 p1{
   color:#5E2281;
   font size: 2rem;
   line-height: 2em;
-};
+}
 
-.header{
- background-color: #0C485E;
- color: #5E2281;
- padding: 4rem 0;
- position: fixed;
- left:0;
- top: 0;
- right: 0;
- widht: 100%;
-};
-
-.header :hover {
-  background-color: #56274A
-};
-.header a :hover {
-  color: azure;
-};
 
 main {
   padding-top: 10rem;
@@ -40,6 +42,7 @@ footer {
   padding: 20px;
   margin top: 40px;
   text-align: right;
+  bottom: 0;
 }
 
 footer a {
@@ -47,7 +50,7 @@ footer a {
 	}
 #pantallaDos, #pantallaTres{
     display:none;
-  };
+  }
 
 
 /*
