@@ -25,13 +25,13 @@ function cipher(){
    let cipherFormula; //almacena fórmula de cifrado que se utiliza
    let theNewLetter; // alamacena valor de la nueva letra cifrada
    if (numberOfTheLetter >= 65 && numberOfTheLetter <= 90) { // valor UNICODE de letras mayúsculas en ASCII
-     cipherFormula = ( numberOfTheLetter - 65 + parseInt(key1)) % 26 + 65; // formula de Cifrado Cesar: obtener nuevo numero de letra  en el codigo ASCII
+     cipherFormula = (( (numberOfTheLetter - 65) + parseInt(key1)) % 26) + 65; // formula de Cifrado Cesar: obtener nuevo numero de letra  en el codigo ASCII
      theNewLetter =  String.fromCharCode(cipherFormula); // obtener el valor de la letra cifrada
      myStringCipher +=theNewLetter; // formar el string cifrado
      textarea4.innerHTML =  myStringCipher;
 
     } else if (numberOfTheLetter >= 97 && numberOfTheLetter <=122) { // valor UNICODE de letras minúsculas en ASCII
-     cipherFormula = ( numberOfTheLetter - 97 + parseInt(key1)) % 26 + 97; // fórmula de cifrado Cesar
+     cipherFormula = ((( numberOfTheLetter - 97) + parseInt(key1)) % 26) + 97; // fórmula de cifrado Cesar
      theNewLetter = String.fromCharCode(cipherFormula); // valor de letra cifrada
      myStringCipher +=theNewLetter; // formar el string cifrado
      textarea4.innerHTML =  myStringCipher;
@@ -58,27 +58,17 @@ function decipher(){
      let decipherFormula; //almacena fórmula de decifrado
      let theNewLetter; // almacena el nuevo valor de la letra decifrada
      if (numberOfTheLetter >= 65 && numberOfTheLetter <= 90){  //saber si la letra está en mayúscula
-       decipherFormula = ( numberOfTheLetter -13 -parseInt(key2) ) % 26 + 65; // formula para descifrar
+       decipherFormula = ((( numberOfTheLetter -13) - parseInt(key2) ) % 26) + 65; // formula para descifrar
        theNewLetter = String.fromCharCode(decipherFormula); // obtener el valor de la letra descifrada
        myStringDechiper +=theNewLetter; // formar la cadena descifrada
        textarea6.innerHTML =  myStringDechiper;
-       console.log("MI ESTRING",myString);
-       console.log("NUMERO DE LEtra",numberOfTheLetter);
-       console.log("formula",decipherFormula);
-       console.log("NUEVA LEtra",theNewLetter);
-       console.log("MI STRING Cifrado",myStringDechiper);
-       console.log("key",key2);
+
      }else if (numberOfTheLetter >= 97 && numberOfTheLetter <=122){ // saber si la letra está en minúscula
-       decipherFormula = ( numberOfTheLetter - 45 - parseInt(key2)) % 26 + 97; // formula para descifrar
+       decipherFormula = (((numberOfTheLetter - 45) - parseInt(key2)) % 26) + 97; // formula para descifrar
        theNewLetter = String.fromCharCode(decipherFormula); // obtener el valor de la letra descifrada
        myStringDechiper +=theNewLetter; // formar la cadena descifrada
        textarea6.innerHTML =  myStringDechiper;
-       console.log("MI ESTRING",myString);
-       console.log("NUMERO DE LEtra",numberOfTheLetter);
-       console.log("formula",cipherFormula);
-       console.log("NUEVA LEtra",theNewLetter);
-       console.log("MI STRING Cifrado",myStringDechiper);
-       console.log("key",key2);
+
      } else if(numberOfTheLetter === 32){ // verificar si es un espacio vacio
        myStringDechiper += ' '; // añadir un espacio en string decifrado
      } else {
