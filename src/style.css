@@ -123,6 +123,12 @@ body {
     display:none;
 }
 
+#cifrar1{
+  float:right;
+  margin:-20px 30px;
+  border-radius: 8px;
+}
+
 #textarea1{
   height: 300px;
   width: 300px;
