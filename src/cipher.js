@@ -1,6 +1,8 @@
 let secretkey3 = document.getElementById('secretkey1');// almacena valor offset
 let textarea4 = document.getElementById('textarea'); // almacena texto cifrado
 let textarea5 = document.getElementById('textarea2');//almacena texto a Cifrar
+let textarea6 = document.getElementById('textarea7'); // almacena texto descifrado
+let textarea9 = document.getElementById('textarea8');//almacena texto a descifrar
 
 document.getElementById("blissito").onclick = function() {cipher()};
 document.getElementById("blissito1").onclick = function() {decipher()};
@@ -44,7 +46,7 @@ if (numberOfTheLetter >= 97 && numberOfTheLetter <=122) { // valor UNICODE de le
 //funcion para descifrar una cadena de texto
 function decipher(){
   let myStringDechiper = ''; // almacenar el valor del string Cifrado
-  let myString2 = textarea5.value;
+  let myString2 = textarea9.value;
   let key2 = secretkey3.value;
 
   for(var i = 0; i< myString2.length ; i++){   //recorrer el string del usuario
@@ -55,15 +57,15 @@ function decipher(){
        decipherFormula = ( numberOfTheLetter -13 - key2) % 26 + 65; // formula para descifrar
        theNewLetter = String.fromCharCode(decipherFormula); // obtener el valor de la letra descifrada
        myStringDechiper +=theNewLetter; // formar la cadena descifrada
-       textarea4.innerHTML =  myStringDechiper;
+       textarea6.innerHTML =  myStringDechiper;
      }else if (numberOfTheLetter >= 97 && numberOfTheLetter <=122){ // saber si la letra está en minúscula
        decipherFormula = ( numberOfTheLetter - 45 - key2) % 26 + 97; // formula para descifrar
        theNewLetter = String.fromCharCode(decipherFormula); // obtener el valor de la letra descifrada
        myStringDechiper +=theNewLetter; // formar la cadena descifrada
-       textarea4.innerHTML =  myStringDechiper;
+       textarea6.innerHTML =  myStringDechiper;
      } else if(numberOfTheLetter === 32){ // verificar si es un espacio vacio
        myStringDechiper += ' '; // añadir un espacio en string decifrado
-       textarea4.innerHTML =  myStringDechiper;
+       textarea6.innerHTML =  myStringDechiper;
      } else {
        break;
      }
