@@ -1,0 +1,125 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #F9CB9C;
+}
+
+@font-face {
+  font-family: "Tangerine_Bold";
+  src: url("fonts/Tangerine_Bold.ttf");
+}
+h1,h2,h3,h4{
+    font-family: Tangerine_Bold;
+}
+h1{
+	font-size: 60px; 
+}
+h2{
+	font-size: 40px; 
+}
+.inicio{
+	text-align: center;
+	padding-top: 50px;  
+}
+.imagenlogo{
+	text-align: center;
+	width: 100px; 
+	height: 100px; 
+}
+footer{
+	height: 100px; 
+	color: black; 
+	font-size: 30px;
+	text-align: center; 
+	font-family: Tangerine_Bold;
+}
+.container {
+    width: 50%;
+    border-radius: 10px;
+    padding: 20px;
+    border: 1px solid #008F99;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: #ffffff;
+    box-shadow: 3px 3px 7px 1px #333;
+}
+.styletable{
+	padding-left: 500px; 
+}
+input{
+	border-radius: 10px;
+	width: 200px; 
+	color: black;
+	background-color: #B4A7D6; 
+	border-color: #B4A7D6;    
+}
+header{
+ height: 200px;
+ width: 100%;  	
+}
+.headerleft{
+	float: left;
+	width: 30%; 
+}
+.headerright{
+	float: right;
+	width: 70%;
+	font-size: 50px;
+	font-family: Tangerine_Bold;  
+}
+.logo{
+	padding: 25px 100px 25px; 
+	width: 100px; 
+	height: 100px; 
+}
+.stylep{
+	font-family: Tangerine_Bold;
+	font-size: 34px;
+}
+table{
+	width: 500px; 
+}
+th{
+	font-family: Tangerine_Bold;
+	font-size: 40px; 
+}
+td{
+	height: 100px; 
+	width: 250px;
+	text-align: center; 
+}
+label{
+	font-size: 30px; 
+	font-family: Tangerine_Bold;
+}
+textarea{
+	height: 100px; 
+	width: 200px; 
+	border-radius: 10px; 
+	background-color: #B4A7D6; 
+	border-color: #B4A7D6;
+}
+.btn-code{
+	border-radius: 10px;
+	width: 200px; 
+	color: black;
+	background-color: #B4A7D6; 
+	border-color: #B4A7D6;
+}
+.btn_reload{
+	border-radius: 10px;
+	width: 200px; 
+	color: black;
+	background-color: #B4A7D6; 
+	border-color: #B4A7D6;	
+}
+.msg-ckeck {
+    width: 97%;
+    height: auto;
+    min-height: 130px;
+    background-color: #DADADA;
+    margin-top: 20px;
+    padding: 10px;
+    box-shadow: 2px 2px 10px 1px #898989;
+}
