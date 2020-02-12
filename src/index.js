@@ -12,12 +12,17 @@ function cifrar(){
 
   //let newString = code(string,offset)
 
-
   string = string.toUpperCase();
-  var posAscii = string.charCodeAt(0);
+  for (var i = 0; i < string.length; i++) {
+    var letterCode = string[i].charCodeAt(0);
+    //console.log(letterCode)
+    document.getElementById('resultadocif').innerHTML += letterCode;
+    
+  }
+  //var posAscii = string.charCodeAt(0); //Cambiar posAscii por letterCode
   
-  //var formula = (posAscii - 65 + offset) %26 + 65;
-  document.getElementById('resultadocif').innerHTML = posAscii;
+  
+  
 
 }
 //console.log(cipher);
