@@ -1,4 +1,5 @@
 body {
+    color: cornsilk;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     background-image: url(../assets/background_first_page.png);
     background-repeat: repeat;
@@ -24,7 +25,7 @@ button {
     padding-left: 59%;
 }
 
-.buttons_logins-diplay {
+.buttons_logins_display {
     margin-left: 89px;
 }
 
@@ -47,7 +48,14 @@ header {
     padding-bottom: 70px;
 }
 
-.logins_first-page > h1, h2, h3 {
+.input_logins {
+    display: inline-block; 
+    width: 200px;
+    margin: 100px; 
+    float: left;
+}
+
+.logins_first_page > h1, h2, h3 {
     color: cornsilk;
     text-align-last: end;
     padding-bottom: 10px;
@@ -55,8 +63,10 @@ header {
 }
 
 #loginssecondpage {
-    display: none;
+    text-align: center;
+    display: 
 }
+
 
 .titlesecondpage {
     text-align: center;
@@ -64,7 +74,8 @@ header {
     margin: 4px;
 }
 
-.titlesecondpage > ul  {
-    color: red;
-    
+.titlesecondpage > ul {
+    color: red;    
 }
+
+
