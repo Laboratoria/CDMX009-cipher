@@ -6,6 +6,11 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <!-- Header fijo en todas las páginas -->
+    <header>
+       <img src="img/notificaciones.svg" alt="Ícono Notificaciones" class="logosHeader">
+       <img src="img/usuario.svg" alt="Ícono Usuario" class="logosHeader"> 
+    </header>
 
     <!-- Inicio con animación de logo -->
     <section id="inicioAnimacionLogo">
@@ -16,18 +21,63 @@
     <!-- Inicio con navegación -->
 
     <!-- Inicio sesión y registro -->
-    <section id=inicioNav>
-      <h3>"Un lugar para todos por una causa peluda"</h3>
-      <p">Inicia Sesión</p>
-      <p">Regístrate</p>
+    <section id="navegacion">
+      <div> <!-- Eslogan, inicio sesión y registro -->
+        <h3>"Un lugar para todos por una causa peluda"</h3>
+        <p">Inicia Sesión</p>
+        <p">Regístrate</p>
+      </div>
+
+      <div><!-- Navegación -->
+        <img src="img/quienes somos.svg" alt="Ícono ¿Quiénes Somos?">
+        <p>¿Quienes Somos?</p>
+        <img src="img/aportaciones.svg" alt="Ícono Aportaciones">
+        <p>Aportaciones</p>
+        <img src="img/subastas.svg" alt="Ícono Subastas">
+        <p>Subastas</p>
+      </div>
     </section>
 
-    <!-- Navegación -->
-    <main id="navegacion">
-      <p>¿Quienes Somos?</p>
-      <p>Aportaciones</p>
-      <p>Subastas</p>
-    </main>
+    <!-- Aportaciones -->
+    <section>
+      <div><!-- Publicación -->
+        <p>Meta:</p>
+        <p>Costal de alimento para perro.</p>
+        <p>Cantidad: 15kg</p>
+        <p>$300</p>
+        <p>¡Sólo faltan $120 para llegar a la meta!</p>
+        <button>Aportar</button>
+      </div>
+
+      <div><!-- Publicación -->
+        <p>Meta:</p>
+        <p>Costal de alimento para gato.</p>
+        <p>Cantidad: 25kg</p>
+        <p>$380</p>
+        <p>¡Sólo faltan $80 para llegar a la meta!</p>
+        <button>Aportar</button>
+      </div>
+
+      <div><!-- Publicación -->
+        <p>Meta:</p>
+        <p>Costal de alimento para perro (cachorro).</p>
+        <p>Cantidad: 15kg</p>
+        <p>$347</p>
+        <p>¡Sólo faltan $30 para llegar a la meta!</p>
+        <button>Aportar</button>
+      </div>
+
+      <aside>
+        <input type=image src="img/veterinary.svg">
+        <input type=image src="img/pet-food.svg">
+        <input type=image src="img/accesories.svg">
+      </aside>
+    </section>
+
+    <!-- Confirmación de aportación con alert-->
+    <section>
+      
+    </section>
 
     <script src="index.js" type="module"></script>
   </body>
