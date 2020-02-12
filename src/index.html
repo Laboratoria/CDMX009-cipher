@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- logotipo--->
     <header class=encabezado> <img src="images/logo.png">
 
     </header>
@@ -19,52 +20,61 @@
             Atrévete a expresarlo o a descubrirlo con esta webapp. 
             Manda un mensaje secreto que sólo tú y la otra persona 
             podrán ver con una clave secreta (de 3 digítos).</section>
-        
+<!-- FORMULARIO--->  
         <section class="caja2">
         <form id="formulario">
+            <!-- ADVERTENCIA--->  
             <p id="advertencia" class="advertencia"></p>
+            <!-- PEDIR NOMBRE--->  
             <input id="cajanombre" class="cajanombre" placeholder="Pon tu nombre aquí">
             <br> 
             <br> 
+            <!-- BOTÓN SIGUIENTE--->  
             <button type="button" class="boton" id="botonSiguiente" onclick="recogeDatos()">SIGUIENTE</button>
 
         </form>
 
     </main>
- <!-- Aquí comienza pantalla dos--->
+ <!-- Aquí comienza pantalla dos/mensaje--->
     <section id="pantallaDos">
+        <section>
+            <!-- mensaje bienvenida con nombre de usuario--->
+           <h1 id="bienvenido">Bienvenid@</h1> 
+           <!-- CASILLA PARA INGRESAR DESPLAZAMIENTO --->
+           <h2>Escribe tu clave secreta</h2>
+           <input id="cajaClave" class="cajaClave">
+           <br>
+           <p id="advertencia2" class="advertencia"></p>
+           <!-- caja para ingresar mensaje a cifrar/descifrar --->
+               <input id="cajaMensaje" class="cajatexto" placeholder="Coloca tu mensaje secreto aquí">
+               <br> 
+               <br> 
+               <!-- BOTÓN PARA CIFRAR --->
+               <button class="boton" id="cifrando" onclick="cifrar()">CIFRAR</button>
+               <!-- BOTÓN PARA DESCIFRAR --->
+               <button class="boton">DESCIFRAR</button>
+   
+       </section>
+           
+       <!-- Aquí comienza pantalla resultado--->
+       <section id="pantallaResultado">
+           <!-- Texto para dar resultado--->
+           <h1 id="respuesta">Tu mensaje para este 14 de Febrero es:</h1> 
+           <!-- AQUÍ ARROJA CLAVE DE DESPLAZAMIENTO--->
+           <p>Tu clave secreta es:</p>
+           <input id="tuClave" class="cajaClave">
+               <br>
+               <input id="cajaResultado" class="cajatexto" placeholder="Tu mensaje descifrado/cifrado es:">
+               <br> 
+               <br> 
+               <button id="cifrando" class="boton">CIFRAR</button>
+               <button id="volver" class=boton>VOLVER</button>
+               <button id= "salir" class=boton>SALIR</button>
+       </section>
 
-        <h1 id="bienvenido">Bienvenid@</h1> 
-        
-        <h2>Escribe tu clave secreta</h2>
-        <input id="cajaClave" class="cajaClave">
-       
-        <form id=formulario2>
-            <input id="cajaMensaje" class="cajatexto" placeholder="Coloca tu mensaje secreto aquí">
-            <br> 
-            <br> 
-            <button class="boton" id="cifrar" onclick="cifrar()">CIFRAR</button>
-            <button class="boton">DESCIFRAR</button>
 
     </section>
-        
-    <!-- Aquí comienza pantalla tres--->
-    <section id="pantallaTres">
-
-        <h1 id="respuesta">Tu mensaje para este 14 de Febrero es:</h1> 
-        
-        <h2>Tu clave secreta</h2>
-        <input id="tuClave" class="cajaClave">
-       
-        <form id=formulario2>
-            <p id="advertencia2" class="advertencia"></p>
-            <input id="cajaMensaje" class="cajatexto" placeholder="Tu mensaje descifrado/cifrado es:">
-            <br> 
-            <br> 
-            <button id="cifrar" class="boton">CIFRAR</button>
-            <button id="volver" class=boton>VOLVER</button>
-            <button id= "salir" class=boton>SALIR</button>
-    </section>
+    
         
 
     <footer class="footer">
