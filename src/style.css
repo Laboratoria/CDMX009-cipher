@@ -1,17 +1,17 @@
-body {
+#root {
     color: cornsilk;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    background-image: url(../assets/background_first_page.png);
-    background-repeat: repeat;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    background-image: url("../assets/background_first_page.png");
     background-size: cover;
-    height: 550px;
-    padding-right: 23px;
+    height: auto;
+    padding-right: 25px;
 }
 
-button {
+.buttons_logins_display {
     background-color:darkslateblue;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
     border: double;
+    cursor: pointer;
     color: darkturquoise;
     padding: 18px;
     font-size: x-large;
@@ -22,37 +22,36 @@ button {
 }
 
 .buttons_logins {
-    padding-left: 59%;
+    padding-left: 670px;
 }
 
 .buttons_logins_display {
     margin-left: 89px;
 }
 
-footer {
+.logins-footer {
     color: plum;
     font-size: small;
     text-align: center;
     white-space: pre;
-    position: fixed;
+    position: ine;
     left: 0;
     bottom: 0;
     width: 100%;
 }
 
-header { 
+.logins-header { 
     color: lightseagreen;
     font-size: x-large;
     text-align: end;
-    padding-top: 70px;
-    padding-bottom: 70px;
+    padding-top: 60px;
+    padding-bottom: 55px;
 }
 
 .input_logins {
     display: inline-block; 
     width: 200px;
-    margin: 100px; 
-    float: left;
+    margin: 100px;
 }
 
 .logins_first_page > h1, h2, h3 {
@@ -62,11 +61,17 @@ header {
     font-size: x-large;
 }
 
-#loginssecondpage {
+.number_of_scroll {
     text-align: center;
-    display: 
 }
 
+#logins-second-page {
+    display: none;
+}
+
+#logins-third-page {
+    display: none;
+}
 
 .titlesecondpage {
     text-align: center;
