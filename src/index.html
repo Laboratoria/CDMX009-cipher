@@ -6,63 +6,64 @@
     <title>Caesar Cipher</title>
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body>
+  <body> 
     <div id="root">
-    <header>
-      <h1>Logins Extra Secure - To Go!</h1>
-    </header>
-                        <!-- first page start -->
-    <section id="loginsfirstpage">
-      <h3>
-        Con esta herramienta agregas seguridad extra para tus <br>contraseñas y
-        podrás guardar todos tus inicios de sesión <br> en un archivo, visible para
-        los demás pero imposible <br> de descifrar por cualquiera.
-      </h3>
-      <h2>Elige una opción:</h2> <br> <br>
-        <div class="buttons_logins">
-          <button class="buttons_logins_display" onclick="crypyPage()>CIFRAR</button>
-          <button class="buttons_logins_display" onclick="desencryptPage()>DESCIFRAR</button>
-          </div>
-    </section>
-                             <!-- first page end -->
-                      <!-- second page start (encrypt)-->
-    <section id="loginssecondpage">
-        <p>Para que sólo tu sepas como descifrar tu código, <br> 
-             ingresa un número que recuerdes fácilmente</p> <br>
-        <label for="scrollnumber">Número de desplazamiento (1-25):</label> <br>
-        <input type="number" id="scroll" name="numbercipher" min="1" max="25"> <br><br>
-          <ul>
-            <li>Utiliza sólo mayúsculas</li>
-            <li>La letra "Ñ" no está permitida</li>
-          </ul>
-    </section>
-        <label>Ingresa tus credenciales:</label> <br>
-          <textarea class="input_logins" rows = "3" cols = "20"></textarea><br>
-        <label >Este es tu código cifrado:</label> <br>
-          <textarea class="input_logins" rows = "3" cols = "20"> </textarea></p>
-                            <!-- second page ends -->
-                      <!-- third page start (desencrypt)-->
-    <section id="loginsthirdpage"> Ingresa tu número de desplazamiento <br>
-          el cual ya conoces:</p> <br>
-        <label for="scrollnumber">Número de desplazamiento (1-25):</label> <br>
-        <input type="number" id="scroll" name="numbercipher" min="1" max="25"> <br><br>
-          <ul>
+      <header class="logins-header">
+        <h1>Logins Extra Secure - To Go!</h1>
+      </header>
+      <!-- first page starts -->
+      <section id="logins-first-page">
+        <h3>
+          Con esta herramienta agregas seguridad extra para tus <br>contraseñas y
+          podrás guardar todos tus inicios de sesión <br> en un archivo, visible para
+          los demás pero imposible <br> de descifrar por cualquiera.
+        </h3>
+        <h2>Elige una opción:</h2> <br> <br>
+          <div class="buttons_logins">
+            <button class="buttons_logins_display" onclick="pageEncrypt()">CIFRAR</button>
+            <button class="buttons_logins_display" onclick="pageDesencrypt()">DESCIFRAR</button>
+            </div>
+      </section>
+      <!-- first page end -->
+      <!-- second page starts (encrypt) -->
+      <section class="number_of_scroll" id="logins-second-page">
+          <p>Para que sólo tu sepas como descifrar tu código, <br>
+              ingresa un número que recuerdes fácilmente</p> <br>
+          <label for="scrollnumber">Número de desplazamiento (1-25):</label> <br>
+          <input type="number" id="scroll" name="numbercipher" min="1" max="25"> <br><br>
+            <ul>
               <li>Utiliza sólo mayúsculas</li>
               <li>La letra "Ñ" no está permitida</li>
-          </ul>
-    </section>
-        <fieldset>
-              <label>Ingresa tus credenciales cifradas:</label> <br>
-              <textarea class="input_logins" rows = "3" cols = "20"></textarea></p><br>
-              <label >Este es tu código descifrado:</label> <br>
-            <textarea class="input_logins" rows = "3" cols = "20"> </textarea>
-          </p>
-        </fieldset>
-                        <!-- third page ends -->
-        <footer>
-          <p>Created by Di. </p>
-        </footer>
-      </div>
-      <script type="text/javascript" src="index.js"></script>
+            </ul>
+            <label>Ingresa tus credenciales:</label> <br>
+            <textarea class="input_logins" rows="3" cols="20"></textarea><br>
+            <label >Este es tu código cifrado:</label> <br>
+            <textarea class="input_logins" rows="3" cols="20"> </textarea></p>
+            <button class="buttons_logins_display" onclick="chooseCrypt()">CIFRAR CONTRASEÑA</button>
+      </section>
+      <!-- second page ends -->
+      <!-- third page starts (desencrypt)-->
+      <section id="logins-third-page">Ingresa tu número de desplazamiento <br>
+            el cual ya conoces: <br>
+          <label for="scrollnumber">Número de desplazamiento (1-25):</label> <br>
+          <input type="number" id="scroll" name="numbercipher" min="1" max="25"> <br><br>
+            <ul>
+                <li>Utiliza sólo mayúsculas</li>
+                <li>La letra "Ñ" no está permitida</li>
+            </ul>
+          <fieldset>
+            <label>Ingresa tus credenciales cifradas:</label> <br>
+            <textarea class="input_logins" rows="3" cols="20"></textarea></p><br>
+            <label >Este es tu código descifrado:</label> <br>
+            <textarea class="input_logins" rows="3" cols="20"> </textarea>
+            <button class="buttons_logins_display" onclick="chooseDesencrypt()">DESCIFRAR CONTRASEÑA</button>
+          </fieldset>
+      </section>
+      <!-- third page ends -->
+      <footer class="logins-footer">
+        <p>Created by Di.</p>
+      </footer>
+      <script type="module" src="index.js"></script>
+    </div>
   </body>
 </html>
