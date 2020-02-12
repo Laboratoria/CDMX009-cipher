@@ -17,14 +17,15 @@ p {
     color: rgba(224, 224, 224, 1);
     border-color: rgba(112, 112, 112, 1);
     border-width: 1px;
-    text-transform: uppercase;
+
   }
   .next {
     margin: 2.5em;
     cursor: pointer;
   }
   .logo {
-    margin: 2em;
+    margin-top: 0%;
+    margin-left: 5%;
   }
   .title {
     font-size: 25pt;
@@ -44,7 +45,7 @@ p {
   }
 
 #home {
-    display: block;
+    display: none;
   }
     #homeImage {
       cursor: pointer;
@@ -52,7 +53,7 @@ p {
     }
 
 #number {
-  display: none;
+  display: block;
   }
     #dayNo {
       border-color: rgba(112, 112, 112, 1);
@@ -67,7 +68,7 @@ p {
     }
 
 #user {
-    display: none;
+    display: block;
   }
     #name {
       background-color: rgba(193, 19, 35, 0.53);

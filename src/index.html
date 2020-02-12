@@ -28,7 +28,7 @@
       <img src="images\LogoM.svg" class="logo"/>
       <p class="title">Ingresa tu usuario para cifrar</p>
       <p class="subtitle">Recuerda solo utilizar mayúsculas</p>
-      <input type="text" class="text" id="name" onkeypress="return NoSpace(event)"/>
+      <input type="text" class="text" id="name" maxlength="18" onkeypress="return NoSpace(event)"/>
       <br>
       <h1 id="test"></h1>
       <img src="images\NextM.svg" class="next" onclick="getUser()"/>
@@ -54,9 +54,8 @@
       <img src="images\homebutton.svg" id="backhome"/>
     </section>
 
-    <script src="index.js" type="module"></script>
+    <script src="index.js"></script>
     <script src="cipher.js"></script>
-    <script src="app.js"></script>
   </body>
 
 </html>
