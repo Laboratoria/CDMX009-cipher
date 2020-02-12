@@ -24,6 +24,7 @@ function cifrado () {
       //convertir a letra
       let cipher = String.fromCharCode(temporal);
       document.write (cipher);
+      
       //let positions = (textToAscii+number)%26;
       //let cipherMessage = String.fromCharCode(positions)
       //alert(positions);
