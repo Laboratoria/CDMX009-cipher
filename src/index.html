@@ -3,7 +3,6 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=divice-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <title>humanSecurity</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css" />
@@ -35,29 +34,30 @@
             </div>
         </div>
         <div class="main">
-            <h2>Realiza tu prueba</h2>
-            <input type="text" id="ingresaTexto" placeholder="Ingresa tu mensaje" onclick="valor()">
-            <br>
-            <h3>Selecciona tu número</h3>
-            <input type="number" id="seleccionOffset">
-            <br>
-            <br>
-            <button class="btn" onclick="encode()">Codificar</button>
-            <button class="btn" onclick="decode()">Decodificar</button>
-            <br>
-            <br>
-            <input type="text" id="">
-            <div class="innerText"></div>
-            <br>
-            <br>
-            <button class="btn">Clear</button>
+            <form>
+                <h2>Realiza tu prueba</h2>
+                <input type="text" id="ingresaTexto" placeholder="Ingresa tu mensaje">
+                <br>
+                <h3>Selecciona tu número</h3>
+                <input type="number" id="seleccionOffset">
+                <br>
+                <br>
+                <input type="button" class="btn" onclick="encode()" value="Codificar">
+                <input type="button" class="btn" onclick="decode()" value="Decodificar">
+                <br>
+                <br>
+                <input type="text" id="result">
+                <div class="innerText"></div>
+                <br>
+                <br>
+                <input type="reset" value="Limpiar">
+            </form>
         </div>
         <div class="footer">
 
-
-
         </div>
-        <script src="index.js" type="module"></script>
+        <script src="index.js" type="module">
+        </script>
     </div>
 </body>
 

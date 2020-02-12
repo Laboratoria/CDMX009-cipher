@@ -9,7 +9,7 @@ body {
 }
 
 .contenedor {
-    background-image: url(img/portada2.jpg);
+    background-image: url(img/pantalla3.jpg);
 }
 
 .header {
@@ -17,13 +17,7 @@ body {
     justify-content: space-between;
     width: 100%;
     height: 80px;
-    /* position: fixed;
-    min-height: 80px;
-    left: -1px;
-    top: 0px; */
     background-color: transparent;
-    /* background: linear-gradient(90deg, rgba(19, 34, 64, 0.95) 0%, rgba(0, 0, 0, 0.3) 100%), url(img/portada.jpg); */
-    /* mix-blend-mode: normal; */
     color: #ffffff;
 }
 
@@ -68,7 +62,6 @@ body {
     font-size: 18px;
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
 }
 
 .acercaDe>p {
@@ -91,7 +84,8 @@ body {
     height: 50px;
     width: 50px;
 }
-.main{
+
+.main {
     background-color: dimgray;
     margin: 0px;
     padding: 20px;
@@ -99,11 +93,6 @@ body {
     text-align: center;
 }
 
-
-
-.footer{
+.footer {
     background: black;
 }
-
-
-
