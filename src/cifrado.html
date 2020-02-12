@@ -11,25 +11,28 @@
 <!--HEADER, tiene el titulo de la pagina y el logotipo-->    
     <header>
       <div id="root">
-        <img src="https://lh3.googleusercontent.com/proxy/S0JPzEayCtxVbo9E8qBYBn_xuC_eb28bwMwV4f0AWRtyO7vQQN38iJyfiUHJCQzCw98SgQPQ3ZeX37Tk5fwD-xb_cwNQL_Cd_-MVBYikk9sV_lOidBf9yWRaNtpo_58" alt="logotipo" id="logotipo">
         <h1>Sistema de Protección de Información de Correos Electrónicos</h1>
       </div>  
     </header>
     
 <!--formulario para ingresar texto a cifrar-->
     <form action="">  
+     
       <p class="instrucciones">Ingrese el texto a cifrar (sin numeros ni caracteres especiales)</p>
       <textarea class="ingresoDeTexto"id="textoACifrar"></textarea>
+      
       <p class="posiciones"># de posiciones:</p>
       <input type="text" size="5" maxlength="2" id="numDePosiciones">
+
 <!--botones de opciones-->
      <div class="botones">
-        <input class="opciones" type="submit" value="Enviar">
+        <input class="opciones" type="submit" value="Enviar" onclick="cifrado()">
         <input type="reset" class="opciones" value="Borrar">
         <button class="opciones"><a href="index.html">Regresar</a></button>
       </div>
     </form>
     
-    <script src="index.js" type="module"></script>
+    <script src="cipher.js"></script>
+    <!--<script src="index.js" type="module"></script>-->
   </body>
 </html>
