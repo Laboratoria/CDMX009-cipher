@@ -60,7 +60,7 @@
     <!--PASO UNO   INGRESAR UN TEXTO Y CIFRARLO-->
     <section id="cifradoydescifrado">
         <div>
-            <h2>Ingresa en letra Mayúscula el Texto que quieras Personalizar</h2>
+            <h2>Ingresa el Texto que quieras Personalizar</h2>
             <!--input es un campo de entrada donde el usuario puede ingresar datos-->
             <textarea id="mensajeInput" rows="4" cols="50" placeholder="texto personalizado aquí"></textarea>
             <p id="clave">Primero debes elegir cual será tu número que servirá como tu clave</p>
@@ -90,14 +90,14 @@
             </select>
             </div>
 
-            <center><button onclick="caesar()" id="cifrar" class="botooonc">Click Para generar tu código</button></center> <br>
+            <center><button id="cifrar" class="botooonc">Click Para generar tu código</button></center> <br>
 
             <p id="ejemplo">Tú código es sdfghjkl</p>
 
             <!--PASO DOS  DESCIFRAR EL CÓDIGO-->
 
             <p id="olvidar">¿Olvidaste el mensaje que colocaste en tú personalización?</p>
-            <center><button onclick="decaesar()" id="descifrar" class="botooond">Descifra tu código</button></center> <br>
+            <center><button id="descifrar" class="botooond">Descifra tu código</button></center> <br>
         </div>
     </section>
 
@@ -122,8 +122,8 @@
             <!-- &copy; es para que salga la C tipo copright en el pie de página-->
         </div>
     </footer>
-    <script src="index.js"></script>
     <script src="cipher.js"></script>
+    <script src="index.js"></script>
 </body>
 
 </html>
