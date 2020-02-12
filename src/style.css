@@ -16,19 +16,19 @@ img {
   position: absolute;
   margin-top: -45px;
 }
-#descripcion {
+#description {
   font-family: Rambla;
   font-size: 23px;
   text-align: right;
   color: black;
 }
-#instrucciones1 {
+#instruction1 {
   font-family: Rambla;
   font-size: 23px;
   text-align: left; 
   color: black; 
 }
-#instrucciones {
+#instruction {
   font-family: Rambla;
   font-size: 23px;
   text-align: left;
@@ -46,10 +46,10 @@ img {
   font-size: 24px;
   color: black;
 }
-#texto {
+#text {
   background-color: #EAB7EB;
 }
-#numero {
+#number {
     background-color: #EAB7EB;
   }
 .buttons {
@@ -57,7 +57,7 @@ img {
   text-align: center;
   font-size: 15px;  
 }
-#cifrar {
+#code {
   background-color: #AAA5FF;
   font-size: 14px;
   color: black; 
@@ -65,26 +65,28 @@ img {
   border-radius: 8px;
   margin: 6px;
 }
-#cifrar:hover {
+#code:hover {
   background-color: #7591FF;
 }
-#descifrar {
+#decode {
   background-color: #AAA5FF;
   font-size: 14px;
   color: black; 
   padding: 10px 15px;
   border-radius: 8px;
   }
-  #descifrar:hover {
+  #decode:hover {
   background-color: #7591FF;
   }
-  #resultado {
+  #result {
   text-align: center;
   color: black;
   font-family: Roboto Mono;
   font-size: 14px;
   }
-  hr {
-   width: 15px;
+  footer {
+  text-align: center;
+  font-size: 12px;
+  font-family: Roboto Mono;
   }
 
