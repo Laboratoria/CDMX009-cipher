@@ -50,29 +50,7 @@ function despN() {
   
 // }
 
-function myFunctionTest() {
 
-  let tex= document.getElementById("text").value;
-  let offset= document.getElementById("desplazamiento").value;
-for (let index = 0; index < tex.length; index++) {
-  let toConv= tex.charCodeAt(index);
- if (toConv === 32) {
-  let position= 32;
-   
- } else {  
-    
-    
-    let position= parseInt(toConv)+ parseInt (offset);
-    // document.write(position); 
-  
-    let texConv= String.fromCharCode(position);
-
-  
-    document.write(texConv);
-  } 
-  
-}
-}
 
 
 
