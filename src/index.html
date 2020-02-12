@@ -10,49 +10,49 @@
   </head>
 
   <body>
-
-    <div id="home">
-      <img src="images\MainLogo.svg" id="homeImage" onclick = "testTwo()"/>
-      <h1 id="test"></h1>
-    </div>
-
-    <div id="number">
+    <!-- 1st screen -->
+    <section id="home">
+      <img src="images\MainLogo.svg" id="homeImage" onclick = "startApp()"/>
+    </section>
+    <!-- Input number for offset value -->
+    <section id="number">
       <img src="images\LogoS.svg" class="logo"/>
-      <p class="title">Número del día</p>
+      <p class="title"> Número del día</p>
       <p>Es el número de la fecha de hoy</p>
-      <input type="number" id="dayNo" maxlength="2" min="1" max="31" background src="images\NextS.svg"/ >
+      <input type="number" id="dayNo" maxlength="2" min="1" max="31"/>
       <br>
-      <img src="images\NextS.svg" class="next"/>
-    </div>
-
-    <div id="user">
+      <img src="images\NextS.svg" class="next" onclick="getOffsetNo()"/>
+    </section>
+    <!-- Input user screen -->
+    <section id="user">
       <img src="images\LogoM.svg" class="logo"/>
       <p class="title">Ingresa tu usuario para cifrar</p>
       <p class="subtitle">Recuerda solo utilizar mayúsculas</p>
-      <input type="text" class="text" id="userName"/>
+      <input type="text" class="text" id="name" onkeypress="return NoSpace(event)"/>
       <br>
-      <img src="images\NextM.svg" class="next"/>
-    </div>
-
-    <div id="keyword">
+      <h1 id="test"></h1>
+      <img src="images\NextM.svg" class="next" onclick="getUser()"/>
+    </section>
+    <!-- Input keyword -->
+    <section id="keyword">
       <img src="images\LogoH.svg" class="logo"/>
       <p class="title">Ingresa la palabra clave</p>
       <p class="subtitle">Se encuentra en el foro de MamamooMX</p>
       <input type="text" class="text" id="pass"/>
       <br>
       <img src="images\NextH.svg" class="next"/>
-    </div>
-
-    <div id="results">
+    </section>
+    <!-- Both ciphered user and deciphered keyword -->
+    <section id="results">
       <img src="images\LogoW.svg" class="logo"/>
       <p class="title">Tu usuario cifrado es:</p>
-      <input type="text" class= "text" id="ciphered" readonly><br>
+      <input type="text" class= "result" id="ciphered" readonly><br>
       <p class="title">La clave es:</p>
-      <input type="text" class= "text" id="deciphered" readonly><br>
+      <input type="text" class= "result" id="deciphered" readonly><br>
       <p class="subtitle">¡Ya puedes ingresar al Fan Café Exclusivo!</p>
       <br>
       <img src="images\homebutton.svg" id="backhome"/>
-    </div>
+    </section>
 
     <script src="index.js" type="module"></script>
     <script src="cipher.js"></script>

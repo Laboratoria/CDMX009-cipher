@@ -14,9 +14,13 @@ p {
     margin: 2em;
     font-family: 'Calibri';
     font-size: 17pt;
+    color: rgba(224, 224, 224, 1);
+    border-color: rgba(112, 112, 112, 1);
+    border-width: 1px;
+    text-transform: uppercase;
   }
   .next {
-    margin: 2em;
+    margin: 2.5em;
     cursor: pointer;
   }
   .logo {
@@ -29,65 +33,59 @@ p {
   {
     font-size: 17pt;
   }
+  .result {
+    border-color: rgba(112, 112, 112, 1);
+    border-width: 1px;
+    background-color: rgba(221, 215, 251, 1);
+    margin: 1em;
+    text-transform: uppercase;
+    font-family: 'Calibri';
+    font-size: 17pt;
+  }
 
 #home {
     display: block;
-}
+  }
     #homeImage {
       cursor: pointer;
       margin-top: 5%;
     }
 
 #number {
-  display: block;
-}
+  display: none;
+  }
     #dayNo {
-      background: rgba(33, 49, 109, 0.53);
       border-color: rgba(112, 112, 112, 1);
       border-width: 1px;
-      color: rgba(224, 224, 224, 1);
-      margin-left: 4em;
       font-family: 'Calibri';
       font-size: 17pt;
+      color: rgba(224, 224, 224, 1);
+      background: rgba(33, 49, 109, 0.53);
+      margin-top: 2em;
+      margin-left: 4em;
+      margin-bottom: 1em
     }
 
 #user {
-    display: block;
-}
-    #userName {
+    display: none;
+  }
+    #name {
       background-color: rgba(193, 19, 35, 0.53);
-      border-color: rgba(112, 112, 112, 1);
-      border-width: 1px;
-      color: rgba(224, 224, 224, 1);
       margin: 1em;
     }
 
 #keyword {
-    display: block;
-}
+    display: none;
+  }
     #pass{
       background-color: rgba(243, 185, 16, 0.52);
-      border-color: rgba(112, 112, 112, 1);
-      border-width: 1px;
-      color: rgba(224, 224, 224, 1);
       margin: 1em;
     }
+
 #results {
-    display: block;
-}
+    display: none;
+  }
     #backhome {
       margin-left: 6em;
       cursor: pointer;
-    }
-    #ciphered {
-      border-color: rgba(112, 112, 112, 1);
-      border-width: 1px;
-      background-color: rgba(221, 215, 251, 1);
-      margin: 1em;
-    }
-    #deciphered {
-      border-color: rgba(112, 112, 112, 1);
-      border-width: 1px;
-      background-color: rgba(221, 215, 251, 1);
-      margin: 1em;
     }
