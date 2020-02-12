@@ -53,7 +53,7 @@ p {
     }
 
 #number {
-  display: block;
+  display: none;
   }
     #dayNo {
       border-color: rgba(112, 112, 112, 1);
@@ -68,7 +68,7 @@ p {
     }
 
 #user {
-    display: block;
+    display: none;
   }
     #name {
       background-color: rgba(193, 19, 35, 0.53);
@@ -84,7 +84,7 @@ p {
     }
 
 #results {
-    display: none;
+    display: block;
   }
     #backhome {
       margin-left: 6em;
