@@ -1,8 +1,19 @@
-// import cipher from './cipher.js';
+// alias for import
+import Cipher from './cipher.js';
 
-
-function hi () {
-    console.log("hi");
+function showEncryptPage() {
+    console.log( Cipher.encrypt('my password', 13) );
+    document.getElementById("logins-second-page").style.display = "block";
+    document.getElementById("logins-first-page").style.display = "none";
+    document.getElementById("logins-third-page").style.display = "none";
 }
 
-// console.log(cipher);
+function showDesencryptPage() {
+    console.log( Cipher.desencrypt('my password encryptado', 13) );
+    document.getElementById("logins-first-page").style.display = "none";
+    document.getElementById("logins-second-page").style.display = "none";
+    document.getElementById("logins-third-page").style.display = "block";
+}
+
+window.pageEncrypt = showEncryptPage;
+window.pageDesencrypt = showDesencryptPage;
