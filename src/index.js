@@ -46,4 +46,3 @@ document.getElementById("Entrar").addEventListener("click", entrar);
 document.getElementById("Cifrar").addEventListener("click", clickCifrar);
 document.getElementById("Descifrar").addEventListener("click", clickDescifrar);
 document.getElementById("Volver").addEventListener("click", volver);
-//document.getElementById("Copiar").addEventListener("click", copiar);
