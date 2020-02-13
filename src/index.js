@@ -1,9 +1,15 @@
-//import cipher from './cipher.js'; 
+import cipher from "cipher.js"; 
 //console.log(cipher);
+
 // boton para cifrar
-let text = document.getElementById ("text").nodeValue;
-let offset = parseInt (document.getElementById ("number").nodeValue);
+let textEncode = ( ) => {
+let text = document.getElementById ("text").value;
+let offset = parseInt (document.getElementById ("number").value);
 let result = ciper.encode (text,offset);
+
+document.getElementById('result').innerHTML=result;
+}
+document.getElementById('encode').addEventListener('click',textoCifrado);
 
 
 
@@ -11,7 +17,11 @@ let result = ciper.encode (text,offset);
 
 
 // boton para descifrar
-let text = document.getElementById ("text").nodeValue;
-let offset = parseInt (document.getElementById ("number").nodeValue);
+let textDecode = ( ) => {
+let text = document.getElementById ("text").value;
+let offset = parseInt (document.getElementById ("number").value);
 let result = ciper.decode (text,offset);
 
+document.getElementById('result').innerHTML=result;
+}
+document.getElementById('decode').addEventListener('click',textoCifrado);
