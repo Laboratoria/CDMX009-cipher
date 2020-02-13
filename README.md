@@ -4,7 +4,7 @@
 Aplicación de interfaz sencilla enfocada a adolescentes para codificar 
 mensajes que quieran envíar de manera segura
 
-![alt text] (https://raw.githubusercontent.com/PazKarina/CDMX009-cipher/master/Karina/Imagenes/mockup1.png)
+![alt text](https://raw.githubusercontent.com/PazKarina/CDMX009-cipher/master/Karina/Imagenes/mockup1.png)
 
 * Investigación UX:
 <<<<<<< HEAD
@@ -17,7 +17,7 @@ mensajes que quieran envíar de manera segura
   usuarios decidan con quíen compartir tanto el mensaje como la contraseña y lograr 
   de una manera divertida y dínamica una comunicacion secreta 
 
-  3. ![alt text] (https://raw.githubusercontent.com/PazKarina/CDMX009-cipher/master/Karina/Imagenes/sketch1.png)
+  3. ![alt text](https://raw.githubusercontent.com/PazKarina/CDMX009-cipher/master/Karina/Imagenes/sketch1.png)
   4. Despues de pedir feedback se encontro que el diseño inicial se sentia un tanto 
   _agresivo_, por lo que se le agrego un pequeño mensaje de bienvenida; así mismo en 
   la segunda pantalla se agrego el boton "enter" para dar mayor entendimiento al 
