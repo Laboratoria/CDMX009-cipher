@@ -3,6 +3,39 @@ body{
     
 }
 .i{
+    background-color: rgb(124, 79, 138);
     text-align: center;
     font-size: 25px;
+   
 }
+.button5 {
+    position: relative;
+    right: 100px;
+    left: 550px;
+          text-decoration:none;
+          font-weight: 600;
+          font-size: 20px;  /*tamaño de fuente */
+          color:black; /*color de la fuente*/
+          padding-top:13px; /*arriba*/
+          padding-bottom:13px; /*abajo*/
+          padding-left:50px; /*izquierda */
+          padding-right:50px; /*derecha*/
+          background-color: wheat;
+          border-color:black;
+          border-width: 3px;
+          border-style: solid;
+          }
+
+         .cip {
+             background-color: rgb(124, 79, 138);
+         }
+                  
+              .p{
+                text-align: left;
+                font-size: 25px ;
+
+              }
+              .msg-style {
+                width: 100%;
+                margin-top: 20px;
+              

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Secret Word</title>
+    <link rel="stylesheet" href="style1.css" />
+  </head>
+  <body>  
+<h2>CIFRAR    DESCIFRAR </h2>
+<br><br>
+       <!--CAJA CODIFICADO-->
+
+       <div id="content-msg-encode" class="msg-style display_block">
+        <p>Ingrese Su Mensaje:</p>
+        <textarea id="box-msg-encode" class="box-msg-style" placeholder="Ingrese su mensaje..."></textarea>
+        <div class="content-offset">
+            <label class="label">Ingrese N° de desplazamiento</label>
+            <input type="number" id="n_offset_e" class="n_offset_style">
+        </div>
+        <button id="btn_encode" class="btn-code">Codifica tu Mensaje</button>
+        <div id="msg-encode" class="msg-ckeck">
+            <p id="msg-encode-check"></p>
+        </div>
+        
+    </div>
+
+    <!--CAJA DECODIFICADO-->
+
+    <div id="content-msg-decode" class="msg-style display_none">
+        <p>Ingrese Su Mensaje:</p>
+        <textarea id="box-msg-decode" class="box-msg-style" placeholder="Ingrese su mensaje..."></textarea>
+        <div class="content-offset">
+            <label class="label">Ingrese N° de desplazamiento</label>
+            <input type="number" id="n_offset_d" class="n_offset_style">
+        </div>
+        <button id="btn_decode" class="btn-code">Decodifica tu Mensaje</button>
+        <div id="msg-decode" class="msg-ckeck">
+            <p id="msg-decode-check"></p>
+        </div>
+      
+    </div>
+</section>
+    <a class="Button" href="instrucciones.html">Ir a instrucciones</a>
+    <a class="Button" href="Limpiar.html">Limpiar</a>
+    <a class="Button" href="index.html">Salir</a>
+</div>
+<br><br><br>
+    <script src="index.js" type="module"></script>
+  </body>
+</html>
