@@ -10,30 +10,27 @@
 
 <body>
     <div id="root">
-        <div class="contenedor">
-            <header class="header">
-                <div class="contenedor-logo">
-                    <img src="https://image.flaticon.com/icons/svg/1000/1000946.svg" class="logo" />
-                    <h2 class="lema">humanSecurity</h2>
-                </div>
-                <div class="menu">
-                    <a href="#">Caracteristicas</a>
-                    <a href="#">Qué hacer</a>
-                    <a href="#">Contacto</a>
-                </div>
-            </header>
-            <div class="acercaDe">
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil repellat voluptatum a corrupti inventore sed reiciendis accusantium consectetur beatae qui molestias optio, ducimus sint similique cupiditate delectus labore consequuntur
-                    quae.
-                </p>
-                <div class="caracteristicas">
-                    <label><img src="img/reloj.svg" alt="">Eficaz</label>
-                    <img src="img/reloj.svg" alt="">
-                    <img src="img/reloj.svg" alt="">
-                </div>
-            </div>
-        </div>
-        <div class="main">
+        <header class="header">
+            <figure class="contenedor-logo">
+                <img src="https://image.flaticon.com/icons/svg/1000/1000946.svg" class="logo" />
+                <h2 class="lema">humanSecurity</h2>
+            </figure>
+            <nav class="menu">
+                <a href="#">Caracteristicas</a>
+                <a href="#">Qué hacer</a>
+                <a href="#">Contacto</a>
+            </nav>
+        </header>
+        <section class="home" id="home">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil repellat voluptatum a corrupti inventore sed reiciendis accusantium consectetur beatae qui molestias optio, ducimus sint similique cupiditate delectus labore consequuntur quae.
+            </p>
+        </section>
+        <section class="acercaDe" id="acercaDe">
+            <img src="img/reloj.svg" alt="">
+            <img src="img/reloj.svg" alt="">
+            <img src="img/reloj.svg" alt="">
+        </section>
+        <section class="main" id="main">
             <form>
                 <h2>Realiza tu prueba</h2>
                 <input type="text" id="ingresaTexto" placeholder="Ingresa tu mensaje">
@@ -52,10 +49,12 @@
                 <br>
                 <input type="reset" value="Limpiar">
             </form>
-        </div>
-        <div class="footer">
-
-        </div>
+        </section>
+        <footer>
+            <p>create by: Gabriela Alvarez Barrios</p>
+            <p>Contact information: <a href="https://github.com/GabyAlvarezm">
+                https://github.com/GabyAlvarez</a>.</p>
+        </footer>
         <script src="index.js" type="module">
         </script>
     </div>
