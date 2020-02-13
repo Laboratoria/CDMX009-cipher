@@ -1,0 +1,59 @@
+body.section2{
+  background-color: #66CCFF;
+  background-image: url("./images/friend-1820040_1920.jpg");
+}
+
+header{
+  background-color: #0B0B3B;
+  width: 1200px;
+  height: 40px;
+  margin: 0px;
+  padding: 40px;
+  top: 0px;
+  position:static;
+  text-align:right;
+}
+
+article{
+  position:static;
+  text-align:center;
+}
+
+aside{
+  position:static;
+  text-align:right;
+}
+
+footer{
+  background-color: #CEE3F6;
+  width: 1200px;
+  height: 30px;
+  margin: 0px;
+  padding: 30px;
+  bottom: 0px;
+  position: fixed;
+  text-align: center;
+}
+
+h1{
+  font-size:45px;
+  text-align: center;
+}
+
+p{
+  font-size:30px;
+  text-align: center;
+}
+
+a{
+color:#FFFFFF;
+}
+a:hover{
+color:#00CCFF;
+}
+
+input{
+  width: 400px;
+  box-sizing: border-box;
+  border: 2px solid #0B0B3B;
+}
