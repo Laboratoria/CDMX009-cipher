@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+    margin: auto;
+}
+
+
+root {
+    background: #0e2123;
+}
+
+h1  {
+    
+       
+    color: white;
+      letter-spacing: normal;
+    
+}
+#step1 {
+
+
+    display: grid;
+    width: 360dp;
+    height: 640dp;
+    justify-content: center;
+    align-content: center;
+    grid-area:
+        "header"
+        "main";
+     background: #0e2123;
+
+
+}
+
+#step2 {
+
+
+    display: grid;
+    width: 360dp;
+    height: 640dp;
+    justify-content: center;
+    align-content: center;
+     background: #0e2123;
+
+}
+
+#step3 {
+
+
+    display: grid;
+    width: 360dp;
+    height: 640dp;
+    justify-content: center;
+    align-content: center;
+     background: #0e2123;
+
+}
+
+#go {
+
+    width: 44px;
+    height: 44px;
+    border-radius: 74px;
+    border: solid 2px #66552a;
+    font-family: Baskerville;
+    font-size: 10px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.87;
+    letter-spacing: normal;
+    text-align: center;
+    color: #66552a;
+
+}
+
+#discount {
+    
+     width: 44px;
+    height: 44px;
+    border-radius: 74px;
+    border: solid 2px #66552a;
+    font-family: Baskerville;
+    font-size: 10px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.87;
+    letter-spacing: normal;
+    text-align: center;
+    color: #66552a;   
+    
+}
+
+
+ h2 {
+    
+       
+    color: white;
+      letter-spacing: normal;
+     font-family: Baskerville;
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.87;
+    
+}
+
+
+
+p {
+    
+    color: white;
+      letter-spacing: normal;
+    margin: auto;
+}
