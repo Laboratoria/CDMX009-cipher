@@ -1,3 +1,9 @@
+/*const cipher = {
+  // ...
+};
+
+export default cipher;*/
+
 let secretkey3 = document.querySelector('#secretkey1');// almacena valor offset
 let secretkey4 = document.querySelector('#secretkey2');// almacena valor offset
 let textarea4 = document.querySelector('#textarea'); // almacena texto cifrado
