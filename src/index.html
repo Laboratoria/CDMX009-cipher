@@ -14,7 +14,7 @@
       </header>
       <div>
         <label class="switch">
-          <input id ="bluetoothSwitch" type="checkbox" checked>
+          <input id ="bluetoothSwitch" type="checkbox">
           <span class="slider round"></span>
           <label id ="bluetoothLabel" for="bluetoothSwitch">Bluetooth</label>
         </label>
@@ -30,28 +30,29 @@
       </div>
       <div class="configBox">
         <div>
-          <input type="radio" name="cipherSelector" value="cipher" id="code" class="btStatus contactInit contactsStatus " disabled>
-          <label for="cipher" >Cifrar</label><br>
-          <input type="radio" name="cipherSelector" value="decipher" id="decode" class="btStatus contactInit contactsStatus" disabled>
-          <label for="decipher" >Descifrar</label>
+          <input type="radio" name="cipherSelector" value="code" id="code" class="btStatus contactInit contactsStatus " disabled>
+          <label for="code" >Cifrar</label><br>
+          <input type="radio" name="cipherSelector" value="decode" id="decode" class="btStatus contactInit contactsStatus" disabled>
+          <label for="decode" >Descifrar</label>
         </div>
         <div>
           <label for="offset" >Offset</label><br>
           <input id="offset" type="text" class="btStatus contactInit contactsStatus" disabled>
+          <p id="offsetWarning"></p>
         </div>
       </div>
       <div>
-        <textarea id="inputTextarea" cols="30" rows="5" placeholder="Mensaje" class="btStatus contactsStatus" disabled></textarea>
+        <textarea id="inputTextarea" cols="30" rows="5" placeholder="Mensaje" class="btStatus contactsStatus codeCheck" disabled></textarea>
       </div>
       <div>
-        <button id="cleanButton" type="button" class="btStatus contactsStatus" disabled>Limpiar</button>
-        <button id="lookButton" type="button" class="btStatus contactsStatus" disabled>Ver</button>
+        <button id="cleanButton" type="button" class="btStatus contactsStatus codeCheck" disabled>Limpiar</button>
+        <button id="lookButton" type="button" class="btStatus contactsStatus codeCheck" disabled>Ver</button>
       </div>
       <div>
-        <textarea id="outputTextarea" cols="30" rows="5" class="btStatus contactsStatus" disabled></textarea>
+        <textarea id="outputTextarea" cols="30" rows="5" class="btStatus contactsStatus codeCheck" readonly disabled></textarea>
       </div>
       <div>
-        <button id="sendButton" type="button" class="btStatus contactsStatus" disabled>Enviar</button>
+        <button id="sendButton" type="button" class="btStatus contactsStatus codeCheck" disabled>Enviar</button>
       </div>
     </section>
     <script src="index.js" type="module"></script>

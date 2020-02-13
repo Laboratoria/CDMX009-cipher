@@ -1,6 +1,6 @@
-/*import cipher from './cipher.js';
+import cipher from './cipher.js';
 
-console.log(cipher);*/
+console.log(cipher);
 
 let bluetoothSwitchStatus = document.getElementById("bluetoothSwitch");
 bluetoothSwitch(bluetoothSwitchStatus);
@@ -10,24 +10,13 @@ let contactsSelectStatus = document.getElementById("contacts");
 contactsSelect(contactsSelectStatus);
 contactsSelectStatus.addEventListener("change", contactsSelect);
 
-
 let codeStatus = document.getElementById("code");
-codeStatus.addEventListener("change", prueba);
-//let codeSelectorStatus = document.getElementsByName("codeSelector");
-//console.log(codeSelectorStatus[0]);
-//codeSelectorStatus[0].onclick = codeSelectedStatus();
-/*
-codeSelectorStatus[0].addEventListener("change", codeSelectedStatus);
-codeSelectorStatus[1].addEventListener("change", codeSelectedStatus);
-*/
+codeStatus.addEventListener("change", codeSelectedStatus);
+let decodeStatus = document.getElementById("decode");
+decodeStatus.addEventListener("change", codeSelectedStatus);
 
-function prueba(){
-    if(codeStatus.checked !== true){
-        console.log("Prueba code on");
-    }else{
-        console.log("Prueba code off");
-    }
-}
+let offsetStatus = document.getElementById("offset");
+offsetStatus.addEventListener("input", offsetValidate);
 
 function bluetoothSwitch() {
     if (bluetoothSwitchStatus.checked === true){
@@ -47,31 +36,47 @@ function contactsSelect() {
         let statusElement = document.getElementsByClassName("contactInit");
         ableElements(statusElement);
         console.log("regresa");
-        codeSelectedStatus();
     }else{
         let statusElement = document.getElementsByClassName("contactsStatus");
         disabledElements(statusElement);
     }
 }
 
+function offsetValidate() {
+    console.log(offsetStatus.value);
+    if(isNaN(offsetStatus.value)){
+        document.getElementById("offset").value = "";
+        document.getElementById("offsetWarning").innerHTML = "El offset debe ser un número.";    
+    }else{
+        document.getElementById("offsetWarning").innerHTML = "";
+    }
+    codeDecode();
+}
+
 function codeSelectedStatus() {
     console.log("entra a la función");
-    let codeSelectorStatus = document.getElementsByName("codeSelector");
-    for (let i=0; i < codeSelectorStatus.length; i++){
-        if(codeSelectorStatus[0].checked){
-            console.log("Es code");
-        }
-        else if(codeSelectorStatus[1].checked){
-            console.log("Es decode");
-        }else{
-            console.log("no es ninguna");
-        }
+    if(codeStatus.checked){
+        console.log("Es code");
+    }else if(decodeStatus.checked){
+        console.log("Es decode");
+    }else{
+        console.log("no es ninguna");
     }
-    /*
-    let codeButtonSatus = codeSelectorStatus[0].checked;
-    let decodeButtonSatus = codeSelectorStatus[1].checked;
-    console.log("Status de radio buttons:" + codeButtonSatus + "-" +decodeButtonSatus);
-    */
+    codeDecode();
+}
+
+function codeDecode(){
+    let codeStatus = document.getElementById("code");
+    let decodeStatus = document.getElementById("decode");
+    let offsetStatus = document.getElementById("offset");
+    if (codeStatus.checked && offsetStatus.value != ""){
+        let statusElement = document.getElementsByClassName("codeCheck");
+        ableElements(statusElement);
+        let inputTextStatus = document.getElementById("inputTextarea");
+        let inputText = inputTextStatus.value;
+        cipher(inputText,offsetStatus.value);
+        console.log(cipher);  
+    }
 }
 
 function disabledElements(statusElement) {
@@ -86,11 +91,11 @@ function ableElements(statusElement) {
     }
 }
 
-function cleanElements(statusElement) { //PENDIENTE
+//PENDIENTE
+function cleanElements(statusElement) { 
     console.log("entra al clean");
     for(let i=0; i<statusElement.length; i++){
         statusElement[i].disabled = false;
     }
 }
 
-console.log("Llegó aquí");
