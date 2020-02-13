@@ -5,12 +5,25 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
-section {
+#pantalla1 {
   background-color: #387d78;
   width: 800px;
-  height: 500px;
+  height: 530px;
   border-radius: 10px;
-  align-items: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+#pantalla2 {
+  background-color: #387d78;
+  width: 800px;
+  height: 530px;
+  border-radius: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
 #logo {
   display: block;
@@ -28,13 +41,20 @@ p {
   font-size: 18px;
 }
 /* no sé cómo centrar los botones */
+div {
+  width: 250px;
+  height: 250px;
+  display: block;
+  margin-left: 250px;
+  text-align: center;
+}
 button {
   width: 90px;
   height: 35px;
   border-radius: 20px;
   cursor: pointer;
   text-transform: uppercase;
-  display: block;
+  display: inline-block;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 20px;
@@ -63,17 +83,13 @@ textarea {
   font-family: "Nanum Gothic", sans-serif;
   font-size: 12px;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
   width: 316px;
-  height: 123px;
-  left: 32px;
-  top: 215px;
+  height: 120px;
   background: #ffffff;
   border: 5px solid #1c3d3b;
   box-sizing: border-box;
   border-radius: 12px;
-  text-transform: full-width;
+  text-transform: uppercase;
 }
 
 
