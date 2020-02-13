@@ -36,6 +36,11 @@ body {
 #descifrar{
     height:10%;
     margin: 20px 5px;
+
+}
+.imagen{
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
 }
 
 #cifrar{

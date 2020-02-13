@@ -17,7 +17,7 @@
        <div id ="cabecera">
        <img src="https://i.ibb.co/RcdYGZf/thumbnail-textsecure.png" alt="thumbnail-textsecure" border="0"  width="150" height="150" ></a><br></div>
        <div id ="descripcion"><br>Encripta tus sus mensajes para que, aun siendo interceptados por los terricolas, no puedan ser descifrados.</div>
-       <div id ="descifrar" align="center">
+       <div  id ="descifrar" align="center">
        <img id="boton" src="https://i.ibb.co/37yJPmd/b-verde.png"  alt="b-verde" border="0" width="80" height="80" onclick = "showAndHide();";><br>Descifrar</a></div>
        <div id ="cifrar" align="center">
        <img  id="boton1" src="https://i.ibb.co/mtnh9ry/thumbnail-b-rojo.png" onclick = "showAndHide1();" alt="thumbnail-b-rojo" border="0" width="80" height="80"> <br>Cifrar</div>
@@ -35,12 +35,12 @@
         <div id ="secretkey"><br><br>
         <img src="https://i.ibb.co/tPfb32C/llave.png" title="Numero de seguridad de 2 digitos."   alt="llave" border="0"style="float:center;" width="30" height="30"  ></a><br></div>
         <div id="code">Inserta tu numero de seguridad.
-        <input type="text" id="secretkey1" name="secretkey1" size="10" maxlength="2" type="number" title="secret key"  required></div>
+        <input type="number" id="secretkey1" min="1" max="63" name="secretkey1" size="10" maxlength="2" type="number" title="secret key"  required></div>
         <div id ="info">
         <img src="https://i.ibb.co/RcdYGZf/thumbnail-textsecure.png" alt="signo" border="0" width="80" height="80" ></a></div>
         <div id ="textarea3"><BR><BR>Texto Cifrado<br>
         <textarea id="textarea" name="textarea" rows="10" cols="50" disabled></textarea></div>
-        <div id ="textarea4"><br>Escribe texto a cifrar<br>
+        <div id ="textarea4"><br>Escribe texto a cifrar. (no reconoce ñ)<br>
         <textarea id="textarea2" name="textarea2" rows="10" cols="50"  required></textarea></div>
         </form>
 
@@ -49,7 +49,7 @@
 
         <div id ="regresar">
         <a href="index.html">
-        <input id="botondeenvio2" type="image" name="botondeenvio2" src="https://i.ibb.co/J3pjCgB/thumbnail-regresar.png" width="30" height="30" alt="Enviar formulario"  title ="Regresar"></a></div>
+        <input  id="botondeenvio2" type="image" name="botondeenvio2" src="https://i.ibb.co/J3pjCgB/thumbnail-regresar.png" width="30" height="30" alt="Enviar formulario"  title ="Regresar"></a></div>
    </div>
 
 </section>
@@ -64,7 +64,7 @@
         <div id ="secretkey"><br><br><br>
         <img src="https://i.ibb.co/tPfb32C/llave.png" title="Numero de seguridad de 2 digitos."   alt="llave" border="0"style="float:center;" width="30" height="30"  ></a><br></div>
         <div id="code">Inserta tu numero de seguridad.<br>
-        <input type="text" id="secretkey2" name="secretkey1" size="10" maxlength="2" type="number" title="secret key"  required></div>
+        <input type="number" id="secretkey2" min="1" max="63" name="secretkey1" size="10" maxlength="2" type="number" title="secret key"  required></div>
         <div id ="info">
         <img src="https://i.ibb.co/RcdYGZf/thumbnail-textsecure.png" alt="signo" border="0" width="80" height="80" ></a></div>
         <div id ="textarea3"><BR><BR>Texto Descifrado<br>
