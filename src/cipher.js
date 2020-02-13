@@ -1,11 +1,15 @@
+//Declarando variables iniciales
 
-//varible para obtener texto a cifrar/descifrar
-string= document.getElementById ("cajaMensaje").value;
+let texto= "ABC";
+let desplazamiento= 2,
+//aquí terminan variables globales
+comenzarEn=0
 
+let codificar= texto.charCodeAt(comenzarEn);
 
-function cifrar(){
-    //mensaje= string.charCodeAt();
-    //return mensaje;
-
-}
-
+function codificando(){
+    let convirtiendo=((codificar-65+parseInt(desplazamiento))%26+65).join;
+    let resultado= convitiendo;
+} 
+//alert(codificando);
+console.log(codificando);

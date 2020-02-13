@@ -13,3 +13,6 @@ function recogeDatos() {
         document.getElementById("bienvenido").innerText= "Bienvenid@ " + nombre;
     }
     }
+
+   //Aquí comienza interacción para cifrar/descifrar
+
