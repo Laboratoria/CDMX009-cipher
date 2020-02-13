@@ -7,7 +7,6 @@ body {
     padding: 0px;
 }
 
-
 /**********************************************/
 
 .header {
@@ -27,6 +26,17 @@ body {
     width: 50%;
 }
 
+.logo {
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+}
+
+.lema {
+    display: inline-block;
+    vertical-align: bottom;
+}
+
 .menu {
     width: 50%;
     display: flex;
@@ -42,28 +52,16 @@ body {
     font-size: 18px;
 }
 
-.logo {
-    padding: 10px;
-    width: 50px;
-    height: 50px;
-}
-
-.lema {
-    display: inline-block;
-    vertical-align: bottom;
-}
-
-
 /**********************************************/
 
 .home {
-    background-image: linear-gradient(270deg, rgba(7, 15, 31, 0.8) 0%, rgba(7, 34, 48, 0.6) 51.34%, rgba(5, 154, 161, 0.267033) 99.87%, rgba(4, 251, 251, 0) 100%, rgba(5, 147, 154, 0.287213) 100%), url(img/pantalla3.jpg);
+    background-image: linear-gradient(270deg, rgba(7, 15, 31, 0.8) 0%, rgba(7, 34, 48, 0.6) 51.34%, rgba(5, 154, 161, 0.267033) 99.87%, rgba(4, 251, 251, 0) 100%, rgba(5, 147, 154, 0.287213) 100%), url(img/prueba1.jpg);
     background-attachment: fixed;
     background-size: cover;
     text-align: center;
     color: white;
     background-color: transparent;
-    height: 400px;
+    height: 530px;
     width: 100%;
     font-size: 18px;
     display: flex;
@@ -74,7 +72,6 @@ body {
     text-align: center;
     padding: 5%;
 }
-
 
 /*********************************************/
 
@@ -99,11 +96,50 @@ body {
 .main {
     background-color: #D0D5D8;
     margin: 0px;
-    padding: 20px;
+    padding: 60px;
     align-items: center;
     text-align: center;
+    height: 500px;
+}
+
+.main .text1{
+    width: 300px;
+    height: 50px;
+}
+
+.main .offset{
+    width: 100px;
+    height: 20px;
+}
+
+.main .btn:hover {
+    background-color: #6CD9D9;
+    border-radius: 10px;
+    border: none;
+    color: black;
+    height: 30px;
+}
+
+.main .result{
+    width: 300px;
+    height: 50px;
+}
+
+.main .clear:hover {
+    background-color: #6CD9D9;
+    border-radius: 10px;
+    border: none;
+    color: black;
+    height: 30px;
 }
 
 footer {
     background: black;
+    margin: 0px;
+}
+
+footer p{
+    color: #2e2d2d;
+    margin: 0px;
+    padding: 20px;
 }

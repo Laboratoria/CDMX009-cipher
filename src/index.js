@@ -1,8 +1,8 @@
 import cipher from './cipher.js';
 
-var textOrigen = "";
-var offset = 0;
-var result = "";
+let textOrigen = "";
+let offset = 0;
+let result = "";
 // console.log(cipher.encode(2, "ABC"));
 
 function encode() {
