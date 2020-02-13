@@ -1,43 +1,17 @@
-//Se supone que este va a cifrar
-const cipher = {
-//variables    
-    encode: (number, text) => {
-        let asciiCode;
-        let asciiNew;
-        let asciiLetter;
-        let textEncode = '';
+    //variables
+let offset = document.getElementById("number");
+let next = document.getElementById("text");
+    //cifrar
 
-//asignando valor a las variables
+   function cipher ( ) { 
+    if (text >= 65 && text <=90);
+          (let i = 0 < string.length; i++); {
+          newText = string.charCodeAt (i);
+            newText = (text - 65 + number) % 26 + 65;
+            newText = String.fromCharCode (newText);
+            textEncode = textEncode (newText);
+         }
+         return textEncode;
+   }
+export default cipher; 
 
-//función para codificar
-    for (let i = 0; i < text.length; i++) {
-       asciiCode= text.charCodeAt(i); 
-         if (asciiCode >= 65 && asciiCode <= 90) 
-          {
-            asciiNew = (asciiCode - 65 + number) % 26 + 65;
-            asciiLetter = String.fromCharCode(asciiNew);
-          }
-    
-          textEncode=textEncode.concat(asciiLetter); 
-          }
-    return textEncode;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-export default cipher; }
-}
