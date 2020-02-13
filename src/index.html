@@ -8,64 +8,95 @@
 </head>
 
 <body>
-  <div id="root">
+  <!--<div id="Initial"> Es inecesario?--> 
     <header>
       <p>Proyecto Cifher Cesar</p>
     </header>
-    <main>
+
+    <section>
       <h1>Bienvenidx a Our Secret <br>¿Qué quieres hacer hoy?</h1>
+      
       <a href="#pageCifher">
         <input class="button" type="button" value="Cifrar un mensaje">
       </a>
+
       <a href="#pageDecifher">
         <input class="button" type="button" value="Descifrar un mensaje">
       </a>
-    </main>
   </div>
 
-  <div id="pageCifher" class="page">
-    <main>
+  <article>
+   <!-- <div id="pageCifher" class="page"> Puedo agregar css pero cómo navego ahora??-->
+
       <h1>Ingresa tu mensaje</h1>
-      <input type="text">
-      <form action="">
-        <a href="#pageMessage">
-          <input class="button" type="button" value="Enter">
-        </a>
+      <form action="/cifher.js" method="get">
+        <label for="simpleText">Ingresa tu texto:</label>
+        <input type="text" id="simpleText" name="simpleText"><br><br>
+        <label for="displace"><strong> Ingresa una contraseña</strong> <br><em>(solo dos dígitos)</em>:</label>
+        <input type="text" id="displace" name="displace"><br><br>
+        <input class="button" type="submit" value="Enter">
       </form>
-    </main>
-  </div>
 
-  <div id="pageMessage" class="page">
-    <main>
-      <h1>Tu mensaje es:</h1>
+      <!--Aquí me debería llevar a pageMessage-->
 
-      **** <br>
-      <a href="#pageCifher">
-        <input class="button" type="button" value="Cifrar un mensaje">
-      </a>
-      <a href="#pageDecifher">
-        <input class="button" type="button" value="Descifrar un mensaje">
-      </a>
-    </main>
-  </div>
+      <article>
+        <div id="pageMessageCode" class="page">
+          <h1>Tu mensaje es:</h1>
+          <!--Aquí debe mostrar mensaje Decifrado--> <br>
+          <a href="#pageCifher">
+            <input class="button" type="button" value="Cifrar un mensaje">
+          </a>
+          <a href="#pageDecifher">
+            <input class="button" type="button" value="Descifrar un mensaje">
+          </a>
+
+        </div>
+      </article>
+
+      <article>
+        <div id="pageDecifher" class="page">
+          <h1>Ingresa tu mensaje</h1>
+          <form action="/cifher.js" method="get">
+            <label for="codeText">Ingresa tu texto:</label>
+            <input type="text" id="codeText" name="codeText"><br><br>
+            <label for="displace"><strong> Ingresa una contraseña</strong> </label>
+            <input type="text" id="displace" name="displace"><br><br>
+            <input class="button" type="submit" value="Enter">
+          <!--Si me falla formula limitar el nuero de desplazamientos
+            <label for="displace">Elige una contraseña:</label>
+
+<select id="numberDisplace">
+  <option value="1">1</option>
+  <option value="2">2</option>
+  <option value="3">3</option>
+  <option value="...">...</option>
+</select>-->
+          </form>
+        </div>
+      </article>
+
+      <article>
+        <div id="pageMessageDecode" class="page">
+          <h1>Tu mensaje es:</h1>
+          <!--Aquí debe mostrar mensaje Decifrado--> <br>
+          <a href="#pageCifher">
+            <input class="button" type="button" value="Cifrar un mensaje">
+          </a>
+          <a href="#pageDecifher">
+            <input class="button" type="button" value="Descifrar un mensaje">
+          </a>
+
+        </div>
+      </article>
 
 
-  <div id="pageDecifher" class="page">
-    <main>
-      <h1>Ingresa tu mensaje</h1>
-      **** <br>
-      <a href="#pageCifher">
-        <input class="button" type="button" value="Cifrar un mensaje">
-      </a>
-      <a href="#pageDecifher">
-        <input class="button" type="button" value="Descifrar un mensaje">
-      </a>
-    </main>
-  </div>
-  <footer>
-    Karina Pérez 
-  </footer>
-  <script src="index.js" type="module"></script>
+    </section>
+
+    </div>
+    <footer>
+      Karina Pérez
+    </footer>
+    <script src="index.js" type="module"></script>
 </body>
 
 </html>

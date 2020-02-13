@@ -6,28 +6,26 @@ body {
     position: relative;
    }
     
-h1 {
+h1, article, #pageCifher, #pageDecifher {
     text-align: center;
-    font-size: 450%;
+    font-size: 35px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color : rgb(223, 221, 226);
     position: relative;
    }
 
-
-}
 header {
-  background-color: aqua;
+  background-color: rgb(41, 128, 128);
 /*dar formato*/ 
 }
-main {
-  overflow: hidden;
+  
 /*esconder pagina
 class page???*/
 
 footer {
-  background-color: black;
+  background: black;
   color: white;
+  font-size: 20px;
   text-align: right;
 /*dar formato*/
 }
