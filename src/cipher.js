@@ -7,6 +7,13 @@ const cipher = {
 export default cipher;
 
 */
+//Arrays – Un array es un conjunto de valores a los que se accede con un número.
+
+//String -Un objeto que representa una serie de caracteres dentro de una cadena.
+//Se Crea Con el: constructor String:new String( cadena )
+//Parámetros: ->cadena :  IMPORTANTE -> Cualquier cadena(Texto).<-
+
+
 
 //PROBANDO CIFRAR
 
@@ -41,25 +48,28 @@ function cifrar() {
     console.log(resultado); //probando en consola
 }
 
-//PROBANDO DESCIFRAR
+//PROBANDO DESCIFRAR   
+let stringcifrado = "HTRUWFW GTQJYTX";
 
 function descifrar() {
-    let letras2 = string.split("");
-    let resultado2 = "";
-    letras.forEach(function(letr) {
-        codigodos = letr.string.fromCharCode();
-        console.log(codigodos);
-        let codigodos = str.charCodeAt(i);
+    let letrasdos = stringcifrado.split("");
+    let resultadodos = ""; //vendría siendo mi output
+    letrasdos.forEach(function(letra2) { //forEach lo uso para recorrer cada uno de mis elemntos del array letras. el parámetro que tengo dentro del mi función es lo que yo espero recibir en este caso letras
+        codigodos = letra2.charCodeAt(); //en esta parte creé una variable de nombre códigodos y uso el fromCharCode para convertir mi código ascii a letras 
+        console.log(codigodos); //comprobando
+
         if ((codigodos >= 65) && (codigodos <= 90)) {
-            c = String.fromCharCode((codigodos - (offset % 26)));
+            d = String.fromCharCode((((codigodos - 65) - offset) % 26) + 65);
 
-        } else if ((codigodos >= 97) && (codigodos <= 122)) {
-            c = String.fromCharCode((codigodos - (offset % 26)));
+        } else if ((codigodos >= 97) && (codigodos <= 122)) { //ejecuto mi formula junto con el offset por ahora, para letras minúsculas
+            d = String.fromCharCode((((codigodos - 97) - offset) % 26) + 97);
+
+        } else if (codigodos == 32) { //El 32 es el código ascii para el espacio en blanco
+            // c = String.fromCharCode(((codigo - 32 + offset) % 26) + 32);
+            d = " "; //aquí le digo a mi código  que cuando haya un espacio lo respete y lo deje tal cuál
         }
-
-        console.log(c);
-        resultado2 += c;
+        console.log(d);
+        resultadodos += d;
     });
-    // para mostrarlo
-    document.write('Tu Frase es: ' + resultado2);
-};
+    console.log(resultadodos); //probando
+}
