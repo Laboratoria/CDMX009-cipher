@@ -6,11 +6,6 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <!-- Header fijo en todas las páginas -->
-    <header>
-       <img src="img/notificaciones.svg" alt="Ícono Notificaciones" class="logosHeader">
-       <img src="img/usuario.svg" alt="Ícono Usuario" class="logosHeader"> 
-    </header>
 
     <!-- Inicio con animación de logo -->
     <section id="inicioAnimacionLogo">
@@ -22,7 +17,14 @@
 
     <!-- Inicio sesión y registro -->
     <section id="navegacion">
-      <div> <!-- Eslogan, inicio sesión y registro -->
+      <!-- Header de pantalla inicio (sin buscador) -->
+      <header id="headerInicio">
+          <img src="img/notificaciones.svg" alt="Ícono Notificaciones" class="logosHeader">
+          <img src="img/usuario.svg" alt="Ícono Usuario" class="logosHeader"> 
+      </header>
+
+      <!-- Eslogan, inicio sesión y registro -->
+      <div>
         <h3>"Un lugar para todos por una causa peluda"</h3>
         <p">Inicia Sesión</p>
         <p">Regístrate</p>
@@ -72,6 +74,65 @@
         <input type=image src="img/pet-food.svg">
         <input type=image src="img/accesories.svg">
       </aside>
+    </section>
+
+    <!--Elegir aportación-->
+    <section>
+      <div><!--¿Cómo te gustaría aportar-->
+        <h3>¿Cómo te gustaría aportar?</h3>
+          <div id="menu">
+            <ul class="tabsAportacion">
+              <li>
+                <a href="#tab1">En especie</a>
+              </li>
+              <li>
+                <a href="#tab2">Tarjeta de crédito</a>
+              </li>
+              <li>
+                <a href="#tab3">Tarjeta de débito</a>
+              </li>
+              <li>
+                <a href="#tab4">Otros métodos</a>
+              </li>
+            </ul>
+
+            <!-- Contenido tabs--> 
+            <div class="tabsContenido">
+              <article id="tab1">
+                <label for="cantidad">Elige la cantidad:</label>
+                <input type="number" name="cantidad">
+                
+                <p>Selecciona un método de entrega:</p>
+                <input type="radio" name="entregaVendedor">
+                <label for="entregaVendedor">Acordar con el vendedor</label>
+
+                <input type="radio" name="entregaDomicilio">
+                <label for="entregaDomicilio">Enviar a domicilio</label>
+
+                <input type="radio" name="entregaSucursal">
+                <label for="entregaSucursal">Enviar a sucursal</label><br>
+
+                <label for="mensaje">Deja un mensaje al rescatista:</label>
+                <input type="text" name="mensaje">
+              </article>
+
+              <article id="tab2">
+                <h3>Tarjeta de crédito</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod saepe quaerat perspiciatis. Ipsam animi facere eos illo a repellat, eveniet quis inventore nihil mollitia excepturi culpa, doloremque alias incidunt tempora!</p>
+              </article>
+
+              <article id="tab3">
+                <h3>Tarjeta de débito</h3>
+                <p>Quod saepe quaerat perspiciatis. Ipsam animi facere eos illo a repellat, eveniet quis inventore nihil mollitia excepturi culpa, doloremque alias incidunt tempora!</p>
+              </article>
+
+              <article id="tab4">
+                <h3>Otros métodos</h3>
+                <p>Ipsam animi facere eos illo a repellat, eveniet quis inventore nihil mollitia excepturi culpa, doloremque alias incidunt tempora! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod saepe quaerat perspiciatis. </p>
+              </article>
+            </div> <!-- Contenido tabs--> 
+          </div>
+      </div>
     </section>
 
     <!-- Confirmación de aportación con alert-->
