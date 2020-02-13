@@ -1,4 +1,3 @@
-
 //función para recoger datos de nombre de usuario
 function recogeDatos() {
     //variable que conecta con DOM y recoge id de caja de texto
@@ -15,4 +14,9 @@ function recogeDatos() {
     }
 
    //Aquí comienza interacción para cifrar/descifrar
+
+   /*let botonCifrar= document.getElementById("cifrando");
+   let texto= document.getElementById("cajaMensaje");
+   let desplazamiento= document.getElementById("cajaClave");
+   botonCifrar.addEventListener('click', codificando);*/
 
