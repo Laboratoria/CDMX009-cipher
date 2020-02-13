@@ -1,6 +1,12 @@
-import cipher from './cipher.js';
 
-console.log(cipher);
+import cipher from './cipher.js';
+/*
+let inputText= "Este es un texto de prueba";
+let offset = 1; 
+console.log(cipher.encode(offset,inputText));
+console.log(cipher.decode(offset,inputText));
+
+console.log(cipher);*/
 
 let bluetoothSwitchStatus = document.getElementById("bluetoothSwitch");
 bluetoothSwitch(bluetoothSwitchStatus);
@@ -10,13 +16,32 @@ let contactsSelectStatus = document.getElementById("contacts");
 contactsSelect(contactsSelectStatus);
 contactsSelectStatus.addEventListener("change", contactsSelect);
 
-let codeStatus = document.getElementById("code");
-codeStatus.addEventListener("change", codeSelectedStatus);
-let decodeStatus = document.getElementById("decode");
-decodeStatus.addEventListener("change", codeSelectedStatus);
+let encodeStatus = document.getElementById("encodeButton");
+//encodeStatus.addEventListener("change", cipherSelectedStatus);
+encodeStatus.addEventListener("change", cipherSelectedStatus);
+let decodeStatus = document.getElementById("decodeButton");
+//decodeStatus.addEventListener("change", cipherSelectedStatus);
+decodeStatus.addEventListener("change", cipherSelectedStatus);
 
 let offsetStatus = document.getElementById("offset");
 offsetStatus.addEventListener("input", offsetValidate);
+
+let inputTextStatus = document.getElementById("inputTextarea");
+inputTextStatus.addEventListener("input", inputTextValidate);
+
+function inputTextValidate(){
+    if(/[^ a-zA-ZÁÉÍÓÚü]+/.test(inputTextStatus.value)){
+        console.log("¡Escribe bien!");
+        let sendButtonStatus = document.getElementById("sendButton");
+        sendButtonStatus.disabled = true;
+        document.getElementById("inputWarning").innerHTML = "No se pueden cifrar números ni caracteres especiales.";       
+    }else{
+        console.log("pues, valida?");
+        document.getElementById("inputWarning").innerHTML = "";
+        encodeDecode(); 
+    }
+
+}
 
 function bluetoothSwitch() {
     if (bluetoothSwitchStatus.checked === true){
@@ -45,37 +70,53 @@ function contactsSelect() {
 function offsetValidate() {
     console.log(offsetStatus.value);
     if(isNaN(offsetStatus.value)){
-        document.getElementById("offset").value = "";
+        let sendButtonStatus = document.getElementById("sendButton");
+        sendButtonStatus.disabled = true;
         document.getElementById("offsetWarning").innerHTML = "El offset debe ser un número.";    
     }else{
         document.getElementById("offsetWarning").innerHTML = "";
     }
-    codeDecode();
+    encodeDecode();
 }
 
-function codeSelectedStatus() {
+function cipherSelectedStatus() {
     console.log("entra a la función");
-    if(codeStatus.checked){
+    cleanElements();
+    if(encodeStatus.checked){
         console.log("Es code");
     }else if(decodeStatus.checked){
         console.log("Es decode");
+        
     }else{
         console.log("no es ninguna");
     }
-    codeDecode();
+    encodeDecode();
 }
 
-function codeDecode(){
-    let codeStatus = document.getElementById("code");
-    let decodeStatus = document.getElementById("decode");
+function encodeDecode(){
+    let encodeStatus = document.getElementById("encodeButton");
+    let decodeStatus = document.getElementById("decodeButton");
     let offsetStatus = document.getElementById("offset");
-    if (codeStatus.checked && offsetStatus.value != ""){
-        let statusElement = document.getElementsByClassName("codeCheck");
+    let offset = parseInt(offsetStatus.value);
+    let statusElement = document.getElementsByClassName("codeCheck");
+    let inputTextStatus = document.getElementById("inputTextarea");
+    let outputTextStatus = document.getElementById("outputTextarea");
+    let inputText;
+    if (encodeStatus.checked && offsetStatus.value != ""){
         ableElements(statusElement);
-        let inputTextStatus = document.getElementById("inputTextarea");
-        let inputText = inputTextStatus.value;
-        cipher(inputText,offsetStatus.value);
-        console.log(cipher);  
+        inputText = inputTextStatus.value;
+        outputTextStatus.value = cipher.encode(offset,inputText);
+        console.log(offset);
+        console.log(cipher.encode(offset,inputText));
+    }else if(decodeStatus.checked && offsetStatus.value != "") {
+        ableElements(statusElement);
+        let sendButtonStatus = document.getElementById("sendButton");
+        sendButtonStatus.disabled = true;
+        //let testText = "FTUF FT VO UFYUP EF QSVFCB";
+        //inputTextStatus.value = testText;
+        inputText = inputTextStatus.value;
+        outputTextStatus.value = cipher.decode(offset,inputText);
+        console.log(cipher.decode(offset,inputText));
     }
 }
 
@@ -92,10 +133,30 @@ function ableElements(statusElement) {
 }
 
 //PENDIENTE
-function cleanElements(statusElement) { 
+function cleanElements() { 
     console.log("entra al clean");
+    let cleanElement = document.getElementsByClassName("BtStatus");
+    console.log("longitud es de: " + cleanElement.length);
+    for(let i; i<cleanElement.length; i++){
+        console.log("es el elemento: " + cleanElement[i]);
+        if(cleanElement[i].tagName == "input"){
+            if(cleanElement[i].type == "text"){
+                
+                cleanElement[i].value = ""; 
+            }else{
+                cleanElement[i].checked = false;
+            }
+        }else if(cleanElement[i].tagName == "select"){
+            cleanElement[i].value = "contactsTitle";
+        }else if(cleanElement[i].tagName == "textarea"){
+            cleanElement[i].value = "";
+        }else{
+            break;
+        }
+    }
+    
+    /*
     for(let i=0; i<statusElement.length; i++){
         statusElement[i].disabled = false;
-    }
+    }*/
 }
-

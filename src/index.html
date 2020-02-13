@@ -30,10 +30,10 @@
       </div>
       <div class="configBox">
         <div>
-          <input type="radio" name="cipherSelector" value="code" id="code" class="btStatus contactInit contactsStatus " disabled>
-          <label for="code" >Cifrar</label><br>
-          <input type="radio" name="cipherSelector" value="decode" id="decode" class="btStatus contactInit contactsStatus" disabled>
-          <label for="decode" >Descifrar</label>
+          <input type="radio" name="cipherSelector" value="encoding" id="encodeButton" class="btStatus contactInit contactsStatus " disabled>
+          <label for="encodeButton" >Cifrar</label><br>
+          <input type="radio" name="cipherSelector" value="decoding" id="decodeButton" class="btStatus contactInit contactsStatus" disabled>
+          <label for="decodeButton" >Descifrar</label>
         </div>
         <div>
           <label for="offset" >Offset</label><br>
@@ -43,10 +43,11 @@
       </div>
       <div>
         <textarea id="inputTextarea" cols="30" rows="5" placeholder="Mensaje" class="btStatus contactsStatus codeCheck" disabled></textarea>
+        <p id="inputWarning"></p>  
       </div>
       <div>
         <button id="cleanButton" type="button" class="btStatus contactsStatus codeCheck" disabled>Limpiar</button>
-        <button id="lookButton" type="button" class="btStatus contactsStatus codeCheck" disabled>Ver</button>
+        <button id="showButton" type="button" class="btStatus contactsStatus codeCheck" disabled>Ver</button>
       </div>
       <div>
         <textarea id="outputTextarea" cols="30" rows="5" class="btStatus contactsStatus codeCheck" readonly disabled></textarea>
