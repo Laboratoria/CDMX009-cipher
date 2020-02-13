@@ -18,7 +18,7 @@ las entradas con mensajes especiales, en caso de que vayas a regalar el boleto t
     
 
   3. Luego colocarás la foto de tu primer prototipo en papel.
-  ![alt text](https://raw.githubusercontent.com/DianyelaMaldonado/CDMX009-cipher/prototipocipher1.jpg)
+  ![alt text](https://raw.githubusercontent.com/DianyelaMaldonado/CDMX009-cipher/master/prototiposCipher/prototipocipher1.jpg)
   4. Agregar un resumen del feedback recibido indicando las mejoras a realizar.
   5. Imagen del prototipo final.
 
