@@ -13,7 +13,7 @@ console.log(cipher);
 // functions !!
 //Función del botón Cifrar
 function clickCifrar(){
-  let word = cipher.encode(str.value, offset.value);
+  let word = cipher.encode(offset.value, str.value);
   document.getElementById("output").innerText=word;
   pantallaInicial.style="display:none";
   pantallaSegunda.style="display:none";
@@ -21,7 +21,7 @@ function clickCifrar(){
 }
 //Función del Botón Descifrar
 function clickDescifrar(){
-  let word = cipher.decode(str.value, offset.value);
+  let word = cipher.decode(offset.value, str.value);
   document.getElementById("output").innerText=word;
   pantallaInicial.style="display:none";
   pantallaSegunda.style="display:none";
