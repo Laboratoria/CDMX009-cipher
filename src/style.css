@@ -18,18 +18,19 @@ margin: 0px;
 
 section {
 display: flex;
+justify-content: center;
+flex-direction: column;
 height: 100vh;
 
 }
 
 #specsButton {
   justify-content: center;
-  align-items: flex-start;
-}
+  margin-left: 45vw;
+  }
 
 
 .faqButton {
-
 }
 
 [type=radio] { 

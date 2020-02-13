@@ -1,11 +1,3 @@
-var mensaje = document.getElementById('getBox').value;
+import cipher from './cipher.js';
 
-
-var numeroKey = document.getElementById('menuKeys');
-for (i = 0; i < numeroKey.length; i++){
-  if(numeroKey[i].checked){
-    let elNumero = numeroKey[i].value;
-}
-}
-
-
+  console.log(cipher);

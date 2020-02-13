@@ -2,30 +2,27 @@
 <html>
 <body>
 
-<p>Click the button</p>
+<p>Da click</p>
 
 <button onclick="myFunction()">Try it</button>
-<input id= "Aqui"> 
-<input id= "Aca">
+<input id= "textBox"> 
+<input id= "numBox">
 
 <div id="demo"></div>
 
-
-
-
 <script>
 function myFunction() {
-  let str = document.getElementById("Aqui").value;
-  var noSirve = document.getElementById("Aca").value;
+  let mensaje = document.getElementById("textBox").value;
+  var keyNumber = document.getElementById("numBox").value;
   
   
-  let strMay = str.toUpperCase();
-  let numero = Number(noSirve);
-  for (i = 0; i < strMay.length; i++) {
-  let res = strMay.charCodeAt(i);
-  let moverLetras = parseInt((res - 65 + numero) % 26 + 65);
-  let aVer = String.fromCharCode(moverLetras);
-  document.write(aVer);
+  let textUp = mensaje.toUpperCase();
+  let steps = Number(keyNumber);
+  for (i = 0; i < textUp.length; i++) {
+  let textAscii = textUp.charCodeAt(i);
+  let switchText = parseInt((textAscii - 65 + steps) % 26 + 65);
+  let secretText = String.fromCharCode(switchText);
+  document.write(secretText);
 }  
 }
 </script>
