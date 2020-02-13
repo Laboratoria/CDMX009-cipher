@@ -1,3 +1,11 @@
 body {
     background-image: url("../src/helado\ fondo.jpg");
 }
+ h1 { text-align: center; }
+ h2 { text-align: center; }
+ h3{ text-align: center; }
+ a { text-align: center; }
+ input {position: absolute;
+ top: 50%; 
+ left: 50%;
+ transform: translate(-50%, -50%);}
