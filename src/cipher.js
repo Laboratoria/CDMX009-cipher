@@ -1,50 +1,50 @@
 window.cipher = {
     encode: (string, offset) => {
         //mensaje recibido
-        let msgCipher = "";
+        let msg = "";
         for (let i = 0; i < string.length; i++) {
-            let character = string[i];
-            if (character.match(/[a-z]/i)) {
+            let caracteres = string[i];
+            if (caracteres.match(/[a-z]/i)) {
                 if (string.charCodeAt(i) >= 65 && string.charCodeAt(i) <= 90) {
-                    let textChar = (string.charCodeAt(i) - 65 + parseInt(offset)) % 26 + 65;
-                    msgCipher += String.fromCharCode(textChar);
+                    let texto = (string.charCodeAt(i) - 65 + parseInt(offset)) % 26 + 65;
+                    msg += String.fromCharCode(texto);
                 } else if (string.charCodeAt(i) >= 97 && string.charCodeAt(i) <= 122) {
-                    textChar = (string.charCodeAt(i) - 97 + parseInt(offset)) % 26 + 97;
-                    msgCipher += String.fromCharCode(textChar);
+                    texto = (string.charCodeAt(i) - 97 + parseInt(offset)) % 26 + 97;
+                    msg += String.fromCharCode(texto);
                 }
             } else {
-                msgCipher += character;
+                msg += caracteres;
             }
         }
-        return msgCipher;
+        return msg;
     },
     decode: (string, offset) => {
         //mensaje recibido
-        let msgDecipher = "";
+        let msgdecode = "";
 
         //inicio recorrido de caracteres
         for (let i = 0; i < string.length; i++) {
-            let characterD = string[i];
+            let caracterdecode = string[i];
             //identificacion de espacios vacios
-            if (characterD.match(/[a-z]/i)) {
+            if (caracterdecode.match(/[a-z]/i)) {
                 console.log(string.charCodeAt(i));
 
                 if (string.charCodeAt(i) >= 65 && string.charCodeAt(i) <= 90) {
-                    let textChar = (string.charCodeAt(i) + 65 - parseInt(offset)) % 26 + 65;
-                    msgDecipher += String.fromCharCode(textChar);
+                    let texto = (string.charCodeAt(i) + 65 - parseInt(offset)) % 26 + 65;
+                    msgdecode += String.fromCharCode(texto);
                     console.log("entra");
                 } else if (string.charCodeAt(i) >= 97 && string.charCodeAt(i) <= 122) {
-                    let textChar = ((string.charCodeAt(i) - 97 - parseInt(offset) + 52) % 26) + 97;
-                    msgDecipher += String.fromCharCode(textChar);
+                    let texto = ((string.charCodeAt(i) - 97 - parseInt(offset) + 52) % 26) + 97;
+                    msgdecode += String.fromCharCode(texto);
                 }
 
 
 
             } else {
-                msgDecipher += characterD;
+                msgdecode += caracterdecode;
             }
         }
         //retornar respuesta
-        return msgDecipher;
+        return msgdecode;
     }
 }

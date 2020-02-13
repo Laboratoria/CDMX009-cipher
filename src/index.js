@@ -1,13 +1,17 @@
-/*Re*/
-function FormularioCifrar(){
+/*Redirecciona a la pantalla de cifrar*/
+function formularioCifrar(){
     location.href= "uno.html";
 }
-
-function FormularioDecifrar(){
+/*Redirecciona a la pantalla de decifrar*/
+function formularioDecifrar(){
     location.href= "dos.html";
 }
-
-function EnviarCodificado(){
+/*Redirecciona a la pantalla de cifrar*/
+function inicio(){
+    location.href= "index.html";
+}
+/*Funcio para codificar*/
+function enviarCodificado(){
     let number_offset = document.getElementById("number_encode").value;
     let textEncode = document.getElementById("text-encode").value;
         textEncode = textEncode.toUpperCase();
@@ -31,13 +35,14 @@ function EnviarCodificado(){
         document.getElementById("result-encode").innerHTML = window.cipher.encode(textEncode, number_offset);
     }
 
-function EnviarDecodificado(){
+/*Funcion para decodificar*/
+function enviarDecodificado(){
      let textDecode = document.getElementById("text-decode").value;
         textDecode = textDecode.toUpperCase();
     let number_offset = document.getElementById("number-decode").value;
         
      if(textDecode  === "")   {
-        alert("Ingresa el texto a de cifrar"); 
+        alert("Ingresa el texto a decifrar"); 
         document.getElementById("text-decode").focus();
         return false;
     }   
@@ -52,5 +57,5 @@ function EnviarDecodificado(){
         document.getElementById("number_decode").focus();
         return false;
      }   
-        document.getElementById("result-decode").innerHTML = window.cipher.decode(textDecode, number_offset);
-    }
+    document.getElementById("result-decode").innerHTML = window.cipher.decode(textDecode, number_offset);
+}

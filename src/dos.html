@@ -18,54 +18,53 @@
         </div> 
     </header>
 
-        <!--esctructura de cifrado-->
-        <section id="content-cipher" class="container">
-       
-        
- <!--esctructura de cifrar-->
-    <div id="content-msg-encode" class="msg-style display_block">
-            <table>
-                <tr>
-                    <td colspan="2"><h2>DECIFRAR</h2></td>
-                </tr>
-                <tr>
-                    <td>
-                        <p class="stylep">Ingrese Su Mensaje:</p>
-                    </td>
-                    <td>
-                        <textarea id="text-decode" class="box-msg-style" placeholder="Ingrese su mensaje..."></textarea>
-                    </td>
-                </tr>
-                <div class="content-offset">
-                <tr>
-                    <td>
-                        <label class="label">Ingrese N° de desplazamiento</label>
-                    </td>
-                    <td>
-                        <input type="text" id="number-decode" maxlength="2">
-                    </td>
-                </tr>
-                </div>
-        </table>
-        <br>
+    <!--esctructura de decifrado-->
+    <section id="content-cipher" class="container">   
+        <div id="content-msg-encode" class="msg-style display_block">
+                <table>
+                    <tr>
+                        <td colspan="2"><h2>DECIFRAR</h2></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p class="stylep">Ingrese Su Mensaje:</p>
+                        </td>
+                        <td>
+                            <textarea id="text-decode" class="box-msg-style" placeholder="Ingrese su mensaje..."></textarea>
+                        </td>
+                    </tr>
+                    <div class="content-offset">
+                    <tr>
+                        <td>
+                            <label class="label">Ingrese N° de desplazamiento</label>
+                        </td>
+                        <td>
+                            <input type="text" id="number-decode" maxlength="2">
+                        </td>
+                    </tr>
+                    </div>
+            </table>
+            <br>
             <div id="msg-decode" class="msg-ckeck">
                 <p id="result-decode"></p>
             </div>
             <br>
-            <button onclick="FormularioCifrar()" class="btn_reload">Cifrar</button>
+            <button onclick="formularioCifrar()" class="btn_reload">Cifrar</button>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
             <button onclick="location.reload();" class="btn_reload">Limpiar</button>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-            
-            <!--<button id="btn_decode" class="btn-code" >Codifica tu Mensaje</button>-->
-            <button id="btn_decode" onclick="EnviarDecodificado()" class="btn-code" >DeCodifica tu Mensaje</button>
+            <button id="btn_decode" onclick="enviarDecodificado()" class="btn-code" >DeCodifica tu Mensaje</button>
+            <br><br><br><br>
+                <div class="btn_inicio">
+                    <button onclick="inicio()" class="btn_reload">Inicio</button>
+                 </div>
         </div>
-        </section>
+    </section>
 
-    <!--¡¡¡¡¡¡ESTE ARCHIVO NO SE TOCA!!!!!-->
-<div id="root"></div>
-<script src="cipher.js"></script>
-<script src="index2.js"></script>
-</body>
+        <div id="root"></div>
+        <footer><a>Información </a> </footer>
+        <script src="cipher.js"></script>
+        <script src="index.js"></script>
+    </body>
 
 </html>
