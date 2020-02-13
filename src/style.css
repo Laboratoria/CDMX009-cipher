@@ -71,18 +71,19 @@ font-size: 16px;
 }
 #candadoabierto{
 width: 1350px;
-height: 200px;
-border-radius: 55px;
+height: 250px;
+border-radius: 70px;
 display: block;
 margin-left: auto;
 margin-right: auto;
 }
 p1{
-  text-align:justify;
+  text-align:center;
   color: rgb(255,255,255);
+  font-size: 25px;
 }
 #volver {
-  position: relative;
+  position:relative;
   top:150px;
   bottom:0;
   right:0;
@@ -90,15 +91,12 @@ p1{
 background-color: #EAEDED;
 border: none;
 color: black;
-padding: .5rem;
-margin: .5rem;
+padding: 1rem;
+margin: 1rem;
 text-align: justify;
 font-size: 16px;
 
 }
-#screen2{
-  display: none;}
-
   #candadocerrado{
   width: 1350px;
   height: 200px;
@@ -125,6 +123,6 @@ font-size: 16px;
   text-align: justify;
   font-size: 16px;
 }
-#screen3{
+#screen2,#screen3{
   display: none;
 }
