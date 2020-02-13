@@ -37,6 +37,6 @@ va a ser la funcionalidad de cifrar y descifrar tu texto.
   de los botones, las imágenes, llegué al punto de que en mi mente ya sabía como se iba a ver, y por lo tanto al prototipar
    la página principal, ya fue suficiente para plasmarlo en código.
 
-  ![alt text](https://raw.githubusercontent.com/DianyelaMaldonado/CDMX009-cipher/master/prototiposCipher/prototipadofinalcipher.jpg)
+  ![alt text](https://raw.githubusercontent.com/DianyelaMaldonado/CDMX009-cipher/master/prototiposCipher/prototipofinalcipher.jpg)
 
 
