@@ -116,7 +116,7 @@ display: flex;
 align-items: center;
 text-align: center;
 }
-#numDePosiciones {
+.numDePosiciones {
 position: fixed;
 width: 161px;
 height: 35px;

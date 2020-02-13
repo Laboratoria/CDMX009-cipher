@@ -19,16 +19,16 @@
       <p class="instrucciones">Ingrese el texto a descifrar (sin numeros ni caracteres especiales)</p>
       <textarea class="ingresoDeTexto"id="textoADescifrar"></textarea>
       <p class="posiciones"># de posiciones:</p>
-      <input type="number" size="5" maxlength="2" id="numDePosiciones">
+      <input type="number" size="5" maxlength="2" id="numDePosicionesDes" class="numDePosiciones">
 
 <!--botones de opciones-->
       <div class="botones">
-        <input class="opciones" type="submit" value="Enviar">
+        <input class="opciones" type="submit" value="Enviar" onclick="decode()">
         <input type="reset" class="opciones" value="Borrar">
         <button class="opciones"><a href="index.html">Regresar</a></button>
       </div>
     </form>
     
-    <script src="index.js" type="module"></script>
+    <script src="cipher.js"></script>
   </body>
 </html>
