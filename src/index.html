@@ -7,17 +7,22 @@
   </head>
   <body>
     <div id="root">
-        <h1>MessageSecret</h1> 
+        
     </div>
     <div id="alineacion">
-      <p>La herramienta online que te permite cifrar o descifrar mensajes, y enviar por correo electronico. </p>   
+      <h1>MessageSecret</h1>   
     </div> 
 
-   <div id="botonpersonalizado">
-    <a href="index1.html">Codificar</a>
-    <a href="index2.html">Decodificar</a>
+   <div id="P_Cifrar">
+    <label>Ingresa el texto: <input type="text"  id='mensaje' > </label>
+   
+    <label>Selecciona un numero: <input type="number" id='posicion' name="numero" /></label> <br>
+    <button class="boton-color" onclick="getData(true)">Cifrar</button> </br>
   </div>
-   <script src="index.js" type="module"></script>
+    <div>
+      <label>Resultado: <input type="text" id='messResult' title="Escribe el mensaje que deseas cifrar"></label>
+    </div>
   </body>
+  <script src="index.js" type="module"></script>
 </html>
 
