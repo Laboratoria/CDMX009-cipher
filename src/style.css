@@ -7,6 +7,10 @@
     padding-right: 25px;
 }
 
+.main_background {
+    margin: auto;s
+}
+
 .buttons_logins_display {
     background-color:darkslateblue;
     font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
@@ -38,6 +42,12 @@
     left: 0;
     bottom: 0;
     width: 100%;
+}
+
+.faqs_page {
+    color: plum;
+    font-size: larger;
+    text-align: center;
 }
 
 .logins-header { 
