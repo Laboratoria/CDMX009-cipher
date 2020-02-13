@@ -16,7 +16,8 @@
   </style>
 
   <body>
-  <header>
+
+<header>
 <div>
   <img src="imagenes/logo.png" class="home">
   <nav>
@@ -25,7 +26,8 @@
       </ul>
   </nav>
 </div>
-  </header>
+</header>
+
 <br>
 
 <div id="root">
@@ -33,7 +35,6 @@
   <br>
       <h1>¡bienvenido sherlock!</h1>
   <br>
-  <script type="text/javascript" src="index.js"></script>
   <br>
 
       <h2>¿Tienes un mensaje secreto?</h2>
@@ -46,7 +47,7 @@
       Agrega tu número clave
    </p>
 
-      <input type="text" placeholder="núm" size="5" class="numerosecreto">
+      <input type="number" placeholder="núm" size="5" min="1" max="100" class="numerosecreto" id="numerosecreto">
 
 </div>
 
@@ -54,11 +55,11 @@
   <p>
     Agrega tu mensaje para cifrar o descifrar
  </p>
-     <input type="text" placeholder="mensaje secreto aquí" class="mensajesinconvertir">
+     <input type="text" placeholder="mensaje secreto aquí" class="mensajesinconvertir" id="mensajesinconvertir">
 </div>
 
 <div class="contenedor2">
-           <button> Cifrar </button>
+           <button type="submit" onclick="cifrar();" value="cifrar"> Cifrar </button>
            <button> descifrar </button>
 </div>
 <div class="contenedor4">
@@ -67,9 +68,10 @@
        Tu mensaje es
     </p>
 
-       <input type="text" placeholder="Copia y disfruta tu mensaje" class="mensajeconvertido">
+       <input type="text" placeholder="Copia y disfruta tu mensaje" class="mensajeconvertido" id="mensajeconvertido">
 </div>
 
-    <script src="index.js"></script>
+    <script type="text/javascript"src="index.js"></script>
+    <script type="text/javascript" src="cipher.js"></script>
   </body>
 </html>

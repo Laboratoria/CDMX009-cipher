@@ -1,9 +1,45 @@
+/*Estilos generales */
 *{
   margin:0;
 }
 
+body {
+  background-color: #36244A;
+  background-position: center;
+}
+
+h1{
+  color: white;
+  font-family: "Century Gothic";
+  text-align: center;
+  font-size: 65px;
+}
+
+button{
+  background: #7D4E96;
+  color: #FFFFFF;
+  display: inline-block;
+  font-size: 20px;
+  margin: 20px;
+  padding: 10px 10px;
+  border: 0px;
+  text-align: center;
+  width: 200px;
+  border-radius: 50px;
+  position: relative;
+  left: 400px;
+
+}
+
+/* header*/
+
 header{
   background-color:#FFFFFF;
+}
+
+header img {
+  width: 50px;
+  margin-left: 20px;
 }
 
 li{
@@ -26,30 +62,19 @@ li:hover a{
   border-radius: 10px;
   transition: ease .5s;
   padding: 5px;
-
-
 }
+
+nav{
+  float: right;
+}
+
 a{
   text-decoration: none;
   color:#7D4E96;
 }
 
-nav{
-  float: right;
 
-}
-body {
-  background-color: #36244A;
-  background-position: center;
-}
-
-
-h1{
-  color: white;
-  font-family: "Century Gothic";
-  text-align: center;
-  font-size: 65px;
-}
+/* Estilos especificos*/
 
 .cifradocesar{
   color: white;
@@ -100,22 +125,6 @@ p{
 }
 
 
-button{
-  background: #7D4E96;
-  color: #FFFFFF;
-  display: inline-block;
-  font-size: 20px;
-  margin: 20px;
-  padding: 10px 10px;
-  border: 0px;
-  text-align: center;
-  width: 200px;
-  border-radius: 50px;
-  position: relative;
-  left: 400px;
-
-}
-
 .mensajesinconvertir{
   background:#FFFFFF;
   display: inline-block;
@@ -159,10 +168,6 @@ button{
   position: relative;
   left: 530px;
 
-}
-header img {
-  width: 50px;
-  margin-left: 20px;
 }
 
 img{

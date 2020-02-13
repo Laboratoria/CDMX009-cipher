@@ -1,8 +1,5 @@
-import cipher from './cipher.js';
+function bienvenido() {
+  alert("Estas a punto de entrar a una pagina súper secreta");
+}
 
-console.log(cipher);
-
-
-let name;
-  name= prompt("Estas a punto de entrar a una pagina súper secreta Ingresa tu alias");
-  document.write(name);
+window.onload = bienvenido
