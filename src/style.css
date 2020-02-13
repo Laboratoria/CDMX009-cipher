@@ -3,7 +3,7 @@ body{
 }
 #encabezado{
     background-color: #3F2F2F;
-    padding: 50px 600px;
+    padding: 3px 600px;
     position: relative;
 
 }
@@ -31,6 +31,11 @@ img{
 
 
 }
+.cesar{
+    width: 400px;
+    height: 400px;
+    margin: 80px 480px;
+}
 li, img{
     float: left;
     margin: 0px 5px;
@@ -40,6 +45,9 @@ h1,span{
     color: #000000;
     text-align: center;
 
+}
+span{
+    font-size: 20px;
 }
 h2{
     margin-left: 40px;
@@ -54,12 +62,13 @@ h2{
 }
 p{
     text-align: center;
+    margin-top: 80px;
 }
 a{
     text-decoration: none;
 }
 
-.caja,#resultadocif,#resultadodes{
+.caja{
     border-radius: 5px;
     border-color: #97E9C6;
     margin: 30px 580px;
@@ -67,17 +76,67 @@ a{
 }
 
 .boton{
-    margin: 30px 620px;
+    margin: 30px 190px;
     text-decoration: none;
     background-color: #97E9C6;
-    border-radius: 5px;
+    border-radius: 20px;
+    border-color:#97E9C6;
     padding: 10px;
     width: 100px;
+}
+.boton0{
+    margin: 30px 615px;
+    text-decoration: none;
+    background-color: #97E9C6;
+    border-radius: 20px;
+    border-color:#97E9C6;
+    padding: 10px;
+    width: 100px;
+
+}
+.boton1{
+    margin-left: 500px;
+    text-align: center;
+    background-color: #97E9C6;
+    border-radius: 20px;
+    border-color:#97E9C6;
+    padding: 10px;
+    width: 100px;
+    float: left;
+}
+.boton2{
+    margin-left: 120px;
+    text-align: center;
+    background-color: #97E9C6;
+    border-radius: 20px;
+    border-color:#97E9C6;
+    padding: 10px;
+    width: 100px;
+    float: left;
+}
+
+#resultado{
+    border-color:#97E9C6;
+    background-color:#E3DBD2 ;
+    border-style: solid;
+    margin: 70px 400px;
+    padding: 20px;
+}
+.boton:hover{
+    background-color: #49DBDF;
+
+}
+#resultadocif,#resultadodes{
+    margin: 10px 180px;
+    padding: 10px;
+    text-align: center;
+
 }
 
 #pie{
     background-color: #3F2F2F;
     padding: 55px;
+    margin-top: 50px;
     
 }
 #pie ul li{

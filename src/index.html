@@ -33,32 +33,34 @@
       <div>
       <h1>Bienvenido</h1>
       <h2>¿Quienes somos?</h2>
-      <p id="quien">Safevent es una empresa interesada en la seguridad de nuestros usuarios, sabemos que hoy en día la tecnología es una herramienta indispensable en nuestras vidas, sin embargo, estamos expuestos a que otras personas tengan acceso a datos personales, vulnerando nuestra  seguridad. Por ello, creamos un sistema para cifrar (crear un código) eventos o lugares en los que estarás, evitando que otras personas conozcan tu ubicación. Te comparto el ejemplo de un usuario para que queden claros los usos de nuestra aplicación:
+      <p id="quien">Safevent es una empresa interesada en la seguridad de nuestros usuarios, sabemos que hoy en día la tecnología es una herramienta indispensable en nuestras vidas, sin embargo, estamos expuestos a que otras personas tengan acceso a datos personales, vulnerando nuestra  seguridad. Por ello, creamos un sistema para cifrar (crear un código) eventos o lugares en los que estarás, evitando que otras personas conozcan tu ubicación. Todo esto basándonos en el <a href="vista2.html">Código César</a> Te comparto el ejemplo de un usuario para que queden claros los usos de nuestra aplicación:
         <br>
       </p>
-      <p id="ejemplo">Héctor quería planear una fiesta, pues su cumpleaños estaba cerca, sin embargo, en veces anteriores personas que ni él ni sus amigos conocían llegaban  a sus eventos y muchas veces causaban problemas. Un conocido le platicó de Safevent, pues a él también le habían ocurrido situaciones similares. Lo único que Héctor tuvo que hacer fue ingresar a nuestra aplicación, ingresar el nombre del lugar de su evento y elegir el número de posiciones a recorrer el alfabeto para generar un código que pudo compartir con sus invitados </p>
+      <p id="ejemplo">Héctor quería planear una fiesta, pues su cumpleaños estaba cerca, sin embargo, en veces anteriores personas que ni él ni sus amigos conocían llegaban  a sus eventos y muchas veces causaban problemas. Un conocido le platicó de <span>Safevent</span>, pues a él también le habían ocurrido situaciones similares. Lo único que Héctor tuvo que hacer fue ingresar a nuestra aplicación, ingresar el nombre del lugar de su evento y elegir el número de posiciones a recorrer el alfabeto para generar un código que pudo compartir con sus invitados </p>
     
     </div>
 
-    <div class="paso1">
+    <div>
       <p>Paso 1. Ingresa el número de posiciones  que quieres recorrer el alfabeto para decifrar o cifrar un <span>safevent</span></p>
         <br>
         <textarea class="caja" id="posiciones"></textarea>
         <br>
-        <button class="boton" onclick="saveNumber()">Ingresar</button>
+        <button class="boton0" onclick="saveNumber()">Ingresar</button>
         <br>
     
-    </div>
+    </div >
     <div><!--Se puso div para poder ocultar el div y salga el 2do div y no hacer tantos htmls-->
-      <p>Paso 2. Ingresa el nombre del lugar de tu evento (omite números)</p>
+      <p>Paso 2. Ingresa el nombre del lugar de tu evento (omite números y espacios)</p>
       <br>
       <textarea type="text" class="caja" id="cadenacif"></textarea>
       <br>
-      <button class="boton" onclick="cifrar()">Cifrar</button>
+      <button class="boton1" onclick="cifrar()">Cifrar</button>
+      <button class="boton2" onclick="descifrar()">Descifrar</button>
       <br>
-      <button class="boton" onclick="descifrar()">Descifrar</button>
+      <br>
     </div>
-    <div>
+    
+    <div id="resultado">
       <p>Paso 3. Listo! Tu <span>safevent</span> es:</p>
       <br>
       <div id="resultadocif"></div>
@@ -69,12 +71,10 @@
       <!--<button class="boton"><a href="cifrar.html">Cifrar otro evento</a></button>
       <br>
       <button class="boton"><a href="descifrar.html">Descifrar un evento</a></button>
-      <br>
-    </div>-->
-          
-
-
+      <br>-->
+    </div>
     </main>
+
     <footer>
       <div id="pie">
         <ul>
