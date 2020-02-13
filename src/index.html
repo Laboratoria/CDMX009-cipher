@@ -3,45 +3,95 @@
   <head>
     <meta charset="utf-8">
     <title>Caesar Cipher</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">    
     <link rel="stylesheet" href="style.css" />
+    
   </head>
   <body>
     <div id="root">
-      <img src="../imgs/Logo Ok 140319.png" width="10%" alt="Logotipo Empresa">
 
-      <h1>Facturación Electrónica y Sellos Digitales</h1>
+      <!-- HEADER -->
+      <header>
+        <div class="logo">
+          <img src="imgs/Logo Ok 140319.png" alt="Logotipo Empresa">
+        </div>
+        <h1>Facturación Electrónica y Sellos Digitales</h1>
+      </header>
+
+      <!-- CONTENIDO -->
+      <main>
+        <section class="instrucciones">
+        <div class="instrucciones">
+          <p>Para la generación de sus Facturas o Sellos Digitales, es necesario proporcionar <br> su Nombre Completo y Fecha de Nacimiento.</p>
   
-      <div class="instrucciones">
-        <p>Para la generación de sus Facturas o Sellos Digitales es necesario proporcionar su Nombre Completo y Fecha de
-          Nacimiento.</p>
+          <p>Para que usted pueda descargar sus Facturas y/o Sellos Digitales, <br> le proporcionaremos una <strong>Clabe Cifrada.</strong></p>
   
-        <p>Para que usted pueda descargar sus Facturas y/o Sellos Digitales, le proporcionaremos una <strong>Clabe
-          Cifrada.</strong></p>
+          <p>Para Salir de la aplicación <strong>Desencripte su Clabe.</strong></p>
+        </div>
+      </section>  
+        
+      <section class="datosSolicitados">
+        <div class="datos">
+          <label for="">Ingrese su Nombre Completo <br>
+            <input type="text" placeholder="Nombre">
+            <input type="text" placeholder="Apellido Paterno" id="cifrar">
+            <input type="text" placeholder="Apellido Materno">
+          </label>
   
-        <p>Para Salir de la aplicación <strong>Desencripte su Clabe.</strong></p>
-      </div>
+          <br>
+          <br>
   
-      <div class="datos">
-        <label for="">Ingrese su Completo
-          <input type="text" placeholder="Nombre">
-          <input type="text" placeholder="Apellido Paterno" id="cifrar">
-          <input type="text" placeholder="Apellido Materno">
-        </label>
+          <label for="">Ingrese su Fecha de Nacimiento <br>
+            <input type="number" placeholder="Día" min="01" max="31">
+            <input type="number" placeholder="Mes" min="01" max="12" id="movimientos">
+            <input type="number" placeholder="Año" min="1950" max="2020">
+          </label>
+        </div>
+      </section>
   
         <br>
-        <br>
   
-        <label for="">Ingrese su Fecha de Nacimiento
-          <input type="number" placeholder="Dia" min="01" max="31">
-          <input type="number" placeholder="Mes" min="01" max="12" id="movimientos">
-          <input type="number" placeholder="Año" min="1950" max="2020">
-        </label>
+        <a href="#cifrada"><input type="button" value="Cifrar" class="boton" id="botonCifrar"></a>
+      </main>
+  
+    </div> 
+
+    <!-- PAGINA 2 -->
+
+    <div class="contenedor">
+      <div id="cifrada">
+        <p>Tu Clabe Cifrada es:</p>
+        <div id="clabeCifrada">
+          <label class="dato" id="resultadoCifrado">XXXXXXXXXXXX</label>
+        </div>
       </div>
-  
-      <br>
-  
-      <a href="./cifrado.html"><input type="button" value="Siguiente"></a>
+
+      <div class="desencriptar">
+        <p>¿Desea Desencriptar su Clabe?</p>
+        <input type="button" value="Si" class="btnsi" id="botonDesCifrar">
+        <a href="#root"><input type="button" value="No"></a>
+      </div>
+
+      <div id="descifrada">
+        <p>Tu Clabe Desencriptada es:</p>
+        <div id="clabeDescifrada">
+          <label class="dato" id="resultadoDesCifrado">XXXXXXXXXXXX</label>
+        </div>
+      </div>
+
+      <div id="salida">
+        <p>¿Deseas Cifrar otra Clabe?</p>
+        <a href="#root"><input type="button" value="Si"></a>
+      </div>     
+
+      <a href="https://www.google.com.mx/"><input type="button" value="Salir"></a>
+
     </div>
+  
     <script src="index.js" type="module"></script>
+    
+    
+  
+
   </body>
 </html>
