@@ -16,42 +16,17 @@ function despN() {
  
 
 
-//  function myFunctionTest() {
-//   let tex= document.getElementById("desplazamiento").value;
-
-// document.write(tex);
-// }
-// function myFunctionTest() {
-// let offset= document.getElementById("desplazamiento").value;
-// let tex= document.getElementById("text").value;
-// let toConv= tex.charCodeAt();
-// let position= parseInt(toConv)+ parseInt (offset);
-// // document.write(position);
-// let texConv= String.fromCharCode(position);
-// document.write(texConv);
-// }
+function myFunctionTest() {
 
 
+// borrra el sig 
 
-// function myFunctionTest() {
 
-//   let tex= document.getElementById("text").value;
-//   let offset= document.getElementById("desplazamiento").value;
-// for (let index = 0; index < tex.length; index++) {
- 
    
-    
-//     let toConv= tex.charCodeAt(index);
-//     let position= parseInt(toConv)+ parseInt (offset);
-//     // document.write(position);
-//     let texConv= String.fromCharCode(position);
-//     document.write(texConv);
-//     }
+
   
-// }
+    document.write(texConv);
+}
+   
+}
 
-
-
-
-
- 

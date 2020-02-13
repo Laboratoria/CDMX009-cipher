@@ -1,34 +1,31 @@
 const cipher = {
-  // ...
+  decode
 };
 
+function decode(tex,offset){
+  let position
+  for (let index = 0; index < tex.length; index++) {
+    let toConv= tex.charCodeAt(index);
+    
+    // aqui el if de los espacios
+    // if (toConv===32) {
+    //   let position= parseInt(toConv);
+    // } else {
+      // borrar hasta aqui
+  
+    position= parseInt(toConv)+ parseInt(offset);
+  
+     if (position >= 91) {
+    let x=26;
+    position= position - x ;
+   }  
+  
+      else{
+      position= parseInt(toConv)+ parseInt (offset);   } 
+    }
+    let texConv = String.fromCharCode(position);
+    return texConv
+}
+
 export default cipher;
-
-
-
-function myFunctionTest() {
-
-  let tex= document.getElementById("text").value;
-  let offset= document.getElementById("desplazamiento").value;
-for (let index = 0; index < tex.length; index++) {
-  let toConv= tex.charCodeAt(index);
-  
- if (parseInt(toConv) >= 90) {
-  let prePosition= parseInt(toConv)+ parseInt (offset);
-  let x=26;
-  let position= prePosition - x;
- }  
-    
-    
-    let position= parseInt(toConv)+ parseInt (offset);
-    // document.write(position); 
-  
-    let texConv= String.fromCharCode(position);
-
-  
-    document.write(texConv);
-  
-  
-}
-}
 
