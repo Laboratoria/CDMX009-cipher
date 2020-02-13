@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Safevent-Caesar Cipher</title>
-    <script src="index.js" type="module"></script>
+    <script src="index.js"></script>
     <link rel="stylesheet" href="style.css" />
     <link href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Heebo&display=swap" rel="stylesheet">
@@ -30,14 +30,49 @@
       
     </header>
     <main>
+      <div>
       <h1>Bienvenido</h1>
       <h2>¿Quienes somos?</h2>
       <p id="quien">Safevent es una empresa interesada en la seguridad de nuestros usuarios, sabemos que hoy en día la tecnología es una herramienta indispensable en nuestras vidas, sin embargo, estamos expuestos a que otras personas tengan acceso a datos personales, vulnerando nuestra  seguridad. Por ello, creamos un sistema para cifrar (crear un código) eventos o lugares en los que estarás, evitando que otras personas conozcan tu ubicación. Te comparto el ejemplo de un usuario para que queden claros los usos de nuestra aplicación:
         <br>
       </p>
       <p id="ejemplo">Héctor quería planear una fiesta, pues su cumpleaños estaba cerca, sin embargo, en veces anteriores personas que ni él ni sus amigos conocían llegaban  a sus eventos y muchas veces causaban problemas. Un conocido le platicó de Safevent, pues a él también le habían ocurrido situaciones similares. Lo único que Héctor tuvo que hacer fue ingresar a nuestra aplicación, ingresar el nombre del lugar de su evento y elegir el número de posiciones a recorrer el alfabeto para generar un código que pudo compartir con sus invitados </p>
+    
+    </div>
+
+    <div class="paso1">
+      <p>Paso 1. Ingresa el número de posiciones  que quieres recorrer el alfabeto para decifrar o cifrar un <span>safevent</span></p>
+        <br>
+        <textarea class="caja" id="posiciones"></textarea>
+        <br>
+        <button class="boton" onclick="saveNumber()">Ingresar</button>
+        <br>
+    
+    </div>
+    <div><!--Se puso div para poder ocultar el div y salga el 2do div y no hacer tantos htmls-->
+      <p>Paso 2. Ingresa el nombre del lugar de tu evento (omite números)</p>
       <br>
-      <button class="boton"><a href="vista2.html">Comenzar</a></button>
+      <textarea type="text" class="caja" id="cadenacif"></textarea>
+      <br>
+      <button class="boton" onclick="cifrar()">Cifrar</button>
+      <br>
+      <button class="boton" onclick="descifrar()">Descifrar</button>
+    </div>
+    <div>
+      <p>Paso 3. Listo! Tu <span>safevent</span> es:</p>
+      <br>
+      <div id="resultadocif"></div>
+      <br>
+      <div id="resultadodes"></div>
+      <button class="boton"><a href="index.html">Finalizar</a></button>
+      <br>
+      <!--<button class="boton"><a href="cifrar.html">Cifrar otro evento</a></button>
+      <br>
+      <button class="boton"><a href="descifrar.html">Descifrar un evento</a></button>
+      <br>
+    </div>-->
+          
+
 
     </main>
     <footer>
