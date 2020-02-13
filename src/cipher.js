@@ -4,11 +4,7 @@ let textarea4 = document.querySelector('#textarea'); // almacena texto cifrado
 let textarea5 = document.querySelector('#textarea2');//almacena texto a Cifrar
 let textarea6 = document.querySelector('#textarea7'); // almacena texto descifrado
 let textarea9 = document.querySelector('#textarea8');//almacena texto a descifrar
-/*let secretkey3 = document.getElementById('secretkey1');// almacena valor offset
-let textarea4 = document.getElementById('textarea'); // almacena texto cifrado
-let textarea5 = document.getElementById('textarea2');//almacena texto a Cifrar
-let textarea6 = document.getElementById('textarea7'); // almacena texto descifrado
-let textarea9 = document.getElementById('textarea8');//almacena texto a descifrar*/
+
 
 document.getElementById("blissito").onclick = function() {cipher()};
 document.getElementById("blissito1").onclick = function() {decipher()};
