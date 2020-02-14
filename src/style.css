@@ -1,18 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Zhi+Mang+Xing&display=swap');
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 
 /* color del los bordes  #96A0AF */
 
 
+/*azul otra opción para header #048FCA */
+
+
+/*en el header iba este y coloqué rojo. background: #96A0AF*/
+
+
 /* color de fondo de la página #C4C4C4 */
 
 header {
-    height: 120px;
+    height: 100px;
     width: 100%;
     background: #96A0AF;
     border-top: 5px solid #5E6E86;
+    background: #04C9FD;
 }
 
 #center {
@@ -23,13 +31,14 @@ ese elementro dentro o en el centro del div que contiene el elemento*/
 }
 
 #logo {
-    width: 50%;
+    width: 100%;
     /*la caja del logo*/
     font-size: 50px;
     /*tamaño de fuente del logotipo*/
     float: left;
     /*el float nos mueve el elemento, en este caso a un lado*/
     margin-top: 35px;
+    margin-bottom: 5px;
 }
 
 #logo img {
@@ -37,8 +46,39 @@ ese elementro dentro o en el centro del div que contiene el elemento*/
     float: left;
     height: 70px;
     /*cambiando tamaño de la imagen*/
-    margin-top: 1px;
+    margin-top: -5px;
     margin-right: 1px;
+    animation: latir infinite 5s linear;
+}
+
+@keyframes latir {
+    /*para colocar ANIMACIONES se usa KEYFRAMES
+en este caso  usamos FROM que es un keyframe desde que empieza la animación
+hasta que acaba con el to
+
+Hacemos que gire con el transform, la cual nos permite modificar el elemento
+sin afectar a los elementos que tengamos al lado, por lo tanto no se van a mover (cero deg = cero grados */
+    0% {
+        transform: scale(1, 1);
+    }
+    20% {
+        transform: scale(0.8, 0.8);
+    }
+    40% {
+        transform: scale(0.6, 0.6);
+    }
+    60% {
+        transform: scale(0.4, 0.4);
+    }
+    70% {
+        transform: scale(0.6, 0.6);
+    }
+    85% {
+        transform: scale(0.8, 0.8);
+    }
+    100% {
+        transform: scale(1, 1);
+    }
 }
 
 #brand {
@@ -75,8 +115,13 @@ TEXT-DECORATION:NONE*/
     color: #DFA437;
 }
 
+#resaltar {
+    font-size: 20px;
+}
+
 .slider {
-    width: 95%;
+    width: 90%;
+    height: 90%;
     margin: auto;
     overflow: hidden;
 }
@@ -272,7 +317,9 @@ TEXT-DECORATION:NONE*/
     }
 }
 
-.botooon {
+.botooon,
+.botooonc,
+.botooond {
     background: #96A0AF;
     color: black;
     text-transform: uppercase;
@@ -281,6 +328,22 @@ TEXT-DECORATION:NONE*/
     margin-top: 25px;
     border-radius: 4px;
     transition: 300ms all;
+    font-weight: bolder;
+    cursor: pointer;
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    text-shadow: 3px 2px 1px #9daef5;
+    -webkit-box-shadow: 6px 5px 24px #666666;
+    -moz-box-shadow: 6px 5px 24px #666666;
+    box-shadow: 6px 5px 24px #666666;
+}
+
+.botooon:hover,
+.botooonc:hover,
+.botooond:hover {
+    background-color: #DFA437;
+    color: black;
 }
 
 #footer {
@@ -320,4 +383,10 @@ textarea {
 #clave,
 #numbers {
     text-align: center;
+}
+
+#resultadocifrado,
+#resultadodescifrado {
+    text-align: center;
+    color: #DFA437;
 }
