@@ -69,7 +69,7 @@ h1 {
 /*SECCION 2*/
 
 
-#titulo {
+#titulo1, #titulo2 {
     width: 30%;
     height: auto;
     margin-top: 100px;
@@ -112,7 +112,7 @@ p{
     text-align: center;
 }
 
-#home, #enter {
+#home1, #home2 {
     margin: 40px 0;
     text-align: center;
     width: 70px;
@@ -120,12 +120,18 @@ p{
     
 }
 
-#home{
+#home1, #home2{
     position: relative;
    margin-left: 235px;
 }
 
-#enter{
+#enter1, #enter2{
+	margin: 40px 0;
+    text-align: center;
+    width: 70px;
+    height: auto;
+}
+#enter1, #enter2{
     position:absolute;
     margin-left: 500px;
     margin-top: -113px;
@@ -141,7 +147,7 @@ textarea{
 	margin-left: 200px;
 }
 
-#offset{
+#offset, #offset1{
 	height: 25px;
 	margin-bottom: 15px;
 	margin-left: 200px;

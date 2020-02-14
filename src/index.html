@@ -36,7 +36,7 @@
 
         <section id="section2">
             
-             <div id="titulo">
+             <div id="titulo1">
 	        <img src="img/CREAR.svg" alt="">
 	    </div>
 	    <div > 
@@ -45,21 +45,22 @@
 	        
 	    </div>
 	    <div>
-	        <textarea name="texto1" id="texto" cols="30" rows="10" placeholder="     ESCRIBE TU TEXTO AQUI..."></textarea>
+	        <textarea name="texto1" id="texto1" cols="30" rows="10" placeholder="     ESCRIBE TU TEXTO AQUI..."></textarea>
 	    </div>
 	    <div>
-	        <a href="#section1">
-	            <img src="img/home.svg" id="home"  onclick="volver1"alt="">
+	        <a href="index.html">
+	            <img src="img/home.svg" id="home1"  alt="">
 	        </a>
 	    </div>
 	     
 	    <div>
-	        <a href="texto2">
-	            <img src="img/enter.svg" id="enter"  alt="">
+	        <a href="javascript:codificar();" >
+	            <img src="img/enter.svg" id="enter1"  alt="">
 	        </a>
 	    </div>
-	    <div>
-	        <textarea name="texto2" id="cifrado" cols="30" rows="10" placeholder="      RESPUESTA"></textarea>
+	   
+        <div id="Resul">
+	        <textarea name="texto2" id="cifrado1" cols="30" rows="10" placeholder="      RESPUESTA"></textarea>
 	    </div>
 	    
 	    <div id="instruccion">
@@ -76,30 +77,30 @@
   
     <section id="section3">
             
-        <div id="titulo">
+        <div id="titulo2">
 	        <img src="img/DES.svg"  class="des" alt="">
 	    </div>
 	    <div > 
             <p>SELECCIONA EL NUMERO A DESPLAZAR</p>
-            <textarea name="offset" id="offset" cols="10" rows="1"></textarea>
+            <textarea name="offset" cols="10" rows="1" id="offset1"></textarea>
 	        
 	    </div>
 	    <div>
-	        <textarea name="texto2" id="texto" cols="30" rows="10" placeholder="     ESCRIBE TU MENSAJE AQUI..."></textarea>
+	        <textarea name="texto2" id="text1" cols="30" rows="10" placeholder="     ESCRIBE TU MENSAJE AQUI..."></textarea>
 	    </div>
 	    <div>
-	        <a href="#section1">
-	            <img src="img/home.svg" id="home" alt="">
+	        <a href="index.html">
+	            <img src="img/home.svg" id="home2"  alt="">
 	        </a>
 	    </div>
 	     
 	    <div>
-	        <a href="">
-	            <img src="img/enter.svg" id="enter"  alt="">
+	        <a href="javascript:decodificar()">
+	            <img src="img/enter.svg" id="enter2"  alt="">
 	        </a>
 	    </div>
 	    <div>
-	        <textarea name="texto2" id="cifrado" cols="30" rows="10" placeholder="      RESPUESTA"></textarea>
+	        <textarea name="text2" id="cifrado" cols="30" rows="10" placeholder="      RESPUESTA"></textarea>
 	    </div>
 	    
 	    <div id="instruccion">
@@ -117,5 +118,7 @@
     </article>
 
     <script src="index.js" type="module"></script>
+    <script src="cipher.js" type=""></script>
+<script src="index2.js" type="application/javascript"></script>
   </body>
 </html>
