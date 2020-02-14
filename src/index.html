@@ -1,45 +1,59 @@
-
-
-    <!DOCTYPE html>
-    <html lang="es">
-    <head>
-      <meta charset="utf-8">
-      <title>Caesar Cipher</title>
-     
-            <link rel="stylesheet" href="style.css">
-    </head>
-     
-    <body>
-      
-      <header id="main-header">
-        
-          <h1>BIENVENIDO A PERSONAL DATA PROTECTION</h1>
-          <h1>Manten tus datos seguros, ¡S I E M P R E!</h1>
-        
-     <center>
-        <nav>
-          <ul>
-            <big> <big> <big> <li><a href="#">Inicio</a></li>  </big> </big> </big>
-            <big> <big> <big>  <li><a href="#">Acerca de</a></li> </big> </big> </big>
-              <big> <big> <big> <li><a href="#">Contacto</a></li> </big> </big> </big>
-          </ul>
-        </nav><!-- / nav -->
-     
-      </header><!-- / #main-header -->
-    </center>
-      
-      <section id="main-content">
-      
-        <article>
-          <header>
-            <h1>Mantente protegido 🔐 </h1>
-          </header>
-          <big> <big> <big>¿Qué quieres hacer? </big> </big> </big>
-          <p><a href= http://www.pagina.com target=_blank><button>pulse aqui</button></a> </p>
-          <img style="float:center;" src="detective.jpg"/> 
-          
-           
-    </body>
-    </html>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>Caesar Cipher</title>
+ 
+        <link rel="stylesheet" href="style.css">
+</head>
+ 
+<body>
+  
+  <header id="main-header">
     
+      <h1>BIENVENIDO A PERSONAL DATA PROTECTION</h1>
+      <h1>Manten tus datos seguros, ¡S I E M P R E!</h1>
     
+ <center>
+    <nav>
+      <ul>
+        <big> <big> <big> <li><a href="#">Inicio</a></li>  </big> </big> </big>
+        <big> <big> <big>  <li><a href="#">Acerca de</a></li> </big> </big> </big>
+          <big> <big> <big> <li><a href="#">Contacto</a></li> </big> </big> </big>
+      </ul>
+    </nav><!-- / nav -->
+ 
+  </header><!-- / #main-header -->
+</center> 
+
+<div id= "cifrar">
+<h2 id="instruccion"> I N S T R U C C I O N E S:
+</h2>
+<p> Seleccciona una clave del 1 al 33.
+<p> CLAVE </p>
+<br>
+<input type="number" value min="1" id="offset">
+<br> Escribe el texto que deseas cifrar
+<p><textarea id="message"  placeholder="Escribe aquí"  cols="35" rows="4"> 
+    
+</textarea>
+<textarea id="container"  placeholder="RESULTADO" name="" cols="35" rows="4">
+</textarea></p>
+<p><input type="button" value="C I F R A R" id="btncifrar">
+  <input type="button" value="D E S C I F R A R" id="btndescifrar">
+  <input type="reset" value="B O R R A R" id="resetbtn">
+</p>
+</div>
+<div id= "enviar">
+  <p><a href= index1.html target=_blank><button>VOLVER AL INICIO </button></a> </p>
+  <footer id="main-footer">
+    <p>&copy; 2020 @Andrea Toledo</a></p>
+  </footer> <!-- / #main-footer -->
+</div>
+<div id="root">
+<script src="index.js"></script>
+<script src="cipher.js"></script>
+</div>
+</div>
+</body>
+</html>
