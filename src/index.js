@@ -9,7 +9,7 @@ function saveNumber(){
 function cifrar(){
   let string = document.getElementById('cadenacif').value;
   string = string.toUpperCase();
-  for (var i = 0; i < string.length; i++) {
+  for (let i = 0; i < string.length; i++) {
     let letterCode = string[i].charCodeAt(0);
     let space = letterCode == 32
     if (letterCode >= 65 && letterCode <= 90) {
@@ -37,7 +37,7 @@ function cifrar(){
   
     let string = document.getElementById('cadenacif').value;
     string = string.toUpperCase();
-    for (var i = 0; i < string.length; i++) {
+    for (let i = 0; i < string.length; i++) {
       let letterCode = string[i].charCodeAt(0);
       let space = letterCode == 32
       if (letterCode >= 65 && letterCode <= 90) {
