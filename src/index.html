@@ -30,7 +30,7 @@
             <br> 
             <br> 
             <!-- BOTÓN SIGUIENTE--->  
-            <button type="button" class="boton" id="botonSiguiente" onclick="recogeDatos()">SIGUIENTE</button>
+            <button type="button" class="boton" id="botonSiguiente">SIGUIENTE</button>
 
         </form>
 
@@ -62,10 +62,10 @@
            <h1 id="respuesta">Tu mensaje para este 14 de Febrero es:</h1> 
            <!-- AQUÍ ARROJA CLAVE DE DESPLAZAMIENTO--->
            <p>Tu clave secreta es:</p>
-           <input id="tuClave" class="cajaClave">
+           <data id="tuClave" class="cajaClave"></data>
                <br>
                <!-- caja para mostrar resultado--->
-               <input id="cajaResultado" class="cajatexto" placeholder="Tu mensaje descifrado/cifrado es:">
+               <data id="cajaResultado" class="cajatexto" placeholder="Tu mensaje descifrado/cifrado es:"></data>
                <br> 
                <br> 
                <!-- BOTÓN PARA CIFRAR--->
@@ -84,8 +84,7 @@
     <footer class="footer">
         Creado por Edith Ortiz
     </footer>
-    <script src="index.js"></script>
-    <script src="cipher.js"></script>
-    <script src="prueba.js"></script>
+    <script type="module" src="index.js"></script>
+   <!-- <script src="cipher.js"></script>--->
 </body>
 </html>

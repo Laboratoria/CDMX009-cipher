@@ -1,4 +1,6 @@
 //función para recoger datos de nombre de usuario
+import cipher from "./cipher.js";
+
 function recogeDatos() {
     //variable que conecta con DOM y recoge id de caja de texto
     let nombre= document.getElementById("cajanombre").value;
@@ -11,12 +13,18 @@ function recogeDatos() {
         document.getElementById("pantallaDos").style.display="block";
         document.getElementById("bienvenido").innerText= "Bienvenid@ " + nombre;
     }
-    }
+}
+document.getElementById("botonSiguiente").addEventListener('click',recogeDatos);
 
-   //Aquí comienza interacción para cifrar/descifrar
+//Aquí comienza interacción para cifrar/descifrar
+let botonCifrar= document.getElementById("cifrando");
+   function cifrar () {
+        let texto= document.getElementById("cajaMensaje");
+        let desplazamiento= document.getElementById("cajaClave");
+        let resultadoMensaje= cipher.encode(desplazamiento,texto);
+        document.getElementById("cajaResultado").innerHTML=resultadoMensaje;      
+}
 
-   /*let botonCifrar= document.getElementById("cifrando");
-   let texto= document.getElementById("cajaMensaje");
-   let desplazamiento= document.getElementById("cajaClave");
-   botonCifrar.addEventListener('click', codificando());*/
+botonCifrar.addEventListener('click', cifrar);
 
+recogeDatos();
