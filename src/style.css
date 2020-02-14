@@ -84,9 +84,13 @@ p {
     }
 
 #results {
-    display: block;
+    display: none;
   }
     #backhome {
       margin-left: 6em;
       cursor: pointer;
     }
+
+#testsection {
+  display: block;
+}

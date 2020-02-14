@@ -1,11 +1,10 @@
 //import cipher from './cipher.js';
-
-console.log(cipher);
+//console.log(cipher);
 
 function startApp(){
   document.getElementById('home').style.display = 'none';
   document.getElementById('number').style.display = 'block';
-  }
+}
 
 function getOffsetNo(){
   let offsetNo = document.getElementById('dayNo').value;
@@ -16,45 +15,71 @@ function getOffsetNo(){
   else {
     alert('Solo del 1 al 31');
   }
-  }
-
-function getUser(){
-  let userName = document.getElementById('name').value;
-  if (userName != ''){
-  document.getElementById('user').style.display = 'none';
-  document.getElementById('keyword').style.display = 'block';
-  }
-  else {
-  alert('Escribe tu usuario')
-  }
 }
 
 function capsOnly(event) {
     let pressed = event.which;
     if (pressed < 64) return false;
     if (pressed > 91) return false;
-  }
-
-  function getKey(){
-    let key = document.getElementById('pass').value;
-    if (key != '') {
-    document.getElementById('keyword').style.display = 'none';
-    document.getElementById('results').style.display = 'block';
-    }
-    else {
-    alert('Escribe la palabra clave')
-    }
-  }
-
-function reStart(){
-  document.getElementById('results').style.display = 'none';
-  document.getElementById('home').style.display = 'block';
-  
 }
 
+function getUser(){
+  let userName = document.getElementById('name').value;
+  if (userName != ''){
+  document.getElementById('user').style.display = 'none';
+  document.getElementById('keyword').style.display = 'block';
 
-let cipheredUser = 'ciphered user';
-document.getElementById('ciphered').value = cipheredUser;
+  }
+  else {
+  alert('Escribe tu usuario')
+  }
+}
 
-let decipheredKeyword = 'deciphered keyword';
-document.getElementById('deciphered').value = decipheredKeyword;
+function getKey(){
+  let key = document.getElementById('pass').value;
+  if (key != '') {
+  document.getElementById('keyword').style.display = 'none';
+  document.getElementById('results').style.display = 'block';
+  let cipheredUser = 'ciphered user';
+  document.getElementById('ciphered').value = cipheredUser;
+  let decipheredKeyword = 'deciphered keyword';
+  document.getElementById('deciphered').value = decipheredKeyword;
+  }
+  else {
+  alert('Escribe la palabra clave')
+  }
+}
+
+function reStart(){
+  document.getElementById('dayNo').value = '';
+  document.getElementById('name').value = '';
+  document.getElementById('pass').value = '';
+    document.getElementById('results').style.display = 'none';
+    document.getElementById('home').style.display = 'block';
+}
+
+function test(){
+  let user = document.getElementById('name').value;
+  console.log(user);
+  let pass = document.getElementById('pass').value;
+  console.log(pass);
+  let offset = document.getElementById('dayNo').value;
+  console.log(offset);
+  console.log(user.length);
+
+  for (let i = 0; i < user.length; i++) {
+        let asciiValues = user.charCodeAt(i);
+        console.log(asciiValues);
+        let newValues = (asciiValues - 65 + offset) % 26 + 65;
+        console.log(newValues);
+        let letters = String.fromCharCode(newValues);
+        console.log(letters.type);
+      let ciphUser; ciphUser = ciphUser.concat(letters);
+        }
+    document.getElementById('ciphUser').innerHTML = ciphUser;
+  let charvalues;
+      charvalues = user.charCodeAt(0);
+        console.log(charvalues);
+
+
+}
