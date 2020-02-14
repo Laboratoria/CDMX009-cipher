@@ -45,7 +45,7 @@ p {
   }
 
 #home {
-    display: none;
+    display: block;
   }
     #homeImage {
       cursor: pointer;
@@ -90,7 +90,3 @@ p {
       margin-left: 6em;
       cursor: pointer;
     }
-
-#testsection {
-  display: block;
-}

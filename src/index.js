@@ -1,13 +1,23 @@
-//import cipher from './cipher.js';
-//console.log(cipher);
+import cipher from './cipher.js';
 
+let offsetNo;
+let pressed;
+let userName;
+let key;
+let ciphedUser;
+let deciphKey;
+
+//Homescreen event to start and go to the offset input screen
+document.getElementById('homeImage').addEventListener('click', startApp);
 function startApp(){
   document.getElementById('home').style.display = 'none';
   document.getElementById('number').style.display = 'block';
 }
 
+//Function to get offset number and continue to user name
+document.getElementById('getOffset').addEventListener('click', getOffsetNo);
 function getOffsetNo(){
-  let offsetNo = document.getElementById('dayNo').value;
+  offsetNo = document.getElementById('dayNo').value;
   if (offsetNo <32 && offsetNo >0) {
     document.getElementById('number').style.display = 'none';
     document.getElementById('user').style.display = 'block';
@@ -17,14 +27,20 @@ function getOffsetNo(){
   }
 }
 
+//Function to forbid the user from writing anything but uppercase on text input
+document.getElementById('name').addEventListener('keypress', capsOnly);
+document.getElementById('pass').addEventListener('keypress', capsOnly);
 function capsOnly(event) {
-    let pressed = event.which;
-    if (pressed < 64) return false;
-    if (pressed > 91) return false;
+    pressed = event.which;
+    if (pressed < 64 || pressed > 91) {
+      event.preventDefault();
+    }
 }
 
+//Function to get user name and continue to password
+document.getElementById('getName').addEventListener('click', getUser);
 function getUser(){
-  let userName = document.getElementById('name').value;
+  userName = document.getElementById('name').value;
   if (userName != ''){
   document.getElementById('user').style.display = 'none';
   document.getElementById('keyword').style.display = 'block';
@@ -35,51 +51,29 @@ function getUser(){
   }
 }
 
+//Function to get password and continue to results
+document.getElementById('getPass').addEventListener('click', getKey);
 function getKey(){
-  let key = document.getElementById('pass').value;
+  key = document.getElementById('pass').value;
   if (key != '') {
   document.getElementById('keyword').style.display = 'none';
   document.getElementById('results').style.display = 'block';
-  let cipheredUser = 'ciphered user';
-  document.getElementById('ciphered').value = cipheredUser;
-  let decipheredKeyword = 'deciphered keyword';
-  document.getElementById('deciphered').value = decipheredKeyword;
+//  ciphedUser = 'ciphered user';
+  document.getElementById('ciphered').value = cipher.encode;
+//  deciphKey = 'deciphered keyword';
+  document.getElementById('deciphered').value = cipher.decode;
   }
   else {
   alert('Escribe la palabra clave')
   }
 }
 
+//Function to reset values and go back to homescreen
+document.getElementById('backhome').addEventListener('click', reStart);
 function reStart(){
   document.getElementById('dayNo').value = '';
   document.getElementById('name').value = '';
   document.getElementById('pass').value = '';
     document.getElementById('results').style.display = 'none';
     document.getElementById('home').style.display = 'block';
-}
-
-function test(){
-  let user = document.getElementById('name').value;
-  console.log(user);
-  let pass = document.getElementById('pass').value;
-  console.log(pass);
-  let offset = document.getElementById('dayNo').value;
-  console.log(offset);
-  console.log(user.length);
-
-  for (let i = 0; i < user.length; i++) {
-        let asciiValues = user.charCodeAt(i);
-        console.log(asciiValues);
-        let newValues = (asciiValues - 65 + offset) % 26 + 65;
-        console.log(newValues);
-        let letters = String.fromCharCode(newValues);
-        console.log(letters.type);
-      let ciphUser; ciphUser = ciphUser.concat(letters);
-        }
-    document.getElementById('ciphUser').innerHTML = ciphUser;
-  let charvalues;
-      charvalues = user.charCodeAt(0);
-        console.log(charvalues);
-
-
 }
