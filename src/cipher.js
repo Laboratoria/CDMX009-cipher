@@ -1,17 +1,21 @@
     //variables
-let offset = document.getElementById("number");
-let next = document.getElementById("text");
+let offset = document.getElementById("number"); //no. desplazamiento
+let text = document.getElementById("text"); //texto ingresado
+let newText = " "; // texto cifrado
+let newAscii = " ";//en ascii
+//let textEncode = " "; // texto cifrado
+
     //cifrar
 
-   function cipher ( ) { 
-    if (text >= 65 && text <=90);
-          (let i = 0 < string.length; i++); {
-          newText = string.charCodeAt (i);
-            newText = (text - 65 + number) % 26 + 65;
-            newText = String.fromCharCode (newText);
-            textEncode = textEncode (newText);
+   function cipher () { 
+    for (let i = 0; i < text.length; i++) {
+        newAscii = text.charCodeAt (i);
+    if (newAscii >= 65 && newAscii <=90);
+            let toCipher = (text - 65 + number) % 26 + 65;
+            newText = String.fromCharCode (toCipher);
+            //textEncode = textEncode (newText);
          }
-         return textEncode;
+         return newText;
    }
 export default cipher; 
 
