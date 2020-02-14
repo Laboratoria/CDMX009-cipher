@@ -1,11 +1,10 @@
 const cipher = {
 
-paterno : document.getElementById('cifrar').value,
+paterno : document.getElementById('cifrarlo').value,
 mes : parseInt(document.getElementById('movimientos').value), 
 
 cifrado : function(paterno, mes) {
-    mes = parseInt(mes % 26);    
-
+    
     let datoMayusculas = paterno.toUpperCase();
     let alfabeto = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('');
     let datoCifrado = '';
@@ -18,7 +17,7 @@ cifrado : function(paterno, mes) {
         }
 
         let actualIndex = alfabeto.indexOf(letraActual);
-        let nuevoIndex = actualIndex + mes;
+        let nuevoIndex = (actualIndex + mes) % 26;
 
         if(nuevoIndex > 25) {
             nuevoIndex = nuevoIndex - 26;
@@ -32,10 +31,10 @@ cifrado : function(paterno, mes) {
     }
     return datoCifrado;
 },
-
+/* -----------------------------------------*/
 
 desCifrado : function(paterno, mes) {
-    mes = parseInt(mes % 26);    
+    //mes = parseInt(mes % 26);    
 
     let datoMayusculas = paterno.toUpperCase();
     let alfabeto = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('');
@@ -49,7 +48,7 @@ desCifrado : function(paterno, mes) {
         }
 
         let actualIndex = alfabeto.indexOf(letraActual);
-        let nuevoIndex = actualIndex - mes;
+        let nuevoIndex = (actualIndex - mes) + mes;
 
         if(nuevoIndex > 25) {
             nuevoIndex = nuevoIndex - 26;
@@ -64,19 +63,5 @@ desCifrado : function(paterno, mes) {
     return datoDesCifrado;
 }
 };
-
-
-
-
-//console.log(cipher(paterno, mes));
-
-
-
-
-//'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
-//'abcdefghijklmnopqrstuvwxyz'
-
-  
-
 
 export default cipher;

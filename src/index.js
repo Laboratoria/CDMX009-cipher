@@ -6,7 +6,7 @@ let cifrar = document.getElementById('botonCifrar');
 let desCifrar = document.getElementById('botonDesCifrar');
 
 function obtenerDatos() {
-    paterno = document.getElementById('cifrar').value;
+    paterno = document.getElementById('cifrarlo').value;
     mes = parseInt(document.getElementById('movimientos').value);
 }
 
@@ -23,6 +23,8 @@ desCifrar.onclick = function() {
 
     document.getElementById('resultadoDesCifrado').innerHTML = cipher.desCifrado(paterno, mes);
 } 
+
+document.getElementById('limpiarDatos').reset();
 
 console.log(cipher);
 
