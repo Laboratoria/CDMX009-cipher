@@ -1,27 +1,37 @@
 html, body{
-	margin:0;
-    padding:0;
-    background-color: #c7e6e6;
-    text-align: center;
-    display: inline-block;
-    height: 100%;
-    vertical-align:middle;
-    
+  margin:0;
+  padding:0;
+  background-color: #c7e6e6;
+  /*text-align: center;
+  display: inline-block;*/
+  height: 100%;
+  /*vertical-align:middle;*/
 }
 
 section{
     border: 1px solid black;
-    margin: 0 auto;
+    /*margin: 0 auto;*/
     height: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
-div{
+div, header{
     border: 1px solid black;
-    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*margin: 0 auto;*/
+    margin:0;
+    padding:0;
 }
 
 .logo{
-    width: 15%;
+    /*width: 50%;*/
+    max-width: 50%;
+    height: auto;
+    
+    border: 1px solid black;
 }
 
 #bluetoothLabel{
@@ -31,7 +41,6 @@ div{
 .configBox{
     display: inline-block;
 }
-
 
 /*Estilo para toogle switch que activa el Bluetooth*/ 
 /* The switch - the box around the slider */
