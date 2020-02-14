@@ -12,26 +12,36 @@
     <strong>Antes de empezar</strong>
     <p>Tu contraseña se creara por meddio del num de deplazamientos <br>
       por tal motivo no garantizamos total seguridad</p>
-<button class="cif" onclick="">cifrado</button>
 
-<button class="des" onclick="">descifra</button>
 
-        <div id="content-msg-decode" class="msg-style display_none">
+      <!--<div id="Mensaje" class="cajatexto">-->
             <p>Ingrese Su Mensaje:</p>
-            <textarea id="box-msg-decode" class="box-msg-style" placeholder="Ingrese su mensaje..."></textarea>
-            <div class="content-offset">
-                <label class="label">Ingrese N° de desplazamiento</label>
-                <input type="number" id="n_offset_d" class="n_offset_style">
-            </div>
-            <button id="btn_decode" class="btn-code">Decodifica tu Mensaje</button>
-            <div id="msg-decode" class="msg-ckeck">
+            <label class="ResDespl">Ingrese N° de desplazamiento</label>
+           <input type="number" id="nOffsetD" class="deplazamientos1">
+
+            <textarea id="ingresoMensaje" class="numDespla" placeholder="Ingrese su mensaje..."></textarea>
+              <p id="resultadoCif"><strong>tu resultado es:</strong></p>
+
+
+              <button id="cifrar" class="cif">cifrado</button>
+
+              <button id= "descifrado"class="des" >descifra</button>
+            <!--<div id="msg-decode" class="decif">
                 <p id="msg-decode-check"></p>
-            </div>
-            <button onclick="location.reload();" class="btn_reload">Limpiar</button>
+                <textarea id="resultadoCif" class="numDespla" readonly></textarea>
+
+            </div>-->
+          <!-- <button onclick="location.reload();" class="Limpiapag">Limpiar</button>-->
+        <input type="reset" value="Borrar">
         </div>
+        <br>
+        <br>
     </section>
 
+      <script src="index.js"></script>
+      <script src="cipher.js"></script>
 
 
   </body>
+
 </html>
