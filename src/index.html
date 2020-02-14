@@ -29,7 +29,7 @@
               </p>
           </div>
           <div>
-              <button class="start-button" onclick="secondPage()" title="changeBackground"> COMENZAR </button><!--secondPage() estoy llamando a la funcion desde js-->
+              <button class="start-button" id="startButton" title="changeBackground"> COMENZAR </button><!--secondPage() estoy llamando a la funcion desde js-->
          </div>
      </section>
      <section class="secondpage" id="secondPage"> <!--segunda pantalla -->
@@ -38,11 +38,11 @@
         </div>
         <div class="offset">
           <p id="numD">Número de desplazamiento</p>
-          <input class="offsetnumber" type="number">
+          <input class="offsetnumber" type="number" id="offset">
         </div>
         <div class="buttons">
-          <button class="button-encodeDecode" id="encode">Cifrar</button>
-          <button class="button-encodeDecode" id="decode">Decifrar</button>
+          <button type="submit" class="button-encodeDecode" id="encodebutton">Cifrar</button>
+          <button type="submit" class="button-encodeDecode" id="decodebutton">Decifrar</button>
         </div>
         <div class="result">
           <p class="content-message" id="textright"></p>
@@ -53,7 +53,7 @@
         <footer> Proyecto Cipher </footer>
       </div>
 
-      
-  </body>
   <script src="index.js"></script>
+  <script src="cipher.js"></script> 
+  </body>
 </html>

@@ -12,8 +12,8 @@ body{
   padding: 20px 55px;
   text-align: center;
   line-height: 25px;
-  margin: 50px 100px;
-  box-shadow: 3px 10px black;
+  margin: 100px 100px;
+  box-shadow: 6px 8px black;
 }
 h1{
   font-size: 27px;
@@ -44,7 +44,7 @@ h1{
   font-size: 18px;
   position:absolute;
   right: 108px;
-  box-shadow: 3px 10px black;
+  box-shadow: 6px 8px black;
 }
 .secondpage{
   display: none;
@@ -52,13 +52,13 @@ h1{
 .content-message{
   background-color: white;
   border: none;
-  box-shadow: 3px 10px black;
+  box-shadow: 6px 8px black;
   display: inline;
 }
 #textleft{
   float: left;
   width: 420px;
-  height: 500px;
+  height: 600px;
   position: absolute;
   top: 60px;
   left: 100px;
@@ -66,7 +66,7 @@ h1{
 #textright{
   float: right;
   width: 420px;
-  height: 500px;
+  height: 600px;
   position: absolute;
   top: 50px ;
   right: 100px;
@@ -80,16 +80,16 @@ h1{
   text-align: center;
   font-family: 'Press Start 2P', cursive;
   font-size: 18px;
-  box-shadow: 3px 10px black;
+  box-shadow: 6px 8px black;
   display: block;
   
 }
-#encode{
+#encodebutton{
   position: absolute;
   bottom: 120px ;
   left: 542px;
 }
-#decode{
+#decodebutton{
   position: absolute;
   bottom: 200px ;
   left: 542px;
@@ -103,7 +103,7 @@ h1{
   text-align: center;
   font-family: 'Press Start 2P', cursive;
   font-size: 13px;
-  box-shadow: 3px 10px black;
+  box-shadow: 6px 8px black;
   display: block;
   padding: 10px;
   position: absolute;
@@ -130,7 +130,7 @@ h1{
   position:absolute;
   right: 102px;
   bottom: 30px;
-  box-shadow: 3px 10px black;
+  box-shadow: 6px 8px black;
 }
 
 .footer{

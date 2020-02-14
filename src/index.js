@@ -1,16 +1,33 @@
-/*función que sirve para cambiar pantallas*/
+document.getElementById("startButton").addEventListener("click", screen)
+document.getElementById("startButton").addEventListener("click",function() { changeBackground('#BF52FF') })
 
-function secondPage() { /* nombre así a la función desde html (específico button onclick)*/
-    let pantallas = document.getElementById("firstPage")
-    pantallas.style = "display:none";
+//función que sirve para cambiar pantallas
+function screen() { 
+    let screens = document.getElementById("firstPage")
+    screens.style = "display:none";
     document.getElementById("secondPage").style.display = "block";
+}
 
-  }
-  /*Función que sirve para cambiar de color la pantalla*/
-
-function changeBackground(color) {/*nombré así a la función desde html mas específico desde el button con atributo title*/
+//Función que sirve para cambiar de color la pantalla 
+function changeBackground(color) {
    document.body.style.background = color;
 }
 
-window.addEventListener("click",function() { changeBackground('#BF52FF') }); 
-/*se ejecuta la función al hacer click*/
+// función donde se definen variables para cipher.js
+const buttonEncode = document.getElementById("encodebutton");
+  buttonEncode.addEventListener("click", () => {
+    let message = document.getElementById("textleft").value;
+    let offsetNumber = document.getElementById("offset").value;
+    let finalResult = cipher.encode (message, offsetNumber);
+    document.getElementById("textright").innerHTML = finalResult;
+  })
+
+const buttonDecode = document.getElementById("decodebutton");
+  buttonDecode.addEventListener("click", () => {
+   let messageD = document.getElementById("textleft").value;
+   let offsetNumberD = document.getElementById("offset").value;
+   let finalResultD = cipher.decode(messageD, offsetNumberD);
+   document.getElementById("textright").innerHTML = finalResultD;
+  })
+
+
