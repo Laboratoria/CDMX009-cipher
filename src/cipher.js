@@ -1,4 +1,4 @@
-    const cipher = {
+window.cipher = {
         encode: (message, offsetNumber) => {
             let encodeMessage = "";
             for (let i = 0; i < message.length; i++) {

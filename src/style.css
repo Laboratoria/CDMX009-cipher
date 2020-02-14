@@ -3,7 +3,7 @@ body{
 }
 .titles{
   color: #BF52FF;
-  font-family: 'Press Start 2P', cursive;
+  font-family: 'Press Start 2P';
 }
 .welcome-message{
   background-color: white;
@@ -40,7 +40,7 @@ h1{
   height: 45px;
   text-align: center;
   display: inline-block;
-  font-family: 'Press Start 2P', cursive;
+  font-family: 'Press Start 2P';
   font-size: 18px;
   position:absolute;
   right: 108px;
@@ -78,7 +78,7 @@ h1{
   width: 200px;
   height: 45px;
   text-align: center;
-  font-family: 'Press Start 2P', cursive;
+  font-family: 'Press Start 2P';
   font-size: 18px;
   box-shadow: 6px 8px black;
   display: block;
@@ -101,7 +101,7 @@ h1{
   width: 180px;
   height: 30px;
   text-align: center;
-  font-family: 'Press Start 2P', cursive;
+  font-family: 'Press Start 2P';
   font-size: 13px;
   box-shadow: 6px 8px black;
   display: block;
@@ -125,7 +125,7 @@ h1{
   height: 45px;
   text-align: center;
   display: inline-block;
-  font-family: 'Press Start 2P', cursive;
+  font-family: 'Press Start 2P';
   font-size: 18px;
   position:absolute;
   right: 102px;

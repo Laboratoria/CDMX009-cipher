@@ -10,8 +10,16 @@ function screen() {
 
 //Función que sirve para cambiar de color la pantalla 
 function changeBackground(color) {
-   document.body.style.background = color;
+    document.body.style.background = color;
 }
+
+//función para limpiar página
+function cleanScreen() {
+  document.getElementById("textright").value = " ";
+  document.getElementById("offset").value = " ";
+  document.getElementById("textleft").innerHTML = " ";
+}
+document.getElementById("clean").addEventListener("click", cleanScreen)
 
 // función donde se definen variables para cipher.js
 const buttonEncode = document.getElementById("encodebutton");
