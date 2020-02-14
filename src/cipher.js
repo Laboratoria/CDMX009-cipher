@@ -1,8 +1,6 @@
-/*const cipher = {
-  // ...
-};
-
-export default cipher;*/
+/*
+export default cipher;
+export default decipher;*/
 
 let secretkey3 = document.querySelector('#secretkey1');// almacena valor offset
 let secretkey4 = document.querySelector('#secretkey2');// almacena valor offset
@@ -13,7 +11,7 @@ let textarea9 = document.querySelector('#textarea8');//almacena texto a descifra
 
 
 document.getElementById("blissito").onclick = function() {cipher()};
-document.getElementById("blissito1").onclick = function() {decipher()};
+document.getElementById("blissito1").onclick = function() {encode()};
 
 /*FUNCION CIPHER*/
 
@@ -50,7 +48,7 @@ function cipher(){
 
 /*FUNCION DECIPHER*/
 //funcion para descifrar una cadena de texto
-function decipher(){
+function encode(){
   let myStringDechiper = '';  //alamacenar el valor del string decifrado
   let myString = textarea9.value;
   let key2 = secretkey4.value;

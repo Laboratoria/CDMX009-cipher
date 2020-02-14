@@ -143,3 +143,45 @@ body {
 
       border-radius: 8px;
 }
+
+#secretkey6{
+    float:right;
+    margin: -20px 400px;
+}
+
+
+#code1{
+    float:right;
+    width:200;
+    border-radius: 8px;
+    margin:-10px 120px;
+}
+
+#info1{
+    margin: -30px -20px;
+    float:right;
+    width:25%;
+    border-radius: 8px;
+}
+
+#textaread{
+  height: 300px;
+  width: 300px;
+  float:right;
+  margin:-10px 150px;
+  border-radius: 8px;
+}
+
+#textareadi{
+  height: 300px;
+  width: 300px;
+  float:right;
+  margin:-100px 150px;
+  border-radius: 8px;
+}
+
+#regresar1{
+  float:right;
+  margin:-20px 450px;
+  border-radius: 8px;
+}
