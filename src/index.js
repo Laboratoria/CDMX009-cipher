@@ -1,7 +1,9 @@
 
-/*import cipher from './cipher.js';
+import cipher from './cipher.js';
 
-console.log(cipher);*/
+document.getElementById("blissito").onclick=function() {cipher()};
+
+//console.log(cipher);*/
 /*
 import cipher from './cipher.js';
 import decipher from './cipher.js';*/
@@ -17,7 +19,7 @@ document.getElementById("boton").onclick = function() {showAndHide()};
 
 
 function showAndHide1 (){
-  
+
   let screen = document.getElementById("quiz_wrapper");
   screen.style = "display:none";
   document.getElementById('quiz_wrapper1').style.display ="block";
