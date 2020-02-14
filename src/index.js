@@ -14,17 +14,18 @@ function pantalla3() {
 
 document.getElementById("boton2").onclick = function () {pantalla3(); };
 
-function codificar(){
-	let textEncode = document.getElementById("texto1").value;
-        // textEncode = textEncode.toUpperCase();
-        let number_offset = document.getElementById("offset").value;
-        document.getElementById("cifrado1").innerHTML = window.cipher.encode(textEncode, number_offset);
+function codificar(){ //esta es la funcion que dispara lo que hice en js
+	let textEncode = document.getElementById("texto1").value;//traes el valor de la caja de texto
+        textEncode = textEncode.toUpperCase(); //pasa a mayusculas todo el texto
+        let number_offset = document.getElementById("offset").value;//guarda el numero de lugares recorridos
+        document.getElementById("cifrado1").innerHTML = window.cipher.encode(textEncode, number_offset);//manda llamar al objeto al archivo
 }
 
 
 function decodificar(){
-	    let textDecode = document.getElementById("text1").value;
-        //textDecode = textDecode.toUpperCase();
+	
+	let textDecode = document.getElementById("text1").value;
+        textDecode = textDecode.toUpperCase();
        let number_offset = document.getElementById("offset1").value;
-        document.getElementById("cifrado").innerHTML = window.cipher.decode(textDecode, number_offset);
+       document.getElementById("cifrado").innerHTML = window.cipher.decode(textDecode, number_offset);
 }

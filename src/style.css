@@ -142,9 +142,10 @@ textarea{
     background-color: rgba(247,247,247,0.62);
     border-radius: 20px;
 	border: none;
-	width: 400px;
+	width: 380px;
 	height: 80px;
 	margin-left: 200px;
+	padding-left: 20px;
 }
 
 #offset, #offset1{
