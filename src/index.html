@@ -32,8 +32,8 @@
       <form action="/cifher.js" method="get">
         <label for="simpleText">Ingresa tu texto:</label>
         <input type="text" id="simpleText" name="simpleText"><br><br>
-        <label for="displace"><strong> Ingresa una contraseña</strong> <br><em>(solo dos dígitos)</em>:</label>
-        <input type="text" id="displace" name="displace"><br><br>
+        <label for="offset"><strong> Ingresa una contraseña</strong> <br><em>(solo dos dígitos)</em>:</label>
+        <input type="number" id="offset" name="offset"><br><br>
         <input class="button" type="submit" value="Enter">
       </form>
 
@@ -41,8 +41,8 @@
 
       <article>
         <div id="pageMessageCode" class="page">
-          <h1>Tu mensaje es:</h1>
-          <!--Aquí debe mostrar mensaje Decifrado--> <br>
+          <h1>Tu mensaje es: <br> </h1>
+          <!--Aquí debe mostrar mensaje Cifrado importado de index.js--> <br>
           <a href="#pageCifher">
             <input class="button" type="button" value="Cifrar un mensaje">
           </a>
@@ -59,8 +59,8 @@
           <form action="/cifher.js" method="get">
             <label for="codeText">Ingresa tu texto:</label>
             <input type="text" id="codeText" name="codeText"><br><br>
-            <label for="displace"><strong> Ingresa una contraseña</strong> </label>
-            <input type="text" id="displace" name="displace"><br><br>
+            <label for="offset"><strong> Ingresa una contraseña</strong> </label>
+            <input type="number" id="offset" name="offset"><br><br>
             <input class="button" type="submit" value="Enter">
           <!--Si me falla formula limitar el nuero de desplazamientos
             <label for="displace">Elige una contraseña:</label>
@@ -94,7 +94,10 @@
 
     </div>
     <footer>
-      Karina Pérez
+      <p>
+        <strong> Paz Karina</strong> <br>
+      <img src="/Karina/Imagenes/laboratoria.png"/>
+      </p>
     </footer>
     <script src="index.js" type="module"></script>
 </body>
