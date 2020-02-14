@@ -13,12 +13,14 @@ export default cipher;
 //Se Crea Con el: constructor String:new String( cadena )
 //Parámetros: ->cadena :  IMPORTANTE -> Cualquier cadena(Texto).<-
 
-
+var resultado = ""; //vendría siendo mi output
 
 //PROBANDO CIFRAR
 function cifrar() {
+    resultado = "";
     let string = document.getElementById("mensajeInput").value; //lo enlazo con mi id de textarea
 
+    console.log(string);
     let offset = document.getElementById("numerosCodificar").value; //lo enlazo con mi id de mi select el cual es el que contiene los números 
 
 
@@ -29,7 +31,7 @@ function cifrar() {
     // me devuelve un array.
     //en cada uno de los elementos que encuentre lo que hace es cortar.
 
-    let resultado = ""; //vendría siendo mi output
+
     letras.forEach(function(letra) { //forEach lo uso para recorrer cada uno de mis elemntos del array letras.
         codigo = letra.charCodeAt(); //en esta parte creé una variable de nombre código y uso el charCodeAt para convertir mis letras a su código ascii
         var c = 0;
@@ -51,28 +53,31 @@ function cifrar() {
 
 }
 
-//PROBANDO DESCIFRAR   
-let stringcifrado = "HTRUWFW GTQJYTX";
-
+//PROBANDO DESCIFRAR 
 function descifrar() {
+    let offset2 = document.getElementById("numerosCodificar").value; //lo enlazo con mi id de mi select el cual es el que contiene los números
+    let stringcifrado = resultado; //meto el resultado de mi cifrado
+    console.log(resultado);
+
+
     let letrasdos = stringcifrado.split("");
     let resultadodos = ""; //vendría siendo mi output
     letrasdos.forEach(function(letra2) { //forEach lo uso para recorrer cada uno de mis elemntos del array letras. el parámetro que tengo dentro del mi función es lo que yo espero recibir en este caso letras
         codigodos = letra2.charCodeAt(); //en esta parte creé una variable de nombre códigodos y uso el fromCharCode para convertir mi código ascii a letras 
-        console.log(codigodos); //comprobando
+
 
         if ((codigodos >= 65) && (codigodos <= 90)) {
-            d = String.fromCharCode((((codigodos - 65) - offset) % 26) + 65);
+            d = String.fromCharCode((((codigodos - 65) - parseInt(offset2)) % 26) + 65);
 
         } else if ((codigodos >= 97) && (codigodos <= 122)) { //ejecuto mi formula junto con el offset por ahora, para letras minúsculas
-            d = String.fromCharCode((((codigodos - 97) - offset) % 26) + 97);
+            d = String.fromCharCode((((codigodos - 97) - parseInt(offset2)) % 26) + 97);
 
         } else if (codigodos == 32) { //El 32 es el código ascii para el espacio en blanco
             // c = String.fromCharCode(((codigo - 32 + offset) % 26) + 32);
             d = " "; //aquí le digo a mi código  que cuando haya un espacio lo respete y lo deje tal cuál
         }
-        console.log(d);
+
         resultadodos += d;
     });
-    console.log(resultadodos); //probando
+    document.getElementById('resultadodescifrado').innerHTML = "El mensaje escrito es: " + resultadodos;
 }
