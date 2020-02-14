@@ -2,7 +2,6 @@
 export const cipher= {
     encode,
     decode
-    //clean
 
 }
 function encode(offset, text){
@@ -12,21 +11,24 @@ function encode(offset, text){
   let charnum=0;
 
   for (let i = 0; i < text.length; i++){
-      charnum = Number.parseInt(text.charAt(i).charCodeAt(0));
+      charnum = parseInt(text.charAt(i).charCodeAt(0));
       console.log(charnum);
-
-      if ((charnum==32)) {
-          charnum=charnum;
-          console.log("x");
-
-      }else if(65<=charnum && charnum<=90){
+    
+      if(64<charnum && charnum<91){
               charnum = (charnum -65 + offset)%26+65;
               console.log("mayusculas");
+              console.log(charnum + "NUMERO TRANSFORMADO");
 
-      }else if((97<=charnum && charnum<=122)){
+      }else if(96<charnum && charnum<123){
               charnum=(charnum-97+ offset)%26+97;
               console.log("minusculas");
-      }
+              console.log(charnum + "NUMERO TRANSFORMADO");
+      }else {
+        charnum=charnum;
+        console.log("x");
+        console.log(charnum);
+
+    }
       characters[i]=String.fromCharCode(charnum);
           concatenarCharacters += characters[i]+"";
   }
@@ -41,30 +43,29 @@ function encode(offset, text){
   let concatenarCharacters="";
   
   for (let i = 0; i < text.length; i++){
-      charnum= Number.parseInt(text.charAt(i).charCodeAt(0));
-      console.log(charnum);
-      if ((charnum==32)) {
-          charnum=charnum;
-          console.log("x");
-          
-      } else if((65<=charnum && charnum <=90)){
-          charnum = (charnum +65 - offset)%26+65;
+      charnum= parseInt(text.charAt(i).charCodeAt(0));
+      console.log(charnum+ "NUMERO INGRESADO");
+       if(64<charnum && charnum<91){
+          charnum = (charnum + 65 - offset)%26 + 65;
           console.log("mayusculas");
+          console.log(charnum + "NUMERO TRANSFORMADO");
           
-      }else if(97<=charnum && charnum <=122) {
-          charnum=(charnum+97- offset)%26+97;
+      }else if(96<charnum && charnum<123) {
+          charnum=(charnum - 45 -offset)%26 + 97;
           console.log("minusculas");
-         }
+          console.log(charnum + "NUMERO TRANSFORMADO");
+         }else {
+            charnum=charnum;
+            console.log("x");
+            console.log(charnum + "NUMERO TRANSFORMADO");
+        } 
   characters[i]=String.fromCharCode(charnum);
   concatenarCharacters += characters[i]+"";
   }
   return concatenarCharacters;
   
 }
-/*
-function clean (){
-    document.getElementById("resultado").innerText="";
-  }*/
+
 export default cipher;
 
 
