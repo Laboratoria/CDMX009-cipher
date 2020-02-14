@@ -147,16 +147,33 @@ Estos puntos los presentarás en el `README.md`.
 Debe contener lo siguiente:
 
 * Un título con el nombre de tu proyecto.
+
+TU SALARIO EN EL CODIGO
 * Un resumen de 1 o 2 líneas de qué se trata tu proyecto.
+
+Este proyecyo ayuda a las empresas en el area de recursos humanos , para el intercambio de nombre de personal con su salario,el cual les ayudara a que otras areas de la empresa no esten enterados del suelo de cada uno , a exepcion del area de finanzas, 
 * La imagen final de tu proyecto.
 * Investigación UX:
   1. Explicar quiénes son los usuarios y los objetivos en relación con el
     producto.
+
+    los usuarios son el area de Recurso Humanos.
+    los objetivos es para un mejor manejo del sueldo de las personas con un mejor desempeño y seguridad en los sueldos,trabajadores y empresa.
+
   2. Explicar cómo el producto soluciona los problemas/necesidades de dichos
     usuarios.
+
+    esta pagina soluciona los problemas del area de recursos humanos para qeu no todas las area se enteren del sueldo de cada trabajador y se lleguen a malos entendidos.
+
   3. Luego colocarás la foto de tu primer prototipo en papel.
+
   4. Agregar un resumen del feedback recibido indicando las mejoras a realizar.
+
+  Al inicio del proyecto yo queria intercambiar cifras de dinero que maneja un empresa,pero me comentaban que hiban hacer muchas letras y que en algun momento me puedo confundir, asi fue que decidi hacerlo del salario de los trabajadores.
+
+
   5. Imagen del prototipo final.
+
 
 #### Visualmente (HTML5 y CSS3)
 
