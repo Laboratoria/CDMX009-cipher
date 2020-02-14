@@ -1,46 +1,116 @@
+@font-face {
+  font-family: Nunito;
+  src: url(../fonts/Nunito-Regular.ttf);
+}
+
+@font-face {
+  font-family: Nunito_Bold;
+  src: url(../fonts/Nunito-Bold.ttf);
+}
+
 html, body{
-  margin:0;
-  padding:0;
-  background-color: #c7e6e6;
+  background-color: rgba(199, 230, 230, 1);
   /*text-align: center;
   display: inline-block;*/
   height: 100%;
   /*vertical-align:middle;*/
+  display: flex;
+  justify-content: center;
+  /*border: 1px solid black;*/
+  margin:0;
+  padding:0;
+  /*flex-direction: column;*/
+  box-shadow:0 0px 4px #777, 0 0 20px rgba(199, 230, 230, 1) inset;
 }
 
-section{
-    border: 1px solid black;
-    /*margin: 0 auto;*/
-    height: 100%;
-    display: flex;
-    flex-direction: column;
+* {
+  font-family: Nunito;
+  font-size: 14pt;
+  /*color: rgba(3, 0, 39, 1)*/
 }
 
-div, header{
-    border: 1px solid black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /*margin: 0 auto;*/
-    margin:0;
-    padding:0;
+#footpage{
+  font-size: 9pt;
+  border-top: 1px solid rgba(2, 128, 144, 0.5);
+  padding-top: 1em;  
 }
 
-.logo{
-    /*width: 50%;*/
-    max-width: 50%;
-    height: auto;
-    
-    border: 1px solid black;
+input, textarea, button, select{
+  border-radius: 10px / 10px;
+}
+
+section > div, figure{
+  /*border: 1px solid red;*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0.5em 0;
+}
+
+#logo{
+  width: 50%;
 }
 
 #bluetoothLabel{
-    float: left;
+  margin-left: 0.5em;
 }
 
-.configBox{
-    display: inline-block;
+#configBox2 {
+   margin-top: 1em; 
+   text-align: center;
+   /*border: 1px solid black;*/ 
 }
+
+.configBoxes{
+  width: 150px;
+  /*border: 1px solid black;*/
+}
+
+#offset{
+  width: 5em;
+}
+
+::placeholder {  /*Chrome, Firefox, Opera, Safari 10.1+*/ 
+  font-size: 17px;
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  font-size: 17px;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  font-size: 17px;
+}
+
+input[type=radio] {
+  border: 0px;
+  width: 20%;
+  height: 1em;
+}
+
+#buttonContainer1, .configContainer{
+  display:flex;
+  justify-content: space-between;
+  padding: 0 3em;
+}
+
+#buttonContainer2{
+  display:flex;
+  justify-content: flex-end;
+  padding: 0 3em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*Estilo para toogle switch que activa el Bluetooth*/ 
 /* The switch - the box around the slider */
@@ -84,11 +154,12 @@ div, header{
 }
 
 input:checked + .slider {
-  background-color: #2196F3;
+  /*background-color: #2196F3;*/
+  background-color: rgba(2, 128, 144, 1);
 }
 
 input:focus + .slider {
-  box-shadow: 0 0 1px #2196F3;
+  box-shadow: 0 0 1px rgba(2, 128, 144, 1);
 }
 
 input:checked + .slider:before {
