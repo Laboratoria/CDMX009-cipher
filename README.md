@@ -14,6 +14,7 @@ El siguiente proyecto se trata de una aplicación para generar códigos mediante
 
 ***
 
+
 ## 1. Preámbulo
 
 Cifrar significa codificar. El [cifrado César](https://en.wikipedia.org/wiki/Caesar_cipher)
