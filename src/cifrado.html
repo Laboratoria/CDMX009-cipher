@@ -26,13 +26,19 @@
       
 <!--botones de opciones-->
      <div class="botones">
-        <input class="opciones" type="submit" value="Enviar" onclick="encode()">
+        <input class="opciones" id="EncodeButton" type="submit" value="Enviar" onclick="encode()">
         <input type="reset" class="opciones" value="Borrar">
         <button class="opciones"><a href="index.html">Regresar</a></button>
+      </div>
+
+      <div class="results">
+        <label>Resultado:</label>
+        <textarea id="Results"></textarea>
+
       </div>
     </form>
     
     <script src="cipher.js"></script>
-    <!--<script src="index.js" type="module"></script>-->
+    <script src="index.js" type="module"></script>
   </body>
 </html>

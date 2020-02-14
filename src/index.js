@@ -1,3 +1,8 @@
-import cipher from './cipher.js';
+import encode from './cipher.js';
+let encodeButton = document.querySelector ('encodebutton');
+encodeButton.addEventListener('click',encode);
 
-console.log(cipher);
+
+// import cipher from './cipher.js';
+
+// console.log(cipher);

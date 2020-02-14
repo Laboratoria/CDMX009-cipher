@@ -1,7 +1,6 @@
-
 function encode () {
   //variables donde se guardan los datos del formulario
-let text = (document.getElementById('textoACifrar').value).toUpperCase();
+let text = (document.getElementById('textoACifrar').value)/*.toUpperCase()*/;
 let offset = parseInt(document.getElementById('numDePosiciones').value);
 //ciclo para asignar el numero de letras
   for (let i=0; i < text.length; i++) {
@@ -17,12 +16,18 @@ let offset = parseInt(document.getElementById('numDePosiciones').value);
       let space = String.fromCharCode(textToAscii);
       document.write(space);
     }
+    if (textToAscii >= 97 && textToAscii <= 122) {
+      let formula = (textToAscii-97+offset)%26+97;
+      let cipherText = String.fromCharCode(formula);
+      document.write (cipherText);
+    }
   }
 }
+export default encode; 
 
 function decode () {
   //variables donde se guardan los datos del formulario
-  let text = (document.getElementById('textoADescifrar').value).toUpperCase();
+  let text = (document.getElementById('textoADescifrar').value)/*.toUpperCase()*/;
   let offset = parseInt(document.getElementById('numDePosicionesDes').value);
   //ciclo para asignar el numero de letras
     for (let i=0; i < text.length; i++) {
@@ -38,9 +43,14 @@ function decode () {
         let space = String.fromCharCode(textToAscii);
         document.write(space);
       }
+      if (textToAscii >= 97 && textToAscii <= 122) {
+        let formula = (textToAscii-97-offset)%26+97;
+        let cipherText = String.fromCharCode(formula);
+        document.write (cipherText);
+      }
     }
 }
-
+export default decode; 
 /*funcion para realizar el cifrado
 function cipher () {
   //asigna los datos y convierte a mayusculas
@@ -71,6 +81,5 @@ function cipher () {
 /*const cipher = {
   // ...
 };
-
-export default cipher;
 */
+// export default cipher;
