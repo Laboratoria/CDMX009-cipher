@@ -1,3 +1,21 @@
+# Jardín de Monamí ☆
+
+Monamí™ es un juego de rol que consiste en plantar y crear híbridos de flores y frutas, con el fin de socializar, crear o intercambiar objetos y ofrecerlos a los Nomi, creadores de las islas donde se desarrolla el juego. 
+
+
+La página sirve como extensión del juego y para agregar interactividad. Consiste en tres secciones: 
+    1. About: en donde se puede leer un poco sobre el universo de Monamí.
+    2. Semillas!: en donde se podrá poner el nombre de usuario que genera una semilla de regalo para los jugadores nuevos.
+    3. Msjs: en donde se podrán traducir los mensajes de los Nomi, ya que dentro del juego te hablan de código. 
+    
+# Investigación UX
+
+
+
+
+
+
+
 # Cifrado César
 
 ## Índice
