@@ -1,9 +1,21 @@
+function cipher (offNum, nTxt) {
 
-const cipher = {
-var nText = document.getElementById('nTxt');
+    //definir variables
+  var nTxt = document.getElementById('nText').value;
+  var i=0;
+  var finalTxt= " ";
+  var offNum = parseInt(document.getElementById("offNumber").value);
 
+    //conversión
+for (i=0; i<=nTxt.length; i++){
+
+  r=(nTxt.charCodeAt(i) -65 +offNum) %26 +65; //aplica la formula
+  var finalTxt= String.fromCharCode(r);
+
+console.log(finalTxt);
+//  document.write(finalTxt);
+document.getElementById("plantCode").innerHTML = offNum;
+}
 }
 
-};
-// [A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z]
-export default cipher;
+// export default cipher;

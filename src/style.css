@@ -1,21 +1,14 @@
 *{
-  padding: 0;
   margin: 0;
-}
-body {
   padding: 0;
-  margin: 0;
-  background-color: #ED5D5D;
-  font-family: 'Ropa Sans', sans-serif; font-size:33px;
-  color: #1C040E;
-  font-weight: bold;
 }
 
-h1{
-  color: #F0F0F0;
-  font size: 50%;
-  display: flex;
-  margin-top: 50%;
+html, body {
+  height: 100%;
+  background-color: #D33152;
+  font-family: 'Ropa Sans', sans-serif;
+  font-size: 27pt;
+  color: #1C040E;
 }
 
 a{
@@ -25,117 +18,95 @@ a{
 
 a:hover {
   color: hotpink;
-}
-
-.indeximg{
-  position: fixed;
-  transform: translateX(-50%);
-  transform: translateY(-50%);
-  top: 54%;
-  max-height: 55%;
-  max-width: 55%;
-
-}
-
-.page{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-  width: 100vw;
-
+  transition: all .3s ease-in-out;
 }
 
 .container{
-  display: flex;
+  height: 100vh;
+  width: 100vw;
+}
 
+.img-title{
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 160px;
+  width: 1000px;
+  height: 240px;
+  background-image: url(../img/mon-title.png);
+  background-size: 100%
+}
+
+.btn-container{
+  display:flex;
   justify-content: center;
-  height: 80vh;
-  width: 70vw;
-
+  margin-top: 40px;
 }
 
-.txt-content{
-position:absolute;
-width:inherit;
-height: auto;
-top: 55%;
-transform: translateY(-50%);
-text-align: center;
+.btn-container > div{
+  text-align: center;
+  width: 200px;
+  height: 50px;
+  background: #FFBE5E;
+  border-radius: 10px;
 }
 
-.txt-content-about{
-margin-top: 37%;
+.btn-one{
+  float: left;
+  margin-right: 40px;
 }
 
-.dot-one{
+.btn-two{
+  display: inline-block;
+  margin-right: 40px;
+}
+
+.btn-three{
+  float: right;
+}
+
+.about-container > div{
+}
+
+.mon-about-img{
+}
+
+.footer{
   position: fixed;
-  left: 50%;
-  transform: translateX(-50%);
-  height: 145px;
-  width: 145px;
-    background-color: #F2C57C;
-  border-radius:50%;
-  top: 8%;
-  text-align: center
-
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 7%;
+  background-color: #F55E7D;
+  text-align: right;
 }
-.dot-one:hover,.dot-two:hover,.dot-three:hover{
 
-transition: all 1s ease-in-out;
-transform: width 1s;
-transform: height 1s;
-height: 180px;
-width: 180px;
-background-color: #7C84F2;
-color: black;
+.img-container-footer{
+  display:flex;
+  justify-content: flex-end;
 }
-.dot-two{
-  position: fixed;
-  top: 50%;
-  left: 20%;
-  transform: translateY(-50%);
-  height: 145px;
-  width: 145px;
-  background-color: #F2C57C;
-  border-radius:50%;
+
+.img-container-footer > div{
+  margin-top: 1px;
+  height: 50px;
+  width: 50px;
+  background-size:100%;
 }
-  .dot-three{
-    position: fixed;
-    top: 50%;
-    right: 20%;
-    transform: translateY(-50%);
-    height: 145px;
-    width: 145px;
-    background-color: #F2C57C;
-    border-radius:50%;
-  }
 
-  .yellow-box {
-  position: absolute;
-  top: 25%;
-  left: 10%;
-  width: 40%;
-  height: 40%;
-  background: #F2C57C;
-  border-radius: 5px;
-  border:none;
-  }
+.steam-icon{
+  margin-right: 30px;
+  float: right;
+  background-image: url(../img/steam-icon.svg);
+}
 
-  .submit-button{
-    position:absolute;
-background: #7CEBF2;
-width: 40%;
-height:5%;
-top:66%;
-left:10%;
-border-radius: 5px;
-border: none;
-  }
-  .title {
-    margin-top: 59%;
-  }
-  .title h1:hover{
-    color: #200919;
-    transition: all 1s ease-in-out;
-  }
+.twitter-icon{
+  margin-right: 30px;
+  display: inline-block;
+  background-image: url(../img/twitter-icon.svg);
+}
+
+.spotify-icon{
+  margin-right: 30px;
+  float:left;
+  background-image: url(../img/spotify-icon.svg);
+}
