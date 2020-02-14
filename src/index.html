@@ -100,8 +100,8 @@
             <div class="tabsContenido">
               <article id="tab1">
                 <label for="cantidad">Elige la cantidad:</label>
-                <input type="number" name="cantidad">
-                
+                <input type="number" id="offset" name="cantidad">
+
                 <p>Selecciona un método de entrega:</p>
                 <input type="radio" name="entregaVendedor">
                 <label for="entregaVendedor">Acordar con el vendedor</label>
@@ -114,6 +114,8 @@
 
                 <label for="mensaje">Deja un mensaje al rescatista:</label>
                 <input type="text" name="mensaje">
+
+                <button>Terminar</button>
               </article>
 
               <article id="tab2">
@@ -135,10 +137,27 @@
       </div>
     </section>
 
-    <!-- Confirmación de aportación con alert-->
+    <!-- Alert: Confirmación de aportación. -->
     <section>
-      
+      <h3>¡Muchas gracias por aportar a nuestra causa peluda!</h3>
+      <p>Cantidad aportada:</p>
+      <button>Regalo</button>
     </section>
+
+    <!--Cupones-->
+    <section>
+      <p>LEPANDACOBO</p>
+      <p>5% descuento en pantalones para dama corte boyfriend.
+        Levis</p>
+      <button>Elegir</button>
+    </section>
+
+    <!-- Alert: Confirmación de cupón obtenido y código del mismo. -->
+    <h3>¡Felicidades! Haz obtenido:</h3>
+    <p>5% descuento en pantalones para dama corte boyfriend.
+      Levis</p>
+    <p>Código:</p>
+    <p>Muestra éste código al hacer tu compra o ingrésalo al comprar en línea.</p>
 
     <script src="index.js" type="module"></script>
   </body>
