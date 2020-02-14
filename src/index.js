@@ -1,10 +1,13 @@
+import cipher from './cipher.js';
+console.log(cipher);
 
 function pantalla2(){
 
-let screen= document.getElementById("screen1");
-screen.style="display:none";
+document.getElementById("screen1").style.display="none";
 document.getElementById("screen2").style.display= "block";
 }
+document.getElementById("button1").addEventListener("click",pantalla2);
+
 function pantallaInicio(){
 
   let screen= document.getElementById("screen2");
