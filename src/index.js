@@ -18,5 +18,5 @@ function recogeDatos() {
    /*let botonCifrar= document.getElementById("cifrando");
    let texto= document.getElementById("cajaMensaje");
    let desplazamiento= document.getElementById("cajaClave");
-   botonCifrar.addEventListener('click', codificando);*/
+   botonCifrar.addEventListener('click', codificando());*/
 

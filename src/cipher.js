@@ -1,15 +1,23 @@
 function codificando(){
     //Declarando variables iniciales
-    let texto=("PERRO");
-    let desplazamiento= 2;
+    //const texto=("PERRO");
+    //const desplazamiento= "2";
     //aquí terminan variables globales
     //let i=0;
     for (i=0;i<=texto.length;i++){
     let codificar= texto.charCodeAt();
-    console.log(codificar);
-    //let convirtiendo=((parseInt(codificar)-65+/*parseInt*/desplazamiento)%26+65)/*.join(" ")*/;
+    let parseado= parseInt(desplazamiento);
+    let paso1= codificar-65+parseado;
+    let paso2= (paso1)%26+65;
+    let resultado= String.fromCharCode(paso2);
+    //let espacios= resultado.join(" ");
+    //let convirtiendo=((codificar-65+parseInt(desplazamiento))%26+65)/*.join(" ")*/;
+        return resultado;
 }
 } 
 
+
 //alert(codificando);
-console.log(codificando());
+ //console.log();
+codificando();
+ 
