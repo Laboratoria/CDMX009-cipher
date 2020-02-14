@@ -11,7 +11,7 @@
 * [7. Pistas, tips y lecturas complementarias](#6-pistas-tips-y-lecturas-complementarias)
 
 ***
-![imagenes/final1.png]
+
 
 ## 1. Preámbulo
 
