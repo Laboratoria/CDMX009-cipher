@@ -1,8 +1,21 @@
 body{
   background-color: #66CCFF;
 }
-body.section1{
-  background-image: url("./images/porta1.jpg");
+
+body.section2{
+  background-image: url("./images/porta2.jpg");
+}
+
+header{
+  opacity: .5;
+  background-color: #0B0B3B;
+  width: 1200px;
+  height: 20px;
+  margin: 0px;
+  padding: 40px;
+  top: 0px;
+  align: right;
+  position:static;
 }
 
 article{
@@ -10,10 +23,16 @@ article{
   text-align:center;
 }
 
+aside{
+  position:static;
+  text-align:right;
+}
+
 footer{
+  opacity: .3;
   background-color: #CEE3F6;
   width: 1200px;
-  height: 10px;
+  height: 11px;
   margin: 0px;
   padding: 30px;
   bottom: 0px;
@@ -22,15 +41,20 @@ footer{
 }
 
 h1{
-  color:#FF4500;
   font-size:45px;
   text-align: center;
 }
 
 p{
-color:#FFFFFF;
   font-size:30px;
   text-align: center;
+}
+
+a{
+color:#000033;
+}
+a:hover{
+color:#00CCFF;
 }
 
 input{
