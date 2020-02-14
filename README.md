@@ -1,4 +1,6 @@
-# Cifrado César
+# Safevent
+El siguiente proyecto se trata de una aplicación para generar códigos mediante la lógica del Cifrado César. Dicha herramienta ayuda a cifrar lugares de eventos para mantener la confidencialidad y seguridad de los usuarios, evitando que personas desconocidas sepan donde se encuentran,y así mismo impidiendo tener que lidiar con invitados sorpresa.
+
 
 ## Índice
 
