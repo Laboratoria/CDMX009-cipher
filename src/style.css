@@ -1,14 +1,44 @@
-#root {
+html {
     color: cornsilk;
     font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
     background-image: url("../assets/background_first_page.png");
     background-size: cover;
-    height: auto;
     padding-right: 25px;
+    margin: auto;
 }
 
-.main_background {
-    margin: auto;s
+#logins-main-page > h1, h2, h3 {
+    color: ghostwhite;
+    text-align-last: end;
+    font-size: x-large;
+    text-shadow: 2px 2px blueviolet;
+}
+
+#page-for-encrypt {
+    background-size: cover;
+    margin: auto;
+    display: none;
+    text-align: center;
+    font-size: x-large;
+    width: 100%;
+    height: auto;
+    text-shadow: 2px 2px blueviolet;
+}
+
+#page-for-desencrypt {
+    background-size: cover;
+    margin: auto;
+    display: none;
+    text-align: center;
+    font-size: x-large;
+    width: 100%;
+    height: auto;
+    text-shadow: 2px 2px blueviolet;
+}
+
+.advertise_text {
+    color: red;
+    text-align: center;
 }
 
 .buttons_logins_display {
@@ -17,80 +47,101 @@
     border: double;
     cursor: pointer;
     color: darkturquoise;
-    padding: 18px;
+    padding: 16px;
     font-size: x-large;
     border-radius: 25px;
-    margin-left: 355px;
     padding-right: 35px;
     padding-inline-start: 35px;
+    margin-top: 33px;
+    margin-left: 753px;
+    margin-right: -638px;
 }
 
-.buttons_logins {
-    padding-left: 670px;
+.buttons_main_page {
+    max-width: 100%;
 }
 
-.buttons_logins_display {
-    margin-left: 89px;
+.container_text_area {
+    border-radius: 20ex;
+    border-color: red;
 }
 
-.logins-footer {
-    color: plum;
-    font-size: small;
+.faqs {
+    background-size: cover;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-size: 22px;
     text-align: center;
-    white-space: pre;
-    position: ine;
-    left: 0;
-    bottom: 0;
-    width: 100%;
+    text-shadow: 2px 2px black;
+    color: white;
+    display: none;
+    padding-left: 20%;
+    padding-right: 20%;
 }
 
-.faqs_page {
-    color: plum;
-    font-size: larger;
-    text-align: center;
-}
-
-.logins-header { 
-    color: lightseagreen;
+.faqs_page_button {
+    background-color:darkslateblue;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    border: double;
+    cursor: pointer;
+    color: darkturquoise;
+    padding: 12px;
     font-size: x-large;
-    text-align: end;
-    padding-top: 60px;
-    padding-bottom: 55px;
+    border-radius: 35px;
+    margin-left: 64px;
+    padding-right: 20px;
+    padding-inline-start: 20px;
+    display: block;
+}
+
+.generic_button {
+    background-color:darkslateblue;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    border: double;
+    cursor: pointer;
+    color: darkturquoise;
+    padding: 16px;
+    font-size: x-large;
+    border-radius: 25px;
+}
+
+.generic_pages {
+    width: 100%;
+    margin-top: 4px;
 }
 
 .input_logins {
-    display: inline-block; 
-    width: 200px;
-    margin: 100px;
+    width: 238px;
+    height: 52px;
 }
 
-.logins_first_page > h1, h2, h3 {
-    color: cornsilk;
-    text-align-last: end;
-    padding-bottom: 10px;
+.label_password {
+    margin-top: 20px;
+}
+
+.logins_footer {
+    color: plum;
+    font-size: small;
+    text-align: center;
+    white-space: pre-line;
+    font-weight: lighter;
+}
+
+.logins_header { 
+    color: lightseagreen;
+    text-shadow: 4px 1px royalblue;
     font-size: x-large;
+    text-align: end;
 }
 
 .number_of_scroll {
     text-align: center;
 }
 
-#logins-second-page {
-    display: none;
+.password_input {
+    border-radius: 20ex;
+    border-color: red;
 }
 
-#logins-third-page {
-    display: none;
+.textarea_label_password {
+    margin-top: 20px;
 }
-
-.titlesecondpage {
-    text-align: center;
-    color: lightsteelblue;
-    margin: 4px;
-}
-
-.titlesecondpage > ul {
-    color: red;    
-}
-
-
