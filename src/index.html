@@ -1,32 +1,41 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
+<head>
+  <link href="https://fonts.googleapis.com/css?family=Crimson+Pro|Lato&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="index.js"></script>
+</head>
 <body>
 
-<section  id= "página-de-inicio">
+<section  id="pagina-de-inicio" class="pantalla">
   <header>
     <h1>Periodismo libre</h1>
-    <p>Acerca de nosotros</p>
+    <p class="descripcion">Acerca de nosotros</p>
   </header>
   <p>Somos un grupo interesado en la defensa de la libertad de expresión, apoyamos el analisis y la publicación de documentos que han sido censurados o su acceso ha sido restrigido.
 Estamos en busca de colaboradores que necesiten un espacio libre y seguro para compartir información.</p>
-<button onclick="Contribution()">Colaborar</button>
-<button onclick="Check-content()">Revisar Contenido</button>
+<button onclick="contribution()">Colaborar</button>
+<button onclick="checkContent()">Revisar Contenido</button>
+
 </section>
 
 
-<section id="ingresar-datos">
+<section id="ingresar-datos" class="pantalla">
   <header>
     <h1>Gracias por tu colaboración</h1>
-    <p>Por favor escribe tus datos,  nosotros te daremos un nombre de usuario seguro para que puedas ingresar tus colaboraciones</p>
+    <p class="descripcion">Por favor escribe tus datos,  nosotros te daremos un nombre de usuario seguro para que puedas ingresar tus colaboraciones</p>
+  </header>
 
    <form>
     <label for="nombre-example">nombre</label>
     <input
     type="Nombre"
-    id="Nombre-example"
-    placeholder="Nombre"
+    id="nombre-example"
+    placeholder="Nombre de usuario"
     name="nombre-example"
     required
+    pattern="[A-Z]+"
+    onchange="soloMayusculas()"
     />
   </form>
 
@@ -35,7 +44,7 @@ Estamos en busca de colaboradores que necesiten un espacio libre y seguro para c
   <input
     type="email"
     id="email-example"
-    placeholder="Email"
+    placeholder="e-mail"
     name="email-example"
     required
   />
@@ -46,7 +55,7 @@ Estamos en busca de colaboradores que necesiten un espacio libre y seguro para c
   <option value="value3">imagenes</option>
 </select>
   <button onclick="goBack()">Regresar</button>
-<button id="Next">Siguiente</button>
+<button class="Next">Siguiente</button>
 
 <section  id= "ingresar-colaboración">
   <header>
@@ -60,13 +69,13 @@ Estamos en busca de colaboradores que necesiten un espacio libre y seguro para c
       <button id="submit">Enviar</button>
 
 </section>
-<section  id= "pantalla-final">
+<section  id="pantalla-final">
   <header>
     <h1>Gracias por tu colaboración <!--agregar la función de presentar el nombre codificado de usuario !--> </h1>
 
   </header>
 
-  <button id="Main menu">Menú Principal</button>
+  <button class="Main menu">Menú Principal</button>
         <button id="Exit">Salir</button>
 
 
