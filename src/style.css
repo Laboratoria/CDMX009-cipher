@@ -146,6 +146,7 @@ textarea{
 	height: 80px;
 	margin-left: 200px;
 	padding-left: 20px;
+	padding-top: 5px;
 }
 
 #offset, #offset1{
