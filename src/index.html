@@ -5,6 +5,7 @@
     <title>IRIS</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="shortcut icon" href="images/favicon.ico" type="image/png" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
   </head>
   <body>
     <section>
@@ -21,14 +22,15 @@
         <label id ="bluetoothLabel" for="bluetoothSwitch">Bluetooth</label>
       </div>
       <div>
-        <select id="contacts" placeholder="Contactos" class="btStatus" disabled>
+        <select id="contacts"  class="btStatus" disabled>
           <option value="contactsTitle">Contactos en rango</option>
-          <option value="ana">Ana 50m</option>
-          <option value="jose">José 100m</option>
-          <option value="juan">Juan 160m</option>
-          <option value="maria">María  230m</option>
+          <option  value="ana">Ana - 50m</option>
+          <option value="jose">José - 100m</option>
+          <option value="juan">Juan - 160m</option>
+          <option value="maria">María - 230m</option>
         </select>
         <p class="SelectInfo"></p>
+        <i class="fas fa-question-circle"></i>
       </div>
       <div class="configContainer">
         <div id="configBox1">
@@ -48,7 +50,7 @@
         </div>
       </div>
       <div>
-        <textarea id="inputTextarea" cols="30" rows="3" placeholder="Mensaje" class="btStatus contactsStatus codeCheck" disabled></textarea>
+        <textarea id="inputTextarea" cols="30" rows="3" placeholder="Introduce mensaje o recibe uno" class="btStatus contactsStatus codeCheck" disabled></textarea>
         <p id="inputWarning"></p>  
       </div>
       <div id="buttonContainer1">
@@ -59,6 +61,7 @@
         <textarea id="outputTextarea" cols="30" rows="3" class="btStatus contactsStatus codeCheck" readonly disabled></textarea>
       </div>
       <div id="buttonContainer2">
+        <i class="fas fa-info-circle"></i>
         <button id="sendButton" type="button" class="btStatus contactsStatus codeCheck" disabled>Enviar</button>
       </div>
       <div>

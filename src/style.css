@@ -31,7 +31,7 @@ html, body{
 
 #footpage{
   font-size: 9pt;
-  border-top: 1px solid rgba(2, 128, 144, 0.5);
+  border-top: 1px solid rgba(2, 128, 144, 0.2);
   padding-top: 1em;  
 }
 
@@ -88,17 +88,23 @@ input[type=radio] {
   height: 1em;
 }
 
-#buttonContainer1, .configContainer{
+#buttonContainer1, #buttonContainer2, .configContainer{
   display:flex;
   justify-content: space-between;
   padding: 0 3em;
 }
 
+i{
+  color:rgba(2, 128, 144, 1);
+  margin-left:1em;
+}
+
+/*
 #buttonContainer2{
   display:flex;
   justify-content: flex-end;
   padding: 0 3em;
-}
+}*/
 
 
 

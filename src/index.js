@@ -29,6 +29,9 @@ offsetStatus.addEventListener("input", offsetValidate);
 let inputTextStatus = document.getElementById("inputTextarea");
 inputTextStatus.addEventListener("input", inputTextValidate);
 
+let cleanButtonStatus = document.getElementById("cleanButton");
+cleanButtonStatus.addEventListener("click", cleanElements);
+
 function inputTextValidate(){
     if(/[^ a-zA-ZÁÉÍÓÚü]+/.test(inputTextStatus.value)){
         console.log("¡Escribe bien!");
@@ -59,6 +62,7 @@ function contactsSelect() {
     if(contactsSelectStatus.value != "contactsTitle"){
         console.log("select entra");
         let statusElement = document.getElementsByClassName("contactInit");
+        cleanElements();
         ableElements(statusElement);
         console.log("regresa");
     }else{
@@ -112,8 +116,8 @@ function encodeDecode(){
         ableElements(statusElement);
         let sendButtonStatus = document.getElementById("sendButton");
         sendButtonStatus.disabled = true;
-        //let testText = "FTUF FT VO UFYUP EF QSVFCB";
-        //inputTextStatus.value = testText;
+        let testText = "FTUF FT VO UFYUP EF QSVFCB";
+        inputTextStatus.value = testText;
         inputText = inputTextStatus.value;
         outputTextStatus.value = cipher.decode(offset,inputText);
         console.log(cipher.decode(offset,inputText));
@@ -132,26 +136,28 @@ function ableElements(statusElement) {
     }
 }
 
-//PENDIENTE
 function cleanElements() { 
     console.log("entra al clean");
-    let cleanElement = document.getElementsByClassName("BtStatus");
+    let cleanElement = document.getElementsByClassName("btStatus");
     console.log("longitud es de: " + cleanElement.length);
-    for(let i; i<cleanElement.length; i++){
-        console.log("es el elemento: " + cleanElement[i]);
-        if(cleanElement[i].tagName == "input"){
+    
+    for (let i=0; i < cleanElement.length; i++){
+        console.log("entra al for del clean");
+        console.log("es el elemento: " + cleanElement[i].type);
+        if(cleanElement[i].tagName == "INPUT"){
             if(cleanElement[i].type == "text"){
-                
+                console.log("si es text")
                 cleanElement[i].value = ""; 
             }else{
-                cleanElement[i].checked = false;
+                //cleanElement[i].checked = false;
+                console.log("es el else")
             }
-        }else if(cleanElement[i].tagName == "select"){
-            cleanElement[i].value = "contactsTitle";
-        }else if(cleanElement[i].tagName == "textarea"){
+        //}else if(cleanElement[i].tagName == "SELECT"){
+           // cleanElement[i].value = "contactsTitle";
+        }else if(cleanElement[i].tagName == "TEXTAREA"){
             cleanElement[i].value = "";
         }else{
-            break;
+            console.log("parece que fue button")
         }
     }
     
