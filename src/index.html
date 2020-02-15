@@ -5,105 +5,36 @@
     <title>spx | Caesar Cipher</title>
     <link rel="stylesheet" href="style.css" />
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
   </head>
   <body>
-  <section id="home">
-    <header>
-      <img src="img/mainLogo.svg" alt="spx">
-    </header>
-     <nav> 
-      <div id="specsButton">
-        <a href="#cipher"><img src="img/hideButton.svg" alt="Cifrar"></a>
-        <img src="img/bridgeGlass.svg">
-        <a href="#decipher"><img src="img/showButton.svg" alt="Descifrar"></div></a>
+<section>    
+      <header>
+        <img src="img/mainLogo.svg" alt="spx">
+      </header>
+      <nav> 
+        <a href="#cipherSection"><img src="img/hideButton.png" alt="Cifrar"></a>
+        <img src="img/bridgeGlass.png">
+        <a href="#decipherSection"><img src="img/showButton.png" alt="Descifrar"></a>
       </nav>
       <footer>
-        <img src="img/faqButton.svg" alt="Ayuda">
+        <img  class="faqShow" src="img/faqButton.svg" alt="Ayuda">
       </footer>
-  </section>
-  <section id="cipher">
-    <nav>
-      <div id="specsLogo">
-        <img src="img/mainLogo.svg" alt="Inicio">
-      </div>
-    </nav>
-    <article>
-      <div id="menuKeys">
-        <input id= "numBox">
-      </div>
-      <div id="getArea">
-        <input id="getBox" type="textarea">
-        <button id="getBoton">
-          <img src="img/cipherButton.svg" alt="Cifrar"></button>
-      </div>
-    </article>  
-    <div id="resultsBox">
-      <input id="gBox" type="textarea">
-      <button id="show">
-        <img src="img/likeButton.svg" alt="Copiar">
-      </button>
-    </div>
-    <footer>
-      <div id="faqButton">
-        <img src="img/faqButton.svg" alt="Ayuda">
-      </div>
-    </footer>
-  </section>
-  <section id="decipher">
-    <nav>
-      <div id="specsLogo">
-        <img src="img/mainLogo.svg" alt="Inicio">
-      </div>
-    </nav>
-    <article>
-      <div id="menuKeys">
-        <label>
-          <input type="radio" name="test" value="3" checked>
-          <img src="img/pic.svg">
-        </label>
-        <label>
-          <input type="radio" name="test" value="5">
-          <img src="img/cloud.svg">
-        </label>
-        <label>
-          <input type="radio" name="test" value="7" checked>
-          <img src="img/cassete.svg">
-        </label>
-        <label>
-          <input type="radio" name="test" value="9">
-          <img src="img/landscape.svg">
-        </label>
-        <label>
-          <input type="radio" name="test" value="9">
-          <img src="img/cup.svg">
-        </label>
-        <label>
-          <input type="radio" name="test" value="9">
-          <img src="img/camera.svg">
-        </label>
-        <label>
-          <input type="radio" name="test" value="11">
-          <img src="img/pencil.svg">
-        </label>
-      </div>
-      <div id="getArea">
-        <input id="getBox" type="textarea">
-        <button id="get" onclick="decode()">
-          <img src="img/decipherButton.svg" alt="Descifrar"></button>
-      </div>
-      <div id="resultsBox">
-        <input id="resultsArea" type="textarea">
-        <button id="show">
-          <img src="img/likeButton.svg" alt="Copiar">
-        </button>
-      </div>
-    </article>
-    <footer>
-      <div id="faqButton">
-        <img src="img/faqButton.svg" alt="Ayuda">
-      </div>
-    </footer>
-  </section>
-  <script src="index.js" type="module"></script>
+    </section>
+
+
+    <section class="contenido" id="decipherSection">
+      <p>Da click</p>
+
+<input id= "textBox" placeholder="Texto"> 
+<input id= "numBox" placeholder="numero">
+<button id="getBoton">Cifrar</button>
+<button id="letBoton">Descifrar</button>
+
+<div id="demo">Resultado</div>
+
+<script src="index.js" type="module"></script>
+
+    </section>
   </body>
 </html>

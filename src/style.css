@@ -1,51 +1,81 @@
 body {
-    
+  
   font-family: 'Montserrat', sans-serif;
   background-color: #8BA9D4;
   margin: 0px;
 }
-h1 {
-font-size: 2.5rem;
-text-transform: uppercase;
-margin: 0px;
+
+//section {
+  height: 100vh;
 }
 
-h2 {
-font-size: 1.2rem;
-text-transform: uppercase;
-margin: 0px;
-}
-
-section {
-display: flex;
-justify-content: center;
-flex-direction: column;
-height: 100vh;
-
-}
-
-#specsButton {
+section.home{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
-  margin-left: 45vw;
-  }
-
-
-.faqButton {
 }
 
-[type=radio] { 
+section.home header{
+  margin-bottom: 20px;
+}
+
+section.home footer{
+  position: absolute;
+  bottom:30px;
+  right:50px;
+}
+
+section.home nav img{
+margin: -3px;
+}
+
+section.contenido{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+
+}
+
+section.contenido nav {
+align-self: flex-start;
+  padding-left: 50px;
+}
+
+section.contenido footer {
+  align-self: flex-end;
+  padding-right: 50px;
+}
+
+section.contenido .box {
+  width: 250px;
+  height: 100px;
+  padding: 15px;
+  resize: none;
+  background: #E8E2DF;
+  box-shadow: 3px 3px 4px 0 #A58D7F inset;
+  border-radius: 5px;
+}
+
+#demo {
+  width: 200px;
+  height: 200px;
+}
+
+input [type=radio] { 
 position: absolute;
 opacity: 0;
 width: 0;
 height: 0;
 }
     
-[type=radio] + img {
+input [type=radio] + img {
 cursor: pointer;
 border-radius: 5px;
 }
     
-[type=radio]:checked + img {
+input [type=radio]:checked + img {
 background-color:  rgba(15, 76, 129, 0.15);
 padding: 5px;
 }

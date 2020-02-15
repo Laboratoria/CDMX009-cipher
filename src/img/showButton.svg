@@ -1,5 +1,20 @@
-<svg width="48" height="45" viewBox="0 0 48 45" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M47.2871 13.2831C47.2871 5.94706 41.34 0 34.004 0H3.43323e-05V20.9878C3.43323e-05 34.0458 10.5856 44.6313 23.6436 44.6313C36.7015 44.6313 47.2871 34.0458 47.2871 20.9878V13.2831Z" fill="#0F4C81"/>
-<path d="M7.75513 10.5274C7.75513 8.68224 9.25096 7.1864 11.0962 7.1864H36.191C38.0362 7.1864 39.532 8.68224 39.532 10.5274V21.3673C39.532 30.1423 32.4185 37.2558 23.6436 37.2558C14.8686 37.2558 7.75513 30.1423 7.75513 21.3673V10.5274Z" fill="#8BA9D4"/>
-<circle cx="23.1978" cy="21.4194" r="5" fill="#E8E2DF"/>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 48 67" style="enable-background:new 0 0 48 67;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#0F4C81;}
+	.st1{fill:#8BA9D4;}
+	.st2{fill:#E8E2DF;}
+</style>
+<g id="Capa_1">
+</g>
+<g id="Capa_2">
+	<path class="st0" d="M47.6,24.5c0-7.3-5.9-13.3-13.3-13.3h-34v21c0,13.1,10.6,23.6,23.6,23.6c13.1,0,23.6-10.6,23.6-23.6V24.5z"/>
+	<path class="st1" d="M8.1,21.8c0-1.8,1.5-3.3,3.3-3.3h25.1c1.8,0,3.3,1.5,3.3,3.3v10.8c0,8.8-7.1,15.9-15.9,15.9
+		c-8.8,0-15.9-7.1-15.9-15.9V21.8z"/>
+	<circle class="st2" cx="23.6" cy="32.7" r="5"/>
+</g>
+<g id="Capa_3">
+</g>
 </svg>
