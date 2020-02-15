@@ -1,30 +1,27 @@
 * {
 	margin: 0;
 	padding: 0;
-	-webkit-box-sizing:border-box;
-	-moz-box-sizing:border-box;
 	box-sizing: border-box;
+	flex: 1 1 auto;
 }
-
-
 
 body {
 	background: #E3C8E8;
   color: #3C2840;
 	font-size: 25px;
 	font-family: "Helvetica, Arial, sans-serif";
+	letter-spacing: 1px;
+	line-height : 40px;
+	text-align: justify;
 }
 
+/*Barra navegadora en header para Login y página de registro*/
 .navbar {
 	background: #E3C8E8;
 	color:#000000;
 	font-size: 26px;
 	display: flex;
-}
-
-div.img{
-  background: #E3C8E8;
-  width: 100%;
+	padding: 20px;
 }
 
 .logo-img{
@@ -35,45 +32,173 @@ div.img{
   padding: 10px;
 }
 
-*.woman-icon{
+/*Login*/
+.input-style {
+	text-align: center;
+}
+
+.input-folio{
+			border: 0px;
+			font-size: 15px;
+			box-shadow: 3px 3px 7px 1px #898989;
+			display: inline-block;
+			margin-top: 10px;
+			text-align: center;
+			padding: 8px;
+}
+
+.btn-enter{
+	    border: 0px;
+	    width: 80px;
+	    height: 30px;
+	    background-color: #3C2840;
+	    margin-top: 10px;
+	    color: #FFFFFF;
+	    font-size: 15px;
+	    box-shadow: 3px 3px 7px 1px #898989;
+			cursor: pointer;
+}
+
+.btn-enter:hover {
+	    background-color: #FFD2F9;
+}
+
+.btn.focus {
+	    outline: 0px;
+}
+
+.btn-send{
+		  border: 0px;
+		  width: 80px;
+      height: 30px;
+			margin-left: 90px;
+		  background-color: #3C2840;
+		  margin-top: 10px;
+      color: #FFFFFF;
+		  font-size: 15px;
+		  box-shadow: 3px 3px 7px 1px #898989;
+			cursor: pointer;
+}
+
+.btn-send:hover {
+		  background-color: #FFD2F9;
+}
+
+.btn-send.focus {
+		  outline: 0px;
+}
+
+.link-style{
+	text-decoration: underline;
+	text-align: center;
+	color: #3C2840;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.link-style:hover {
+    color: #FFFFFF;
+    padding-bottom: 5px;
+    transition: 0.3s;
+}
+
+/*Página de registro*/
+.register{
+	text-align: center;
+}
+
+.woman-icon{
 	width:80px;
-  height: auto;
-  margin: auto;
-  display: inline-block;
-  padding: 10px;
+	cursor: pointer;
+	padding: 8px;
+	text-align: center;
 }
 
 .email-icon{
 	width:80px;
-  height: auto;
-  margin: auto;
-  display: inline-block;
-  padding: 10px;
+	cursor: pointer;
+	padding: 8px;
+	text-align: center;
 }
 
-.mistake{
-	color:#9C0220;
+.box-form{
+	border: 0px;
+	font-size: 15px;
+	box-shadow: 3px 3px 7px 1px #898989;
+	padding: 8px;
+	text-align: center;
+}
+
+/*Página de introducción*/
+.bar{
+	background: #E3C8E8;
+	color:#000000;
+	font-size: 26px;
+	display: flex;
+}
+
+.back-style{
+	width:100px;
+}
+
+.first-page-style{
+	text-align: center;
+}
+
+.woman-photo {
+	width: 40%;
+	margin:auto;
+	display: block;
+	border-radius: 10px;
+	align-items: center;
+}
+
+.cite{
+	text-align: right;
 }
 
 .title{
   text-align: center;
+	font-size: 40px;
+	font-weight: bold;
 }
 
-.noOffsetStyle {
+.date{
+	font-size: 30px;
+	font-weight: lighter;
+
+}
+
+.subtitle{
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.welcome {
+	text-align: center;
+	font-size: 30px;
+}
+/*Página de herramienta*/
+
+.offset-style {
     width: 40px;
 }
 
-.contentOffset {
+.content-offset {
     margin-top: 10px;
+		text-align: center;
 }
 
 .label {
-    font-size: 16px;
-    font-family: "Helvetica, Arial, sans-serif";
-    color: #3C2840;
+		font-size: 15px;
+		font-family: "Helvetica, Arial, sans-serif";
+		font-weight: bold;
+		color: #3C2840;
+		text-align: center;
 }
 
-.linksCode {
+.encode-decode-style {
     width: 100%;
     font-size: 22px;
     font-family: "Helvetica, Arial, sans-serif";
@@ -83,100 +208,101 @@ div.img{
     margin-top: 25px;
 }
 
-.linksCode a {
+.encode-decode-style a {
     text-decoration: none;
     text-align: center;
-    color: #FFFFFF;
+    color: #3C2840;
     margin-left: 10px;
     margin-right: 10px;
 }
 
-.linksCode a:hover {
+.encode-decode-style a:hover {
     border-bottom: 2px solid #3C2840;
     color: #FFFFFF;
     padding-bottom: 5px;
     transition: 0.3s;
 }
 
-.linkActive {
+.link-active {
     border-bottom: 2px solid #3C2840;
     color: #FFFFFF !important;
     padding-bottom: 5px;
 }
 
-.msgStyle {
+.msg-style {
     width: 100%;
     margin-top: 20px;
+		text-align: center;
 }
 
-.msgStyle p {
+.msg-style p {
     font-family: "Helvetica, Arial, sans-serif";
     color: #3C2840;
     margin-bottom: 10px;
 }
 
-.boxStyle {
+.box-style {
+		font-family: "Helvetica, Arial, sans-serif";
+		font-size: 15px;
     width: 100%;
     height: 130px;
     resize: none;
     outline: 0px;
+		padding: 20px;
 }
 
-.btnCode {
-    border: 0px;
-    width: 170px;
-    height: 50px;
-    background-color: #3C2840;
-    border-radius: 5px;
-    margin-top: 10px;
-    color: #FFFFFF;
-    font-size: 15px;
-    box-shadow: 3px 3px 7px 1px #898989;
-    cursor: pointer;
-    transition: 0.4s;
+.btn-code {
+	border: 0px;
+	width: 80px;
+	height: auto;
+	background-color: #3C2840;
+	margin-top: 10px;
+	color: #FFFFFF;
+	font-size: 15px;
+	box-shadow: 3px 3px 7px 1px #898989;
+	cursor: pointer;
 }
 
-.btnCode:hover {
-    background-color: #FFF8A6;
+.btn-code:hover {
+    background-color: #FFD2F9;
 }
 
-.btnCode:focus {
+.btn-code:focus {
     outline: 0px;
 }
 
-.btnReload {
-    border: 0px;
-    width: 170px;
-    height: 50px;
-    background-color: #3C2840;
-    border-radius: 5px;
-    margin-top: 15px;
-    color: #FFFFFF;
-    font-size: 15px;
-    box-shadow: 3px 3px 7px 1px #898989;
-    cursor: pointer;
-    transition: 0.4s;
+.clear-style {
+	border: 0px;
+	width: 80px;
+	height: 30px;
+	background-color: #3C2840;
+	margin-top: 10px;
+	color: #FFFFFF;
+	font-size: 15px;
+	box-shadow: 3px 3px 7px 1px #898989;
+	cursor: pointer;
 }
 
-.btnReload:hover {
-    background-color: #FFF8A6;
+.clear-style:hover {
+    background-color: #FFD2F9;
 }
 
-.btnReload:focus {
+.clear-style:focus {
     outline: 0px;
 }
 
-.msgReady {
-    width: 97%;
+.ready-style {
+    width: 90%;
+		text-align: center;
     height: auto;
     min-height: 130px;
-    background-color: #DADADA;
+		font-family: "Helvetica, Arial, sans-serif";
+		font-size: 15px;
     margin-top: 20px;
     padding: 10px;
-    box-shadow: 2px 2px 10px 1px #898989;
 }
 
-.msgStyle p {
+.ready-style p {
     color: #3C2840;
 }
 
@@ -192,4 +318,17 @@ div.img{
     .content {
         width: 85%;
     }
+}
+/*Última página*/
+
+.last-page-style{
+	text-align: center;
+}
+
+.support{
+	width: 40%;
+	margin:auto;
+	display: block;
+	border-radius: 10px;
+	align-items: center;
 }
