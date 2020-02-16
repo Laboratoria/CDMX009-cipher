@@ -1,9 +1,11 @@
 const cipher = {
 
+// OBTENIENDO LOS DATOS DEL USUARIO
 paterno : document.getElementById('cifrarlo').value,
 mes : parseInt(document.getElementById('movimientos').value), 
 
-cifrado : function(paterno, mes) {
+// FUNCIO PARA CIFRAR POR EL INDICE DEL ARRAY ALFABETO
+cifrado : (paterno, mes) => {
     
     let datoMayusculas = paterno.toUpperCase();
     let alfabeto = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('');
@@ -31,36 +33,15 @@ cifrado : function(paterno, mes) {
     }
     return datoCifrado;
 },
-/* -----------------------------------------*/
 
-desCifrado : function(paterno, mes) {
-    //mes = parseInt(mes % 26);    
+//FUNCION PARA DESCIFRAR
 
-    let datoMayusculas = paterno.toUpperCase();
-    let alfabeto = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('');
+desCifrado : (paterno, mes) => {
     let datoDesCifrado = '';
+    mes = (26 - mes) + mes;
+    datoDesCifrado += cipher.cifrado(paterno, mes);
 
-    for(let i = 0; i < datoMayusculas.length; i++) {
-        let letraActual = datoMayusculas[i];
-        if(letraActual === ' ') {
-            datoDesCifrado += letraActual;
-            continue;
-        }
-
-        let actualIndex = alfabeto.indexOf(letraActual);
-        let nuevoIndex = (actualIndex - mes) + mes;
-
-        if(nuevoIndex > 25) {
-            nuevoIndex = nuevoIndex - 26;
-        } else if(nuevoIndex < 0) {
-            nuevoIndex = nuevoIndex + 26;
-        } else if(paterno[i] === paterno[i].toUpperCase()) {
-            datoDesCifrado += alfabeto[nuevoIndex].toUpperCase();
-        } else {
-            datoDesCifrado += alfabeto[nuevoIndex]
-        }
-    }
-    return datoDesCifrado;
+    return datoDesCifrado
 }
 };
 
