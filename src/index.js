@@ -1,4 +1,3 @@
-
 //aquí los botones del html
 document.getElementById('ir').addEventListener('click',pantalla2)
 document.getElementById('limpiar').addEventListener('click',limpia)
@@ -30,7 +29,7 @@ function descifraMensaje() {
 
 //función limpiar texto
 function limpia() {
-  let borrar = document.getElementById('desplaza').value = '';
+  document.getElementById('desplaza').value = '';
   document.getElementById('mensajeor').value = '';
   document.getElementById('resultado').value = '';
 }
