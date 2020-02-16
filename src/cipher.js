@@ -2,9 +2,11 @@ const cipher = {encode,decode};
 
 export default cipher;
 
-function encode(myString,offset){
+function encode(offset,myString){
   var myStringCipher = '';
-
+  //if(typeof(myString)!='string'){
+  //  throw new TypeError('');
+  //}
   for (var i = 0 ; i < myString.length ; i++){
    var numberOfTheLetter = myString.charCodeAt(i);
    var cipherFormula;
@@ -21,14 +23,14 @@ function encode(myString,offset){
      myStringCipher += ' ';
    }
    else {
-     break;
+    //return throw new TypeError('');
     }
   }
   return myStringCipher;
 }
 
 //funcion para descifrar una cadena de texto
-function decode(myString1,offset1){
+function decode(offset1,myString1){
   var myStringDechiper ='';
   for(var i = 0; i< myString1.length ; i++){
      var numberOfTheLetter = myString1.charCodeAt(i);
@@ -45,7 +47,7 @@ function decode(myString1,offset1){
      } else if(numberOfTheLetter === 32){
        myStringDechiper += ' ';
      } else {
-       break;
+       //throw new TypeError('');
      }
   }
   return myStringDechiper;

@@ -10,7 +10,7 @@ let myString1 = document.querySelector('#textarea8');//almacena texto a descifra
 
 //CLICK CIFRADO
 function clickCifrado(){
-  let word = cipher.encode(myString.value, offset.value);
+  let word = cipher.encode(offset.value,myString.value);
   document.getElementById("textarea").innerText= word;
 
 }
@@ -19,7 +19,7 @@ document.getElementById("blissito").onclick=function() {clickCifrado()};
 //CLICK DESCIFRADO
 
 function clickDescifrado(){
-  let word1 = cipher.decode(myString1.value, offset1.value);
+  let word1 = cipher.decode(offset1.value,myString1.value);
   document.getElementById("textarea7").innerText= word1;
 
 }
