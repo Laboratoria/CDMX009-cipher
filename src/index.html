@@ -31,7 +31,7 @@
         <h2>¿Quienes somos?</h2>
         <p id="quien">Safevent es una empresa interesada en la seguridad de nuestros usuarios, sabemos que hoy en día la tecnología es una herramienta indispensable en nuestras vidas, sin embargo, estamos expuestos a que otras personas tengan acceso a datos personales, vulnerando nuestra  seguridad. Por ello, creamos un sistema para cifrar (crear un código) eventos o lugares en los que estarás, evitando que otras personas conozcan tu ubicación. Todo esto basándonos en el <a href="vista2.html">Código César</a> Te comparto el ejemplo de un usuario para que queden claros los usos de nuestra aplicación:</p>
         <br>
-        <p id="ejemplo">Héctor quería planear una fiesta, pues su cumpleaños estaba cerca, sin embargo, en veces anteriores personas que ni él ni sus amigos conocían llegaban  a sus eventos y muchas veces causaban problemas. Un conocido le platicó de <span>Safevent</span>, pues a él también le habían ocurrido situaciones similares. Lo único que Héctor tuvo que hacer fue ingresar a nuestra aplicación, ingresar el nombre del lugar de su evento y elegir el número de posiciones a recorrer el alfabeto para generar un código que pudo compartir con sus invitados </p>
+        <p id="ejemplo">Héctor quería planear una fiesta, pues su cumpleaños estaba cerca, sin embargo, en veces anteriores personas que ni él ni sus amigos conocían llegaban  a sus eventos y muchas veces causaban problemas. Un conocido le platicó de <span>Safevent</span>, pues a él también le habían ocurrido situaciones similares. Lo único que Héctor tuvo que hacer fue ingresar a nuestra aplicación, ingresar el nombre del lugar de su evento y elegir el número de posiciones a recorrer el alfabeto para generar un código que pudo compartir con sus invitados. </p>
       </div>
 
       <div>
@@ -39,17 +39,17 @@
         <br>
         <textarea class="caja" id="posiciones"></textarea>
         <br>
-        <button class="boton0" onclick="saveNumber()">Ingresar</button>
+        <button class="boton0" onclick="saveNumber()"><a href="#paso2">Ingresar</a></button>
         <br>
       </div >
 
-      <div>
+      <div id="paso2">
         <p>Paso 2. Ingresa el nombre del lugar de tu evento (omite números)</p>
         <br>
         <textarea type="text" class="caja" id="cadenacif"></textarea>
         <br>
-        <button class="boton1" onclick="cifrar()">Cifrar</button>
-        <button class="boton2" onclick="descifrar()">Descifrar</button>
+        <button class="boton1" onclick="cifrar()"><a href="#resultado">Cifrar</a></button>
+        <button class="boton2" onclick="descifrar()"><a href="#resultado">Descifrar</a></button>
         <br>
       </div>
     

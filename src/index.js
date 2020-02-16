@@ -4,7 +4,7 @@ function saveNumber(){
   offset = parseInt(document.getElementById('posiciones').value); //localStorage
   alert("Hola " + offset);
 }
-
+ let shoot = document.querySelector()
 
 function cifrar(){
   let string = document.getElementById('cadenacif').value;

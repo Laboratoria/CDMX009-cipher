@@ -66,6 +66,7 @@ p{
 }
 a{
     text-decoration: none;
+    color: #000000;
 }
 
 .caja{
@@ -123,10 +124,11 @@ a{
     padding: 20px;
 }
 .boton:hover{
-    background-color: #49DBDF;
+    background-color: rgb(97, 186, 189);
 
 }
 #resultadocif,#resultadodes{
+    width: 50px;
     margin: 10px 180px;
     padding: 10px;
     text-align: center;

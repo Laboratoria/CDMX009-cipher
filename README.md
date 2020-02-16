@@ -1,6 +1,18 @@
 # Safevent
 El siguiente proyecto se trata de una aplicación para generar códigos mediante la lógica del Cifrado César. Dicha herramienta ayuda a cifrar lugares de eventos para mantener la confidencialidad y seguridad de los usuarios, evitando que personas desconocidas sepan donde se encuentran,y así mismo impidiendo tener que lidiar con invitados sorpresa.
 
+# #Usuarios y Objetivos 
+El usuario que ingresa a Safevent son personas de sexo indistinto y de edad entre 13 años en adelante
+
+* Investigación UX:
+  1. Explicar quiénes son los usuarios y los objetivos en relación con el
+    producto.
+  2. Explicar cómo el producto soluciona los problemas/necesidades de dichos
+    usuarios.
+  3. Luego colocarás la foto de tu primer prototipo en papel.
+  4. Agregar un resumen del feedback recibido indicando las mejoras a realizar.
+  5. Imagen del prototipo final.
+
 
 ## Índice
 
@@ -153,6 +165,7 @@ Debe contener lo siguiente:
 * Un resumen de 1 o 2 líneas de qué se trata tu proyecto.
 * La imagen final de tu proyecto.
 <img src= "../imagenes/final1.png>
+
 * Investigación UX:
   1. Explicar quiénes son los usuarios y los objetivos en relación con el
     producto.
