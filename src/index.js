@@ -1,14 +1,36 @@
-//import cipher from './cipher.js';
-//console.log(cipher);
 
 //aquí los botones del html
 document.getElementById('ir').addEventListener('click',pantalla2)
-document.getElementById('bcifrar').addEventListener('click',paraCifrar)
-document.getElementById('bdescifrar').addEventListener('click',paraDescifrar)
+document.getElementById('limpiar').addEventListener('click',limpia)
+document.getElementById('bcifrar').addEventListener('click',cifraMensaje)
+document.getElementById('bdescifrar').addEventListener('click',descifraMensaje)
+
 //función avance de pantalla
 function pantalla2() {
   let pantallas = document.getElementById('pantalla1')
   pantallas.style = 'display:none';
-  document.getElementById('pantalla2').style.display = 'block';}
+  document.getElementById('pantalla2').style.display = 'block';
+}
 
-//función llamar texto
+//función cifraMensaje
+function cifraMensaje() {
+  let desplazamiento = document.getElementById('desplaza').value;
+  let mensajeOriginal = document.getElementById('mensajeor').value;
+  let ciframiento = window.cipher.encode(desplazamiento, mensajeOriginal);
+  document.getElementById('resultado').innerHTML = ciframiento;
+}
+
+//función descifraMensaje
+function descifraMensaje() {
+  let desplazamientoC = document.getElementById('desplaza').value;
+  let mensajeOriginalC = document.getElementById('mensajeor').value;
+  let desciframiento = window.cipher.decode(desplazamientoC, mensajeOriginalC);
+  document.getElementById('resultado').innerHTML = desciframiento;
+}
+
+//función limpiar texto
+function limpia() {
+  let borrar = document.getElementById('desplaza').value = '';
+  document.getElementById('mensajeor').value = '';
+  document.getElementById('resultado').value = '';
+}

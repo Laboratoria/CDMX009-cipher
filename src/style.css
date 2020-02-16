@@ -1,3 +1,4 @@
+
 body {
   background-color: #6e9390;
   width: 800px;
@@ -72,8 +73,8 @@ button:hover {
   margin-left: auto;
   margin-right: auto;
   border: 2px solid #1c3d3b;
-  width: 54px;
-  height: 34px;
+  width: 45px;
+  height: 30px;
   left: 157px;
   top: 153px;
   background: #ffffff;
@@ -84,12 +85,12 @@ textarea {
   font-size: 12px;
   display: block;
   width: 316px;
-  height: 120px;
+  height: 110px;
   background: #ffffff;
   border: 5px solid #1c3d3b;
   box-sizing: border-box;
   border-radius: 12px;
-  text-transform: uppercase;
+  text-transform: none;
 }
 
 
