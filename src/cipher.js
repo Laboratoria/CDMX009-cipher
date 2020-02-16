@@ -3,10 +3,11 @@ const cipher = {encode,decode};
 export default cipher;
 
 function encode(offset,myString){
+  if(typeof(myString)!='string'){
+    throw new TypeError('Valor inválido');
+  }
   var myStringCipher = '';
-  //if(typeof(myString)!='string'){
-  //  throw new TypeError('');
-  //}
+
   for (var i = 0 ; i < myString.length ; i++){
    var numberOfTheLetter = myString.charCodeAt(i);
    var cipherFormula;
@@ -20,13 +21,15 @@ function encode(offset,myString){
      theNewLetter = String.fromCharCode(cipherFormula);
      myStringCipher +=theNewLetter;
    }else if(numberOfTheLetter === 32){
-     myStringCipher += ' ';
-   }
-   else {
-    //return throw new TypeError('');
-    }
-  }
-  return myStringCipher;
+     myStringCipher += ' ';  // añadir espacio en string cifrado
+}
+    else {
+
+      throw new TypeError('caracter invalido');
+   //break;
+}
+}
+return myStringCipher;
 }
 
 //funcion para descifrar una cadena de texto
@@ -47,7 +50,8 @@ function decode(offset1,myString1){
      } else if(numberOfTheLetter === 32){
        myStringDechiper += ' ';
      } else {
-       //throw new TypeError('');
+      // break;
+      throw new TypeError('caracter invalido');
      }
   }
   return myStringDechiper;
