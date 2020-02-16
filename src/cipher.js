@@ -18,7 +18,7 @@ if (word.match(/[a-z]/i)) {
 if (string.charCodeAt(i) >= 65 && string.charCodeAt(i) <= 90) {
 //variable que indica que mi cadena de texto respeta el codigo al caracter menos
 // la primera letra de ASCII más numero de desplazamiento(entero) % alfabeto más
-// primera letra ASCII
+// primera letra ASCII.
 let textWord = (string.charCodeAt(i) - 65 + parseInt(offset)) % 26 + 65;
 //Mi cifrado de palabras va a ser más o igual a la palabra introducida y solo
 //pueden ser letras Mayusculas y no numeros

@@ -47,6 +47,6 @@ a mis Eventos por lo que tuve que solucionar con "a href" en formas de iconos.
 <img src= "maquetado pao.jpg">
 
 
-## 6. La Imagen Final de mi Proyecto
+## 6. La Imagen Final de mi Proyecto.
 
 <img src= "cipher estructura2.jpg">

@@ -29,7 +29,7 @@ window.onload = () => {
 
 
 
-    const btnTextEncode = document.getElementById("btn_encode");
+    const btnTextEncode = document.getElementById('btn_encode');
     btnTextEncode.addEventListener("click", function() {
         let textEncode = document.getElementById("box-msg-encode").value;
         let number_offset = document.getElementById("n_offset_e").value;
