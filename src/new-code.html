@@ -7,14 +7,16 @@
       <link href="https://fonts.googleapis.com/css?family=Ropa+Sans&display=swap" rel="stylesheet">
   </head>
   <body>
-    Texto <input type="text" id="nText">
+    <div class="semillas">
+    <div class="code-container">
+    Nombre de usuario: <input type="text" id="nText">
+    <div class="info"></div>
+    Número de la suerte: <input type="number" id="offNumber" min="0" max="26">
 
-    Offset <input type="number" id="offNumber" min="0" max="26">
-
-    <input onclick="cipher()" type="button" value="click"/>
+    <input class="send-btn" onclick="cipher()" type="button" value="Envi"/>
 
   <h1 id="demo">... </p>
-
+  </div>
 
 
   </body>
