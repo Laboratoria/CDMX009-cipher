@@ -1,61 +1,52 @@
-/*Redirecciona a la pantalla de cifrar*/
-function formularioCifrar(){
-    location.href= "uno.html";
-}
-/*Redirecciona a la pantalla de decifrar*/
-function formularioDecifrar(){
-    location.href= "dos.html";
-}
-/*Redirecciona a la pantalla de cifrar*/
-function inicio(){
-    location.href= "index.html";
-}
-/*Funcio para codificar*/
-function enviarCodificado(){
-    let number_offset = document.getElementById("number_encode").value;
-    let textEncode = document.getElementById("text-encode").value;
-        textEncode = textEncode.toUpperCase();
-    
-    if(textEncode  === "")   {
-        alert("Ingresa el texto a cifrar"); 
-        document.getElementById("text-encode").focus();
-        return false;
-    }   
-    if(number_offset === "")   {
-        alert("El número de recorrido esta vacia"); 
-        document.getElementById("number_encode").focus();
-        return false;
-    }
+window.onload = () => {
 
-   if (isNaN(parseInt(number_offset))) {
-        alert('El numero de recorrido debe de ser numerico');
-        document.getElementById("number_encode").focus();
-        return false;
-     }    
-        document.getElementById("result-encode").innerHTML = window.cipher.encode(textEncode, number_offset);
-    }
+    /*activado y desactivado de los enlaces de cada pestaña*/
+    const pantallacifrado = document.getElementById("pantalla-encode");
+    const pantalladecifrado= document.getElementById("pantalla-decode");
+    const regresar = document.getElementById("regresar");
+    const borrar = document.getElementById
+    const regresar2= document.getElementById("regresar2");
+    /*Mostrar datos para cifrar */
+    pantallacifrado.addEventListener("click", function() {
+       document.getElementById("mensaje-encode").style.display = 'block'; 
+       document.getElementById("login").style.display = 'none'; 
+     });
 
-/*Funcion para decodificar*/
-function enviarDecodificado(){
-     let textDecode = document.getElementById("text-decode").value;
+    /*Mostrar datos para decifrar */
+    pantalladecifrado.addEventListener("click", function() {
+       document.getElementById("mensaje-decode").style.display = 'block'; 
+       document.getElementById("login").style.display = 'none'; 
+     });
+
+    /*Regresa a los botones de inicio desde cifrado */
+    regresar.addEventListener("click", function() {
+       document.getElementById("mensaje-encode").style.display = 'none'; 
+       document.getElementById("mensaje-decode").style.display = 'none'; 
+       document.getElementById("login").style.display = 'block'; 
+     });
+
+    /*Regresa a los botones de inicio desde cifrado */
+    regresar2.addEventListener("click", function() {
+       document.getElementById("mensaje-encode").style.display = 'none'; 
+       document.getElementById("mensaje-decode").style.display = 'none'; 
+       document.getElementById("login").style.display = 'block'; 
+     });
+
+    /*rescatando el valor del texto a codificar */
+	const btnTextEncode = document.getElementById("btn_encode");
+    btnTextEncode.addEventListener("click", function() {
+	    let textEncode = document.getElementById("box-msg-encode").value;
+	     textEncode = textEncode.toUpperCase();
+	    let number_offset = document.getElementById("numero-encode").value;
+	    document.getElementById("resultado-cifrado").innerHTML = window.cipher.encode(textEncode, number_offset);
+    });
+
+    /*rescatando el valor del texto a decodificar*/
+    const btnTextDecode = document.getElementById("btn_decode");
+    btnTextDecode.addEventListener("click", function() {
+        let textDecode = document.getElementById("box-msg-decode").value;
         textDecode = textDecode.toUpperCase();
-    let number_offset = document.getElementById("number-decode").value;
-        
-     if(textDecode  === "")   {
-        alert("Ingresa el texto a decifrar"); 
-        document.getElementById("text-decode").focus();
-        return false;
-    }   
-    if(number_offset === "")   {
-        alert("El número de recorrido esta vacia"); 
-        document.getElementById("number-decode").focus();
-        return false;
-    }
-
-   if (isNaN(parseInt(number_offset))) {
-        alert('El numero de recorrido debe de ser numerico');
-        document.getElementById("number_decode").focus();
-        return false;
-     }   
-    document.getElementById("result-decode").innerHTML = window.cipher.decode(textDecode, number_offset);
+        let number_offset = document.getElementById("numero-decode").value;
+        document.getElementById("respuesta-decode").innerHTML = window.cipher.decode(textDecode, number_offset);
+    });
 }

@@ -1,30 +1,14 @@
-body{
-    margin: 0;
-    padding: 0;
-    background-color: #F9CB9C;
-}
+
 
 @font-face {
   font-family: "Tangerine_Bold";
   src: url("fonts/Tangerine_Bold.ttf");
 }
-h1,h2,h3,h4{
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #F9CB9C;
     font-family: Tangerine_Bold;
-}
-h1{
-	font-size: 60px; 
-}
-h2{
-	font-size: 40px; 
-}
-.inicio{
-	text-align: center;
-	padding-top: 50px;  
-}
-.imagenlogo{
-	text-align: center;
-	width: 100px; 
-	height: 100px; 
 }
 footer{
 	height: 100px; 
@@ -44,16 +28,7 @@ footer{
     background-color: #ffffff;
     box-shadow: 3px 3px 7px 1px #333;
 }
-.styletable{
-	padding-left: 500px; 
-}
-input{
-	border-radius: 10px;
-	width: 200px; 
-	color: black;
-	background-color: #B4A7D6; 
-	border-color: #B4A7D6;    
-}
+
 header{
  height: 200px;
  width: 100%;  	
@@ -73,40 +48,38 @@ header{
 	width: 100px; 
 	height: 100px; 
 }
-.stylep{
-	font-family: Tangerine_Bold;
-	font-size: 34px;
+.imginicio{
+	padding-left: 140px; 
 }
-table{
-	width: 500px; 
+.encabezado{
+	padding-top: 50px;
+	padding-left: 100px;   
 }
-th{
-	font-family: Tangerine_Bold;
-	font-size: 40px; 
+.msg-encode{
+	display: none; 
 }
-td{
-	height: 100px; 
-	width: 250px;
-	text-align: center; 
+.msg-decode{
+	display: none; 
 }
-label{
-	font-size: 30px; 
-	font-family: Tangerine_Bold;
+p{
+	text-align: center;
+	font-size: 40px;  
+}
+input{
+	border-radius: 10px;
+	width: 100%; 
+	color: black;
+	background-color: #B4A7D6; 
+	border-color: #B4A7D6;    
 }
 textarea{
 	height: 100px; 
-	width: 200px; 
+	width: 100%; 
 	border-radius: 10px; 
 	background-color: #B4A7D6; 
 	border-color: #B4A7D6;
 }
-.btn-code{
-	border-radius: 10px;
-	width: 200px; 
-	color: black;
-	background-color: #B4A7D6; 
-	border-color: #B4A7D6;
-}
+
 .btn_reload{
 	border-radius: 10px;
 	width: 200px; 
@@ -123,6 +96,10 @@ textarea{
     padding: 10px;
     box-shadow: 2px 2px 10px 1px #898989;
 }
-.btn_inicio{
-	padding-left: 270px; 
+.botonpantalla{
+	border-radius: 10px;
+	width: 150px; 
+	color: black;
+	background-color: #B4A7D6; 
+	border-color: #B4A7D6;	
 }

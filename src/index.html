@@ -1,31 +1,92 @@
 <!DOCTYPE html>
 <html>
-  <head>
-  <meta charset="utf-8">
-      <title>Caesar Cipher</title>
-      <link rel="stylesheet" href="style.css" />
-    </head>
-  <body>  
-    <div id="root" class="inicio">
-    <main>
-      <h1>Bullying School</h1>
-      <img class="imageninicio" src="img/violence.png">
-      <h2>Chechenitza</h2>
-      <br>
-      <table class="styletable">
-      <tr>
-        <td>
-          <input type="button" name="Cifrar" class="btn" value="Cifrar" onclick="formularioCifrar()">
-        </td>
-        <td>
-            <input type="button" name="Cifrar" class="btn" value="Decifrar" onclick="formularioDecifrar()">
-        </td>
-      </tr>
-    </table>
-      <br><br>
-    </main>
+
+<head>
+    <meta charset="utf-8">
+    <title>Caesar Cipher</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <!--estructura cabecera-->
+    <header>
+        <div class="headerleft">
+            <img class="logo"  src="img/violence.png" alt="Chechenitza">
+        </div>
+
+        <div class="headerright">   
+            <h4>Bullying School Chechenitza</h4>    
+        </div> 
+    </header>
+
+
+    <section id="content-cipher" class="container">
+    <div id="login">
+        <!--ENLACES CODIFICADO Y DECODIFICADO-->
+        <div class= "imginicio">
+<img class="imgageninicio" src="img/violence.png">
+      </div>
+        <div class="encabezado">
+
+            <a href="#" id="pantalla-encode">
+                <button class="btn_reload">
+                Codificar </button></a>
+            <a href="#" id="pantalla-decode">
+                <button class="btn_reload">
+            Decodificar </button></a>
+        </div>
     </div>
-    <footer><a>Información </a> </footer>
-    <script src="index.js" type="text/javascript"></script>
-  </body>
+
+        <!--CAJA CODIFICADO-->
+
+        <div id="mensaje-encode" class="msg-encode">
+            <p>Ingrese Su Mensaje:</p>
+            <textarea id="box-msg-encode" class="box-msg-style" placeholder="Ingrese su mensaje..."></textarea>
+            <div class="content-offset">
+                <p>Ingrese N° de desplazamiento:</p>
+                <input type="number" id="numero-encode" class="n_offset_style">
+            </div>
+            <br>
+            <div id="msg-encode" class="msg-ckeck">
+                <p id="resultado-cifrado"></p>
+            </div>
+            <br><br>
+
+            <button  class="botonpantalla" id="regresar">Regresar</button>
+            &nbsp;&nbsp;&nbsp;&nbsp; 
+            <button  class="botonpantalla" id="lim" onclick="location.reload()">Limpiar</button>
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            <button id="btn_encode" class="botonpantalla">Codifica tu Mensaje</button>
+            
+        </div>
+
+        <!--CAJA DECODIFICADO-->
+
+        <div id="mensaje-decode" class="msg-decode">
+            <p>Ingrese Su Mensaje:</p>
+            <textarea id="box-msg-decode" class="box-msg-style" placeholder="Ingrese su mensaje..."></textarea>
+            <div class="content-offset">
+                <p>Ingrese N° de desplazamiento</p>
+                <input type="number" id="numero-decode" class="n_offset_style">
+            </div>
+            <br>
+            <div id="msg-decode" class="msg-ckeck">
+                <p id="respuesta-decode"></p>
+            </div>
+            <br><br>
+            <button  class="botonpantalla" id="regresar2">Regresar</button>
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            <button id="limp" class="botonpantalla">Limpiar</button>
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            <button id="btn_decode" class="botonpantalla">Decodifica tu Mensaje</button>
+            
+        </div>
+    </section>
+
+    <!--¡¡¡¡¡¡ESTE ARCHIVO NO SE TOCA!!!!!-->
+    <div id="root"></div>
+    <script src="cipher.js"></script>
+    <script src="index.js"></script>
+</body>
+
 </html>
