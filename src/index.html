@@ -30,7 +30,7 @@
             <br> 
             <br> 
             <!-- BOTÓN SIGUIENTE--->  
-            <button type="button" class="boton" id="botonSiguiente">SIGUIENTE</button>
+            <button type="button" class="boton" id="siguiente">SIGUIENTE</button>
 
         </form>
 
@@ -39,12 +39,12 @@
     <section id="pantallaDos">
         <section>
             <!-- mensaje bienvenida con nombre de usuario--->
-           <h1 id="bienvenido">Bienvenid@</h1> 
+           <h1 id="bienvenido" class="bienvenido">Bienvenid@</h1> 
            <!-- CASILLA PARA INGRESAR DESPLAZAMIENTO --->
-           <h2>Escribe tu clave secreta</h2>
-           <input id="cajaClave" class="cajaClave">
-           <br>
-           <p id="advertencia2" class="advertencia"></p>
+            <form>
+                Ingresa tu clave secreta   <input id="cajaClave" class="cajaClave"> 
+            </form></div>
+            <p id="advertencia2" class="advertencia"></p>
            <!-- caja para ingresar mensaje a cifrar/descifrar --->
                <textarea id="cajaMensaje" class="cajatexto" placeholder="Coloca tu mensaje secreto aquí"></textarea>
                <br> 
@@ -52,7 +52,8 @@
                <!-- BOTÓN PARA CIFRAR --->
                <button class="boton" id="cifrando">CIFRAR</button>
                <!-- BOTÓN PARA DESCIFRAR --->
-               <button class="boton">DESCIFRAR</button>
+               <button class="boton" id="descifrado">DESCIFRAR</button>
+           
    
        </section>
            
@@ -62,14 +63,14 @@
            <h1 id="respuesta">Tu mensaje para este 14 de Febrero es:</h1> 
            <!-- AQUÍ ARROJA CLAVE DE DESPLAZAMIENTO--->
            <p>Tu clave secreta es:</p>
-           <data id="tuClave" class="cajaClave"></data>
-               <br>
-               <!-- caja para mostrar resultado--->
-               <data id="cajaResultado" class="cajatexto" placeholder="Tu mensaje descifrado/cifrado es:"></data>
+           <div class="cajaRespuesta">
+            <data id="tuClave" class="cajaTuClave"></data>
+            <br>
+            <!-- caja para mostrar resultado--->
+            <data id="cajaResultado" class="respuesta" placeholder="Tu mensaje descifrado/cifrado es:"></data>
+            </div>
+            <br> 
                <br> 
-               <br> 
-               <!-- BOTÓN PARA CIFRAR--->
-               <button id="cifrando" class="boton">CIFRAR</button>
                <!-- BOTÓN PARA VOLVER--->
                <button id="volver" class="boton">VOLVER</button>
                <!-- BOTÓN PARA SALIR--->

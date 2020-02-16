@@ -2,14 +2,14 @@ body {
     background-color: #FFB5A4;
     font-family: 'Roboto', sans-serif;
     color: white;
-    font-size: 1.6rem;
-    line-height: 2.0rem;
+    font-size: 20px;
+    line-height: 24px;
     margin: 0;
     text-align: center;
 }
 
 .encabezado {
-    height: 150px;
+    height: 100px;
 }
 
 .cajaprincipal {
@@ -27,10 +27,10 @@ body {
 
 
 .cajanombre {
-    margin-top: 50px;
+    margin-top: 15px;
     width: 550px; 
-    height: 50px;
-    font-size: 36px;
+    height: 40px;
+    font-size: 28px;
     text-align: center;
     border-radius: 10px;
     color: #FF8970;
@@ -38,16 +38,14 @@ body {
     
 }
 
-
-
 .boton {
-    width: 250px; 
-    height: 50px; 
+    width: 200px; 
+    height: 40px; 
     background-color: #FF8970;
     border: none;
     font-family: 'Roboto', sans-serif;
     color: white;
-    font-size: 25px;
+    font-size: 23px;
     font-weight: bold;
     transition: background-color .5s;
     margin-right: 50px;
@@ -55,12 +53,8 @@ body {
 
 }
 
-boton.hover {
-    background-color: #FFFFFF;
-}
-
 .footer {
-margin-top: 200px;
+margin-top: 150px;
 }
 
 footer {
@@ -68,10 +62,12 @@ footer {
 }
 
 .cajatexto {
-    margin-top: 50px;
+    margin-top: 30px;
     width: 1052px; 
-    height: 150px;
-    font-size: 36px;
+    height: 100px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    line-height: 26px;
     text-align: center;
     border-radius: 10px;
     color: #FF8970;
@@ -93,28 +89,43 @@ footer {
     display: none;
 }
 
+
 .cajaClave {
-    margin-top: 50px;
-    width: 234px; 
-    height: 57px;
-    font-size: 36px;
+    margin-top: 10px;
+    width: 100px; 
+    height: 30px;
+    font-size: 20px;
     text-align: center;
     border-radius: 30px;
     color: #FF8970;
     border: none;
 }
 
+h1 {
+    font-size: 22;
+    margin-top: 60px;
+}
+
 h2 {
-    font-size: 28px;   
+    font-size: 20px;   
 }
 
 .cajaMensaje {
     margin-top: 50px;
     width: 1052px; 
     height: 150px;
-    font-size: 36px;
+    font-size: 22px;
     text-align: center;
     border-radius: 10px;
     color: #FF8970;
     border: none;
+}
+
+.cajaRespuesta {
+    background-color: #FF5733;
+    width: 400px; 
+    height: 70px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
