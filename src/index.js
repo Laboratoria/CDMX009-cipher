@@ -28,3 +28,4 @@ let botonCifrar= document.getElementById("cifrando");
 botonCifrar.addEventListener('click', cifrar);
 
 recogeDatos();
+cifrar();
