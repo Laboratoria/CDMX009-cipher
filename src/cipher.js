@@ -1,33 +1,29 @@
-  const cipher = (text, shift) => {
-    let result = '';
+const cipher = {
+    nombre : document.getElementById('name').value,
+    edad : parseInt(document.getElementById('shift').value), 
    
-        //loop through each caharacter in the text
-        for (var i = 0; i < text.length; i++) {
-              
-             //get the character code of each letter
-            var c = text.charCodeAt(i);
- 
-            // handle uppercase letters
+    code : (nombre, edad) => {
+    let result = '';
+        for (var i = 0; i < nombre.length; i++) { 
+            var c = nombre.charCodeAt(i);
             if(c >= 65 && c <=  90) {
-               result += String.fromCharCode((c - 65 + shift) % 26 + 65); 
- 
-            // handle lowercase letters
+               result += String.fromCharCode((c - 65 + edad) % 26 + 65); 
             }else if(c >= 97 && c <= 122){
-                result += String.fromCharCode((c - 97 + shift) % 26 + 97);
- 
-            // its not a letter, let it through
+                result += String.fromCharCode((c - 97 + edad) % 26 + 97);
             }else {
-                result += text.charAt(i);
+                result += nombre.charAt(i);
             }
         }
     return result;
-  }
+  },
 
-  const decrypt = (text, shift) => {
+    decode : (nombre, edad) => {
     let result = '';
-    shift = (26 - shift) % 26;
-    result = cipher(text,shift);
+    edad = (26 - edad) % 26;
+    result = cipher.code(nombre, edad);
     return result;
-}   
+}  
+
+} 
 
 export default cipher;

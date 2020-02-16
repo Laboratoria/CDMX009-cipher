@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Caesar Cipher</title>
     <link rel="stylesheet" href="style.css" />
   </head>
@@ -13,32 +13,120 @@
       <div class="container">
         <a href="index.html">
           <div class="logo">
-            <img src="icons8-mano-hacia-arriba-100 (1).png">
-          <h1>Opinión<br> política</h1>
+            <img src="icons8-mano-hacia-arriba-100 (1).png" />
+            <h1>
+              Opinión<br />
+              política
+            </h1>
           </div>
         </a>
       </div>
-  </header>
-  <main>
-    <!--Sección que alberga una pequeña instrucción y los botones-->
-      <section class="margin-section">
+    </header>
+    <main>
+      <!--Index, donde se publican las opiniones-->
+      <section class="margin-section" id="index">
         <div class="container">
           <div class="card">
-            <p>Mi opinión es<br>
-            <span></span></p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br><br>
+              <b>Karina 25</b>
+            </p>
           </div>
-          <div class="card"></div>
+          <div class="card">
+            <p><span id="opinion"></span><br/><br/>
+            <p><b><span id="nick"></span></b><br/>
+              
+            </p>
+          </div>
+        </div>
+        <br>
+        <div class="container">
+          <div class="">
+            <button id="writeOpinion" class="btn-1">Escribe una opinión</button>
+          </div>
+        </div>
+
+         
+      </section>
+      <!--Sección en la que eliges qué tipo de opinión quieres compartir-->
+      <section class="margin-section hide" id="select">
+        <div class="container">
+          <div class="txt-center">
+            <p>
+              Tienes la opción de crear un nickname (en caso de que no quieras
+              usar tu nombre), utilizando nuestro método de cifrado.
+            </p>
+          </div>
+          <div class="botones">
+
+            <button id="crearNickname" class="btn-1">Crear nickname</button>
+            <button id="revelarNickname" class="btn-1">Revelar un nickname</button>
+          </div>
         </div>
       </section>
-      <section>
-        <div class="container btn-center">
-          <div class="btn-3">
-            <a href="select_opinion.html"><button class="btn-1">Escribe una opinión</button></a>
+      <!--Sección escribir opinión con nombre real-->
+
+     
+     
+     <!--Sección escribir opinión con nickname-->
+      <section class="margin-section hide" id="nickname">
+        <div class="container">
+          <div class="formulario txt-left">
+         
+              <p>Ingresa tu nombre y selecciona tu edad.</p>
+            
+          <div>
+          <input id="name" class="name" type="text"  name="name" placeholder="NOMBRE"/>
+          <br>
+          <input id="shift" class="b-number" type="number" name="shift" min="1" max="31" value="1">
+          <br><br>
+          <p>Escribe tus opiniones:</p>
+          <textarea id="opiniones"></textarea>
+         
+          <a href="#index"><button id="cifrar" class="btn-1">publicar</button></a>
+            
+        </div>
+       
+      </a>
+      </div>
+        </div>
+
+    </section>
+    <!--Sección revelar un nickname-->
+    <section class="margin-section hide" id="revelar">
+      <div class="container ">
+        <div class="formulario txt-left">
+          <p>Ingresa el nickname a revelar y el número a su derecha.</p>
+          <div>
+            <input
+              class="name"
+              type="text"
+              id="codeName"
+              name="name"
+              placeholder="NICKNAME"
+            />
+            <br />
+            <input
+              class="b-number"
+              type="number"
+              id="shift3"
+              name="quantity"
+              min="1"
+              max="31"
+              value="1"
+              maxlength="2"
+            />
+            <br /><br />
+            <p>El nombre real es: <span id="realName"></span>
+            </p><br>
+            <button id="descifrar" class="btn-1">revelar</button>
           </div>
-          </div>
-      </section>
-      <!--Sección que alberga una pequeña instrucción y los botones-->  
-  </main>
+        </div>
+      </div>
+    </section>
+
+      <!--Sección que alberga una pequeña instrucción y los botones-->
+    </main>
     <script src="index.js" type="module"></script>
+
   </body>
 </html>
