@@ -1,4 +1,4 @@
-window.cipher = {
+const cipher = {
   encode: (desplazamiento, mensajeOriginal) => {
     let mensajeCifrado = '';
     //Ciclo for para realizar una acción mientras la condición se cumpla

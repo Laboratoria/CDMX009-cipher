@@ -15,7 +15,7 @@ function pantalla2() {
 function cifraMensaje() {
   let desplazamiento = document.getElementById('desplaza').value;
   let mensajeOriginal = document.getElementById('mensajeor').value;
-  let ciframiento = window.cipher.encode(desplazamiento, mensajeOriginal);
+  let ciframiento = cipher.encode(desplazamiento, mensajeOriginal);
   document.getElementById('resultado').innerHTML = ciframiento;
 }
 
@@ -23,7 +23,7 @@ function cifraMensaje() {
 function descifraMensaje() {
   let desplazamientoC = document.getElementById('desplaza').value;
   let mensajeOriginalC = document.getElementById('mensajeor').value;
-  let desciframiento = window.cipher.decode(desplazamientoC, mensajeOriginalC);
+  let desciframiento = cipher.decode(desplazamientoC, mensajeOriginalC);
   document.getElementById('resultado').innerHTML = desciframiento;
 }
 
