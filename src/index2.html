@@ -39,35 +39,35 @@
 
 
 
-<div id="encode-decode" class="link-code">
-             <a href="#" id="link-encode" class="link_active"><img src= "abierto.png"></a>
-             <a href="#" id="link-decode" class="link_desactive"><img src= "cerrado.png"></a>
+<div id="encode-decode">
+             <a href="#" id="link-encode"><img src= "abierto.png"></a>
+             <a href="#" id="link-decode"><img src= "cerrado.png"></a>
          </div>
 
          <!--display cifrar-->
 
-         <div id="content-msg-encode" class="msg-style display_block">
+         <div id="content-msg-encode" class="display_block"><!--Enlazar display-->
            <div class="content-offset">
              <label class="label">Número de desplazamiento</label><br>
-             <input type="number" id="n_offset_e" class="n_offset_style">
+             <input type="number" id="offset_ci" class="style_offset"><!--enlaza offset a variable y css-->
            </div>
-             <br><textarea id="box-msg-encode" class="box-msg-style" placeholder="Introduce el texto a cifrar..."></textarea><br><!--Caja de texto-->
-             <button id="btn_encode" class="btn-code">Enviar</button><br><!--Boton enviar-->
-             <div id="msg-encode" class="msg-ckeck"><p id="msg-encode-check"></p><!--Demo-->
+             <br><textarea id="box-msg-encode" class="box-text-style" placeholder="Introduce el texto a cifrar..."></textarea><br><!--Caja de texto-->
+             <button id="btn_encode" class="send">Enviar</button><br><!--Boton enviar-->
+             <div id="msg-encode" class="text-result"><p id="msg-encode-check"></p><!--Demo-->
              </div>
              <button onclick="location.reload();" class="recharge">Limpiar</button><!--Boton Limpiar-->
          </div>
 
          <!--display descifrar-->
 
-         <div id="content-msg-decode" class="msg-style display_none"><!--Enlazar display-->
+         <div id="content-msg-decode" class="display_none"><!--Enlazar display-->
            <div class="content-offset">
              <label class="label">Número de desplazamiento</label><br>
-             <input type="number" id="n_offset_d" class="n_offset_style">
+             <input type="number" id="offset_des" class="style_offset"><!--enlaza offset a variable y css-->
            </div>
-             <br><textarea id="box-msg-decode" class="box-msg-style" placeholder="Introduce el texto a descifrar..."></textarea><br><!--Caja de texto-->
-             <button id="btn_decode" class="btn-code">Enviar</button><br><!--Boton enviar-->
-             <div id="msg-decode" class="msg-ckeck"><p id="msg-decode-check"></p><!--Demo-->
+             <br><textarea id="box-msg-decode" class="box-text-style" placeholder="Introduce el texto a descifrar..."></textarea><br><!--Caja de texto-->
+             <button id="btn_decode" class="send">Enviar</button><br><!--Boton enviar-->
+             <div id="msg-decode" class="text-result"><p id="msg-decode-check"></p><!--Demo-->
              </div>
              <button onclick="location.reload();" class="recharge">Limpiar</button><!--Boton Limpiar-->
          </div>
