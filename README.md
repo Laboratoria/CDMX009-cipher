@@ -2,7 +2,7 @@
 
 ## Índice
 
-<<<<<<< HEAD
+
 * [1. Resumen del proyecto](#1-Resumen del proyecto)
 * [2. Investigación UX](#2-Investigación UX)
 * [3. Imagen de mi Prototipo en Papel](#3-Imagen de mi Prototipo en Papel)
