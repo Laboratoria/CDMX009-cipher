@@ -8,33 +8,75 @@
     <meta name="viewport" content="width=device-width, user-scalable=no">
   </head>
   <body>
-<section>    
-      <header>
-        <img src="img/mainLogo.svg" alt="spx">
-      </header>
-      <nav> 
-        <a href="#cipherSection"><img src="img/hideButton.png" alt="Cifrar"></a>
-        <img src="img/bridgeGlass.png">
-        <a href="#decipherSection"><img src="img/showButton.png" alt="Descifrar"></a>
-      </nav>
-      <footer>
-        <img  class="faqShow" src="img/faqButton.svg" alt="Ayuda">
-      </footer>
-    </section>
-
-
-    <section class="contenido" id="decipherSection">
-      <p>Da click</p>
-
-<input id= "textBox" placeholder="Texto"> 
-<input id= "numBox" placeholder="numero">
-<button id="getBoton">Cifrar</button>
-<button id="letBoton">Descifrar</button>
-
-<div id="demo">Resultado</div>
-
-<script src="index.js" type="module"></script>
-
-    </section>
+  <section id="home" class="home">
+    <header>
+      <img src="img/mainLogo.svg" alt="spx">
+    </header>
+    <nav> 
+      <a href="#codeSection"><img src="img/hideButton.png" alt="Cifrar"></a>
+      <img src="img/bridgeGlass.png">
+      <a href="#decodeSection"><img src="img/showButton.png" alt="Descifrar"></a>
+    </nav>
+    <footer>
+      <img src="img/faqButton.svg" alt="Ayuda">
+    </footer>
+  </section>
+  <section class="contenido" id="codeSection">
+    <script src="index.js" type="module"></script>
+    <nav>
+      <a href="#home"><button id="specsLogo">
+        <img src="img/mainLogo.svg" alt="Inicio">
+      </button></a>
+    </nav>
+    <div>
+    <img class="secretKey" src="img/pencil.svg">
+      <input id= "numBox" class="num">
+    </div>
+      <div>
+      <textarea id="textBox" class="box"></textarea>
+      <button class="button" id="getBoton">
+        <img src="img/cipherButton.png">
+      </button>
+      </div>
+      <div>
+        <textarea id="demo" class="box"></textarea>
+        <button class="button" type="button" id="copyBoton">
+        <img src="img/likeButton.svg" alt="Copiar">
+      </button>
+    </div>
+    <footer>
+      <div id="faqButton">
+        <img src="img/faqButton.svg" alt="Ayuda">
+      </div>
+    </footer>
+  </section>
+  <section class="contenido" id="decodeSection">
+    <nav>
+      <a href="#home"><button id="specsLogo">
+        <img src="img/mainLogo.svg" alt="Inicio">
+      </button></a>
+    </nav>
+    <div>
+    <img class="secretKey" src="img/pencil.svg">
+      <input id= "numDeBox" class="num">
+    </div>
+      <div>
+      <textarea id="decodeBox" class="box"></textarea>
+      <button class="button" id="letBoton">
+        <img src="img/decipherButton.svg">
+      </button>
+      </div>
+      <div>
+        <textarea id="decodeDemo" class="box"></textarea>
+        <button class="button" type="button" id="copyDeBoton">
+        <img src="img/likeButton.svg" alt="Copiar">
+      </button>
+    </div>
+    <footer>
+      <div id="faqButton">
+        <img src="img/faqButton.svg" alt="Ayuda">
+      </div>
+    </footer>
+  </section>
   </body>
 </html>

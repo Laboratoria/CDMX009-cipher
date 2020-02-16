@@ -5,7 +5,16 @@ body {
   margin: 0px;
 }
 
-//section {
+button {
+  padding: 5px;
+  margin-top: 20px;
+  border: none;
+  background-color: #8BA9D4;
+  cursor: pointer;
+  vertical-align: top;
+}
+
+section {
   height: 100vh;
 }
 
@@ -40,28 +49,48 @@ section.contenido{
 
 section.contenido nav {
 align-self: flex-start;
-  padding-left: 50px;
+  margin-left: 50px;
 }
 
 section.contenido footer {
   align-self: flex-end;
-  padding-right: 50px;
+  margin-right: 50px;
 }
 
 section.contenido .box {
-  width: 250px;
-  height: 100px;
-  padding: 15px;
+  font-family: 'Montserrat', sans-serif;
+  width: 50vw;
+  height: 10vh;
+  padding: 10px;
   resize: none;
   background: #E8E2DF;
-  box-shadow: 3px 3px 4px 0 #A58D7F inset;
+  box-shadow: 3px 3px 4px 0 rgba(165, 141, 127, 0.8) inset;
   border-radius: 5px;
+  align-content: flex-start;
 }
 
-#demo {
-  width: 200px;
-  height: 200px;
+section.contenido .num {
+  font-family: 'Montserrat', sans-serif;
+  width: 80px;
+  resize: none;
+  background: #E8E2DF;
+  box-shadow: 3px 3px 4px 0 rgba(165, 141, 127, 0.7) inset;
+  border: 0;
+  padding: 3px;
+  border-radius: 5px;
+  margin-bottom: -20px;
+  
 }
+
+section.contenido .secretKey {
+  margin-bottom: -10px;
+}
+
+
+
+
+
+/* input radios para imagenes
 
 input [type=radio] { 
 position: absolute;
@@ -80,3 +109,4 @@ background-color:  rgba(15, 76, 129, 0.15);
 padding: 5px;
 }
 
+*/
