@@ -1,8 +1,11 @@
-import encode from './cipher.js';
-let encodeButton = document.querySelector ('encodebutton');
-encodeButton.addEventListener('click',encode);
+import cipher from './cipher.js';
+
+encodeButton.onclick= function () {
+    let text = document.getElementById('textToEncode').value;
+    let offset = document.getElementById('offsetEncode').value;
+    let encodeText = cipher.encode(text,offset);
+    document.getElementById('encodeText').value.innerHTML=encodeText;
+}
 
 
-// import cipher from './cipher.js';
-
-// console.log(cipher);
+console.log(cipher);

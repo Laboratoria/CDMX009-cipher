@@ -1,7 +1,6 @@
-function encode () {
-  //variables donde se guardan los datos del formulario
-let text = (document.getElementById('textoACifrar').value)/*.toUpperCase()*/;
-let offset = parseInt(document.getElementById('numDePosiciones').value);
+const cipher = {
+
+encode (text, offset) {
 //ciclo para asignar el numero de letras
   for (let i=0; i < text.length; i++) {
     let textToAscii = text.charCodeAt (i);
@@ -9,26 +8,26 @@ let offset = parseInt(document.getElementById('numDePosiciones').value);
     if (textToAscii >= 65 && textToAscii <= 90) {
       let formula = (textToAscii-65+offset)%26+65;
       let cipherText = String.fromCharCode(formula);
-      document.write (cipherText);
+      //document.write (cipherText);
     }
  //ciclo que va a dar los espacios donde corresponden   
     else if (textToAscii === 32) {
       let space = String.fromCharCode(textToAscii);
-      document.write(space);
+      //document.write(space);
     }
     if (textToAscii >= 97 && textToAscii <= 122) {
       let formula = (textToAscii-97+offset)%26+97;
       let cipherText = String.fromCharCode(formula);
-      document.write (cipherText);
+      //document.write (cipherText);
     }
   }
+   return cipherText;
 }
-export default encode; 
 
-function decode () {
+,decode () {
   //variables donde se guardan los datos del formulario
-  let text = (document.getElementById('textoADescifrar').value)/*.toUpperCase()*/;
-  let offset = parseInt(document.getElementById('numDePosicionesDes').value);
+  let text = (document.getElementById('textToDecode').value)/*.toUpperCase()*/;
+  let offset = parseInt(document.getElementById('offsetDecode').value);
   //ciclo para asignar el numero de letras
     for (let i=0; i < text.length; i++) {
       let textToAscii = text.charCodeAt (i);
@@ -49,37 +48,8 @@ function decode () {
         document.write (cipherText);
       }
     }
+    cipher.decode(text,offset);
 }
-export default decode; 
-/*funcion para realizar el cifrado
-function cipher () {
-  //asigna los datos y convierte a mayusculas
-  let text = (document.getElementById('textoACifrar').value).toUpperCase();
-  let number = parseInt(document.getElementById('numDePosiciones').value);
-  
-  //para convertir a ascii 
-    for(i=0; i < text.length; i++) {
-      //texto convertido en ascii
-      let textToAscii = text.charCodeAt(i);
-
-
-      
-        if (textToAscii === 32) {
-          let space = String.fromCharCode(getAscii);
-        }
-      
-      //formula para conseguir posiciones en ascii
-      let getAscii = (textToAscii-65+number)%26+65;
-            //convertir a letra
-      let cipherString = String.fromCharCode(getAscii);
-      document.write (cipherString);
-    };
 
 };
-
-
-/*const cipher = {
-  // ...
-};
-*/
-// export default cipher;
+export default cipher;

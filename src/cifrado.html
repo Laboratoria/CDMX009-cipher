@@ -2,43 +2,38 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Descifrado de Información</title>
+    <title>Cifrado de Información</title>
     <link rel="stylesheet" href="style.css" />
   </head>
 
   <body>
-
-<!--HEADER, tiene el titulo de la pagina y el logotipo-->    
-    <header>
-      <div id="root">
+      <header>
         <h1>Sistema de Protección de Información de Correos Electrónicos</h1>
-      </div>  
-    </header>
-    
-<!--formulario para ingresar texto a cifrar-->
-    <form action="">  
-     
-      <p class="instrucciones">Ingrese el texto a cifrar (sin numeros ni caracteres especiales)</p>
-      <textarea class="ingresoDeTexto"id="textoACifrar"></textarea>
-      
-      <p class="posiciones"># de posiciones:</p>
-      <input type="number" size="5" maxlength="2" id="numDePosiciones" class="numDePosiciones">
-      
-<!--botones de opciones-->
-     <div class="botones">
-        <input class="opciones" id="EncodeButton" type="submit" value="Enviar" onclick="encode()">
-        <input type="reset" class="opciones" value="Borrar">
-        <button class="opciones"><a href="index.html">Regresar</a></button>
-      </div>
+      </header>
 
-      <div class="results">
-        <label>Resultado:</label>
-        <textarea id="Results"></textarea>
+      <main>
+          <section>
+              <form class="formulario">
+                  <label class="instrucciones">Ingrese el texto a cifrar (sin numeros ni caracteres especiales)</label><br>
+                  <textarea class="ingresoDeTexto" id="textToEncode">Ingrese Texto</textarea><br>
+                  <label class="instrucciones">Offset:</label>
+                  <input type="number" id="offsetEncode">
+                  <div id="opciones">
+                      <button type="submit" class="botones" id="encodeButton" onclick="pressEncode()">Enviar</button>
+                      <button type="reset" class="botones">Borrar</button>
+                      <button class="botones"><a href="index.html">Regresar</a></button>
+                  </div>
+              </form>
+          </section>
 
-      </div>
-    </form>
+          <section>
+              <form class="resultado">
+                  <label class="instrucciones">Texto cifrado:</label><br>
+                  <textarea class="ingresoDeTexto" id="encodeText" readonly></textarea>
+              </form>
+          </section>
+      </main>
     
-    <script src="cipher.js"></script>
-    <script src="index.js" type="module"></script>
+      <script src="index.js" type="module"></script>
   </body>
 </html>

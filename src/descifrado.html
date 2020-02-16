@@ -2,33 +2,38 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Cifrado de Información</title>
+    <title>Descifrado de Información</title>
     <link rel="stylesheet" href="style.css" />
   </head>
+
   <body>
-
-<!--HEADER, tiene el titulo de la pagina y el logotipo-->    
-    <header>
-      <div id="root">
+      <header>
         <h1>Sistema de Protección de Información de Correos Electrónicos</h1>
-      </div>  
-    </header>
+      </header>
 
-<!--MAIN, contiene la parte central de la pagina-->
-    <form action="">
-      <p class="instrucciones">Ingrese el texto a descifrar (sin numeros ni caracteres especiales)</p>
-      <textarea class="ingresoDeTexto"id="textoADescifrar"></textarea>
-      <p class="posiciones"># de posiciones:</p>
-      <input type="number" size="5" maxlength="2" id="numDePosicionesDes" class="numDePosiciones">
+      <main>
+          <section>
+              <form class="formulario">
+                  <label class="instrucciones">Ingrese el texto a descifrar (sin numeros ni caracteres especiales)</label><br>
+                  <textarea class="ingresoDeTexto" id="textToDecode">Ingrese Texto</textarea><br>
+                  <label class="instrucciones">Offset:</label>
+                  <input type="number" id="offsetDecode">
+                  <div id="opciones">
+                      <button type="submit" class="botones" id="decodeButton">Enviar</button>
+                      <button type="reset" class="botones">Borrar</button>
+                      <button class="botones"><a href="index.html">Regresar</a></button>
+                  </div>
+              </form>
+          </section>
 
-<!--botones de opciones-->
-      <div class="botones">
-        <input class="opciones" type="submit" value="Enviar" onclick="decode()">
-        <input type="reset" class="opciones" value="Borrar">
-        <button class="opciones"><a href="index.html">Regresar</a></button>
-      </div>
-    </form>
-    
-    <script src="index.js" type="module"></script>
+          <section>
+              <form class="resultado">
+                  <label class="instrucciones">Texto descifrado:</label><br>
+                  <textarea class="ingresoDeTexto" id="decodeText" readonly></textarea>
+              </form>
+          </section>
+      </main>
+      
+      <script src="index.js" type="module"></script>
   </body>
 </html>

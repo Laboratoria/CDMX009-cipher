@@ -2,25 +2,30 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Protección de Información</title>
+    <title>Cifrado de Información</title>
     <link rel="stylesheet" href="style.css" />
   </head>
+
   <body>
-<!--HEADER, tiene el titulo de la pagina y el logotipo-->    
-    <header>
-      <div id="root">
+      <header>
         <h1>Sistema de Protección de Información de Correos Electrónicos</h1>
-      </div>  
-    </header>
-<!--MAIN, contiene la parte central de la pagina-->
-    <main>
-      <h2 class="bienvenida">Bienvenido. ¿Qué función desea realizar?</h2>
-<!--botones de opciones-->
-    <div>
-      <button id="cifrar" class="opciones"><a href="cifrado.html">Cifrar</a></button>
-      <button id="descifrar" class="opciones"><a href="descifrado.html">Descifrar</a></button>
-    </div>
-    </main>
+      </header>
+
+      <main>
+          <section class="bienvenida">
+              <h2>Bienvenido</h2>
+              <p class="instrucciones">Esta página le permite proteger la informacion que envía mediante su correo electronico utilizando el método de Cifrado César</p>
+              <p class="instrucciones">Elija por favor una opción:</p>
+          </section>
+
+          <section>
+              <div id="botonesPrincipales">
+                <button class="botones"><a href="cifrado.html">Cifrar</a></button>
+                <button class="botones"><a href="descifrado.html">Descifrar</a></button>
+              </div>
+          </section>
+      </main>
+
  <script src="index.js" type="module"></script>
   </body>
 </html>
