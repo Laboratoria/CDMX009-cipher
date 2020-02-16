@@ -1,35 +1,81 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
+<html>
+
+<head>
     <meta charset="utf-8">
-    <title>Bienvenidos al creador de Password </title>
+    <title>Bienvenidos al creador de Password</title>
     <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-    <div class="bienvenidos">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+
+<body>
+
+<!--Primera pantalla
+
+  <div class="contenedor">
+
+      <div class= "contenedor1"><h1>¡Advertencia!</h1><br>
+
+      No admite letra "Ñ"<br>
+      No admite caracteres ni numeros</div>
+
+
+      <form method="post" action="index2.html"><br>
+      <div class= "contenedor2"><input type="submit" value="Entendido" id="boton"></div>
+      </div>
+
+-->
+
+<!--Segunda pantalla-->
+
+  <div class="bienvenidos">
     <h1>Bienvenidos al creador de Password</h1></div>
 
-    <p>Numero de Desplazamiento<p/>
-      <input type="number" ></code>
-
-      <div class="togglebox">
-        <h1> Cifra-Descifra</h1>
-        <div class="toggle">
-          <input type="checkbox">
-          <label for="" class="onbtn"></label>
-          <label for="" class="ofbtn"></label>
+  <!--  <div>
+       Cifra-Descifra
+   <div><class="toggle"><input type="checkbox">
+-->
 
 
-            <p>Ingrese la palabra a cifrar o descifrar</p>
-            <textarea id="box-encode-decode" class="caja-texto" placeholder="Introduce el texto..."></textarea>
-            <br><button id="enviar" class="enviar">Enviar</button></br>
-            <br><div id="msg-encode-decode">DEMO <class="texto-cipher">
-                <p id="msg-encode-check"></p>
-            </div>
-            <br><button onclick="location.reload();" class="recargar">Limpiar</button>
-        </div>
 
-      </div>
-      </div>
-  </body>
+<div id="encode-decode" class="link-code">
+             <a href="#" id="link-encode" class="link_active"><img src= "abierto.png"></a>
+             <a href="#" id="link-decode" class="link_desactive"><img src= "cerrado.png"></a>
+         </div>
+
+         <!--display cifrar-->
+
+         <div id="content-msg-encode" class="msg-style display_block">
+           <div class="content-offset">
+             <label class="label">Número de desplazamiento</label><br>
+             <input type="number" id="n_offset_e" class="n_offset_style">
+           </div>
+             <br><textarea id="box-msg-encode" class="box-msg-style" placeholder="Introduce el texto a cifrar..."></textarea><br><!--Caja de texto-->
+             <button id="btn_encode" class="btn-code">Enviar</button><br><!--Boton enviar-->
+             <div id="msg-encode" class="msg-ckeck"><p id="msg-encode-check"></p><!--Demo-->
+             </div>
+             <button onclick="location.reload();" class="recharge">Limpiar</button><!--Boton Limpiar-->
+         </div>
+
+         <!--display descifrar-->
+
+         <div id="content-msg-decode" class="msg-style display_none"><!--Enlazar display-->
+           <div class="content-offset">
+             <label class="label">Número de desplazamiento</label><br>
+             <input type="number" id="n_offset_d" class="n_offset_style">
+           </div>
+             <br><textarea id="box-msg-decode" class="box-msg-style" placeholder="Introduce el texto a descifrar..."></textarea><br><!--Caja de texto-->
+             <button id="btn_decode" class="btn-code">Enviar</button><br><!--Boton enviar-->
+             <div id="msg-decode" class="msg-ckeck"><p id="msg-decode-check"></p><!--Demo-->
+             </div>
+             <button onclick="location.reload();" class="recharge">Limpiar</button><!--Boton Limpiar-->
+         </div>
+     </section>
+
+
+     <script src="cipher.js"></script>
+     <script src="index.js"></script>
+</body>
+
 </html>

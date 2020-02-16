@@ -5,17 +5,13 @@
   background: #fff;
   padding: 10px;
   border: 5px solid #FF0000;
-  margin: auto;
-  display: flex;
-  display:-webkit-flex;
-  display:-ms-flexbox;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
-  flex-flow: column nowrap;
-  justify-content: space-between;
-  align-items: center;
   border-radius: 15px;
+  margin: auto;
+  display: table;
+  position: relative;
+  vertical-align: middle;
+  align-items: center;
+  align-content: center;
 }
 
 .bienvenidos{
@@ -32,6 +28,7 @@ main {
   text-align: center;
   width: 350px;
   height: 150px;
+  margin: auto;
 }
 
 body {
@@ -63,6 +60,8 @@ input#boton{
   border-radius: 15px;
 }
 
+
+
 /*Boton Switch*/
 input[type="checkbox"]{
   position: relative;
@@ -80,6 +79,7 @@ input[type="checkbox"]{
 input:checked[type="checkbox"]{
     background: #FF0000
   }
+
 
 input[type="checkbox"]::before{
   z-index: 2;
@@ -104,39 +104,39 @@ input:checked[type="checkbox"]::before{
       display: inline;
     }
 
-/*label{
-  position: absolute;
-  color: #fff;
-  font-weight: 200px;
-  font-size: 20px;
-  pointer-events: none;
-}
-*/
+  /*Offset*/
+    .n_offset_style{
+      border-color: red;
+      border-radius: 15px;
+      text-align: center;
+    }
 
-.caja-texto {
-    width: 550px;
-    height: 50px;
-    resize: none;
-    outline: 0px;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    border: 5px solid #FF0000;
-    border-radius: 15px;
-    margin: auto;
-    display: flex;
-    display:-webkit-flex;
-    display:-ms-flexbox;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    flex-flow: column nowrap;
-    justify-content: space-between;
-    align-items: center;
+/*caja-texto*/
+.box-msg-style{
+  width: 550px;
+  height: 50px;
+  resize: none;
+  outline: 0px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid #FF0000;
+  border-radius: 15px;
+  margin: auto;
+  display: flex;
+  display:-webkit-flex;
+  display:-ms-flexbox;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
 }
 
-.enviar{
-    text-align: center;
+/*enviar*/
+.btn-code{
+  text-align: center;
     padding:9px 10px;
     color: black;
     font-size: 1em;
@@ -145,31 +145,49 @@ input:checked[type="checkbox"]::before{
     border-radius: 15px;
 }
 
-  .texto-cipher{
-    font-family: Segoe UI;
-    width:700px;
-    height:50px;
-    background: #fff;
-    padding: 10px;
-    border: 5px solid #FF0000;
-    margin: auto;
-    display: flex;
-    display:-webkit-flex;
-    display:-ms-flexbox;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    flex-flow: column nowrap;
-    justify-content: space-between;
-    align-items: center;
-  }
+/*Estilo al demo*/
+.msg-ckeck p{
+  color: red;
+  font-family: Segoe UI;
+  font-weight: 800;/*negrita*/
+  width: 550px;
+  height: 50px;
+  width: 550px;
+  height: 50px;
+  resize: none;
+  outline: 0px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  display: flex;
+  display:-webkit-flex;
+  display:-ms-flexbox;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
 
-.recargar{
+
+/*limpiar*/
+.recharge{
   text-align: center;
   padding:9px 10px;
   color: black;
   font-size: 1em;
   background-color: white;
   border-color: red;
-  border-radius: 15px
+  border-radius: 15px;
+}
+
+/*display*/
+.display_none {
+    display: none;
+}
+
+.display_block {
+    display: block;
 }
