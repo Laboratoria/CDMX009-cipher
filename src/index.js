@@ -5,7 +5,7 @@ let pressed;
 let userName;
 let key;
 let ciphedUser;
-let deciphKey;
+let deciphKey = 'testkey';
 
 //Homescreen event to start and go to the offset input screen
 document.getElementById('homeImage').addEventListener('click', startApp);
@@ -17,7 +17,7 @@ function startApp(){
 //Function to get offset number and continue to user name
 document.getElementById('getOffset').addEventListener('click', getOffsetNo);
 function getOffsetNo(){
-  offsetNo = document.getElementById('dayNo').value;
+  offsetNo = parseInt(document.getElementById('dayNo').value);
   if (offsetNo <32 && offsetNo >0) {
     document.getElementById('number').style.display = 'none';
     document.getElementById('user').style.display = 'block';
@@ -51,21 +51,23 @@ function getUser(){
   }
 }
 
+//Encoding and decoding Function
 //Function to get password and continue to results
 document.getElementById('getPass').addEventListener('click', getKey);
 function getKey(){
   key = document.getElementById('pass').value;
-  if (key != '') {
-  document.getElementById('keyword').style.display = 'none';
-  document.getElementById('results').style.display = 'block';
-//  ciphedUser = 'ciphered user';
-  document.getElementById('ciphered').value = cipher.encode;
-//  deciphKey = 'deciphered keyword';
-  document.getElementById('deciphered').value = cipher.decode;
-  }
-  else {
-  alert('Escribe la palabra clave')
-  }
+    if (key != '') {
+      ciphedUser = cipher.encode(offsetNo, userName);
+      deciphKey = cipher.decode(offsetNo, key);
+      document.getElementById('ciphered').value = ciphedUser;
+      document.getElementById('deciphered').value = deciphKey;
+      
+        document.getElementById('keyword').style.display = 'none';
+        document.getElementById('results').style.display = 'block';
+    }
+    else {
+      alert('Escribe la palabra clave')
+    }
 }
 
 //Function to reset values and go back to homescreen

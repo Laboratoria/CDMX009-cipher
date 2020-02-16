@@ -1,6 +1,6 @@
 body {
   font-family: 'Calibri';
-  font-size: 17pt;
+  font-size: 100%;
   color: rgba(224, 224, 224, 1);
   background-color: black;
   margin-left: 1%;
@@ -11,28 +11,23 @@ p {
   margin-bottom: 0%;
 }
   .text {
-    margin: 2em;
-    font-family: 'Calibri';
-    font-size: 17pt;
+    margin: 1em;
+    font-size: 100%;
     color: rgba(224, 224, 224, 1);
     border-color: rgba(112, 112, 112, 1);
     border-width: 1px;
 
   }
   .next {
-    margin: 2.5em;
+    margin: 1em;
     cursor: pointer;
   }
   .logo {
     margin-top: 0%;
-    margin-left: 5%;
+    margin-left: 0%;
   }
   .title {
-    font-size: 25pt;
-  }
-  .subtitle
-  {
-    font-size: 17pt;
+    font-size: 150%;
   }
   .result {
     border-color: rgba(112, 112, 112, 1);
@@ -40,12 +35,11 @@ p {
     background-color: rgba(221, 215, 251, 1);
     margin: 1em;
     text-transform: uppercase;
-    font-family: 'Calibri';
-    font-size: 17pt;
+    font-size: 100%;
   }
 
 #home {
-    display: block;
+    display: none;
   }
     #homeImage {
       cursor: pointer;
@@ -58,8 +52,6 @@ p {
     #dayNo {
       border-color: rgba(112, 112, 112, 1);
       border-width: 1px;
-      font-family: 'Calibri';
-      font-size: 17pt;
       color: rgba(224, 224, 224, 1);
       background: rgba(33, 49, 109, 0.53);
       margin-top: 2em;
@@ -87,6 +79,6 @@ p {
     display: none;
   }
     #backhome {
-      margin-left: 6em;
+      margin-left: 5.5em;
       cursor: pointer;
     }
