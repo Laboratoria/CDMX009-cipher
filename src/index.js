@@ -14,6 +14,7 @@ let boxInput= document.getElementById('result_cipher');
 let string = document.getElementById('texto').value;
 console.log(string);
 let stringUpperCase1= string.toUpperCase();
+console.log(stringUpperCase1)
 let space =document.getElementById('espacios').value;
 console.log(space);
 // le pido a cifer que haga su chamba

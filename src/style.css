@@ -28,6 +28,8 @@ background: rgba(238, 124, 74, 0.93);
   text-align: center;
   background-image: url(images/CandadoViejo.jpeg);
 background-size: cover;
+/*filter: opacity(30%);*/
+filter: grayscale(60%);
 
 display:block;
 }
