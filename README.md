@@ -3,12 +3,12 @@
 ## Índice
 
 
-* [1. Resumen del proyecto](#1-Resumen del proyecto)
-* [2. Investigación UX](#2-Investigación UX)
-* [3. Imagen de mi Prototipo en Papel](#3-Imagen de mi Prototipo en Papel)
+* [1. Resumen del proyecto](#1-Resumen_del_proyecto)
+* [2. Investigación UX](#2-Investigación_UX)
+* [3. Imagen de mi Prototipo en Papel](#3-Imagen_de_mi_Prototipo en Papel)
 * [4. Feedback](#4-Feedback)
-* [5. Prototipo Final](#5-Prototipo Final)
-* [6. La Imagen Final de mi Proyecto](#6-La Imagen Final de mi Proyecto)
+* [5. Prototipo Final](#5-Prototipo_Final)
+* [6. La Imagen Final de mi Proyecto](#6-La_Imagen_Final_de_mi_Proyecto)
 
 
 ***
