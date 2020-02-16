@@ -32,6 +32,9 @@ function copy() {
 let refresh = document.getElementById('specsLogo');
 refresh.onclick = refreshPage;
 
+let home = document.getElementById('homeLogo');
+home.onclick = refreshPage;
+
 function refreshPage(){
     window.location.reload();
 } 
