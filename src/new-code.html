@@ -1,24 +1,40 @@
-  <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Pruebaaaaa</title>
-      <link rel="stylesheet" href="style.css"/>
-      <link href="https://fonts.googleapis.com/css?family=Ropa+Sans&display=swap" rel="stylesheet">
-  </head>
-  <body>
-    <div class="semillas">
+<head>
+  <meta charset="utf-8">
+  <title>Semillas</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Ropa+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div id="root" class="container">
+    <div class="semillas-title"></div>
+    <div class="garden-container">
     <div class="code-container">
-    Nombre de usuario: <input type="text" id="nText">
-    <div class="info"></div>
-    Número de la suerte: <input type="number" id="offNumber" min="0" max="26">
 
-    <input class="send-btn" onclick="cipher()" type="button" value="Envi"/>
+      Nombre de usuario: <input class="user" type="text" id="nText">
+    </div>
 
-  <h1 id="demo">... </p>
+    <div class="luck-container">
+      Número de la suerte: <input class="luck" type="number" id="offNumber" min="0" max="26">
+
+
+    </div>
+    </div>
+    <input class="send-btn" onclick="cipher()" type="button" value="Enviar"/>
   </div>
+<div id="plantCode" class="plant-code"></div>
 
 
-  </body>
-  <script src="cipher.js"> </script>
+
+<div class="footer">
+  <div class="img-container-footer">
+    <div class="steam-icon"></div>
+    <div class="twitter-icon"></div>
+    <div class="soundcloud-icon"></div>
+  </div>
+</div>
+
+</body>
+<script src="cipher.js"> </script>
 </html>

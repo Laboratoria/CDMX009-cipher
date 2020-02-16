@@ -40,21 +40,24 @@ input[type=text],input[type=number]{
 .container{
 }
 
-.code-container{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  align-self: center;
-  width:50%;
-  height: 30%;
+.garden-container{
+  height: 35%;
+  margin-left: 25%;
+}
 
+.code-container{
+
+  display:flex;
+  margin-top: 3%;
 }
-.info{
-  height: 5px;
-  width: 5px;
-  border-radius: 50$;
-  background-color:  #FFCD83;
+
+.luck-container{
+  margin-top: 3%;
+  height: 30%;
+  display: flex;
 }
+
+
 .arrow{
   position: fixed;
   float: left;
@@ -121,7 +124,13 @@ input[type=text],input[type=number]{
 .btn-three{
   float: right;
 }
-
+.user{
+  width: 13.2em;
+  margin-left: 3em;
+}
+.luck{
+  margin-left: 2.3em;
+}
 
 .send-btn{
   background-color: #95E0BC;
@@ -132,7 +141,9 @@ input[type=text],input[type=number]{
   border-style: solid;
   height: 1.1rem;
   width: 2.5rem;
+  margin-left:50em;
 }
+
 .title-container{
   display: inline-block;
 }
@@ -159,12 +170,20 @@ input[type=text],input[type=number]{
   margin-top: -18rem;
   margin-right: 8%;
 }
-.semillas{
-  display: flex;
-  height: 50%;
-  width: 50%;
+.semillas-title{
+  background-image: url(../img/semillas-title.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 80%;
+  height: 6rem;
+  margin-top: 4%;
+
+
+
 }
 
+.plant-code{
+}
 
 .footer{
   position: fixed;
@@ -200,8 +219,12 @@ input[type=text],input[type=number]{
   background-image: url(../img/twitter-icon.svg);
 }
 
-.spotify-icon{
+.soundcloud-icon{
   margin-right: 30px;
   float:left;
-  background-image: url(../img/spotify-icon.svg);
+  background-image: url(../img/soundcloud-icon.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+
 }
