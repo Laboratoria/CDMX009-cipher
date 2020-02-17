@@ -7,7 +7,7 @@ Va dirigida a todas aquellas personas que tengan unas palabras de amor que compa
 
 Muchas veces es bueno darle un giro a la vida, con esta app puedes mandar mensajes codificados a tu ser querido. esta app es muy versatil ya que puede ser usada por cualquier persona de manera facil y rapida.
 
-![imagenfinal](img/boceto.png)
+![imagenfinal](img/boceto.jpg)
 
 FEEDBACK. me dijeron que cambiara los primeros botones que tenia del offset.
 
