@@ -1,10 +1,18 @@
 //import cipher from './cipher.js';
 let offset = 0
+ 
+let saveNum = document.querySelector('#botnumber')
+let buttonNumber = saveNum.addEventListener('click',saveNumber)
+
 function saveNumber(){
   offset = parseInt(document.getElementById('posiciones').value); //localStorage
   alert("Hola " + offset);
 }
- let shoot = document.querySelector()
+ let shootcif = document.querySelector('#botcifrar')
+ let buttonEncode = shootcif.addEventListener('click', cifrar)
+
+ let shootdes = document.querySelector('#botdescifrar')
+ let buttonDecode = shootdes.addEventListener('click', descifrar)
 
 function cifrar(){
   let string = document.getElementById('cadenacif').value;
