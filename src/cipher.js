@@ -11,7 +11,7 @@ const cipher = {
           letter = String.fromCharCode(newCharNumber);
           encoded = encoded.concat(letter);
         }
-      return encoded;
+        return encoded;
       }
       else {
         throw TypeError('¡Alerta! Valor ingresado invalido');
@@ -22,13 +22,18 @@ const cipher = {
     let newCharNumber;
     let letter;
     let decoded = '';
-      for (let i=0; i < word.length; i++){
-        oldCharNumber = word.charCodeAt(i);
-        newCharNumber = (oldCharNumber + 65 - offset) % 26 + 65;
-        letter = String.fromCharCode(newCharNumber);
-        decoded = decoded.concat(letter);
+      if (typeof word === "string"){
+        for (let i=0; i < word.length; i++){
+          oldCharNumber = word.charCodeAt(i);
+          newCharNumber = (oldCharNumber + 65 - offset) % 26 + 65;
+          letter = String.fromCharCode(newCharNumber);
+          decoded = decoded.concat(letter);
+        }
+        return decoded;
       }
-    return decoded;
+      else {
+        throw TypeError('¡Alerta! Valor ingresado invalido');
+      }
   }
 }
 export default cipher;
