@@ -1,6 +1,4 @@
 const cipher = {
-    nombre : document.getElementById('name').value,
-    edad : parseInt(document.getElementById('shift').value), 
    
     code : (nombre, edad) => {
     let result = '';
