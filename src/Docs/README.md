@@ -2,7 +2,8 @@ Bullying School
 
 # Cifrado Cesar
 
-"Cifrado Cesar" es una app que permite cifrar y descifrar un mensaje con un numero de desplazamiento a elección.
+Bullying School se utiliza para enviar mensaje ocultos a los profesores, cuando los estudiantes son amenazados y tienen
+miedo de expresarlo a un profesor o tutor 
 
 ## Desarrollado para 
 
@@ -68,7 +69,7 @@ Laboratoria
 
 ## Enlace Deploy
 
-https://valepm0511.github.io/Cifrado-Cesar/
+https://github.com/ElizaFlores11/CDMX009-cipher/blob/master/src/index.html
 
 
 
