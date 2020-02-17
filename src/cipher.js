@@ -25,7 +25,7 @@ const cipher = {
             if (caracterASCII == 32 || caracterASCII < 65 || caracterASCII > 90) {
                 newCadena += textOrigen.charAt(index);
             } else {
-                var newCaracterASCII = ((caracterASCII - 65 - offset) % 26 + 65);
+                var newCaracterASCII = ((caracterASCII + 65 - offset) % 26 + 65);
                 newCadena += String.fromCharCode(newCaracterASCII);
             }
 

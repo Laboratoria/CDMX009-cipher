@@ -24,7 +24,7 @@ function encode() {
 }
 
 function decode() {
-    textOrigen = document.getElementById("ingresaTexto").value;
+    textOrigen = (document.getElementById("ingresaTexto").value).toUpperCase();
     offset = Number.parseInt(document.getElementById("seleccionOffset").value);
 
     result = cipher.decode(offset, textOrigen);
