@@ -30,6 +30,10 @@ El cifrado admite, en tres anillos, letras mayúsculas, minúsculas y números, 
 
 ![Skecth](readmeImages/IRISsketch.jpeg)
 
+\begin{figure}
+ \includegraphics[width=300pt, height = 125 pt]{readmeImages/IRISsketch.jpeg}
+\end{figure}
+
 #### Feedback y prototipado
 
 En el primer skecth de la aplicación se propuso que toda la funcionalidad quedase en una sola pantalla, sin embargo,no quedaba tan claro el uso de componentes y como los elementos podran funcionar para mandar y recibir mensajes. También se sugirió que no había un contacto claro con quien se estuviese realizando la comunicación. Se agregó un habilitador para el canal de bluetooth que además muestre quienes son los contactos en rango pues por ese canal no es posible comunicarse con todos los contactos disponibles. Se cambiaron aspectos en la funcionalidad para validar la información que usa la aplicación. 
