@@ -33,17 +33,31 @@ function valueToEncrypt () {
     var scrollNumber = parseInt(document.getElementById("scroll-number-encrypt").value);
     var stringPassword = document.getElementById('input-password-encrypt').value;
     if (scrollNumber == 0 || stringPassword == "") {
-        alert("No ingrsaste contraseña o desplazamiento");
+        alert("No ingresaste contraseña o desplazamiento");
     } else {
         var result = Cipher.encryptPassword(stringPassword, scrollNumber);
         document.getElementById("input-password-encrypt-result").innerText = result;
     }
   }
 
+  function valueToDesencrypt () {
+    var scrollNumber = parseInt(document.getElementById("scroll-number-desencrypt").value);
+    var stringPassword = document.getElementById('input-password-desencrypt').value;
+    if (scrollNumber == 0 || stringPassword == "") {
+        alert("No ingresaste contraseña o desplazamiento");
+    } else {
+        var result = Cipher.desencryptPassword(stringPassword, scrollNumber);
+        document.getElementById("input-password-desencrypt-result").innerText = result;
+        console.log("hola")
+    }
+  }
+
+
 window.pageEncrypt = showEncryptPage;
 window.pageDesencrypt = showDesencryptPage;
 window.faqsPage = showFaqsPage;
 window.returnMainPage = returnMainPage;
-window.valueToEncrypt = valueToEncrypt;
+window.valueToEncrypt= valueToEncrypt;
+window.valueToDesencrypt= valueToDesencrypt;
 
   
