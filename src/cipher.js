@@ -35,6 +35,7 @@ return myStringCipher;
 //funcion para descifrar una cadena de texto
 function decode(offset1,myString1){
   var myStringDechiper ='';
+
   for(var i = 0; i< myString1.length ; i++){
      var numberOfTheLetter = myString1.charCodeAt(i);
      var decipherFormula;
@@ -51,7 +52,7 @@ function decode(offset1,myString1){
        myStringDechiper += ' ';
      } else {
       // break;
-      throw new TypeError('caracter invalido');
+    //  throw new TypeError('caracter invalido');
      }
   }
   return myStringDechiper;
