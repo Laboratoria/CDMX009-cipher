@@ -8,33 +8,33 @@
   </head>
   <body>
      <section class="fisrtpage" id="firstPage"> <!-- primera pantalla -->
-         <div class="welcome-message">
+         <div class="welcomeMessage">
               <h1 class="titles">¿QUÉ DICES, CÉSAR?</h1>
-              <p class="main-type">Hola!, El cifrado césar es una de las técnicas mas simples para cifrar
-                un mensaje. Es un tipo de cifrado por sustitución, es decir que cada letra del
-                texto original es reemplazada por otra que se encuentra un numero fijo de
+              <p class="mainType">Hola!, El cifrado césar es una de las técnicas más simples para cifrar
+                un mensaje. Es un tipo de cifrado por sustitución. Es decir, que cada letra del
+                texto original es reemplazada por otra que se encuentra un número fijo de
                 posiciones (desplazamiento) más adelante en el mismo alfabeto.
-              </p> <!-- descripción del cifrado césar -->
+              </p> 
               <div class="instructions">
                 <h4 class="titles">INSTRUCCIONES</h4>
-                <p class="main-type">
+                <p class="mainType">
                     1. Inserta el texto a <strong>cifrar / descifrar </strong> <br>
                     2. Inserta el número de desplazamientos <br>
                     3. Presiona <strong>cifrar / decifrar </strong>según lo que desees <br>
                     4. Listo!
                 </p>
               </div> 
-              <p class="main-type" id="note"> <strong> NOTA: Recuerda tener muy presente el número de desplazamientos
+              <p class="mainType" id="note"> <strong> NOTA: Recuerda tener muy presente el número de desplazamientos
                 con todas las personas que quieras compartir tus mensajes secretos</strong>
               </p>
           </div>
           <div>
-              <button class="start-button" id="startButton" title="changeBackground"> COMENZAR </button><!--secondPage() estoy llamando a la funcion desde js-->
+              <button class="startBttn" id="startButton" title="changeBackground"> COMENZAR </button><!--secondPage() estoy llamando a la funcion desde js-->
          </div>
      </section>
      <section class="secondpage" id="secondPage"> <!--segunda pantalla -->
-        <div class="content-message">
-          <textarea  class="content-message" id="textleft" placeholder="Ingrese su mensaje"></textarea>
+        <div class="contentMessage">
+          <textarea  class="contentMessage" id="textleft" placeholder="Ingrese su mensaje"></textarea>
         </div>
         <div class="offset">
           <p id="numD">Número de desplazamiento</p>
@@ -45,12 +45,12 @@
           <button type="submit" class="button-encodeDecode" id="decodebutton">Decifrar</button>
         </div>
         <div class="result">
-          <p class="content-message" id="textright"></p>
+          <p class="contentMessage" id="textright"></p>
         </div>
         <button  id="clean" type="reset">Limpiar</button>
       </section>
       <div class="footer">
-        <footer> Proyecto Cipher </footer>
+        <footer> Proyecto Cipher <br>por Mariel Carrillo </footer>
       </div>
 
   <script src="index.js"></script>

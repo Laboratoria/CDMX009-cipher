@@ -1,5 +1,9 @@
 document.getElementById("startButton").addEventListener("click", screen)
 document.getElementById("startButton").addEventListener("click",function() { changeBackground('#BF52FF') })
+document.getElementById("clean").addEventListener("click", cleanScreen)
+
+const buttonEncode = document.getElementById("encodebutton");
+const buttonDecode = document.getElementById("decodebutton");
 
 //función que sirve para cambiar pantallas
 function screen() { 
@@ -15,14 +19,13 @@ function changeBackground(color) {
 
 //función para limpiar página
 function cleanScreen() {
-  document.getElementById("textright").value = " ";
+  document.getElementById("textleft").value = " ";
+  document.getElementById("textright").innerHTML = " ";
   document.getElementById("offset").value = " ";
-  document.getElementById("textleft").innerHTML = " ";
 }
-document.getElementById("clean").addEventListener("click", cleanScreen)
+
 
 // función donde se definen variables para cipher.js
-const buttonEncode = document.getElementById("encodebutton");
   buttonEncode.addEventListener("click", () => {
     let message = document.getElementById("textleft").value;
     let offsetNumber = document.getElementById("offset").value;
@@ -30,7 +33,7 @@ const buttonEncode = document.getElementById("encodebutton");
     document.getElementById("textright").innerHTML = finalResult;
   })
 
-const buttonDecode = document.getElementById("decodebutton");
+
   buttonDecode.addEventListener("click", () => {
    let messageD = document.getElementById("textleft").value;
    let offsetNumberD = document.getElementById("offset").value;
