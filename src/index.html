@@ -30,7 +30,7 @@
           <option value="maria">María - 230m</option>
         </select>
         <p class="SelectInfo"></p>
-        <i class="fas fa-question-circle"></i>
+        <i id="question" class="fas fa-question-circle"></i>
       </div>
       <div class="configContainer">
         <div id="configBox1">
@@ -46,24 +46,22 @@
         <div id= "configBox2">
           <label for="offset" >Offset</label><br>
           <input id="offset" type="text" class="btStatus contactInit contactsStatus" placeholder="Número." disabled>
-          <p id="offsetWarning"></p>
         </div>
       </div>
       <div>
-        <textarea id="inputTextarea" cols="30" rows="3" placeholder="Introduce un mensaje o recibe uno." class="btStatus contactsStatus codeCheck" disabled></textarea>
-        <p id="inputWarning"></p>  
+        <textarea type="pwd" id="inputTextarea" cols="30" rows="3" placeholder="Introduce un mensaje o recibe uno." class="btStatus contactsStatus codeCheck" disabled></textarea>
       </div>
       <div id="buttonContainer1">
         <button id="cleanButton" type="button" class="btStatus contactsStatus codeCheck" disabled>Limpiar</button>
-        <button id="showButton" type="button" class="btStatus contactsStatus codeCheck" disabled>Ver</button>
       </div>
       <div>
         <textarea id="outputTextarea" cols="30" rows="3" class="btStatus contactsStatus codeCheck" readonly disabled></textarea>
       </div>
       <div id="buttonContainer2">
-        <i class="fas fa-info-circle"></i>
+        <i id="info" class="fas fa-info-circle"></i>
         <button id="sendButton" type="button" class="btStatus contactsStatus codeCheck" disabled>Enviar</button>
       </div>
+      <p id="warning"></p>
       <div>
         <p id="footpage"> Made with enthusiasm!  &copy; IRIS 2020. All rights reserved.</p>  
       </div>

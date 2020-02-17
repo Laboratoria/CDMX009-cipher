@@ -132,6 +132,14 @@ i{
   padding: 0 3em;
 }*/
 
+#warning{
+  text-align: center;
+  font-size: 15px;
+  color:red ;
+  margin:0;
+  padding:0;
+  height: 15px;
+}
 
 
 
