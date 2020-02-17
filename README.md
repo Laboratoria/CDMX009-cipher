@@ -3,7 +3,7 @@
 
 >El proyecto se basa en una página web que se encarga de la parte de conciertos, en este caso se utiliza un código para personalizar las entradas con mensajes especiales, en caso de que vayas a regalar el boleto tengas algo que escribiste tu mismo. Te cifra cuando escribes el texto, lo descifras en caso de que hayas olvidado lo que escribiste. Su finalidad en si es cifrar y descifrar.
 
-![alt text](https://raw.githubusercontent.com/DianyelaMaldonado/CDMX009-cipher/master/pictures/logo.png)
+![alt text](https://raw.githubusercontent.com/DianyelaMaldonado/CDMX009-cipher/master/prototiposCipher/logo.png)
 El nombre de la página es: ***Dream Tickets.***
 
 
