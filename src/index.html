@@ -17,7 +17,7 @@
     </div>
     <div = id "introducir datos">
     <input type id= "text" placeholder="Texto">
-    <input type id= "offset" placeholder="Offset">
+    <input type id= "offsetnum" placeholder="Offset">
     </div>
     <div =class "seleccionar boton">
       <button id="button1">Cifrar</button>
@@ -30,22 +30,29 @@
    </div>
    <div>
    <p1> La palabra cifrada es:</p1>
+   <br>
+  <br>
  </div>
+ <p2 id="resultado1"></p2>
+ <br>
+<br>
    <div class="boton">
-   <button id= "volver" type="button" onclick="pantallaInicio()">Volver</button>
+   <button id= "volver1">Volver</button>
  </div>
  </section>
  <section id= "screen3">
    <div>
-     <img id= "candadocerrado" src= "imagen/candadoce.jpg">
+     <img id= "candadocerrado" src= "./imagens/candadoce.jpg">
    </div>
    <p2>La palabra descifrado es</p2>
+   <p3 id="resultado2"></p3>
    <div class="boton">
-   <button id= "volver2" type="button" onclick="pantallaInicio1()">Volver</button>
+   <button id= "volver2">Volver</button>
   </div>
-
    </section>
 
-   <script type="module" src="index.js"/>
+   <script type="module" src="index.js"></script>
+   <script type="module" src="cipher.js"></script>
+
   </body>
 </html>

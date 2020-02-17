@@ -1,30 +1,31 @@
-const cipher = {
+const cipher = {encode, decode};
   // ...
-  function encode (text,offset) {
+function encode (texto,offset) {
     let solved="";
-    for (let i=0; i<text.length; i++){
+    for (let i=0; i<texto.length; i++){
    let ascciNum;
    let cipherFormula;
-   ascciNum = text.charCodeAt(i);
+   ascciNum = texto.charCodeAt(i);
    if (ascciNum>=65 && ascciNum<=90);
-    cipherFormula = ((ascciNum-65 + offset)%26)+65;
+    cipherFormula = ((ascciNum-65 + parseInt(offset))%26)+65;
     let letter= String.fromCharCode(cipherFormula);
     solved+= letter;
     }
-    return solved;
+  return solved;
   }
-  function decode (text,offset) {
+
+ function decode (texto,offset) {
   let solved="";
-  for (let i=0; i<text.length; i++){
+  for (let i=0; i<texto.length; i++){
  let ascciNum;
  let cipherFormula;
- ascciNum = text.charCodeAt(i);
+ ascciNum = texto.charCodeAt(i);
  if (ascciNum>=65 && ascciNum<=90);
-  cipherFormula = ((ascciNum-65 - offset)%26)+65;
+  cipherFormula = ((ascciNum-65 - parseInt(offset))%26)+65;
   let letter= String.fromCharCode(cipherFormula);
   solved+= letter;
   }
   return solved;
 }
-};
+//};
 export default cipher;
