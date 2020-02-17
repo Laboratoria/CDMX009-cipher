@@ -8,18 +8,17 @@ El nombre de la página es: ***Dream Tickets.***
 
 
 ***La imagen final de mi proyecto***
->La página principal, presenta contenido en el slider de redes sociales, publicidad de lo que es los tickets personalizados, aparte de información de los artistas,con un menú de navegación en donde iriamos a la página de cifrar y descifrar.
+>La página principal, presenta contenido en el slider de redes sociales, publicidad de lo que son los tickets personalizados, aparte de información de los artistas,con un menú de navegación en donde iriamos a la página de cifrar y descifrar.
 
 ![alt text](https://raw.githubusercontent.com/DianyelaMaldonado/CDMX009-cipher/master/prototiposCipher/landingpage.jpg)
 
->En esta segunda parte explicamos al usuario de lo que trata el encriptado cesar, en esta oportunidad (tickets o boletos personalizados).
+>En esta segunda parte explicamos al usuario de lo que trata el cifrado Cesar y se podrán generar los tickets o boletos personalizados.
 
 ![alt text](https://raw.githubusercontent.com/DianyelaMaldonado/CDMX009-cipher/master/prototiposCipher/cifradopage.jpg)
   
->Los usuarios vendrían siendo personas a las que les gusta la música y por ende tener contacto más cercano con los cantautores, en la página se estaría colocando información de artístas, sus biografías, el cómo empezaron y sus presentaciones, firmas de autográfos, y lo más importante pero sin quitarle peso a lo anterior nombrado, venta de tickets para eventos de esta índole,
-los objetivos es mostrar algo innovador, fresco y lleno de información precisa y certera, sería una página web entendible y fácil de usar, para que de esta manera el usuario pueda tener una buena experiencia y quiera perdurar en la página navegando un buen estimado de tiempo.
+>Los usuarios vendrían siendo personas a las que les gusta la música y por ende tener contacto más cercano con los cantautores, en la página se estaría colocando información de artístas, sus biografías, el cómo empezaron y sus presentaciones, firmas de autográfos, y lo más importante pero sin quitarle peso a lo anterior nombrado, venta de tickets para eventos de esta índole, el objetivo es mostrar algo innovador, fresco y lleno de información precisa y certera, sería una página web entendible y fácil de usar, para que de esta manera el usuario pueda tener una buena experiencia y quiera navegar en la página por un buen estimado de tiempo.
 
-    Lo que la página hace es facilitar al usuario, la manera no solo de comprar y poder colocarle un sello personal a un boleto, sino de facilitar los medios de hacerlo de una manera muy distinta a lo siempre acostumbrado.
+>Lo que la página hace es facilitar al usuario, la manera no solo de comprar y poder colocarle un sello personal a un boleto, sino de facilitar los medios de hacerlo de una manera muy distinta a lo siempre acostumbrado.
     
 
 ***Prototipos***
@@ -31,20 +30,15 @@ los objetivos es mostrar algo innovador, fresco y lleno de información precisa 
 
   ![alt text](https://raw.githubusercontent.com/DianyelaMaldonado/CDMX009-cipher/master/prototiposCipher/prototipocipher1.jpg)
 
->La segunda imagen ya vendría siendo el cometido al que quiero llegar, (cifrado césar) en esta parte se mostrará lo que va a ser la funcionalidad de cifrar y descifrar tu texto.
+>La segunda imagen ya vendría siendo el cometido al que quiero llegar, (cifrado Cesar) en esta parte se mostrará lo que va a ser la funcionalidad de cifrar y descifrar tu texto.
 
   ![alt text](https://raw.githubusercontent.com/DianyelaMaldonado/CDMX009-cipher/master/prototiposCipher/prototipocipher2.jpg)
 
 ***Prototipo final.***
 
- >En esta parte trabajé de una manera más real el cómo quería que se viera mi proyecto, los colores, el fondo, la ubicación
- de los botones, las imágenes, llegué al punto de que en mi mente ya sabía como se iba a ver, y por lo tanto al prototipar la página principal, ya fue suficiente para plasmarlo en código.
+ >En esta parte trabajé de una manera más real el cómo quería que se viera mi proyecto, los colores, el fondo, la ubicación de los botones, las imágenes, llegué al punto de que en mi mente ya sabía cómo se iba a ver, y por lo tanto al prototipar la página principal, ya fue suficiente para plasmarlo en código.
 
   ![alt text](https://raw.githubusercontent.com/DianyelaMaldonado/CDMX009-cipher/master/prototiposCipher/prototipofinalcipher.jpg).
   
   ***Feedback***
  > En cuanto al feedback primero enseñé a algunas personas la idea de lo que sería el proyecto, seguidamente el prototipo final, en lo que solo coincidía la opinión de cambiar el color, la cual tomé en cuenta y el resultado final tuvo una buena percepción de los mismos.
-
-
-
-
