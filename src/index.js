@@ -32,7 +32,7 @@ document.getElementById('name').addEventListener('keypress', capsOnly);
 document.getElementById('pass').addEventListener('keypress', capsOnly);
 function capsOnly(event) {
     pressed = event.which;
-    if (pressed < 64 || pressed > 91) {
+    if (pressed < 65 || pressed > 90) {
       event.preventDefault();
     }
 }
