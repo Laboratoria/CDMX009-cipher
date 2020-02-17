@@ -61,3 +61,12 @@
         font-size: 25px;
         font-weight: unset;
         color: rgb(105, 9, 117);
+    }
+
+    .textbox {
+        border-radius: 20px 20px 20px 20px;
+    -moz-border-radius: 20px 20px 20px 20px;
+    -webkit-border-radius: 20px 20px 20px px;
+    border: 0px double #00
+        
+    }
