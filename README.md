@@ -36,4 +36,4 @@ Por otra parte también se sugirió mostrar instrucciones más fáciles de compr
 
 <img src="images/PANTALLA-RESULTADO.png">
 
-<img src="images/PANTALLA-SALIDA.png">
+<img src="images/SALIDA.png">
