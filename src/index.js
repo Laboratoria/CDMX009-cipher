@@ -1,12 +1,13 @@
 
 import cipher from './cipher.js';
-/*
-let inputText= "Este es un texto de prueba";
-let offset = 1; 
+
+/*let inputText= "AaZz09Ññ";
+let offset = -1; 
 console.log(cipher.encode(offset,inputText));
 console.log(cipher.decode(offset,inputText));
 
 console.log(cipher);*/
+
 
 let bluetoothSwitchStatus = document.getElementById("bluetoothSwitch");
 bluetoothSwitch(bluetoothSwitchStatus);
@@ -17,10 +18,8 @@ contactsSelect(contactsSelectStatus);
 contactsSelectStatus.addEventListener("change", contactsSelect);
 
 let encodeStatus = document.getElementById("encodeButton");
-//encodeStatus.addEventListener("change", cipherSelectedStatus);
 encodeStatus.addEventListener("change", cipherSelectedStatus);
 let decodeStatus = document.getElementById("decodeButton");
-//decodeStatus.addEventListener("change", cipherSelectedStatus);
 decodeStatus.addEventListener("change", cipherSelectedStatus);
 
 let offsetStatus = document.getElementById("offset");
@@ -33,6 +32,7 @@ let cleanButtonStatus = document.getElementById("cleanButton");
 cleanButtonStatus.addEventListener("click", cleanElements);
 
 function inputTextValidate(){
+   
     if(/[^ a-zA-ZÁÉÍÓÚü]+/.test(inputTextStatus.value)){
         console.log("¡Escribe bien!");
         let sendButtonStatus = document.getElementById("sendButton");
@@ -43,7 +43,7 @@ function inputTextValidate(){
         document.getElementById("inputWarning").innerHTML = "";
         encodeDecode(); 
     }
-
+    encodeDecode(); 
 }
 
 function bluetoothSwitch() {
@@ -160,9 +160,5 @@ function cleanElements() {
             console.log("parece que fue button")
         }
     }
-    
-    /*
-    for(let i=0; i<statusElement.length; i++){
-        statusElement[i].disabled = false;
-    }*/
+
 }

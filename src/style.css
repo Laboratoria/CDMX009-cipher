@@ -83,10 +83,36 @@ section > div, figure{
 }
 
 input[type=radio] {
+  /*
   border: 0px;
   width: 20%;
-  height: 1em;
+  height: 1em;*/
+
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+
+  border: 2px solid #999;
+  transition: 0.2s all linear;
+  margin-right: 5px;
 }
+
+input[type=radio]:checked {
+  border: 6px solid rgba(2, 128, 144, 1);
+}
+/*
+input[type=radio]:disabled {
+  
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: 6px solid #999;
+}*/
+
 
 #buttonContainer1, #buttonContainer2, .configContainer{
   display:flex;
