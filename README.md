@@ -18,7 +18,7 @@ Esta aplicación está pensada para cualquier persona que se encuentre en una si
 * Interfaz discreta. 
 * No debe haber respaldo ni historial de mensajes. 
 * Enviar y recibir mensajes por canales de bluetooth. 
-* Mensajera personalizada, a contactos de confianza. 
+* Mensajería personalizada a contactos de confianza. 
 
 ### IRIS como solución a las necesidades del usuario
 
@@ -28,7 +28,7 @@ El cifrado admite, en tres anillos, letras mayúsculas, minúsculas y números, 
 
 ### Skecth de aplicación
 
-![Skecth](readmeImages/IRISsketch.png)
+![Skecth](readmeImages/IRISsketch.jpeg)
 
 #### Feedback y prototipado
 
