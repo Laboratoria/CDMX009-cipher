@@ -48,7 +48,6 @@ function valueToEncrypt () {
     } else {
         var result = Cipher.desencryptPassword(stringPassword, scrollNumber);
         document.getElementById("input-password-desencrypt-result").innerText = result;
-        console.log("hola")
     }
   }
 
