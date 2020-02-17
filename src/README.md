@@ -22,6 +22,6 @@ Debe contener lo siguiente:
 * Los empleados de la empresa podran tener comunicacion segura, el objetivo es que no exista fuga de informacion.
 * Este producto ayuda a los empleado cuando quieren usar informacion sensible como datos personales.
 
-![CEPHER-FINAL](Prototipo_papel.jpeg)
+![CEPHER-FINAL](Prototipo_papel.jpg)
 
 *
