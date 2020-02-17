@@ -11,13 +11,20 @@ let cipher = {
       }
     }
     return encryptResult;
-
   },
   desencryptPassword: function(stringPassword, scrollNumber) {
-    var totalCharacterAlphabetNumber = 26;
-    scrollNumber = (totalCharacterAlphabetNumber - scrollNumber) % totalCharacterAlphabetNumber;
-    let result = cipher.encryptPassword(stringPassword, scrollNumber);
-    return result;
-  }
+      let desencryptResult = '';
+      for (let i = 0; i < stringPassword.length; i++) {
+      let decodeCharacter = stringPassword.charCodeAt(i);
+      let firstUppercaseNumberCode = 65;
+      let lastUppercaseNumberCode = 90;
+      let totalCharacterAlphabetNumber = 26;
+      if(firstUppercaseNumberCode <= decodeCharacter && decodeCharacter <= lastUppercaseNumberCode) {
+        desencryptResult += String.fromCharCode((decodeCharacter + firstUppercaseNumberCode - scrollNumber) % totalCharacterAlphabetNumber + firstUppercaseNumberCode);
+      }
+    }
+    return desencryptResult;
+  },
 };
+
 export default cipher;
