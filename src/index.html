@@ -9,7 +9,7 @@
   <body id="root">
       <header class="logins_header">
         <button class="faqs_page_button" id="go-to-faqs" onclick="faqsPage()">?</button>
-        <h1>Logins Extra Secure - To Go!</h1>
+        <h1>Logins Extra Secure - To Go!</h1><br><br>
       </header>
       <!-- first page starts -->
       <section id="logins-main-page">
@@ -31,25 +31,23 @@
           Para que sólo tu sepas como descifrar tu código, <br>
           ingresa un número que recuerdes fácilmente
         </p>
-        <br>
         <label for="scrollNumber">Número de desplazamiento (1-25):</label> <br>
         <input type="number" id="scroll-number-encrypt" min="1" max="25"> <br><br>
-        dropdown
       </div>
       <ul class="advertise_text">
         <li>Utiliza sólo mayúsculas</li>
         <li>La letra "Ñ" no está permitida</li>
       </ul>
       <div class="password_input">
-        <label class="label_password">Ingresa tu contraseña:</label> <br>
-        <textarea id="input-password-encrypt" class="input_logins" rows="3" cols="20"></textarea><br>
+        <label class="label_password">Ingresa tu contraseña:</label><br><br>
+        <textarea id="input-password-encrypt" class="input_logins" rows="3" cols="20"></textarea><br><br>
       </div>
       <div class="generic_pages">
-        <button class="generic_button encrypt-button" id="encrypt-password" onclick="valueToEncrypt()">CIFRAR</button>
+        <button class="generic_button encrypt-button" id="encrypt-password" onclick="valueToEncrypt()">CIFRAR</button><br><br>
       </div>
       <div class="container_text_area">
-        <label class="textarea_label_password">Ésta es tu contraseña extra segura:</label> <br>
-        <textarea id="input-password-encrypt-result" class="input_logins" rows="3" cols="20"></textarea>
+        <label class="textarea_label_password">Ésta es tu contraseña extra segura:</label><br><br>
+        <textarea id="input-password-encrypt-result" class="input_logins" rows="3" cols="20"></textarea><br><br>
       </div>
       <div class="generic_pages">
         <button class="generic_button return_buttons" id="back-to-main" onclick="returnMainPage()">REGRESAR</button>
@@ -59,26 +57,25 @@
       <!-- third page starts (desencrypt)-->
       <section id="page-for-desencrypt">
         <div class="number_of_scroll">
-        Ingresa tu número de desplazamiento <br>
-          el cual ya conoces:
+        Ingresa tu número de desplazamiento el cual ya conoces: <br><br>
           <label for="scrollnumber">Número de desplazamiento (1-25):</label> <br>
-          <input type="number" id="scroll-defined" name="numbercipher" min="1" max="25"><br><br>
+          <input type="number" id="scroll-number-desencrypt" min="1" max="25"><br><br>
         </div>
           <div class="password_input">
-            <label class="label_password">Ingresa tu contraseña extra segura:</label><br>
-            <textarea class="input_logins" rows="3" cols="20"></textarea><br>
+            <label class="label_password">Ingresa tu contraseña extra segura:</label><br><br>
+            <textarea class="input_logins" id="input-password-desencrypt" rows="3" cols="20"></textarea><br><br>
           </div>
           <div class="generic_pages">
-            <button class="generic_button encrypt-button" id="desencrypt-password" onclick="desencryptPassword()">DESCIFRAR</button>
+            <button class="generic_button encrypt-button" id="desencrypt-password" onclick="valueToDesencrypt()">DESCIFRAR</button><br><br>
           </div>
           <div class="container_text_area">
-            <label class="textarea_label_password">Ésta es tu contraseña descifrada:</label><br>
-            <textarea class="input_logins" rows="3" cols="20"> </textarea>
+            <label class="textarea_label_password">Ésta es tu contraseña descifrada:</label><br><br>
+            <textarea class="input_logins" id="input-password-desencrypt-result" rows="3" cols="20"></textarea><br><br>
           </div>
           <div class="generic_pages">
             <button class="generic_button return_buttons" id="back-to-main" onclick="returnMainPage()">REGRESAR</button>
           </div>
-      </section> <br><br><br>
+      </section>
       <!-- third page ends -->
       <!-- FAQ's page starts -->
       <section class="faqs" id="faqs_page">
