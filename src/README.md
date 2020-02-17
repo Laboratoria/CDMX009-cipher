@@ -1,6 +1,6 @@
  
+# Cifrado César
 
-Proyecto: Cifrado César
 Esta es una aplicación es una plataforma para escribir opiniones sobre política. Tiene la opción de firmar con su nombre real o de crear un nickname. Para usuarios que forman parte de la comunidad, existe la opción de descifrar un nickname y saber el nombre real del usuario. 
 
 
