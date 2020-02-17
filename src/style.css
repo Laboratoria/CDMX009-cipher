@@ -63,7 +63,7 @@ footer {
 
 .cajatexto {
     margin-top: 30px;
-    width: 1052px; 
+    width: 500px; 
     height: 100px;
     font-family: 'Roboto', sans-serif;
     font-size: 22px;
@@ -81,6 +81,10 @@ footer {
     }
 
 #pantallaDos {
+    display: none;
+}
+
+#pantallaSalida {
     display: none;
 }
 
@@ -110,9 +114,14 @@ h2 {
     font-size: 20px;   
 }
 
+h3 {
+    margin-top: 150px;
+    font-size: 40px;
+}
+
 .cajaMensaje {
     margin-top: 50px;
-    width: 1052px; 
+    width: 800px; 
     height: 150px;
     font-size: 22px;
     text-align: center;
@@ -123,7 +132,7 @@ h2 {
 
 .cajaRespuesta {
     background-color: #FF5733;
-    width: 400px; 
+    width: 800px; 
     height: 70px;
     text-align: center;
     margin-left: auto;
