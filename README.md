@@ -5,9 +5,9 @@
 Es un sitio web para todo tipo de personas que requieran compartir 
 mensajes secretos o privados de forma rápida y fácil.
 
-<img src = "img/pantallaPrincipal.jpg">
+<img src = "img/pantallaPrincipal.png">
 
-<img src = "img/pantallaDos.jpg">
+<img src = "img/pantallaDos.png">
 
 ## Investigación UX
 
@@ -25,7 +25,7 @@ en este caso el [cifrado César](https://en.wikipedia.org/wiki/Caesar_cipher) y
 las instrucciones de uso. Lo único que deben recordar es el número de desplazamiento 
 con el que harán su cifrado o decifrado 
 
-<img src = "img/bocetoUno.jpg">
+<img src = "img/bocetoUno.png">
 
 ### Feedback
 
@@ -33,14 +33,14 @@ En el proceso de feedback, se logró mejorar la localización de los botones pri
 para hacer el sitio web de mas fácil acceso. Y la reducción de las pantallas a usar 
 con el fin de no hacer el proceso de cifrado tedioso o confunso para el usuario.
 
-<img src = "img/bocetoDos.jpg">
+<img src = "img/bocetoDos.png">
 
 ### Prototipo final
 
-<img src = "img/pantallaPrincipal.jpg">
+<img src = "img/pantallaPrincipal.png">
 
-<img src = "img/pantallaDos.jpg">
+<img src = "img/pantallaDos.png">
 
-<img src = "img/pantallaCifrar.jpg">
+<img src = "img/pantallaCifrar.png">
 
-<img src = "img/pantallaDecifrar.jpg">
+<img src = "img/pantallaDecifrar.png">
