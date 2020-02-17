@@ -5,129 +5,74 @@
     <title>Chinampayolo</title>
     <link rel="stylesheet" href="style.css" />
   </head>
+  
   <body>
   <!--Primera pantalla -->
     <section id="first-screen" class = "contenedor">
-      <img src="img/logo-chinampayolo.png" alt="logotipo logo-chinampayolo" class="portada" >
+      <img src="img/logo-chinampayolo.png" alt="logotipo logo-chinampayolo" class="portada" width="px">
       <h1>
         El corazón de la Chinampa
       </h1>
       <button id ="change" class="button1">Bienvenido</button>
     </section>
 
-    <!--Segunda pantalla -->   
+    <!--Segunda pantalla-->
     <section id="second-screen">
-      <header>
-        <div class="logo-cabecera">
-          <img src="img/logo-chinampayolo.png" alt="logotipo logo-chinampayolo" width="80px">  
-        </div>
-        <nav class="menu">
-          <ul>
-            <li><a href="#">Tienda</a></li>
-            <li><a href="#">Saber más</a></li>
-            <li><a href="third-screen">Cupones</a></li>
-          </ul>
-        </nav>
-      </header>
-      <section>
-        <h1>
-          Mercado de las cosas verdes
-        </h1>
+      <div class="barra-superior">
+          <img src="img/tienda.png" alt="" id="tienda" width="100px">
+          <img src="img/sabermas.png" alt="" id="sabermas" width="100px">
+          <img src="img/cupones.png" alt="" id="cupones" width="100px">
+          <img src="img/logo-chinampayolo.png" alt="logotipo logo-chinampayolo" width="100px"> 
+      </div>
+      <div class = "mercado">
+        <h1> MERCADO DE LAS COSAS VERDES</h1>
         <p>
           Nuestro objetivo es ofrecer alimentos sanos y de la más alta calidad sin que sea un privilegio de solo un sector que puede pagarlo en mercados orgánicos gourmet, la buena alimentación es un derecho de todos. Este punto es el último momento en donde la cadena de producción y circulación se cierra con los mismos chinamperos.
-OFRECEMOS productos chinamperos y de la zona de montaña libres de agroquímicos y de la más alta calidad
-UNIMOS a consumidores y productores de forma directa al no haber intermediarios
-IMPULSAMOS la incorporación de nuevos productores chinamperos y productos de la zona de montaña para hacer crecer a nuestra comunidad
+          OFRECEMOS productos chinamperos y de la zona de montaña libres de agroquímicos y de la más alta calidad
+          UNIMOS a consumidores y productores de forma directa al no haber intermediarios
+          IMPULSAMOS la incorporación de nuevos productores chinamperos y productos de la zona de montaña para hacer crecer a nuestra comunidad
         </p>
-        <div class="">
-          <img src="img/chinampa3.png" alt="Hortalizas">
-          <img src="img/chinampa4.png" alt="Betabel">
-          <img src="img/chinampa5.png" alt="Remando">
-          <img src="img/chinampa6.png" alt="Cultivando">
+          <div class="img-chinampas">
+            <img src="img/chinampa3.png" alt="Hortalizas">
+            <img src="img/chinampa4.png" alt="Betabel">
+            <img src="img/chinampa5.png" alt="Remando">
+            <img src="img/chinampa6.png" alt="Cultivando">
         </div>
-      </section>
+      </div>
     </section>
-    <nav>
+  
+    
+
     <!--Tercera pantalla -->
     <section id="third-screen">
-      <header>
-        <div>
-          <img src="img/logo-chinampayolo.png" alt="logotipo logo-chinampayolo">
+      <div class="barra-superior">
+          <img src="img/tienda.png" alt="" id="tienda" width="100px">
+          <img src="img/sabermas.png" alt="" id="sabermas" width="100px">
+          <img src="img/cupones.png" alt="" id="cupones" width="100px">
+          <img src="img/logo-chinampayolo.png" alt="logotipo logo-chinampayolo" width="100px"> 
+      </div>
+      <div class = "mercado">
+        <h1> DINÁMICA DE LOS CUPONES</h1>
+        <p>En la compra de cada "canasta básica" se incluirá un cupón con una palabra que deberás ingresar. Dependiendo de la recompensa que quieras obtener, deberás de juntar un determinado número de cupones que podrás cambiar por hortalizas, termos, bolsas ecológicas y ¡Un recorrido por nuestra chinampa!, en donde te platicaremos de este gran proyecto</p>
+        
+        <div class = "img-productos">
+          <h2> 1. Elige el producto</h2>
+          <img class="productos" id="2" src="img/hortaliza.png" alt="" >
+          <img class="productos" id="4" src="img/bolsa.png" alt="">
+          <img class="productos" id="6" src="img/botellas.png" alt="">
+          <img class="productos" id="10" src="img/chinampa.png" alt="">
         </div>
-        <div>
-          <h1>
-            Cupones
-          </h1>
-          <img src="" alt="">
+        <div class="segunda-instruccion">
+          <h2>2. Introduce la palabra de tu cupón (en mayúsculas)</h2>
+          <br>
+          <input type="text" name="inputString" placeholder="Código">
+          <button id="buttonEncode">Genera tu código</button>
+          <button id="buttonDecode">Descifra</button>
+          <br>
+          <input type="text" name="codedWord" placeholder="Copia y pega"> <!-- Aquì se va a generar la palabra codificada-->
+        <p class="copia-pega">Copia y pega tus códigos, una vez que hayas recolectado el número de códigos según el producto que elijas, mándanos un correo a contacto@cinampayolo.com</p>
         </div>
-      </header>
-      <section>
-        <h1>
-          Dinámica de los cupones
-        </h1>
-        <p>
-          Nuestro objetivo es ofrecer alimentos sanos y de la más alta calidad sin que sea un privilegio de solo un sector que puede pagarlo en mercados orgánicos gourmet, la buena alimentación es un derecho de todos. Este punto es el último momento en donde la cadena de producción y circulación se cierra con los mismos chinamperos.
-OFRECEMOS productos chinamperos y de la zona de montaña libres de agroquímicos y de la más alta calidad
-UNIMOS a consumidores y productores de forma directa al no haber intermediarios
-IMPULSAMOS la incorporación de nuevos productores chinamperos y productos de la zona de montaña para hacer crecer a nuestra comunidad
-        </p>
-      </section>
-      <section>
-        <h2>
-          1. Elige el producto
-        </h2>
-        <img class="productos" id="2" src="img/hortaliza.png" alt="">
-         <p>
-           Canasta con tres hortalizas
-           <br>
-           2 cupones
-         </p>
-         <img class="productos" id="4" src="img/bolsa.png" alt="">
-         <p>
-           Bolsa ecológica
-           <br>
-           4 cupones
-         </p>
-         <img class="productos" id="6" src="img/botellas.png" alt="">
-         <p>
-           Termo
-           <br>
-           6 cupones
-         </p>
-         <img class="productos" id="10" src="img/chinampa.png" alt="">
-         <p>
-           Recorrido en chinampa
-           <br>
-           10 cupones
-         </p>
-      </section>
-      <section>
-        <h2>
-          <!--Este es mi string-->
-          2. Introduce la palabra
-        </h2>
-        <input type="text" name="word" placeholder="Tu texto aquí">
-        <button id="btn">Genera tu código</button>
-          <!--Este es mi offset, el cual se parsea para asegurarse que es un número-
-          3. Introduce el número de cupones del producto que quieres canjear
-        </h2>
-        <input type="text" name="fname" placeholder="Tu texto aquí">
-        <br>
-        <input type="submit" value="Submit">
-      </section>
-      <section> 
-      -->
-        <h2>
-          3. Código generado
-        </h2>
-        <input type="text" name="word" placeholder="Descifra">
-        <br>
-        <button id="btn2">Descifra</button>
-          Copia y pega tus códigos, una vez que hayas recolectado el número de códigos según el producto que elegiste, mándanos un correo a contacto@cinampayolo.com
-        </p>
-      </section>
-    </section>
-    
+    </section> 
     <script src="index.js" type="module"></script>
   </body>
 </html>

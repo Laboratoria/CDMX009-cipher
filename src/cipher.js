@@ -1,9 +1,8 @@
 const cipher = {
-  encode:
-  decode:
+  encode,
+  decode
 };
 
-export default cipher;
 
  /*function encode (str){
   var solved = "";
@@ -56,8 +55,10 @@ function decode (str, offset){  //declarando la función para codificar establec
   }
   return solved;
 }
+ console.log(encode);
 //decode ("C",2);
 
+export default cipher;
 
  
 
