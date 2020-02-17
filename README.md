@@ -147,15 +147,18 @@ Estos puntos los presentarás en el `README.md`.
 Debe contener lo siguiente:
 
 * Un título con el nombre de tu proyecto.
+*Título del Proyecto: PawsCause
 * Un resumen de 1 o 2 líneas de qué se trata tu proyecto.
+*Es una aplicación web que genera un código particular para aquellos que al realizar una aportación eligen un cupón en específico. Se utilizará la cantidad aportada como offset para codificar la descripcion del cupón electo. Después éste podrá ser decodificado en las tiendas y así ver la descripción del cupón. 
 * La imagen final de tu proyecto.
 * Investigación UX:
-  1. Explicar quiénes son los usuarios y los objetivos en relación con el
-    producto.
-  2. Explicar cómo el producto soluciona los problemas/necesidades de dichos
-    usuarios.
+  1. Explicar quiénes son los usuarios y los objetivos en relación con el producto.
+*Los usuarios serían aquellos que requieran de cifrar los códigos que eligen sus usuarios para proporcionarles un código personal, así como los usuarios de estos. Tal código podrá ser mostrado en tienda o ingresarse al comprar en línea para que a través de descifrar el mismo la empresa (en la que el usuario desea comprar) acceda a la descripción del cupón obtenido por la persona. 
+  2. Explicar cómo el producto soluciona los problemas/necesidades de dichos usuarios.
+*Ambos, tanto las empresas que brindan los cupones como aquellos que los obtienen requieren estar ciertos de que el cupon que proporcionan/obtienen no podrá ser replicado facilmente por otros usuarios (voluntariamente). Por ello la app cifrará (utilizando como offset la cantidad aportada por el usuario) tanto la descripción del cupón como una palabra clave que se le solicitará al usuario para personalizar su cupón.   
   3. Luego colocarás la foto de tu primer prototipo en papel.
   4. Agregar un resumen del feedback recibido indicando las mejoras a realizar.
+*Mis compañeras me comentaron que era necesario simplificar la interfaz puesto que no era lo suficientemente intuitiva como para que el usuario navegara a través de la misma sin confundirse o no saber para qué servían algunos botones y secciones.
   5. Imagen del prototipo final.
 
 #### Visualmente (HTML5 y CSS3)
