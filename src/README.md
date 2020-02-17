@@ -5,14 +5,15 @@ Esta aplicación está diseñada para usuarios de 6 a 100 años de edad , realme
 Está aplicación te ayuda a crear contraseñas seguras que sean muy fáciles de recordar. Con está aplicación podrás olvidarte de bloquear tus cuentas de e-mail, facebook, twetter, instagram, etc; sólo porque no puedes recordar la contraseña!!!!!
 
 # Proyecto Final
-![título-imagen](imagesParaReadMe /yourRealPassword.png)
+![imagen-final](imagesParaReadMe/yourRealPassword.png)
 # Prototipo en papel
-![título-imagen](imagesParaReadMe/primerprototipo.jpeg)
-Gracias a la retroalimentación que recibí por parte de mis compañeras pude centrar mejor mi ideas acerca del nombre de la app, el número de pantallas de iba a tener, el flujo durante el uso de está aplicación y principalmente definir su uso en la vida real de las personas y el impacto que puede tener para mejorar ....
+![imagen-](imagesParaReadMe/primerprototipo.jpeg)
+Gracias a la retroalimentación que recibí por parte de mis compañeras pude centrar mejor mi ideas acerca del nombre de la app, el número de pantallas de iba a tener, el flujo durante el uso de está aplicación y principalmente definir su uso en la vida real de las personas y el impacto que puede tener para mejorar la navegación de los usuarios por toda la red. Simplemente mejorar la calidad de vida, facilitando la misma.
 
 Mi Prototipo final lo hice en figma con el sig link pueden acceder a el:
 
-![título-imagen](imagesParaReadMe /Figma.png)
+![](imagesParaReadMe/Figma.png)
+
 https://www.figma.com/file/QkViAyb14FaHSmMHfeEh7a/Untitled?node-id=0%3A1
 
 
