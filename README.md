@@ -8,6 +8,9 @@ La página sirve como extensión del juego y para agregar interactividad. Consis
     2. Semillas!: en donde se podrá poner el nombre de usuario que genera una semilla de regalo para los jugadores nuevos.
     3. Msjs: en donde se podrán traducir los mensajes de los Nomi, ya que dentro del juego te hablan de código. 
     
+Pantallas finales: 
+
+    
 # Investigación UX
 
 
