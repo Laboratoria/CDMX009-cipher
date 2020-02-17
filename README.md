@@ -1,11 +1,44 @@
-Proyecto: IRIS 
+# Proyecto: IRIS 
 
 Es una aplicación para mandar mensaje cifrados en situaciones de conflicto, protestas o cuando no hay acceso a internet, a través de la conexión bluetooth a cualquier contacto que cuente con la app y que se encuentre en un rango tal que sea posible trazar un camino a través de otros usuarios que también cuenten con la app. 
 
 
-![nombre](readmeImages/IRIS_inicio.png)
+![Inicio aplicacion final](readmeImages/IRIS_inicio.png)
+![Cifrado aplicacion final](readmeImages/IRIS_cifrar.png)
+![Descifrado aplicacion final](readmeImages/IRIS_descifrar.png)
 
+## Investigación UX
 
+Esta aplicación está pensada para cualquier persona que se encuentre en una situacin de conflicto o que es partícipe de una protesta y no cuenta con un medio seguro para comunicarse, ya sea por represión o falta de canales de comunicación como internet. 
+
+### Necesidades de usuario
+
+* Poder mandar y recibir mensajes cifrados.
+* Una aplicación cuyo uso sea rápido e intuitivo. 
+* Interfaz discreta. 
+* No debe haber respaldo ni historial de mensajes. 
+* Enviar y recibir mensajes por canales de bluetooth. 
+* Mensajera personalizada, a contactos de confianza. 
+
+### IRIS como solución a las necesidades del usuario
+
+Esta aplicación fue realizada con el fin de cubrir las necesidades de los usuarios a quienes esta dirigida. 
+Es una herramiente eficiente, ya que muestra sus componentes en una misma pantalla. No hay pantallas extra que obstaculicen la interacción del usuario. Los colores son discretos, está pensada para uso con luz de día. Es intuitiva en su uso, al presentar los elementos en el orden en el que van siendo usados. Contiene dos botones que ayudan al usuario en caso de no saber cómo usarla, con mensajes discreto al final de la aplicación. 
+El cifrado admite, en tres anillos, letras mayúsculas, minúsculas y números, también admite, aunque no cifra, caracteres especiales y puntuación para que el usuario pueda mandar un mensaje con toda la información que necesita expresar. Finalmente, en caso de equivocarse, valida la entrada de valores diferentes a un número y admite valores negativos para el offset, clave necesaria en el cifrado y descifrado.
+
+### Skecth de aplicación
+
+![Skecth](readmeImages/IRISsketch.png)
+
+#### Feedback y prototipado
+
+En el primer skecth de la aplicación se propuso que toda la funcionalidad quedase en una sola pantalla, sin embargo,no quedaba tan claro el uso de componentes y como los elementos podran funcionar para mandar y recibir mensajes. También se sugirió que no había un contacto claro con quien se estuviese realizando la comunicación. Se agregó un habilitador para el canal de bluetooth que además muestre quienes son los contactos en rango pues por ese canal no es posible comunicarse con todos los contactos disponibles. Se cambiaron aspectos en la funcionalidad para validar la información que usa la aplicación. 
+
+Al aplicarse los cambios sugeridos y probar su usabilidad se obtuvo el siguiente resultado.
+
+![Inicio prototipo](readmeImages/iris_inicioApp.png)
+![Cifrar prototipo](readmeImages/irisCifrar_ver.png)
+![Descifrar prototipo](readmeImages/irisDescifrar_ver.png)
 
 # Cifrado César
 
