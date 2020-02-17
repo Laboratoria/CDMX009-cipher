@@ -7,20 +7,35 @@
     <link href="https://fonts.googleapis.com/css?family=Ropa+Sans&display=swap" rel="stylesheet">
 </head>
 <body>
-  Texto <input type="text" id="nText">
+    <div id="root" class="container">
+        <div class="nomi-title"></div>
+        <div class="garden-container2">
+            Mensaje: 
+            <br>
+        <div class="msg-container">
+ 
+  <input class="msg" type="text" id="nText" placeholder="Escribe aquí el mensaje a traducir. ">
 <br>
-  Offset <input type="number" id="offNumber" min="0" max="26">
+</div>
 
-  <input onclick="cipher()" type="button" value="click"/>
-<br>
-<br>
-CÓDIGO:
-<br>
-<br>
-<span id="plantCode"> </span>
+<div class="luck-container">
+  Pista: <input class="pista" type="number" id="offNumber" min="0" max="26">
 
 
+</div>
+</div>
+<input class="send-btn" id="decipher" type="button" value="Enviar"/>
+</div>
+<div id="showResult" class="show-result"></div>
 
+<a href="index.html"><div class="arrow"></div></a>
+<div class="footer">
+    <div class="img-container-footer">
+        <a href="index.html"><div class="steam-icon"></div></a>
+        <a href="index.html"><div class="twitter-icon"></div></a>
+          <a href="index.html"><div class="soundcloud-icon"></div></a>
+    </div>
+  </div>
 
 </body>
 <script src="cipher.js"> </script>

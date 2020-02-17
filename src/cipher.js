@@ -1,29 +1,42 @@
+const cipherFunction = document.getElementById('cipher');
+const decipherFunction = document.getElementById('decipher');
+const elTxt = document.getElementById('nText');
+const elNumber = document.getElementById("offNumber");
+const showResult = document.getElementById("showResult");
 
-function cipher (offNum, nTxt) {
-
-    //definir variables
-  var nTxt = document.getElementById('nText').value;
-  var i=0;
-
-  var offNum = parseInt(document.getElementById("offNumber").value);
-
-    //conversión
-for (i=0; i<=nTxt.length; i++){
-
-    r=(nTxt.charCodeAt(i) -65 +offNum) %26 +65; //aplica la formula
-    var finalTxt= String.fromCharCode(r);
-
-console.log(finalTxt);
+if(cipherFunction){
+  cipherFunction.addEventListener("click", cipher);
 }
-document.getElementById("demo").innerHTML = "Paragraph changed!";
+if (decipherFunction) {
+  decipherFunction.addEventListener("click", decipher);
 }
 
-/*function CodeWrite (){
-let plantCode = document.getElementById("plantCode").innerHTML;
-plantCode = finalTxt
+function cipher(offNum, nTxt) {
+  var nTxt = elTxt.value;
+  var offNum = parseInt(elNumber.value);
+  var i = 0;
+  var finalTxt = "";
+
+for (i = 0; i < nTxt.length; i++) {
+  r = (nTxt.charCodeAt(i) - 65 + offNum) % 26 + 65;
+  finalTxt += String.fromCharCode(r);
 }
-CodeWrite ()//  document.write(finalTxt)
+showResult.textContent += finalTxt;
 }
-}*/
+
+function decipher() {
+  var nTxt = elTxt.value;
+  var offNum = parseInt(elNumber.value);
+  var i = 0;
+  var finalTxt = "";
+
+for (i = 0; i < nTxt.length; i++) {
+  r = (nTxt.charCodeAt(i) - 65 - offNum) % 26 + 65;
+  finalTxt += String.fromCharCode(r);
+}
+showResult.textContent += finalTxt;
+}
+
+
 
 // export default cipher;
