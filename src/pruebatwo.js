@@ -151,8 +151,27 @@
 ////
 ////
 ////  }
+//////      var letters = /^[A-Z]+$/;
+//      if (!worldDecode.match(letters)) {
+//                 try {
+//      throw new Error("sólo letrasS!");} catch (e) {
+//      alert(e.name + ": " + e.message);
+//  }
+//{break;
+//  }  }
 ////
-////
-////
+//////    var letters = /^[A-Z]+$/;
+//    if (!world.match(letters)) {
+//
+//               try {
+//    throw new Error("sólo letrasS!");} catch (e) {
+//    alert(e.name + ": " + e.message);
+//}
+//
+//
+//{break;
+//}  }
+// else if
+//////
 ////
 //
