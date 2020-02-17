@@ -1,10 +1,10 @@
  * {
      margin: auto;
-     padding: auto;
  }
 
    body {
      background-color: cornflowerblue;
+     text-align: center;
  }
 
 h1, h2 {
@@ -35,8 +35,6 @@ p {
 
 #footer{
     font-size: 20px;
+    text-align: left;
 }
 
-#image {
-  border-image-slice: initial  ;
-}
