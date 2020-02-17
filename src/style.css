@@ -39,7 +39,7 @@ p {
   }
 
 #home {
-    display: none;
+    display: block;
   }
     #homeImage {
       cursor: pointer;

@@ -1,62 +1,60 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset='utf-8'>
+    <meta charset="utf-8">
     <title>Mamamoo FanKey</title>
-    <link rel = 'icon' type = 'image/png' href = 'images\mmmicon.png'>
+    <link rel = "icon" type = "image/png" href = "images\mmmicon.png">
     <!-- For apple devices -->
-    <link rel = 'apple-touch-icon' type = 'image/png' href = 'images\mmmicon.png'/>
-    <link rel='stylesheet' href='style.css' />
+    <link rel = "apple-touch-icon" type = "image/png" href = "images\mmmicon.png"/>
+    <link rel="stylesheet" href="style.css" />
   </head>
 
   <body>
     <!-- Home screen -->
-    <section id='home'>
-      <img src='images\MainLogo.svg' id='homeImage'/>
+    <section id="home">
+      <img src="images\MainLogo.svg" id="homeImage"/>
     </section>
     <!-- Input number for offset value -->
-    <section id='number'>
-      <img src='images\LogoS.svg' class='logo'/>
-      <p class='title'> Número del día</p>
+    <section id="number">
+      <img src="images\LogoS.svg" class="logo"/>
+      <p class="title"> Número del día</p>
       <p>Es el número de la fecha de hoy</p>
-        <input type='number' id='dayNo' maxlength='2' min='1' max='31'/>
+        <input type="number" id="dayNo" maxlength="2" min="1" max="31"/>
         <br>
-        <img src='images\NextS.svg' id='getOffset' class='next'/>
+        <img src="images\NextS.svg" id="getOffset" class="next"/>
     </section>
     <!-- Input user screen -->
-    <section id='user'>
-      <img src='images\LogoM.svg' class='logo'/>
-      <p class='title'>Ingresa tu usuario para cifrar</p>
+    <section id="user">
+      <img src="images\LogoM.svg" class="logo"/>
+      <p class="title">Ingresa tu usuario para cifrar</p>
       <p>Recuerda que solo se permiten mayúsculas</p>
-        <input type='text' class='text' id='name' maxlength='18'/>
+        <input type="text" class="text" id="name" maxlength="18"/>
         <br>
-        <img src='images\NextM.svg' id='getName' class='next'/>
+        <img src="images\NextM.svg" id="getName" class="next"/>
     </section>
     <!-- Input keyword -->
-    <section id='keyword'>
-      <img src='images\LogoH.svg' class='logo'/>
-      <p class='title'>Ingresa la palabra clave</p>
+    <section id="keyword">
+      <img src="images\LogoH.svg" class="logo"/>
+      <p class="title">Ingresa la palabra clave</p>
       <p>Se encuentra en el foro de MamamooMX</p>
       <p>Solo mayúsculas</p>
-        <input type='text' class='text' id='pass'maxlength='20'/>
+        <input type="text" class="text" id="pass" maxlength="20"/>
         <br>
-        <img id='getPass' src='images\NextH.svg' class='next'/>
+        <img id="getPass" src="images\NextH.svg" class="next"/>
     </section>
     <!-- Both ciphered user and deciphered keyword -->
-    <section id='results'>
-      <img src='images\LogoW.svg' class='logo'/>
-      <p class='title'>Tu usuario cifrado es:</p>
-        <input type='text' class= 'result' id='ciphered' readonly><br>
-      <p class='title'>La clave es:</p>
-        <input type='text' class= 'result' id='deciphered' readonly><br>
+    <section id="results">
+      <img src="images\LogoW.svg" class="logo"/>
+      <p class="title">Tu usuario cifrado es:</p>
+        <input type="text" class= "result" id="ciphered" readonly><br>
+      <p class="title">La clave es:</p>
+        <input type="text" class= "result" id="deciphered" readonly><br>
       <p>¡Ya puedes ingresar al Fan Café Exclusivo!</p>
         <br>
-        <img src='images\homebutton.svg' id='backhome'/>
+        <img src="images\homebutton.svg" id="backhome"/>
     </section>
 
-    <script type='module' src='index.js'></script>
+    <script type="module" src="index.js"></script>
   </body>
 
 </html>
-
-<!--<h1 id='test'></h1> -->

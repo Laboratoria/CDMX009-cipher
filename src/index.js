@@ -5,7 +5,7 @@ let pressed;
 let userName;
 let key;
 let ciphedUser;
-let deciphKey = 'testkey';
+let deciphKey;
 
 //Homescreen event to start and go to the offset input screen
 document.getElementById('homeImage').addEventListener('click', startApp);
@@ -61,7 +61,7 @@ function getKey(){
       deciphKey = cipher.decode(offsetNo, key);
       document.getElementById('ciphered').value = ciphedUser;
       document.getElementById('deciphered').value = deciphKey;
-      
+
         document.getElementById('keyword').style.display = 'none';
         document.getElementById('results').style.display = 'block';
     }
