@@ -30,9 +30,7 @@ El cifrado admite, en tres anillos, letras mayúsculas, minúsculas y números, 
 
 ![Skecth](readmeImages/IRISsketch.jpeg)
 
-\begin{figure}
- \includegraphics[width=300pt, height = 125 pt]{readmeImages/IRISsketch.jpeg}
-\end{figure}
+<img src="readmeImages/IRISsketch.jpeg" alt="drawing" style="width:200px;"/>
 
 #### Feedback y prototipado
 
