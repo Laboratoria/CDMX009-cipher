@@ -9,7 +9,7 @@
 * [4. Feedback](#4-Feedback)
 * [5. Prototipo Final](#5-Prototipo_Final)
 * [6. La Imagen Final de mi Proyecto](#6-La_Imagen_Final_de_mi_Proyecto)
-* [7. Objetivos de Aprendizaje](#6-Objetivos de Aprendizaje)
+* [7. Objetivos de Aprendizaje](#6-Objetivos_de_Aprendizaje)
 
 
 ***
