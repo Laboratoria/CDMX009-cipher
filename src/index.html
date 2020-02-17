@@ -59,7 +59,7 @@
 </div>
 
 <div class="contenedor2">
-           <button type="submit" onclick="cifrar();" value="cifrar"> Cifrar </button>
+           <button id="cifrarboton" type="submit" value="cifrar"> Cifrar </button>
            <button> descifrar </button>
 </div>
 <div class="contenedor4">
@@ -68,10 +68,8 @@
        Tu mensaje es
     </p>
 
-       <input type="text" placeholder="Copia y disfruta tu mensaje" class="mensajeconvertido" id="mensajeconvertido">
+       <input type="text" placeholder="Copia y disfruta tu mensaje" class="mensajeconvertido" id="mensajeconvertido" readonly="readonly">
 </div>
-
-    <script type="text/javascript"src="index.js"></script>
-    <script type="text/javascript" src="cipher.js"></script>
+    <script type="module" src="index.js"></script>
   </body>
 </html>
