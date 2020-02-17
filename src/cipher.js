@@ -28,7 +28,7 @@ const cipher = {encode, decode};
      for (let i = 0; i < text.length; i++) { 
    newText = text.charCodeAt (i);
       if (newText >= 65 && newText <= 90) { 
-     toDicipher = (newText - 65 - parseInt (number)) % 26 + 65;
+     toDicipher = (newText + 65 - parseInt (number)) % 26 + 65;
      textDecode = (String.fromCharCode (toDicipher));
      result += textDecode;
        }

@@ -1,5 +1,5 @@
 import cipher from "./cipher.js"; 
-console.log(cipher);
+//console.log(cipher);
 
 // boton para cifrar
 document.getElementById("code").addEventListener("click",function (){
