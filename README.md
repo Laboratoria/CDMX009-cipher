@@ -30,7 +30,7 @@
 
  4. Protipo en papel.
   (https://raw.githubusercontent.com/andreatoledo/CDMX009-cipher/master/prototipo/pro.jpg)
-
+ ![alt text](https://raw.githubusercontent.com/andreatoledo/CDMX009-cipher/master/prototipo/pro.jpg) 
  5. Feedback recibido
  
  - Las mejoras a realizar fueron agregarle más cosas a mi página ya que estaba muy simple y no tenia colores llamativos.
