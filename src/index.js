@@ -18,7 +18,7 @@ descifrar.onclick = function() {
     let resultado = cipher.decode(nombre, edad);
     document.getElementById('realName').textContent = (resultado) ;
 }
-
+//Funciones para ocultar y mostrar elementos en el DOM
 writeOpinion.onclick = function() {
     document.getElementById('index').classList.add('hide');
     document.getElementById('select').classList.remove('hide');
