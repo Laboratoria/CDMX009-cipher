@@ -29,7 +29,7 @@
 
 
  4. Protipo en papel.
- ![alt text] (https://raw.githubusercontent.com/andreatoledo/CDMX009-cipher/master/prototipo/pro.jpg)
+ ![alt text] (https://raw.githubusercontent.com/andreatoledo/CDMX009-cipher/master/pro.jpg)
 
  5. Feedback recibido
  
@@ -37,8 +37,8 @@
 
  6. Imagenes del protitpo final
  
-![alt text] (https://raw.githubusercontent.com/andreatoledo/CDMX009-cipher/master/prototipo/cap.png)
-![alt text] (https://raw.githubusercontent.com/andreatoledo/CDMX009-cipher/master/prototipo/cap2.png)
-![alt text] (https://raw.githubusercontent.com/andreatoledo/CDMX009-cipher/master/prototipo/cap3.png)
+![alt text] (https://raw.githubusercontent.com/andreatoledo/CDMX009-cipher/master/cap.png)
+![alt text] (https://raw.githubusercontent.com/andreatoledo/CDMX009-cipher/master/cap2.png)
+![alt text] (https://raw.githubusercontent.com/andreatoledo/CDMX009-cipher/master/cap3.png)
 
 
