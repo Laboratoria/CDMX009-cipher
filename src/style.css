@@ -1,0 +1,43 @@
+.pantalla {
+  display: none;
+}
+
+#pagina-de-inicio {
+  display: block;
+}
+
+#subject {
+  height: 200px;
+}
+
+
+body {
+  font-family: 'Crimson Pro', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background-color: #E5E5E5;
+}
+h1 {
+  text-align: center;
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
+}
+
+p {
+  text-align: justify;
+  hyphens: auto;
+  color: #555;
+}
+
+
+#pagina-de-inicio {
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+
+#ingresar-datos {
+  display: none;
+}
+
+#subject {
+  display: block;
+  margin: auto;
+  width: 90%;
+}
