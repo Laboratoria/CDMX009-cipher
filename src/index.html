@@ -6,47 +6,40 @@
     <link href="https://fonts.googleapis.com/css?family=ZCOOL+QingKe+HuangYou&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body>
-    
-      <div id="root">
-      <div id="header"> SuperSafe Password</div><!--aqui va el logo-->
-      <header>SuperSafe Password</header>
-      </div>
+    <body>
+      <header> SuperSafe <br> Password <!--logo--> 
+
+      </header>
+      <link rel="stylesheet" href="style.css">
+      
       <section>
-      <h1>Bienvenido</h1>
-      <br/>
       
-      <p> SuperSafe Password te ayudará a cifrar en Código César tus palabras clave o contraseñas.<br/>
-      Si eres de las personas que apunta sus claves en libretas o agendas no expongas tu seguridad.<br/>
-      Cífralas y Descífralas aquí.</p>
+            <h1>Bienvenido</h1>
+              <br/>
+                <!--Intro-->
+              <p> SuperSafe Password te ayudará a cifrar en Código César tus palabras clave o contraseñas.<br/>
+              Si eres de las personas que apunta sus claves en libretas o agendas no expongas tu seguridad.<br/>
+              Cífralas y Descífralas aquí.</p>
+              
+              <div class="box">
+                <div id="textbox"> Ingresa aqui el texto o clave   <input type="text" id="text"></div>
+                <div id="n">Elige el numero de posiciones   <input type="number" id="displace" ></div>
+                <div id="botones"> 
+                  <button id="encode">Cifrar</button>
+                  <button id="decode">Descifrar</button>
+                </div>
+                Resultado -> <input type="text" id="result">
+                
+                <script src="index.js" type="module"></script>
+              </div>
+              
+      </section>
+      
+      <footer>
+        Este es el pie <!--prueba-->
+      </footer>
+      
     
-      <input type="button" onclick="alert('1. Elige Cifrar o Descifrar. 2.Elige el numero de desplazamiento en el abecedario. 3. Ingresa tu texto. ')" value="Instrucciones">
-  
-    <fieldset>
-        <div class="radio group">
-         <label class="radio"> 
-        <input type="radio" name= "opcion" value="Cifrar"> Cifrar <span></span>
-         </label>
-         <label class="radio">
-        <input type="radio" name="opcion" value="Descifrar"> Descifrar <span></span>
-         </label>
-         
-         <label class="box">
-         <input type="number" id= "input" value="0" min="1" max="26"/> Elige numero de desplazamientos
-        </label>
-        </div>
-
-        
-        <form action="app.js" method="post" name="palabras" id="palabras">
-          
-        </form>
-    </section>
-  
-
-      
-      <div id="footer"></div>
-      </div>
-    </div>
     <script src="index.js" type="module"></script>
   </body>
 </html>

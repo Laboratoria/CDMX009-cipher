@@ -1,49 +1,55 @@
 *{margin: 0;
     padding: 0;}
     
-    body {background: #000;}
+    body {
+        width: 1360px;
+        height: 600px;
+        background: #000;}
     
-    #header {
+    
+    header {
+    width: 1360px;
+    height: 12%;
+    background-color:#000;
+    margin-left: 0px;
+    padding-top: 3%;
     color: #FFFFFF;
-    width: 0px;
-    height: 40px;
-    left: 0px;
-    top:0px;}
-    
+    font-size: 30px
+    }
     
     
     section {font-family: 'ZCOOL QingKe HuangYou', cursive;
     font-style: normal;
     font-weight: normal;
-    font-size: 30px;
+    font-size: 35px;
     line-height: 30px;
-    align-items: baseline;
+    align-content: center;
     
-    color: #FFFFFF;
+    color: #FFFFFF; 
     border-color: #151515;
-    
-    
+    background-image: url("img/cybersecurity.jpg");
+    opacity: 0.9;
+    background-position: center;
+    background-size: contain;
     
     }
     
-    .radio{
+    h1 {
+        padding-top: 25px;
+        margin-left: 70px;
+    }
+    p {
+        margin-left: 2px;
+        text-align: center;
+    }
+    .box{
         font-size: 25px;
-        font-weight: 0;
-        
-        display: run-in;
-        vertical-align: middle;
-        color: #FFFFFF;
-        position: relative;
+        margin-left: 20px;
+        padding-top: 80px;
+        text-align: center;
+        line-height: 40px;
+        }
+   
+    .footer{
+        font-size: 200px;
     }
-    
-    .radio + .radio{
-        margin-left: 400px;
-    }
-    .radio + .box {
-        margin-left: 400px;
-    }
-    
-     .box{
-         font-size: 25px;
-         vertical-align: middle;
-         
