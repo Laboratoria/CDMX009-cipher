@@ -18,7 +18,7 @@ console.log(stringUpperCase1)
 let space =document.getElementById('espacios').value;
 console.log(space);
 // le pido a cifer que haga su chamba
-let password =cipher.encode(stringUpperCase1, space);
+let password =cipher.encode(space, stringUpperCase1);
 console.log(password);
 
 // lo coloco enm la nueva pantalla
@@ -41,7 +41,7 @@ let stringUpperCase= string.toUpperCase();
 let space =document.getElementById('espacios').value;
 console.log(space);
 
-let meaning =cipher.decode(stringUpperCase, space);
+let meaning =cipher.decode(space, stringUpperCase);
 console.log(meaning);
 boxInput2.innerHTML= meaning;
  }
