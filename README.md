@@ -9,6 +9,7 @@
 * [4. Feedback](#4-Feedback)
 * [5. Prototipo Final](#5-Prototipo_Final)
 * [6. La Imagen Final de mi Proyecto](#6-La_Imagen_Final_de_mi_Proyecto)
+* [7. Objetivos de Aprendizaje](#6-Objetivos de Aprendizaje)
 
 
 ***
@@ -50,3 +51,12 @@ a mis Eventos por lo que tuve que solucionar con "a href" en formas de iconos.
 ## 6. La Imagen Final de mi Proyecto.
 
 <img src= "cipher estructura2.jpg">
+
+## 7. Objetivos de Aprendizaje.
+* Manipulacion de CSS.
+* Manejo de GitHub y Gitbash.
+* Desarrollo de habilidades blandas.
+* Prototipar en papel y desarrollar el prototipo en Adobe XD.
+* Daily Standup
+* Planificación de tiempos.
+* Aprendizaje de Dom.
