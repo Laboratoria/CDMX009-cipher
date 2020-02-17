@@ -1,3 +1,16 @@
+SuperSafe Password
+
+Sitio web para cifrar textos con Código Cesar en donde el usuario puede elegir el número de desplazamientos y también descifrar sus claves. Recomendado para creación de contraseñas o para personas que suelen anotarlas en libretas o agendas.
+tc.
+https://drive.google.com/open?id=1zuWOo98N4oIY6J_oBeKBq0dch6ypLmTO
+
+UX
+
+Fue creado pensando en las personas que les cuesta trabajo aprender sus contraseñas de correo,facebook,netflix etc. Y que suelen anotarlas en libretas o agendas, lo que pone en riesgo la seguridad de las cuentas ya que las contraseñas podrían estar al alcance de todos, SuperSafe Password ofrece la posibilidad de cifrar la contraseña en código cesar, ya sea la misma contraseña o palabra clave, elegir el número de posiciones a desplazar y también descifrar la clave.
+
+El usuario "N" utiliza SuperSafe Password para cifrar con Código Cesar, su contraseña que es el nombre de uno de sus 3 perros (elige a Skipper) y elige el número de posiciones a desplazar con el día de su nacimiento (que es 8) entonces el resultado es : asqxxmz y este resultado será el que escriba en su libreta que carga diario a donde va, ya que es olvidadizo y en su trabajo maneja muchas otras contraseñas.
+
+
 # Cifrado César
 
 ## Índice
