@@ -4,25 +4,27 @@
 Esta es una aplicación es una plataforma para escribir opiniones sobre política. Tiene la opción de firmar con su nombre real o de crear un nickname. Para usuarios que forman parte de la comunidad, existe la opción de descifrar un nickname y saber el nombre real del usuario. 
 
 
-Final
+### Final
 
 
 
 
-Investigación UX: 
+### Investigación UX: 
 
 
 i. Los usuarios son parte de una comunidad a la que le interesa leer opiniones sobre política además de compartir las suyas.
 ii. El tema de la política es muy controversial, por lo mismo los usuarios tienen la posibilidad de crear un nickname utilizando un método de cifrado. Sólo pueden hacerlo aquellos quienes pertenezcan a la comunidad, por lo que si desean conocer el nombre real de un usuario y poder contactarlo, pueden hacerlo utilizando el mismo método pero a la inversa.
 iii. Primer wireframe
 
+<<<<<<< HEAD
 <img src="final-mockup.JPG">
 <<<<<<< HEAD
-La pantalla resultaba agradable a la vista y funcional, pero hubo problemas de entendimiento con los nombres de los botones. Existía el primero, que era para usar el nombre real, y cuando se mejore la aplicación se agregará de nuevo. 
 =======
+>>>>>>> d26a221c1071c045ef624f07743a010da898adbc
+La pantalla resultaba agradable a la vista y funcional, pero hubo problemas de entendimiento con los nombres de los botones. Existía el primero, que era para usar el nombre real, y cuando se mejore la aplicación se agregará de nuevo. 
+
 
 iv. La pantalla resultaba agradable a la vista y funcional, pero hubo problemas de entendimiento con los nombres de los botones. Existía el primero, que era para usar el nombre real, y cuando se mejore la aplicación se agregará de nuevo. 
->>>>>>> c98884028b985d9d593d6b1f6df3f3c4010683bb
 La vista dos también funcionaba pero hacía falta agregar texto para indicar al usuario qué hacía el selector. 
 
 
