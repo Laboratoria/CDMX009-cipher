@@ -147,16 +147,42 @@ Estos puntos los presentarás en el `README.md`.
 Debe contener lo siguiente:
 
 * Un título con el nombre de tu proyecto.
+TITULO : CIFRACIL
 * Un resumen de 1 o 2 líneas de qué se trata tu proyecto.
+RESUMEN:
+Fue diseñada con el fin de ayudar a los jóvenes para que puedan enviar mensajes de una manera más discreta y que no cualquier persona pueda entender de lo que están hablando.
+
 * La imagen final de tu proyecto.
+
+![caeser-cipher](imagen-final.png)
+
+
 * Investigación UX:
   1. Explicar quiénes son los usuarios y los objetivos en relación con el
     producto.
+
+      USUARIOS: jovenes 
+
   2. Explicar cómo el producto soluciona los problemas/necesidades de dichos
     usuarios.
+
+      ¿A cuántos de nosotros no nos ha pasado que estamos mostrando alguna cosa en nuestro celular ya sea un video o un buen meme y de pronto nos llega un mensaje un tanto comprometedor? 
+      Por esa razón ahora podemos crear texto cifrado. Solo necesitamos mandar el mensaje y el número de desplazamientos para que la persona que lo reciba pueda entender lo que le intentamos comunicar.
+
   3. Luego colocarás la foto de tu primer prototipo en papel.
+
+      ![caeser-cipher](prototipo-en-papel.png)
+
+
+
   4. Agregar un resumen del feedback recibido indicando las mejoras a realizar.
+
+
   5. Imagen del prototipo final.
+
+    ![caeser-cipher](prototipo-final.png)
+
+
 
 #### Visualmente (HTML5 y CSS3)
 

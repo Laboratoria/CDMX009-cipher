@@ -8,28 +8,28 @@
   <body>
     
       <h1>Cifracil</h1>
-      <div class="ingresaInfo">
+      <div class="enterInfo">
         <label for="cipherText">Introduce el texto </label>
         <input type="textarea" id="cipherText" value="">
         <label for="cipherKey" >Numero de desplazamientos </label>
-        <input type="number" id="cipherKey" size="2" value="">
+        <input type="number" name="quantity" min="1" max="25" id="cipherKey" size="2" value="">
       </div>
       <br>
-      <div class=accionBotones>
+      <div class=actionButton>
         <button id="encodeButton"> Cifrar </button>
         <button id="decodeButton"> Descifrar </button>
       </div>
       <br>
 
-      <div class= resultadof>
-        <div id="resultado" class="salida" ></div>
+      <div class= resultf>
+        <div id="result" class="exit" ></div>
         <br>
         <button id="clean"> Limpiar </button>
       </div>
       <br>
       <br>
       <br>
-      <div class=fondo>
+      <div class=background>
         <img src="mejormejor.png">
       </div>
 

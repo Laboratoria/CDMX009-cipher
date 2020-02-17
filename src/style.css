@@ -8,19 +8,19 @@ body {
     font-weight: bold;
     color: white;
   }
-  .ingresaInfo{
+  .enterInfo{
     text-align: center;
     font-family: Segoe UI;
     font-weight: Light;
     color: white;
   }
-  .accionBotones{
+  .actionButton{
     text-align: center;
     font-family: Segoe UI;
     font-weight: Light;
     color: #707070;
   }
-  .resultadof{
+  .resultf{
     text-align: center;
     font-family: Segoe UI;
     font-weight: Light;
@@ -60,7 +60,7 @@ body {
     width   : 8em; /* 100px */
     background : #4F43B1;
   }
-  .salida {
+  .exit {
     height: 18pt;
     border-radius: 2px;
     border: 1px dotted black;
@@ -74,7 +74,7 @@ body {
     background : #707070;
     background : linear-gradient(0deg, #E3E3E3, #fcfcfc 100%, #f0f0f0);
   }
-  .fondo{
+  .background{
     width: 0%;
     margin-left: 4%;
     margin-bottom: 0%;
