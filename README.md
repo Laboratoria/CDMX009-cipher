@@ -3,9 +3,9 @@
 Es una aplicación para mandar mensaje cifrados en situaciones de conflicto, protestas o cuando no hay acceso a internet, a través de la conexión bluetooth a cualquier contacto que cuente con la app y que se encuentre en un rango tal que sea posible trazar un camino a través de otros usuarios que también cuenten con la app. 
 
 
-<img src="readmeImages/IRIS_inicio.png" alt="Inicio aplicacion final" width="150"/>
-<img src="readmeImages/IRIS_cifrar.png" alt="Cifrado aplicacion final" width="150"/>
-<img src="readmeImages/IRIS_descifrar.png" alt="Descifrado aplicacion final" width="150"/>
+<img src="readmeImages/IRIS_inicio.png" alt="Inicio aplicacion final" width="200"/>
+<img src="readmeImages/IRIS_cifrar.png" alt="Cifrado aplicacion final" width="200"/>
+<img src="readmeImages/IRIS_descifrar.png" alt="Descifrado aplicacion final" width="200"/>
 
 ## Investigación UX
 
@@ -28,7 +28,7 @@ El cifrado admite, en tres anillos, letras mayúsculas, minúsculas y números, 
 
 ### Skecth de aplicación
 
-<img src="readmeImages/IRISsketch.jpeg" alt="Skecth" width="150"/>
+<img src="readmeImages/IRISsketch.jpeg" alt="Skecth" width="200"/>
 
 #### Feedback y prototipado
 
@@ -36,9 +36,9 @@ En el primer skecth de la aplicación se propuso que toda la funcionalidad queda
 
 Al aplicarse los cambios sugeridos y probar su usabilidad se obtuvo el siguiente resultado.
 
-<img src="readmeImages/iris_inicioApp.png" alt="Inicio prototipo" width="150"/>
-<img src="readmeImages/irisCifrar_ver.png" alt="Cifrar prototipo" width="150"/>
-<img src="readmeImages/irisDescifrar_ver.png" alt="Descifrar prototipo" width="150"/>
+<img src="readmeImages/iris_inicioApp.png" alt="Inicio prototipo" width="200"/>
+<img src="readmeImages/irisCifrar_ver.png" alt="Cifrar prototipo" width="200"/>
+<img src="readmeImages/irisDescifrar_ver.png" alt="Descifrar prototipo" width="200"/>
 
 # Cifrado César
 
