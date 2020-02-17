@@ -16,7 +16,7 @@ ii. El tema de la política es muy controversial, por lo mismo los usuarios tien
 
 iii. Primer wireframe
 
-<img src="IMG_2020016_173149.jpg">
+<img src="IMG_20200216_173149.jpg">
 
 La pantalla resultaba agradable a la vista y funcional, pero hubo problemas de entendimiento con los nombres de los botones. Existía el primero, que era para usar el nombre real, y cuando se mejore la aplicación se agregará de nuevo. 
 
