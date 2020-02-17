@@ -57,23 +57,19 @@ function cifrar() {
 function descifrar() {
     let offset2 = document.getElementById("numerosCodificar").value; //lo enlazo con mi id de mi select el cual es el que contiene los números
     let stringcifrado = resultado; //meto el resultado de mi cifrado
-    console.log(resultado);
-
 
     let letrasdos = stringcifrado.split("");
     let resultadodos = ""; //vendría siendo mi output
     letrasdos.forEach(function(letra2) { //forEach lo uso para recorrer cada uno de mis elemntos del array letras. el parámetro que tengo dentro del mi función es lo que yo espero recibir en este caso letras
         codigodos = letra2.charCodeAt(); //en esta parte creé una variable de nombre códigodos y uso el fromCharCode para convertir mi código ascii a letras 
-
+        console.log(letra2);
+        console.log(codigodos);
 
         if ((codigodos >= 65) && (codigodos <= 90)) {
-            d = String.fromCharCode((((codigodos - 65) - parseInt(offset2)) % 26) + 65);
-
+            d = String.fromCharCode((((codigodos - 90) - parseInt(offset2)) % 26) + 90);
         } else if ((codigodos >= 97) && (codigodos <= 122)) { //ejecuto mi formula junto con el offset por ahora, para letras minúsculas
-            d = String.fromCharCode((((codigodos - 97) - parseInt(offset2)) % 26) + 97);
-
+            d = String.fromCharCode((((codigodos - 122) - parseInt(offset2)) % 26) + 122);
         } else if (codigodos == 32) { //El 32 es el código ascii para el espacio en blanco
-            // c = String.fromCharCode(((codigo - 32 + offset) % 26) + 32);
             d = " "; //aquí le digo a mi código  que cuando haya un espacio lo respete y lo deje tal cuál
         }
 
