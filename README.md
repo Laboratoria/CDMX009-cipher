@@ -3,7 +3,7 @@ SuperSafe Password
 Sitio web para cifrar textos con Código Cesar en donde el usuario puede elegir el número de desplazamientos y también descifrar sus claves. Recomendado para creación de contraseñas o para personas que suelen anotarlas en libretas o agendas.
 tc.
 
-<img src ="img/aplicacionfinal.jpg">
+url (img/aplicacionfinal.png)
 
 
 UX
