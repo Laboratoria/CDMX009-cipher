@@ -6,8 +6,10 @@ let cipher = {
       let firstUppercaseNumberCode = 65;
       let lastUppercaseNumberCode = 90;
       let totalCharacterAlphabetNumber = 26;
-      if(codeCharacter >= firstUppercaseNumberCode && codeCharacter <= lastUppercaseNumberCode){
+      if(codeCharacter >= firstUppercaseNumberCode && codeCharacter <= lastUppercaseNumberCode) {
           encryptResult += String.fromCharCode((codeCharacter - firstUppercaseNumberCode + scrollNumber) % totalCharacterAlphabetNumber + firstUppercaseNumberCode);
+      } else if (codeCharacter >= 97 && codeCharacter <= 122) {
+        encryptResult += String.fromCharCode((codeCharacter - 97 + scrollNumber) % totalCharacterAlphabetNumber + 97);
       } else {
         encryptResult += stringPassword.charCodeAt(i);
       }
