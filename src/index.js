@@ -2,29 +2,26 @@ window.onload = () => {
 
     /*activado y desactivado de los enlaces de cada pestaña*/
 
-    const linkActive = document.getElementById("link-encode");
-    const linkDesactive = document.getElementById("link-decode");
+    const cifrado = document.getElementById("page-encode");//se liga a href
+    const descifrado = document.getElementById("page-decode");//se liga a href
 
 
 
 
-   linkActive.addEventListener("click", function() {
+   cifrado.addEventListener("click", function() {
 
-  //      document.getElementById("link-encode").classList.add("link_active");
-  //      document.getElementById("link-decode").classList.remove("link_active");
-  //      document.getElementById("content-msg-encode").classList.remove("display_none");
-  //      document.getElementById("content-msg-encode").classList.add("display_block");
-  //    document.getElementById("content-msg-decode").classList.remove("display_block");
-  //    document.getElementById("content-msg-decode").classList.add("display_none");
+      document.getElementById("text-encode").style.display = "none";
+      document.getElementById("text-encode").style.display= "block";
+      document.getElementById("text-decode").style.display= "block";
+      document.getElementById("text-decode").style.display= "none";
     });
 
-    linkDesactive.addEventListener("click", function() {
-  //      document.getElementById("link-encode").classList.remove("link_desactive");
-  //    document.getElementById("link-decode").classList.add("link_desactive");
-  //    document.getElementById("content-msg-decode").classList.remove("display_none");
-  //    document.getElementById("content-msg-decode").classList.add("display_block");
-  //    document.getElementById("content-msg-encode").classList.remove("display_block");
-  //    document.getElementById("content-msg-encode").classList.add("display_none");
+    descifrado.addEventListener("click", function() {
+
+      document.getElementById("text-decode").style.display = "none";
+      document.getElementById("text-decode").style.display = "block";
+      document.getElementById("text-encode").style.display = "block";
+      document.getElementById("text-encode").style.display = "none";
     });
 
     const btnTextEncode = document.getElementById('btn_encode');
