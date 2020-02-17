@@ -171,11 +171,13 @@ Fue diseñada con el fin de ayudar a los jóvenes para que puedan enviar mensaje
 
   3. Luego colocarás la foto de tu primer prototipo en papel.
 
-      ![caeser-cipher](prototipo-en-papel.png)
+      ![caeser-cipher](prototipo-en-papel.jpg)
 
 
 
   4. Agregar un resumen del feedback recibido indicando las mejoras a realizar.
+
+      RESUMEN:
       hacer la app mas sencilla , no mostrar mucho texto y permitir que fuera oscura para que fuera del agrado de mas personas
 
   5. Imagen del prototipo final.
