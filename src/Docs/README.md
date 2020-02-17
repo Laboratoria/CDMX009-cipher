@@ -1,41 +1,42 @@
+#1 Titulo 
 Bullying School
 
-# Cifrado Cesar
-
+#2 Resumen 
 Bullying School se utiliza para enviar mensaje ocultos a los profesores, cuando los estudiantes son amenazados y tienen
 miedo de expresarlo a un profesor o tutor 
 
-## Desarrollado para 
-
-Laboratoria
-
-## Tecnología usada
-
-* HTML5
-* CSS
-* Javascript 
-* DOM
+#3 Imagen 
 
 ## Vistas
-
-## 1 Sketch
-<img src ="Balsamiq/sketch.jpg">
-
-## 2 Prototipo Balsamiq
-
-<img src ="Balsamiq/Final1.png">
-
-<img src ="Balsamiq/Final2.png">
-
-<img src ="Balsamiq/Final3.png">
-
-## 3 Vista Final
 
 <img src ="Vista/Inicio.png">
 
 <img src ="Vista/Cifrado.png">
 
 <img src ="Vista/Descifrado.png">
+
+#i 
+El proyecto va dirigido para los alumnos que son amenazados, dentro de instuciones y tiene miedo 
+a decir o expresarlo
+
+#ii
+A través del cifrado se puede enviar los mensanjes a profesores y puedean ser ayudados.
+
+#iii Sketch
+<img src ="Balsamiq/sketch.jpg">
+
+#iv 
+Reducir el diseño, ya que estaba a 6 pantallas, no colocar el nombre del que lo envia, ya que debe de ser animo.
+Colocar el boton de regresar o inicio.
+En JavaScript utilizar codigo o comando actualizados, ya que estaba trabajando con javascript atrasado.
+
+#v Prototipo Balsamiq
+
+<img src ="Balsamiq/Final1.png">
+
+<img src ="Balsamiq/Final2.png">
+
+<img src ="Balsamiq/Final3.png">
 
 ## Intrucciónes de uso
 
