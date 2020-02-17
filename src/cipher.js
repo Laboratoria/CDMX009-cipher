@@ -1,21 +1,21 @@
-/*
-
-const cipher = {
-  // ...
-};
-
-export default cipher;
-
-*/
 //Arrays – Un array es un conjunto de valores a los que se accede con un número.
-
 //String -Un objeto que representa una serie de caracteres dentro de una cadena.
 //Se Crea Con el: constructor String:new String( cadena )
-//Parámetros: ->cadena :  IMPORTANTE -> Cualquier cadena(Texto).<-
+//Parámetros: ->cadena :  IMPORTANTE -> Cualquier cadena(Texto).
+
+/*CIFRADO CESAR
+A  B  C  D  E  F  G  H  I  J   K  L  M
+65 66 67 68 69 70 71 72 73 74 75 76 77
+
+N  O  P  Q  R  S  T  U  V  W  X  Y  Z
+78 79 80 81 82 83 84 85 86 87 88 89 90
+
+a              z
+97......     122 */
 
 var resultado = ""; //vendría siendo mi output
 
-//PROBANDO CIFRAR
+//CIFRAR
 function cifrar() {
     resultado = "";
     let string = document.getElementById("mensajeInput").value; //lo enlazo con mi id de textarea
@@ -53,7 +53,7 @@ function cifrar() {
 
 }
 
-//PROBANDO DESCIFRAR 
+//DESCIFRAR 
 function descifrar() {
     let offset2 = document.getElementById("numerosCodificar").value; //lo enlazo con mi id de mi select el cual es el que contiene los números
     let stringcifrado = resultado; //meto el resultado de mi cifrado
