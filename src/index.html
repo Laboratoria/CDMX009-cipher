@@ -40,6 +40,8 @@
         <!--CAJA CODIFICADO-->
 
         <div id="mensaje-encode" class="msg-encode">
+            <h1>Cifrar</h1>
+            <br>
             <p>Ingrese Su Mensaje:</p>
             <textarea id="box-msg-encode" class="box-msg-style" placeholder="Ingrese su mensaje..."></textarea>
             <div class="content-offset">
@@ -54,7 +56,7 @@
 
             <button  class="botonpantalla" id="regresar">Regresar</button>
             &nbsp;&nbsp;&nbsp;&nbsp; 
-            <button  class="botonpantalla" id="lim" onclick="location.reload()">Limpiar</button>
+            <button  class="botonpantalla" >Limpiar</button>
             &nbsp;&nbsp;&nbsp;&nbsp;
             <button id="btn_encode" class="botonpantalla">Codifica tu Mensaje</button>
             
@@ -63,6 +65,8 @@
         <!--CAJA DECODIFICADO-->
 
         <div id="mensaje-decode" class="msg-decode">
+            <h1>Descifrar</h1>
+            <br>
             <p>Ingrese Su Mensaje:</p>
             <textarea id="box-msg-decode" class="box-msg-style" placeholder="Ingrese su mensaje..."></textarea>
             <div class="content-offset">
@@ -76,13 +80,14 @@
             <br><br>
             <button  class="botonpantalla" id="regresar2">Regresar</button>
             &nbsp;&nbsp;&nbsp;&nbsp;
-            <button id="limp" class="botonpantalla">Limpiar</button>
+            <button id="pantalla-decode2" class="botonpantalla">Limpiar</button>
             &nbsp;&nbsp;&nbsp;&nbsp;
             <button id="btn_decode" class="botonpantalla">Decodifica tu Mensaje</button>
             
         </div>
     </section>
-
+    <br><br>
+    <footer><a href="#" id="info">Informacion</a></footer>
     <!--¡¡¡¡¡¡ESTE ARCHIVO NO SE TOCA!!!!!-->
     <div id="root"></div>
     <script src="cipher.js"></script>

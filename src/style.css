@@ -61,6 +61,10 @@ header{
 .msg-decode{
 	display: none; 
 }
+h1{
+	text-align: center;
+	font-size: 50px; 
+}
 p{
 	text-align: center;
 	font-size: 40px;  

@@ -4,8 +4,8 @@ window.onload = () => {
     const pantallacifrado = document.getElementById("pantalla-encode");
     const pantalladecifrado= document.getElementById("pantalla-decode");
     const regresar = document.getElementById("regresar");
-    const borrar = document.getElementById
     const regresar2= document.getElementById("regresar2");
+    const informacion= document.getElementById("info");
     /*Mostrar datos para cifrar */
     pantallacifrado.addEventListener("click", function() {
        document.getElementById("mensaje-encode").style.display = 'block'; 
@@ -49,4 +49,10 @@ window.onload = () => {
         let number_offset = document.getElementById("numero-decode").value;
         document.getElementById("respuesta-decode").innerHTML = window.cipher.decode(textDecode, number_offset);
     });
+
+    informacion.addEventListener("click", function() {
+       alert("No puede utilizar la letra 'Ñ'");  
+     });
+
 }
+
