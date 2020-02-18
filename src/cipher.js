@@ -1,13 +1,10 @@
-//const cipher = {
-//  // ...
-//};
-//
-//export default cipher;
-
-window.cipher = {
-    encode: (string, offset) => {
+const cipher = {
+encode: (string, offset) => {
         //mensaje recibido
+		let textChar;
         let msgCipher = "";
+	
+		if(typeof string === "string") {
         for (let i = 0; i < string.length; i++) {
             let character = string[i];
             if (character.match(/[a-z]/i)) {
@@ -23,6 +20,7 @@ window.cipher = {
             }
         }
         return msgCipher;
+	}
     },
     decode: (string, offset) => {
         //mensaje recibido
@@ -33,12 +31,12 @@ window.cipher = {
             let characterD = string[i];
             //identificacion de espacios vacios
             if (characterD.match(/[a-z]/i)) {
-                console.log(string.charCodeAt(i));
+           
 
                 if (string.charCodeAt(i) >= 65 && string.charCodeAt(i) <= 90) {
                     let textChar = (string.charCodeAt(i) + 65 - parseInt(offset)) % 26 + 65;
                     msgDecipher += String.fromCharCode(textChar);
-                    console.log("entra");
+                 
                 } else if (string.charCodeAt(i) >= 97 && string.charCodeAt(i) <= 122) {
                     let textChar = ((string.charCodeAt(i) - 97 - parseInt(offset) + 52) % 26) + 97;
                     msgDecipher += String.fromCharCode(textChar);
@@ -53,4 +51,8 @@ window.cipher = {
         //retornar respuesta
         return msgDecipher;
     }
+
 }
+
+export default cipher;
+
