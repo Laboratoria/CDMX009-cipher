@@ -10,14 +10,12 @@ resumen de feedback
 -agregar una para que era la promocion
 -pedir solo un dato para no tener tantas complicaciones
 
-Imagen de prototipo final 
-
-![img]<img src = "/src/img/prototipofinal.png">
+Imagen de prototipo  
 ![otro]<img src = "/src/img/prototipo.png">
 
-Imagen proyecto final
-
-
+![img]<img src = "/src/img/prototipofinal.png">
+ Imagen de proyecto final
+ ![]<img src= "src/img/proyec.png">
 
 ## 3. Objetivos de aprendizaje
 
