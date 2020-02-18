@@ -148,8 +148,6 @@ y aunque se agregaran más vistas, el resultado fuese más claro.
 
 ## 5 Prototipo final
 
-<video src="final-prototype.mp4">
+https://youtu.be/nKgR8B8bePo
 
 #### Enlace final
-
- file:///C:/Users/alvar/Desktop/CDMX009-cipher/src/index.html
