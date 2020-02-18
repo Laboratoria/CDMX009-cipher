@@ -7,7 +7,7 @@
 * [3. Objetivos de aprendizaje](#3-objetivos-de-aprendizaje)
 * [4. Consideraciones generales](#4-consideraciones-generales)
 * [5. Criterios de aceptación mínimos del proyecto](#5-criterios-de-aceptación-mínimos-del-proyecto)
-* [6. Primer proyecto. PASSWORD CIPHER] 
+* [6. Primer proyecto. PASSWORD CIPHER](#6-primer-proyecto-password-cipher)
 
 ## 1. Preámbulo
 
