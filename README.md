@@ -96,9 +96,9 @@ Cipher es un apalicacion que cifra y decifra un texto con el objetivo de enviar 
 - [✓ ] Uso de linter para seguir buenas prácticas (ESLINT).
 
 <img src="Imagenes/i1.png">
-<img src="Imagenes/i2.jpeg">
-<img src="Imagenes/i3.jpeg">
-<img src="Imagenes/i4.jpeg">
+<img src="Imagenes/i2.jpg">
+<img src="Imagenes/i3.jpg">
+<img src="Imagenes/i4.jpg">
 
 
   
