@@ -39,6 +39,7 @@ section.home nav img{
 margin: -3px;
 }
 
+
 section.contenido{
   display: flex;
   flex-direction: column;
@@ -86,27 +87,3 @@ section.contenido .secretKey {
   margin-bottom: -10px;
 }
 
-
-
-
-
-/* input radios para imagenes
-
-input [type=radio] { 
-position: absolute;
-opacity: 0;
-width: 0;
-height: 0;
-}
-    
-input [type=radio] + img {
-cursor: pointer;
-border-radius: 5px;
-}
-    
-input [type=radio]:checked + img {
-background-color:  rgba(15, 76, 129, 0.15);
-padding: 5px;
-}
-
-*/

@@ -38,3 +38,6 @@ home.onclick = refreshPage;
 function refreshPage(){
     window.location.reload();
 } 
+
+
+
