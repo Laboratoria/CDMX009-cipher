@@ -14,8 +14,6 @@ function encode(cupon, offset){
   return cuponCifrado;  
 }
 
-encode ("LEVIS",1);
-
 // Función para decifrar.
 function decode(cuponCifrado, offset){
   let cuponDecifrado=''; // Almacenar el valor del string decifrado.
@@ -26,8 +24,5 @@ function decode(cuponCifrado, offset){
   }
   return cuponDecifrado;  
 }
-
-decode ("MFWJT",1);
-
 
 export default cipher;
