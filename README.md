@@ -22,23 +22,23 @@ Mis compañeras me aconsejaron sobre los estilos de la página y también sobre 
 
 ### HTML y CSS
 
-- [ ] Uso correcto de HTML semántico.
-- [ ] Uso de selectores de CSS.
-- [ ] Construir tu aplicación respetando el diseño realizado (maquetación).
+- [0] Uso correcto de HTML semántico.
+- [X] Uso de selectores de CSS.
+- [X] Construir tu aplicación respetando el diseño realizado (maquetación).
 
 ### DOM
 
-- [ ] Uso de selectores del DOM.
-- [ ] Manejo de eventos del DOM.
-- [ ] Manipulación dinámica del DOM.
+- [X] Uso de selectores del DOM.
+- [X] Manejo de eventos del DOM.
+- [X] Manipulación dinámica del DOM.
 
 ### Javascript
 
-- [ ] Manipulación de strings.
-- [ ] Uso de condicionales (if-else | switch).
-- [ ] Uso de bucles (for | do-while).    
-- [ ] Uso de funciones (parámetros | argumentos | valor de retorno).
-- [ ] Declaración correcta de variables (const & let).
+- [0] Manipulación de strings.
+- [X] Uso de condicionales (if-else | switch).
+- [X] Uso de bucles (for | do-while).    
+- [=] Uso de funciones (parámetros | argumentos | valor de retorno).
+- [=] Declaración correcta de variables (const & let).
 
 ### Testing
 - [x] Testeo de tus funciones.
