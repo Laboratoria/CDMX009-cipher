@@ -12,6 +12,9 @@ Fue creado pensando en las personas que les cuesta trabajo aprender sus contrase
 
 El usuario "N" utiliza SuperSafe Password para cifrar con Código Cesar, su contraseña que es el nombre de uno de sus 3 perros (elige a Skipper) y elige el número de posiciones a desplazar con el día de su nacimiento (que es 8) entonces el resultado es : asqxxmz y este resultado será el que escriba en su libreta que carga diario a donde va, ya que es olvidadizo y en su trabajo maneja muchas otras contraseñas.
 
+Feedback recibido fue que lo hiciera fácil de usar y entendible para las personas mayores, a las que está dirigida la aplición.
+
+https://github.com/astridgutz/CDMX009-cipher/blob/master/src/img/prototipofinal.jpg?raw=true
 
 # Cifrado César
 
