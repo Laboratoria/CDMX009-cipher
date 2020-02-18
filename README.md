@@ -7,10 +7,7 @@
 * [3. Objetivos de aprendizaje](#3-objetivos-de-aprendizaje)
 * [4. Consideraciones generales](#4-consideraciones-generales)
 * [5. Criterios de aceptación mínimos del proyecto](#5-criterios-de-aceptación-mínimos-del-proyecto)
-* [6. Hacker Edition](#6-hacker-edition)
-* [7. Pistas, tips y lecturas complementarias](#6-pistas-tips-y-lecturas-complementarias)
-
-***
+* [6. Primer proyecto. PASSWORD CIPHER] 
 
 ## 1. Preámbulo
 
@@ -134,8 +131,9 @@ La interfaz debe permitir al usuario:
 
 Es una aplicación que ayuda al usuario a crear contraseñas seguras para sus redes sociales utilizando el Cifrado César, el usuario puede cifrar y descifrar su contraseña utilizando una sencilla interfaz.
 
-![prototipo final](file:///C:/Users/YAZMIN/Desktop/prototipo%20final.png)
+
 	
+![prototipo sobre papel](https://github.com/YazTepRod/CDMX009-cipher/blob/master/src/prototipo%20sobre%20papel.jpg)
 
 
 
@@ -158,8 +156,12 @@ Ayuda al usuario a mantener sus contraseñas seguras, evita que terceros puedan 
 De acuerdo al feedback recibido realice los siguientes cambios:
 
 •	Disminuir el número de pantallas a sólo 5 
+
 •	Cambiar posición de botones y reducirlos a 2 para que el usuario pudiera hacer menos clicks posibles
+
 •	En el menú, cambiar la numeración por RadioBotton.
+
 •	Agregar un botón para salir de la App.
 
 
+![prototipo final](https://github.com/YazTepRod/CDMX009-cipher/blob/master/src/prototipo%20final.png)
