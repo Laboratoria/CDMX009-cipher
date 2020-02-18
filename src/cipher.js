@@ -12,27 +12,45 @@ if (decipherFunction) {
 }
 
 function cipher(offNum, nTxt) {
-  let nTxt = elTxt.value;
-  let offNum = parseInt(elNumber.value);
-  let i = 0;
-  let finalTxt = "";
+  var nTxt = elTxt.value;
+  var offNum = parseInt(elNumber.value);
+  var i = 0;
+  var finalTxt = "";
 
 for (i = 0; i < nTxt.length; i++) {
-  r = (nTxt.charCodeAt(i) - 65 + offNum) % 26 + 65;
-  finalTxt += String.fromCharCode(r);
+  place = nTxt.charCodeAt(i);
+
+  if (place>=65 && place<=90){
+    r = (place - 65 + offNum) % 26 + 65;
+    finalTxt += String.fromCharCode(r);
+  }else if (place>=97 && place<=122){
+    r = (place - 97 + offNum) % 26 + 97;
+    finalTxt += String.fromCharCode(r);
+  }else{
+    finalTxt += nTxt.charAt(i);
+  }
 }
 showResult.textContent += finalTxt;
 }
 
-function decipher() {
-  let nTxt = elTxt.value;
-  let offNum = parseInt(elNumber.value);
-  let i = 0;
-  let finalTxt = "";
+function decipher(offNum, nTxt) {
+  var nTxt = elTxt.value;
+  var offNum = parseInt(elNumber.value);
+  var i = 0;
+  var finalTxt = "";
 
 for (i = 0; i < nTxt.length; i++) {
-  r = (nTxt.charCodeAt(i) - 65 - offNum) % 26 + 65;
-  finalTxt += String.fromCharCode(r);
+  place = nTxt.charCodeAt(i);
+
+  if (place>=65 && place<=90){
+    r = (place - 65 - offNum) % 26 + 65;
+    finalTxt += String.fromCharCode(r);
+  }else if (place>=97 && place<=122){
+    r = (place - 97 - offNum) % 26 + 97;
+    finalTxt += String.fromCharCode(r);
+  }else{
+    finalTxt += nTxt.charAt(i);
+  }
 }
 showResult.textContent += finalTxt;
 }
