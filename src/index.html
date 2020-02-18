@@ -3,73 +3,74 @@
 <head>
   <link href="https://fonts.googleapis.com/css?family=Crimson+Pro|Lato&display=swap" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="style.css">
-  <script src="index.js"></script>
+  <meta charset="UTF-8">
+    <style>
+    body { background-color: #E5E5E5; }
+  </style>
 </head>
 <body>
 
 <section  id="pagina-de-inicio" class="pantalla">
   <header>
-    <h1>Periodismo libre</h1>
+    <h1> Periodismo libre </h1>
+
     <p class="descripcion">Acerca de nosotros</p>
   </header>
   <p>Somos un grupo interesado en la defensa de la libertad de expresión, apoyamos el analisis y la publicación de documentos que han sido censurados o su acceso ha sido restrigido.
 Estamos en busca de colaboradores que necesiten un espacio libre y seguro para compartir información.</p>
-<button onclick="contribution()">Colaborar</button>
-<button onclick="checkContent()">Revisar Contenido</button>
+<button id="btn-contr">Colaborar</button>
+<button id="btn-ckeck-content">Revisar Contenido</button>
 
 </section>
 
 
 <section id="ingresar-datos" class="pantalla">
   <header>
+
     <h1>Gracias por tu colaboración</h1>
-    <p class="descripcion">Por favor escribe tus datos,  nosotros te daremos un nombre de usuario seguro para que puedas ingresar tus colaboraciones</p>
+    <p class="descripcion">Por favor escribe tus datos con mayúsculas,  nosotros te daremos un nombre de usuario seguro para que puedas ingresar tus colaboraciones.</p>
   </header>
 
+
    <form>
-    <label for="nombre-example">nombre</label>
+    <label for="txt-usuario">nombre</label>
     <input
     type="Nombre"
-    id="nombre-example"
+    id="txt-usuario"
     placeholder="Nombre de usuario"
-    name="nombre-example"
-    required
-    pattern="[A-Z]+"
-    onchange="soloMayusculas()"
-    />
-  </form>
+    name="txt-usuario">
+    <div id="resutado">Saludos, <span id="usuario-cifrado">usuario</span></div>
 
-<form>
   <label for="email-example">Correo electrónico</label>
   <input
     type="email"
     id="email-example"
     placeholder="e-mail"
     name="email-example"
-    required
-  />
-</form>
+    required>
 <select name="select-example">
   <option value="value1">documentos</option>
   <option value="value2" selected>audio</option>
   <option value="value3">imagenes</option>
 </select>
-  <button onclick="goBack()">Regresar</button>
-<button class="Next">Siguiente</button>
+  <button id="btn-go-back">Regresar</button>
+<button id="btn-ingresar-colaboracion">Siguiente</button>
+   </form>
+</section>
 
-<section  id= "ingresar-colaboración">
+<section  id="ingresar-colaboracion" class="pantalla">
   <header>
-    <h1>Saludos <!--agregar la función de presentar el nombre codificado de usuario !--> </h1>
+    <h1>Saludos</h1>
     <p>Ingresar colaboración</p>
   </header>
 
-    <textarea id="subject" name="subject" placeholder="Ingresar colaboración..." style="height:200px"></textarea>
+    <textarea id="subject" name="subject" placeholder="Ingresar colaboración..."></textarea>
 
-    <button onclick="goBack()">Regresar</button>
+    <button id="btn-r-ingresar-datos"  >Regresar</button>
       <button id="submit">Enviar</button>
 
 </section>
-<section  id="pantalla-final">
+<section  id="pantalla-final" class="pantalla">
   <header>
     <h1>Gracias por tu colaboración <!--agregar la función de presentar el nombre codificado de usuario !--> </h1>
 
@@ -81,3 +82,5 @@ Estamos en busca de colaboradores que necesiten un espacio libre y seguro para c
 
 
 </body>
+<script src="./index.js" type="module"></script>
+</html>
