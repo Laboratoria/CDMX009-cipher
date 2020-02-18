@@ -5,7 +5,7 @@ let inputNumero = document.querySelector('#numerosecreto')
 let textoInput = document.querySelector('#mensajesinconvertir')
 let cifrarboton = document.querySelector('#cifrarboton')
 let mensajeConvertido = document.querySelector('#mensajeconvertido')
-
+let descifrarboton = document.querySelector('#descifrarboton')
 
 // funciones
 function convertirTexto(){
@@ -14,6 +14,16 @@ function convertirTexto(){
   let texto = textoInput.value
   // 2.- usamos el cipher
   let resultado = cipher.cifrar(offset, texto)
+  // 3.- Colocarlo en la pantalla
+  mensajeConvertido.value = resultado
+
+}
+function revertirTexto(){
+  // 1.- traemos los datos
+  let offset = inputNumero.value
+  let texto = textoInput.value
+  // 2.- usamos el cipher
+  let resultado = cipher.descifrar(offset, texto)
   // 3.- Colocarlo en la pantalla
   mensajeConvertido.value = resultado
 
@@ -28,3 +38,4 @@ window.onload = bienvenido
 
 // observadores
 cifrarboton.addEventListener('click', convertirTexto)
+descifrarboton.addEventListener('click', revertirTexto)
