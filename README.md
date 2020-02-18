@@ -4,7 +4,7 @@ es un app para poder generar un codigo promocional a partir de los datos del usu
 los usuarios son personas que consuman el producto en este caso los helados, y asi el producto se da a conocer con los consumidores y ellos al comprarlos ganan promociones gratis
 
 Protipo en papel 
-![imges](./img/prototipopapel.jpeg)
+![imges](../img/prototipopapel.jpeg)
 resumen de feedback 
 -agregar el offset
 -agregar una para que era la promocion
@@ -12,8 +12,8 @@ resumen de feedback
 
 Imagen de prototipo final 
 
-! [img](../img/prototipofinal")
-<img src="../img/prototipo">
+![img](../img/prototipofinal")
+![otro](./img/prototipo)
 
 Imagen proyecto final
 
