@@ -31,7 +31,7 @@ img {
 	font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
 	background : rgb(255, 158, 174); 
 	color: rgb(255, 255, 255);
-	height: 150px;
+	height: 100px;
 }	
 	#main-header a {
 		color: white;
@@ -39,34 +39,7 @@ img {
  
 
  
-/*
- * Navegación
- */
 
-nav {
-	float: right;
-}
-	nav ul {
-		margin: 0;
-		padding: 0;
-		list-style: none;
-		padding-right: 100px;
-	}
-	
-		nav ul li {
-			display: inline-block;
-			line-height: 50px;
-		}
-			
-			nav ul li a {
-				display: block;
-				padding: 0 100px;
-				text-decoration: none;
-			}
-			
-				nav ul li a:hover {
-					background: #66b7dd;
-				}
 
 #main-content {
 	background:rgb(255, 248, 248);
@@ -95,5 +68,9 @@ nav {
 	#main-footer a {
 		color: white;
 	}
-
-	
+    .boton {
+        padding: 10px 20px;
+        background-color: #00f396; 
+        color: white
+        
+    }
