@@ -15,7 +15,7 @@ Imagen de prototipo
 
 ![img]<img src = "/src/img/prototipofinal.png">
  Imagen de proyecto final
- ![]<img src= "src/img/proyec.png">
+ ![]<img src= "src/img/proyect.png">
 
 ## 3. Objetivos de aprendizaje
 
