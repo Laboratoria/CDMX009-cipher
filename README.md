@@ -298,3 +298,25 @@ Organización del Trabajo:
   poco a lo largo del -_bootcamp_.
   
   
+  ----------------------------------------------------------------------------------------------------------------------
+  Sistema de Protección de Información de Correos Electrónicos
+
+Este proyecto está pensado en una empresa en la que solo se cuenta con un equipo de computo por departamento y la cual utiliza todo el personal, por lo tanto los correos electronicos con informacion sensible pueden llegar a ser vistos por empleados que no deberian ver cierta informacion o que no sabrían usarla correctamente.
+
+La imagen final de tu proyecto.
+<p align="center"> <img src="https://github.com/MarianaOlimpia/CDMX009-cipher/blob/master/index.jpg"> </p>
+<p align="center"> <img src="https://github.com/MarianaOlimpia/CDMX009-cipher/blob/master/funcion.jpg"> </p>
+
+Investigación UX:
+Explicar quiénes son los usuarios y los objetivos en relación con el producto.
+-los usuarios son los supervisores de departamento de una empresa que necesitan enviar y recibir informacion confidencial protegida
+Explicar cómo el producto soluciona los problemas/necesidades de dichos usuarios.
+-les permite compartir informacion delicada con supervisores de otros departamentos sin que haya riesgo de que sea vista por terceros
+
+Luego colocarás la foto de tu primer prototipo en papel.
+<p align="center"> <img src="https://github.com/MarianaOlimpia/CDMX009-cipher/blob/master/IMG_20200217_232059.jpg"> </p>
+
+Agregar un resumen del feedback recibido indicando las mejoras a realizar.
+
+Imagen del prototipo final.
+  https://www.figma.com/file/zJ1VApS5XlQkNAqYfYVEUn/proyecto1?node-id=0%3A1
