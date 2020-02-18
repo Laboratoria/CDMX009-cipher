@@ -151,7 +151,6 @@ Permitir una experiencia de una interfaz sencilla y fácil de manejar.
 
 Ayuda al usuario a mantener sus contraseñas seguras, evita que terceros puedan tener acceso a ellas, el usuario solo debe de recordar el número de desplazamientos con la que creo su contraseña. 
 
-![Prototipo sobre papel](file:///C:/Users/YAZMIN/Desktop/prototipo%20sobre%20papel.jpg)
 
 # Resumen de Feedback:
 
