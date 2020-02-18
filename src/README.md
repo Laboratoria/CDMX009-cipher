@@ -35,7 +35,7 @@
 
 ### Buenas prácticas de desarrollo
 - [ ] Uso de identificadores descriptivos (Nomenclatura | Semántica).
-- [ ] Uso de linter para seguir buenas prácticas (ESLINT).
+- [+] Uso de linter para seguir buenas prácticas (ESLINT).
 
 # TextSecure
 
