@@ -40,6 +40,73 @@ Al aplicarse los cambios sugeridos y probar su usabilidad se obtuvo el siguiente
 <img src="readmeImages/irisCifrar_ver.png" alt="Cifrar prototipo" width="250"/>
 <img src="readmeImages/irisDescifrar_ver.png" alt="Descifrar prototipo" width="250"/>
 
+## Objetivos de aprendizaje alcanzados
+
+### UX
+
+- [x] Diseñar la aplicación pensando y entendiendo al usuario.
+- [x] Crear prototipos para obtener feedback e iterar.
+- [x] Aplicar los principios de diseño visual (contraste, alineación, jerarquía).
+
+Para la estapa de desarrollo de UX, se investigaron las necesidades del usuario respondiendo las siguientes preguntas: 
+-¿quién es el usuario?
+-¿qué busca conseguir?
+-¿cuándo utilizan el producto?
+-¿por qué deciden usarlo?
+
+Se investigaron aplicaciones con usos similares y se cosideró la problemática que ya había resuelto la más popular en el mercado: bridgefy. 
+
+Se eligió el nombre IRIS por se la mensajera de los dioses en la mitología griega y se eligió un colibrí como logotipo por ser el animal que representa al mensajero de los dioses en la mitología maya. La paleta de colores usa como base el color azul con la intención de representar confianza y seriedad. La tipografía es sans-serif para que el susuario pueda leer fácilmente los textos y el uso de la aplicación sea fluído. Lo elementos se alinearon para que el usuario tenga acceso a cada uno en forma de cascada según los va requiriendo. 
+
+Como parte del diseño de la interfaz de usuario, se realizó el skecth, los wireframes y el prototipo. En cada caso se dio feedback para iterar y finalmente aplicar mejoras en el proyecto final.  
+
+### HTML y CSS
+
+- [x] Uso correcto de HTML semántico.
+- [x] Uso de selectores de CSS.
+- [x] Construir tu aplicación respetando el diseño realizado (maquetación).
+
+Se usaron las etiquetas definidas para cada elemento y se les asignaron id, name, class, value, etc. según fue necesario.
+Se crearon los estilos llamando a los elementos con selectores de acuerdo al atributo asigando. 
+El proyecto final corresponde con el diseño de prototipo. 
+
+### DOM
+
+- [x] Uso de selectores del DOM.
+- [x] Manejo de eventos del DOM.
+- [x] Manipulación dinámica del DOM.
+
+Se manejó el DOM para hacer cumplir distintas validaciones en la interfaz y evitar errores en el ingreso de información. 
+
+### Javascript
+
+- [x] Manipulación de strings.
+- [x] Uso de condicionales (if-else | switch).
+- [x] Uso de bucles (for | do-while).    
+- [x] Uso de funciones (parámetros | argumentos | valor de retorno).
+- [x] Declaración correcta de variables (const & let).
+
+Se usaron las funciones for e if-else para generar la función cypher, y se manejaron datos tipo booleano, string, number. 
+Se crearon mas funciones para la interacción del usuario con la interfaz mandando parámetros, condicionando argumentos y retornando resultados. 
+Debido a la funcionalidad, las variables se declararon como let.
+
+### Testing
+- [ ] Testeo de tus funciones.
+
+Hubo errores en testeo del objeto cypher. 
+
+### Git y GitHub
+- [x] Comandos de git (add | commit | pull | status | push).
+- [ ] Manejo de repositorios de GitHub (clone | fork | gh-pages).
+
+Se creó una cuenta en github, se intalaron los sistemas necesarios. Se dio fork al proyecto original para crear un repositorio propio en el cual trabajar, se clonó y editó, actualizando y descargando versiones por medio de los comandos status, add, commit, pull, push. 
+
+### Buenas prácticas de desarrollo
+- [x] Uso de identificadores descriptivos (Nomenclatura | Semántica).
+- [ ] Uso de linter para seguir buenas prácticas (ESLINT).
+
+Se palicaron las mejores prácticas. 
+
 # Cifrado César
 
 ## Índice
