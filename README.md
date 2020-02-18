@@ -1,3 +1,20 @@
+SuperSafe Password
+
+Sitio web para cifrar textos con Código Cesar en donde el usuario puede elegir el número de desplazamientos y también descifrar sus claves. Recomendado para creación de contraseñas o para personas que suelen anotarlas en libretas o agendas.
+tc.
+
+<img src ="https://github.com/astridgutz/CDMX009-cipher/blob/master/src/img/aplicacionfinal.png?raw=true">
+
+
+UX
+
+Fue creado pensando en las personas que les cuesta trabajo aprender sus contraseñas de correo,facebook,netflix etc. Y que suelen anotarlas en libretas o agendas, lo que pone en riesgo la seguridad de las cuentas ya que las contraseñas podrían estar al alcance de todos, SuperSafe Password ofrece la posibilidad de cifrar la contraseña en código cesar, ya sea la misma contraseña o palabra clave, elegir el número de posiciones a desplazar y también descifrar la clave.
+
+El usuario "N" utiliza SuperSafe Password para cifrar con Código Cesar, su contraseña que es el nombre de uno de sus 3 perros (elige a Skipper) y elige el número de posiciones a desplazar con el día de su nacimiento (que es 8) entonces el resultado es : asqxxmz y este resultado será el que escriba en su libreta que carga diario a donde va, ya que es olvidadizo y en su trabajo maneja muchas otras contraseñas.
+
+Feedback recibido fue que lo hiciera fácil de usar y entendible para las personas mayores, a las que está dirigida la aplición.
+
+
 # Cifrado César
 
 ## Índice
@@ -66,39 +83,39 @@ Reflexiona y luego marca los objetivos que has llegado a **entender** y **aplica
 
 ### UX
 
-- [ ] Diseñar la aplicación pensando y entendiendo al usuario.
-- [ ] Crear prototipos para obtener feedback e iterar.
+- [x] Diseñar la aplicación pensando y entendiendo al usuario.
+- [x] Crear prototipos para obtener feedback e iterar.
 - [ ] Aplicar los principios de diseño visual (contraste, alineación, jerarquía).
 
 ### HTML y CSS
 
 - [ ] Uso correcto de HTML semántico.
 - [ ] Uso de selectores de CSS.
-- [ ] Construir tu aplicación respetando el diseño realizado (maquetación).
+- [x] Construir tu aplicación respetando el diseño realizado (maquetación).
 
 ### DOM
 
-- [ ] Uso de selectores del DOM.
+- [x] Uso de selectores del DOM.
 - [ ] Manejo de eventos del DOM.
 - [ ] Manipulación dinámica del DOM.
 
 ### Javascript
 
-- [ ] Manipulación de strings.
-- [ ] Uso de condicionales (if-else | switch).
+- [x] Manipulación de strings.
+- [x] Uso de condicionales (if-else | switch).
 - [ ] Uso de bucles (for | do-while).    
-- [ ] Uso de funciones (parámetros | argumentos | valor de retorno).
-- [ ] Declaración correcta de variables (const & let).
+- [x] Uso de funciones (parámetros | argumentos | valor de retorno).
+- [x] Declaración correcta de variables (const & let).
 
 ### Testing
 - [ ] Testeo de tus funciones.
 
 ### Git y GitHub
-- [ ] Comandos de git (add | commit | pull | status | push).
-- [ ] Manejo de repositorios de GitHub (clone | fork | gh-pages).
+- [x] Comandos de git (add | commit | pull | status | push).
+- [x] Manejo de repositorios de GitHub (clone | fork | gh-pages).
 
 ### Buenas prácticas de desarrollo
-- [ ] Uso de identificadores descriptivos (Nomenclatura | Semántica).
+- [x] Uso de identificadores descriptivos (Nomenclatura | Semántica).
 - [ ] Uso de linter para seguir buenas prácticas (ESLINT).
 
 

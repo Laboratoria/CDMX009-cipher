@@ -3,12 +3,43 @@
   <head>
     <meta charset="utf-8">
     <title>Caesar Cipher</title>
+    <link href="https://fonts.googleapis.com/css?family=ZCOOL+QingKe+HuangYou&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body>
-    <div id="root">
-      <h1>Hello world!</h1>
-    </div>
+    <body>
+      <header> SuperSafe <br> Password <!--logo--> 
+
+      </header>
+      <link rel="stylesheet" href="style.css">
+      
+      <section>
+      
+            <h1>Bienvenido</h1>
+              <br/>
+                <!--Intro-->
+              <p> SuperSafe Password te ayudará a cifrar en Código César tus palabras clave o contraseñas.<br/>
+              Si eres de las personas que apunta sus claves en libretas o agendas no expongas tu seguridad.<br/>
+              Cífralas y Descífralas aquí.</p>
+              
+              <div class="box">
+                <div id="textbox"> Ingresa aqui el texto o clave   <input type="text" id="text"></div>
+                <div id="n">Elige el numero de posiciones   <input type="number" id="displace" ></div>
+                <div id="botones"> 
+                  <button id="encode">Cifrar</button>
+                  <button id="decode">Descifrar</button>
+                </div>
+                Resultado -> <input type="text" id="result">
+                
+                <script src="index.js" type="module"></script>
+              </div>
+              
+      </section>
+      
+      <footer>
+        Este es el pie <!--prueba-->
+      </footer>
+      
+    
     <script src="index.js" type="module"></script>
   </body>
 </html>

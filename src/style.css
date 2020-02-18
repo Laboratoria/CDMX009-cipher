@@ -1,0 +1,55 @@
+*{margin: 0;
+    padding: 0;}
+    
+    body {
+        width: 1360px;
+        height: 600px;
+        background: #000;}
+    
+    
+    header {
+    width: 1360px;
+    height: 12%;
+    background-color:#000;
+    margin-left: 0px;
+    padding-top: 3%;
+    color: #FFFFFF;
+    font-size: 30px
+    }
+    
+    
+    section {font-family: 'ZCOOL QingKe HuangYou', cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 35px;
+    line-height: 30px;
+    align-content: center;
+    
+    color: #FFFFFF; 
+    border-color: #151515;
+    background-image: url("img/cybersecurity.jpg");
+    opacity: 0.9;
+    background-position: center;
+    background-size: contain;
+    
+    }
+    
+    h1 {
+        padding-top: 25px;
+        margin-left: 70px;
+    }
+    p {
+        margin-left: 2px;
+        text-align: center;
+    }
+    .box{
+        font-size: 25px;
+        margin-left: 20px;
+        padding-top: 80px;
+        text-align: center;
+        line-height: 40px;
+        }
+   
+    .footer{
+        font-size: 200px;
+    }
