@@ -1,17 +1,81 @@
 body {
-     background-color:#F2BFFF;
-     font-family: 'Open Sans', sans-serif;
-}
+    background-image: url(preview.jpg);
+    font-family: 'Open Sans', sans-serif;
+    color:#F9F5FB;
+    font-weight: bolder;
+   }
 
 .cajaprincipal {
-    background-color: cadetblue;
-    text-align: center;
-    position: relative;
+ 
+   text-align:center;
+  padding: 30px 180px 100px 180px;
+   position: relative;
+   line-height: 25px;
 
 }
 
 .boton {
 
-    background-color: darkblue;
-    width: 109px;
+   background-color: #A8255B;
+   width: 80px;
+   border-color: #A8DF5B;
+   font-family: 'Open Sans', sans-serif;
+   color: #E2FFB3;
+}
+
+.encabezado {
+       
+       font-size: 50px;
+       text-align: center;
+       font-family: 'Pangolin', cursive;
+       font-weight: normal;
+       
+       
+}
+
+.caja1 {
+
+   text-align: left;
+}
+
+.caja2 {
+
+   text-align: left;
+
+}
+
+.cajamensaje {
+
+   border: #5BDE8E;
+   height: 200px;
+   width: 300px;
+   background-color: #5BDE8E;
+   text-align: center;
+   font-size: medium;
+   
+}
+
+.desplazamientos {
+   height: 30px;
+   width: 45px;
+   background-color: #5BDE8E ;
+   font-size: xx-large;
+   
+}
+
+
+
+.mensajeCifrado {
+display: inline-block;
+color: #14170A;
+text-align: center;
+background-color:#ADE7FF ;
+box-shadow: #CC6275;
+height: 200px;
+width: 300px;
+
+}
+
+.segundapantalla {
+   display: none;
 }

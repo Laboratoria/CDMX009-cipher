@@ -2,45 +2,48 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Caesar Cipher</title>
+    <title>Safe tests</title>
     <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    
-      <header class=encabezado>Safe tests</header>
-     <main class=cajaprincipal>  
-
-      <h2 class=titulo>Bienvenid@</h2>
-      <p class=caja1> Introduce tu batería de respuestas separadas por comas, indica el número de desplazamientos, y por medio de cifrado cesar, se creará un código para proteger las respuestas de tus exámenes. </p>
-      <b>Ejemplo:</b>
-      <ol>Mensaje: Hola, adios<br> Desplazamientos: 3 <br> Código: 1.Krod <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2.Dglrv </ol>
-   
-         <button class=boton>IR</button>
-
-     
-     
-         <!--aquí debe enviarme a la siguiente pantalla-->
-<head>
-    <header>
-      Escribe tu batería de respuestas a cifrar o descifrar <b>separadas por comas</b>. 
-    </header> 
-  </head>    
-  <body>
-        <input type="text" size="60" maxlength="800">
-        <br> <br>
-        <button>Cifrar</button> &nbsp;&nbsp;&nbsp;
-        <button>Descifrar</button> &nbsp;&nbsp;&nbsp; 
+   </head>
+  <body class="cajaprincipal">  
+     <section class="primerapantalla" id="pantallaUno">
+     <header class="encabezado">Safe tests  
+    </header><br>
+     <h2 class="titulo">Bienvenid@</h2>
+     <p class="caja1"> Introduce tu batería de respuestas separadas por comas,
+      indica el número de desplazamientos, y por medio de cifrado 
+      cesar, se creará un código para proteger las respuestas de tus exámenes.
+      <br><b></b>Ejemplo:</p>
+       <ol class="caja2">Mensaje: Hola, adios<br> Desplazamientos: 3 <br> Código: 1.Krod <br> 
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2.Dglrv </ol>
+      <button class="boton" id="ir">IR</button>
+   </section>
+<!--aquí debe enviarme a la siguiente pantalla-->
+  <section class="segundapantalla" id="pantallaDos">
+   <header>
+    Escribe tu batería de respuestas a cifrar o descifrar <b>separadas por comas</b>. 
+   </header> 
+   <input type="text" class="cajamensaje" id="userMessage"  >
+        <br>
+        <button id="cifrar" class="boton">Cifrar</button> &nbsp;&nbsp;&nbsp;
+        <button id="descifrar" class="boton">Descifrar</button> &nbsp;&nbsp;&nbsp;
         Desplazamientos <br>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" size="1">
-    <p>Mensaje</p>
-     
-     <br> <br>
-      <button>Limpiar</button> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <button>Salir</button>
-      </body>
-    </main> 
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-    <script src="index.js" type="module"></script>
-  </body>
+        <input type="text" class="desplazamientos">
+      
+    <p>Mensaje</p>
+       <br>
+       <div class="mensajeCifrado">
+        <ol id="resultados"> </ol>
+        </div>
+       
+          <br>
+       
+      <button class="boton">Limpiar</button> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <button class="boton">Salir</button>
+  </section>
+  <script src="index.js" type="module"></script>
+ </body>
 </html>
