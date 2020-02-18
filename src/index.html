@@ -1,22 +1,15 @@
 <!DOCTYPE html>
 <html>
   <head> 
-    <!--Todo lo que esta en head es información que no percibe el usuario,
-     sin embargo es importante para la pagina-->
     <meta charset="utf-8">
     <title>AliaSECRETO</title>
     <link rel="stylesheet" href="style.css" /> 
     <link href="https://fonts.googleapis.com/css?family=Caveat&display=swap" rel="stylesheet">
-    <!--Los links que se coloquen siempre deben ir en la parte superior del html-->
   </head>
 
   <body>
-   <!--Las divisiones son como "cajas" las secciones de la página web
-  para después poder darle formato de css-->
   <div id= "title">
     <h1>AliaSECRETO</h1> 
-    <!--H1 Se utiliza para titulares.Solo puede utilizarse un h1 por pagina
-    por semantica del lenguaje de marcado html-->
     <h2>Sabemos que los quieres... 
       ¡Ahórrales el susto!</h2>
     </div> 
@@ -35,24 +28,19 @@
       Nombre/Alias <input id="aliasName" type="text" >
       <br> 
       ¿Cuántas letras nos movemos?
-      <input id ="offset" type = "number"  value="Enviar datos">
+      <input id ="offset" type = "number" min="1" max="100" value="Enviar datos">
       <br>
-      <input id="encryptButton" type="button" value= "Cifrar Nombre" onclick="encode()">  
-      <input id="decodeButton" type="button" value= "Descifrar Alias" onclick="decode()">
+      <input id="encryptButton"  type="button" value= "Cifrar Nombre" onclick= "encode(nameAlias,letterOffset)">  
+      <input id="decodeButton" type="button" value= "Descifrar Alias" onclick="decode(nameAlias,letterOffset)">
       <br>
-      Resultado <input id="resultBox" type= "text">
+      Resultado <textarea id="resultBox" type= "text" ></textarea> 
     </div>
-      <!--Siempre es importante tener las imagenes
-      dentro de una carpeta y que se encuentre junto con los archivos js, html,css-->
-      <br /> <!--Esta etiqueta sirve para los saltos de linea-->
+    <br /> 
     </div>
    
      <div id= "footer">
       <a target= "a_blank" href="https://es.wikipedia.org/wiki/Cifrado_C%C3%A9sar">¿Criptado César?</a>
     </div> 
-      <!--Input son el tipo de menús, botones, etc 
-     que se pueden colocar en html para recoleccion de datos, o seleccion de opciones entre otras-->
-    <script src="index.js" type="module"></script> <!--Script src sirve para enlazar el archivo de JS
-    src es la carpeta donde se encuentra-->
+    <script src="index.js" type="module"></script> 
   </body>
 </html>

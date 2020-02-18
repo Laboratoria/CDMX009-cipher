@@ -1,31 +1,28 @@
 
-export default cipher; 
 
-const cipher = {
+const cipher = {encode,decode};
 
-    encode(nameAlias,letterOffset){
+    function encode(nameAlias,letterOffset){
         let result = "";
-        let nameAlias = document.getElementById("aliasName").value;
-        let letterOffset = document.getElementById ("offset").value;
         for (let i=0; i < nameAlias.length;i++){
             let capitalLetters= nameAlias.toUpperCase();
             let ascii= capitalLetters.charCodeAt(i);
             let encodeAscii=((ascii - 65 + parseInt(letterOffset)) %26 + 65);
-            result +=String.fromCharCode(encodeAscii);
-            } return result
-            },
+            result+=String.fromCharCode(encodeAscii);
+            } return result;
+            }
 
-    decode(nameAlias,letterOffset){
-        let result= " ";
-        let nameAlias = document.getElementById("aliasName").value;
-        let letterOffset = document.getElementById ("offset").value;
+    function decode(nameAlias,letterOffset){
+        let resultTwo= " ";
         for (let i=0; i < nameAlias.length;i++){
             let capitalLetters= nameAlias.toUpperCase();
             let ascii= capitalLetters.charCodeAt(i);
             let decodeAscii=((ascii + 65 - parseInt(letterOffset)) %26 + 65);
-            result +=String.fromCharCode(decodeAscii);
-            } return result 
+            resultTwo +=String.fromCharCode(decodeAscii);
+            } return resultTwo; 
             }   
-            };
+        
+            
+            //console.log(cipher.encode("ABCD",3));
 
-export default cipher;
+            export default cipher; 
