@@ -64,38 +64,40 @@ Los objetivos logrados al desarrollar esta aplicación, fueron los siguientes:
 
 ### UX
 
-- Diseñar la aplicación pensando y entendiendo al usuario.
-- Crear prototipos para obtener feedback e iterar.
-- Aplicar los principios de diseño visual (contraste, alineación, jerarquía).
+- [&#10003;] Diseñar la aplicación pensando y entendiendo al usuario.
+- [&#10003;] Crear prototipos para obtener feedback e iterar.
+- [&#10003;] Aplicar los principios de diseño visual (contraste, alineación, jerarquía).
 
 ### HTML y CSS
 
-- Uso correcto de HTML semántico.*
-- Uso de selectores de CSS.
+- [&#10003; &#10053;] Uso correcto de HTML semántico.
+- [&#10003;] Uso de selectores de CSS.
+- [&#10003; &#10053;] Construir tu aplicación respetando el diseño realizado (maquetación).
 
 ### DOM
 
-- Uso de selectores del DOM.
-- Manejo de eventos del DOM.
-- Manipulación dinámica del DOM.
+- [&#10003;] Uso de selectores del DOM.
+- [&#10003; &#10053;] Manejo de eventos del DOM.
+- [&#10003;] Manipulación dinámica del DOM.
 
 ### Javascript
 
-- Manipulación de strings.
-- Uso de condicionales (if-else | switch).
-- Uso de bucles (for | do-while).    
-- Uso de funciones (parámetros | argumentos | valor de retorno).
-- Declaración correcta de variables (const & let).*
+- [&#10003;] Manipulación de strings.
+- [&#10003;] Uso de condicionales (if-else | switch).
+- [&#10003;] Uso de bucles (for | do-while).    
+- [&#10003;] Uso de funciones (parámetros | argumentos | valor de retorno).
+- [&#10003; &#10053;] Declaración correcta de variables (const & let).
 
 ### Testing
-- Testeo de tus funciones.
+- [&#10007;]Testeo de tus funciones.
 
 ### Git y GitHub
-- Comandos de git (add | commit | pull | status | push).
-- Manejo de repositorios de GitHub (clone | fork | gh-pages*).
+- [&#10003;] Comandos de git (add | commit | pull | status | push).
+- [&#10003; &#10053;] Manejo de repositorios de GitHub (clone | fork | gh-pages).
 
 ### Buenas prácticas de desarrollo
-- Uso de identificadores descriptivos (Nomenclatura | Semántica).*
+- [&#10003;] Uso de identificadores descriptivos (Nomenclatura | Semántica).
+- [&#10007;] Uso de linter para seguir buenas prácticas (ESLINT).
 
 ## 6. Investigación UX
 
