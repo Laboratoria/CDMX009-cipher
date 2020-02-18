@@ -77,7 +77,7 @@ Reflexiona y luego marca los objetivos que has llegado a **entender** y **aplica
 
 ### Git y GitHub
 - [✓] Comandos de git (add | commit | pull | status | push).
-- [✓] Manejo de repositorios de GitHub (clone | fork | gh-pages).
+- [falta gh-pages] Manejo de repositorios de GitHub (clone | fork | gh-pages).
 
 ### Buenas prácticas de desarrollo
 - [ ] Uso de identificadores descriptivos (Nomenclatura | Semántica).
