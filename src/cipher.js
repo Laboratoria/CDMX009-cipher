@@ -12,10 +12,10 @@ if (decipherFunction) {
 }
 
 function cipher(offNum, nTxt) {
-  var nTxt = elTxt.value;
-  var offNum = parseInt(elNumber.value);
-  var i = 0;
-  var finalTxt = "";
+  let nTxt = elTxt.value;
+  let offNum = parseInt(elNumber.value);
+  let i = 0;
+  let finalTxt = "";
 
 for (i = 0; i < nTxt.length; i++) {
   r = (nTxt.charCodeAt(i) - 65 + offNum) % 26 + 65;
@@ -25,10 +25,10 @@ showResult.textContent += finalTxt;
 }
 
 function decipher() {
-  var nTxt = elTxt.value;
-  var offNum = parseInt(elNumber.value);
-  var i = 0;
-  var finalTxt = "";
+  let nTxt = elTxt.value;
+  let offNum = parseInt(elNumber.value);
+  let i = 0;
+  let finalTxt = "";
 
 for (i = 0; i < nTxt.length; i++) {
   r = (nTxt.charCodeAt(i) - 65 - offNum) % 26 + 65;
