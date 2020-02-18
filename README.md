@@ -72,23 +72,34 @@ Cipher es un apalicacion que cifra y decifra un texto con el objetivo de enviar 
 ### DOM
 
 - [✓ ] Uso de selectores del DOM.
+      
 
   [✓ ] Manejo de eventos del DOM.
 - [ ] Manipulación dinámica del DOM.
 
+      
+
 ### Javascript
 
 - [✓ ] Manipulación de strings.
+        Al concatenar y recorrer mi cadena de texto.
 - [✓ ] Uso de condicionales (if-else | switch).
+        Aprendi donde se pueden usar y cuando cerrar la condicioón.
 - [✓ ] Uso de bucles (for | do-while).    
+        Utilice el for y me quedo claro su aplicación.
 - [✓] Uso de funciones (parámetros | argumentos | valor de retorno).
+
+
+        
 - [✓ ] Declaración correcta de variables (const & let).
+         Una constante no cambia de valor a loo largo delprograma una vez definida y una variable si lo hace
 
 ### Testing
 - [ ] Testeo de tus funciones.
 
 ### Git y GitHub
 - [✓ ] Comandos de git (add | commit | pull | status | push).
+      Git add añade los cambios, commit hace comentarios, status manda el estado en que se encuentran los diferentes archivos, si hubo cambios o no, push envia los cambios a git hub. 
 - [✓ ] Manejo de repositorios de GitHub (clone | fork | gh-pages).
 
 ### Buenas prácticas de desarrollo
