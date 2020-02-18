@@ -12,9 +12,11 @@
       <h1>¿Te gustaría un helado?</h1><br>
       <img src="../img/helado1.jpeg" id="img1">
       <img src="../img/helado2.jpeg" id="img2">
-
-      <h2>¡Gratis!</h2>
-      <br
+       <br>
+       <br>
+       <br>
+      <p>¡Gratis!</p>
+      <br>
       <br>
       <br>
       <br>
@@ -25,12 +27,12 @@
      
      
         <div id="root2">
-        <h1>HELADOS LOS TRES CERDITOS</h1><br>
+        <h2>HELADOS LOS TRES CERDITOS</h2><br>
         <br>
         <br>
         <br>
         <br>
-        <h2>Ingresa tus datos aquí:</h2>
+        <p>Ingresa tus datos aquí:</p>
         <br>
         <br>
         <input type="text" placeholder="nombre" id="name">
@@ -46,14 +48,24 @@
 
                <input type="text" id="result"><br>
                <br>
-               Recoje tu helado en la tienda mas cercana
+               <p>Recoje tu helado en la tienda mas cercana</p>
+                     <br>
+                      <br>
+               <input type="button" id="user" value="Decifrar codigo" onclick="next();">
                </div>
 
         <div id="root4">
-            <h1>OBTENIENDO DATOS DEL USUARIO</h1>
+            <h3>OBTENIENDO DATOS DEL USUARIO</h3>
             
-            <h2>Ingresa el codigo de promocion:</h2>
-            <input type="text" name="nombre" id="codigo" placeholder="Nombre"><br>
+            <p>Ingresa el codigo de promocion:</p>
+            <input type="text" name="code" id="codigo" placeholder="codigo a decirfrar">
+            <br>
+            <br>
+            <input type="button" id="decifrado" value="decifra" onclick="decode();">
+            <br>
+            <input type="text" id="dato" placeholder="name">
+            <br>
+            <input type="text" id="AgeUser" placeholder="Age">
              </div>
 
 

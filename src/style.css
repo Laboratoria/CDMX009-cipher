@@ -2,16 +2,19 @@ body {
     background: url(../img/helado\ fondo.jpg);		
 text-align: center;		
 }		
+p {
+    font-size: 30px;
+}
 
   #bttn {		
-     text-align: center;		
+      text-align: center;		
      background-color: #FFFFFF ;		
-     size: 200pt;		
      border-bottom:#707070;		
-     border-radius: 10;		
+     border-radius: 10px;		
      border-color: bisque;		
-     size: 30px;		
- }		
+     height: 50px;	
+     width: 150px;
+ }	
  #result1		
  {		
      text-decoration: black;		
