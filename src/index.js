@@ -12,7 +12,6 @@ window.onload = () => {
 
       document.getElementById("text-encode").style.display = "none";
       document.getElementById("text-encode").style.display= "block";
-      document.getElementById("text-decode").style.display= "block";
       document.getElementById("text-decode").style.display= "none";
     });
 
@@ -20,7 +19,6 @@ window.onload = () => {
 
       document.getElementById("text-decode").style.display = "none";
       document.getElementById("text-decode").style.display = "block";
-      document.getElementById("text-encode").style.display = "block";
       document.getElementById("text-encode").style.display = "none";
     });
 

@@ -1,35 +1,43 @@
+main{
+  padding: 0;
+  margin: 0;
+
+
+}
+
 .contenedor{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: 300px;
+  grid-template-areas:
+  ". x x ."
+  ". x x .";
+  grid-gap: 5px;
+}
+
+.contenedor1{
+  grid-area: x;
   font-family: Segoe UI;
   width:350px;
   height:250px;
   background: #fff;
-  padding: 10px;
   border: 5px solid #FF0000;
   border-radius: 15px;
-  margin: auto;
-  display: table;
-  position: relative;
-  vertical-align: middle;
-  align-items: center;
-  align-content: center;
+  align-self: center; /*centrar horizontalmente*/
+  justify-self: center; /*centrar verticalmente*/
 }
+
+
+
+
 
 .bienvenidos{
   font-family: Script MT;
   font-size: 1.5em;
 }
 
-main {
-  margin:auto;
-  text-align: center;
-}
 
-.elemento{
-  text-align: center;
-  width: 350px;
-  height: 150px;
-  margin: auto;
-}
+
 
 body {
   margin:0;
