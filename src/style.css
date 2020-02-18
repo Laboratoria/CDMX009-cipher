@@ -100,6 +100,26 @@ p{
     margin-top: 20px;
     margin: 0 auto;
     }
+
+  .buttonimagen {
+    background-image: url(img/cupones.png);
+    background-repeat:no-repeat;
+    height:100px;
+    width:100px;
+    background-position:center;
+    border-radius:50px;
+    cursor:pointer;
+  }
+
+  .buttonimagen2 {
+    background-image: url(img/logo-chinampayolo.png);
+    background-repeat:no-repeat;
+    height:100px;
+    width:100px;
+    background-position:center;
+    border-radius:50px;
+    cursor:pointer;
+  }
   
     /* Alinear objetos dentro de la barra superior 
   .left {
@@ -148,3 +168,6 @@ p{
     padding-left: 40px;
   }
   
+  #second-screen, #third-screen{
+    display: none;
+  }
