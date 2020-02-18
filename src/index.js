@@ -28,7 +28,6 @@ function botonDesci(){
     let cadena= cipher.decode(str,ncc);
     let element = document.getElementById("resultado");
     element.innerHTML=cadena.toString();
-    
 }
 console.log(cipher);
 
