@@ -19,17 +19,14 @@
       document.getElementById("login").style.display = "none";
     }
 
-    //Icono a Página de Instroducción
-    //function send(){
-
     //Leyenda al clickear enviar
-      function send(){
-        document.getElementById("name").value;
-        document.getElementById("email").value;
-        if ("name" === "" && "email" === ""){
-          document.getElementById("form").innerHTML="En breve nos pondremos en contacto contigo"
-        }
-    }
+    let name = document.getElementById("name");
+    let email = document.getElementById("email");
+    function send(){
+
+      return false;
+      }
+
     //Funcionalidad de logo: de registro a Login
     function back1(){
       document.getElementById("login").style.display = "block";
@@ -37,17 +34,29 @@
     }
 
     //Funcionalidad de logo: de first-page a login
-    function back(){
+    function back2(){
       document.getElementById("login").style.display = "block";
       document.getElementById("first-page").style.display = "none";
     }
 
     //Funcionalidad de Menú
-    function menu(){
-
+    function menu2(){
+      document.getElementById("second-page").style.display = "block";
+      document.getElementById("first-page").style.display = "none";
+    }
+    function menu3(){
+      document.getElementById("last-page").style.display = "block";
+      document.getElementById("first-page").style.display = "none";
     }
 
     //Página de herramienta
+
+    //Funcionalidad de logo: de second-page a login
+    function back3(){
+      document.getElementById("login").style.display = "block";
+      document.getElementById("second-page").style.display = "none";
+    }
+
   window.onload=()=>{
       //Links
       const linkOn = document.getElementById("link-encode");
@@ -65,18 +74,37 @@
       linkOff.addEventListener("click", function() {
         document.getElementById("link-encode").classList.remove("link-active");
         document.getElementById("link-decode").classList.add("link-active");
-        document.getElementById("msg-decode").classList.remove("display_none");
-        document.getElementById("msg-decode").classList.add("display_block");
-        document.getElementById("msg-encode").classList.remove("display_block");
-        document.getElementById("msg-encode").classList.add("display_none");
+        document.getElementById("decode").classList.remove("display_none");
+        document.getElementById("decode").classList.add("display_block");
+        document.getElementById("encode").classList.remove("display_block");
+        document.getElementById("encode").classList.add("display_none");
     });
 
-  }
-
   //Mensaje en box-ENCODE
-  const  buttonDecoder = document.getElementById("btn-encode");
-    buttonDecoder.addEventListener("click", function(){
-        let storyEncode = document.getElementById("box-msg-encode").value;
+  const  btnEncode= document.getElementById("btn-encode");
+    btnEncode.addEventListener("click", function(){
+        let storyEncode = document.getElementById("box-encode").value;
         let numberOffset  =  document.getElementById("offset-e").value;
         document.getElementById("encode-ready").innerHTML=window.cipher.encode(storyEncode, numberOffset);
     });
+
+  //Mensaje en box-DECODE
+  const  btnDecode = document.getElementById("btn-decode");
+    btnDecode.addEventListener("click", function(){
+        let storyDecode = document.getElementById("box-decode").value;
+        let numberOffset  =  document.getElementById("offset-d").value;
+        document.getElementById("decode-ready").innerHTML=window.cipher.decode(storyDecode, numberOffset);
+    });
+  }
+
+    ////Funcionalidad de logo: de last-page a login
+    function back4(){
+      document.getElementById("login").style.display = "block";
+      document.getElementById("last-page").style.display = "none";
+    }
+
+    //Splash-screen
+    function start(){
+      document.getElementById("login").style.display = "block";
+      document.getElementById("splash").style.display = "none";
+    }

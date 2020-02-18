@@ -1,300 +1,155 @@
-# Cifrado César
+# CLÍO CODE
 
 ## Índice
 
-* [1. Preámbulo](#1-preámbulo)
-* [2. Resumen del proyecto](#2-resumen-del-proyecto)
-* [3. Objetivos de aprendizaje](#3-objetivos-de-aprendizaje)
-* [4. Consideraciones generales](#4-consideraciones-generales)
-* [5. Criterios de aceptación mínimos del proyecto](#5-criterios-de-aceptación-mínimos-del-proyecto)
-* [6. Hacker Edition](#6-hacker-edition)
-* [7. Pistas, tips y lecturas complementarias](#6-pistas-tips-y-lecturas-complementarias)
-
+* [1. Twit](#1-twit)
+* [2. Resumen de la aplicación](#2-resumen-de-la-aplicación)
+* [3. Instrucciones de uso] (#3-instrucciones-de-uso)
+* [4. Objetivos de aprendizaje](#4-objetivos-de-aprendizaje)
+* [5. Investigación UX](#5-investigación-ux)
 ***
 
-## 1. Preámbulo
+## 1. Twit
 
-Cifrar significa codificar. El [cifrado César](https://en.wikipedia.org/wiki/Caesar_cipher)
-es uno de los primeros métodos de cifrado conocidos. El emperador romano Julio
-César lo usaba para enviar órdenes secretas a sus generales en los campos de
-batalla.
+"Ahora las mujeres tenemos un espacio seguro para compartir nuestras experiencias
+y para pedir ayuda."
 
-![caeser-cipher](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Caesar3.svg/2000px-Caesar3.svg.png)
+## 2. Resumen de la aplicación
 
-El cifrado césar es una de las técnicas más simples para cifrar un mensaje. Es
-un tipo de cifrado por sustitución, es decir que cada letra del texto original
-es reemplazada por otra que se encuentra un número fijo de posiciones
-(desplazamiento) más adelante en el mismo alfabeto.
+Code clío nace por la necesidad de una red de confianza para mujeres que han
+sufrido algún abuso; creemos en el poder de la comunicación como herramienta de
+concientización.
 
-Por ejemplo, si usamos un desplazamiento (_offset_) de 3 posiciones:
+Sabemos que toda experiencia traumática conlleva un proceso y que para sanar
+primero debemos estar informadas y lograr identificar cuándo estamos siendo
+abusadas. Además, en cuanto escribes sobre los detalles de tu historia y
+reflexionas sobre lo ocurrido, haces un ejercicio de catarsis.
 
-* La letra A se cifra como D.
-* La palabra CASA se cifra como FDVD.
-* Alfabeto sin cifrar: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
-* Alfabeto cifrado: D E F G H I J K L M N O P Q R S T U V W X Y Z A B C
+Cifrado César:
 
-En la actualidad, todos los cifrados de sustitución simple se descifran con
-mucha facilidad y, aunque en la práctica no ofrecen mucha seguridad en la
-comunicación por sí mismos; el cifrado César sí puede formar parte de sistemas
-más complejos de codificación, como el cifrado Vigenère, e incluso tiene
-aplicación en el sistema ROT13.
+https://www.youtube.com/watch?v=sMOZf4GN3oc
 
-## 2. Resumen del proyecto
+## 3. Instrucciones de uso
 
-¿Qué tengo que hacer exactamente? En este proyecto crearás la primera aplicación
-web del _bootcamp_. Servirá para que el usuario pueda cifrar y descifrar un
-texto indicando un desplazamiento específico de caracteres (_offset_).
+### Confidencialidad:
 
-La temática es libre. Tú debes pensar en qué situaciones de la vida real se
-necesitaría cifrar un mensaje y pensar en cómo debe ser esa experiencia de uso
-(qué pantallas, explicaciones, mensajes, colores, ¿marca?) etc. Algunas ideas de
-ejemplo:
+Code Clío te solicita un nombre y un correo para mantener la red segura, por lo
+que antes de enviarte tu número de folio te contactamos vía mail para
+identificarte.
 
-* Crear claves seguras para el email.
-* Encriptar/cifrar una tarjeta de crédito.
-* Herramienta de mensajería interna de una organización de derechos humanos en
-  una zona de conflicto.
-* Mensajería secreta para parejas.
+La herramienta de codificación de tu historia no requiere que ingreses datos
+personales al momento de escribir tu historia.
 
-## 3. Objetivos de aprendizaje
+### Compartiendo:
 
-El objetivo principal de aprendizaje es adquirir experiencia desarrollando
-aplicaciones web (WebApp) que interactúen con el usuario a través del navegador
-y la lógica, utilizando HTML5, CCS3 y JavaScript como herramientas.
+Si decides compartir tu historia, únicamente envía tu mensaje codificado
+(el cual contendrá sólo letras mayúsculas y, agrega un número al final que será
+el número de desplazamiento que hayas elegido al codificar tu historia, ejemplo:
 
-Reflexiona y luego marca los objetivos que has llegado a **entender** y **aplicar** en tu proyecto.
+                  [BSDLIHSDKBVHFDVBLFXKHVBHLXKFVBKHFVBKFXL
+                  ÑKSDNFLSDNFKJVXCVJNFSKJVBFKDJVBÑKFJVBÑ6]
+
+  •	Si decides compartir tu historia o la de alguien más con otra mujer, ella
+  tendrá que hacer el mismo proceso que tú de identificación.
+
+  •	Si decides solicitar apoyo emocional o ayuda jurídica, ya tendremos tus datos
+  y ellos sabrán como ayudarte en caso de recibir un mensaje codificado con número
+  de desplazamiento.
+
+
+## 4. Objetivos de aprendizaje
+
+Los objetivos logrados al desarrollar esta aplicación, fueron los siguientes:
+
 
 ### UX
 
-- [ ] Diseñar la aplicación pensando y entendiendo al usuario.
-- [ ] Crear prototipos para obtener feedback e iterar.
-- [ ] Aplicar los principios de diseño visual (contraste, alineación, jerarquía).
+- Diseñar la aplicación pensando y entendiendo al usuario.
+- Crear prototipos para obtener feedback e iterar.
+- Aplicar los principios de diseño visual (contraste, alineación, jerarquía).
 
 ### HTML y CSS
 
-- [ ] Uso correcto de HTML semántico.
-- [ ] Uso de selectores de CSS.
-- [ ] Construir tu aplicación respetando el diseño realizado (maquetación).
+- Uso correcto de HTML semántico.*
+- Uso de selectores de CSS.
 
 ### DOM
 
-- [ ] Uso de selectores del DOM.
-- [ ] Manejo de eventos del DOM.
-- [ ] Manipulación dinámica del DOM.
+- Uso de selectores del DOM.
+- Manejo de eventos del DOM.
+- Manipulación dinámica del DOM.
 
 ### Javascript
 
-- [ ] Manipulación de strings.
-- [ ] Uso de condicionales (if-else | switch).
-- [ ] Uso de bucles (for | do-while).    
-- [ ] Uso de funciones (parámetros | argumentos | valor de retorno).
-- [ ] Declaración correcta de variables (const & let).
+- Manipulación de strings.
+- Uso de condicionales (if-else | switch).
+- Uso de bucles (for | do-while).    
+- Uso de funciones (parámetros | argumentos | valor de retorno).
+- Declaración correcta de variables (const & let).*
 
 ### Testing
-- [ ] Testeo de tus funciones.
+- Testeo de tus funciones.
 
 ### Git y GitHub
-- [ ] Comandos de git (add | commit | pull | status | push).
-- [ ] Manejo de repositorios de GitHub (clone | fork | gh-pages).
+- Comandos de git (add | commit | pull | status | push).
+- Manejo de repositorios de GitHub (clone | fork | gh-pages*).
 
 ### Buenas prácticas de desarrollo
-- [ ] Uso de identificadores descriptivos (Nomenclatura | Semántica).
-- [ ] Uso de linter para seguir buenas prácticas (ESLINT).
+- Uso de identificadores descriptivos (Nomenclatura | Semántica).*
 
+## 6. Investigación UX
 
-## 4. Consideraciones generales
+### Usuarios y objetivos en relación con el producto
 
-* Este proyecto se debe resolver de manera individual.
-* El proyecto será entregado subiendo tu código a GitHub (commit/push) y la
-  interfaz será desplegada usando GitHub pages. Si no sabes lo que es GitHub, no
-  te preocupes, lo aprenderás durante este proyecto.
-* Tiempo para completarlo: Toma como referencia 2 semanas. Trabaja durante el
-  primer Sprint (una semana) y al final, trata de fijar un estimado de cuándo lo
-  terminarás.
+Clío Code está dirigido a mujeres de cualquier edad y nivel socioecónomico, de
+modo que la aplicación en general resulta ser muy intuitiva.
 
-## 5. Criterios de aceptación mínimos del proyecto
+Con respecto a la confidencialidad, Code Clío nació por la necesidad de accesar
+a un espacio seguro al cuál no tengan acceso más que las mujeres que quieran
+escribir acerca de sus experiencias o solicitar ayuda, en relación a esto último
+es que existe un equipo de personas especializadas en ámbitos legales y psicológicos.
 
-Usa este alfabeto simple (solamente mayúsculas y sin ñ).
+### Clío Code solucionando...
 
-* A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+La app solicita un número de folio en una vista inicial sin dar mayores referencias
+respecto al contenido. También en esta primer vista existe un enlace que te redirige
+a un registro; la idea es que quien sea nueva se pueda registrar y, una vez enviando
+sus datos, reciban un correo para darle seguimiento a la validación de su identidad;
+con la identidad validada entonces ya se les otorga un número de folio con el
+cuál ya se puede ingresar a la página.
 
-La interfaz debe permitir al usuario:
+La app consta de vistas páginas:
 
-* Elegir un desplazamiento (_offset_) indicando cuántas posiciones queremos que
-  el cifrado desplace cada caracter.
-* Insertar un mensaje (texto) que queremos cifrar.
-* Ver el resultado del mensaje cifrado.
-* Insertar un mensaje (texto) a descifrar.
-* Ver el resultado del mensaje descifrado.
+- ¿Clío Code?
+Aquí se explica porqué nació Clío Code, en qué consiste el Cifrado César, la aplicación
+en general y su funcionalidad.
 
-### Scripts / Archivos
+- Encode-Decode
+Aquí se encuentra la herramienta para codificar y decodificar tu historia.
 
-#### UX (Diseño de experiencia de usuario)
+- Apoyo
+La red de apoyo de Clío Code se encuentra aquí.
 
-Antes de iniciar a codear, debes entender el problema que quieres solucionar y
-cómo tu aplicación lo soluciona.
+### Primer prototipo en papel
 
-* Trabaja tu primer prototipo con papel y lápiz (blanco y negro).
-* Luego valida esta solución con una compañera (pedir feedback).
-* Toma lo aprendido al momento de validar tu primer prototipo y desarrolla un
-  nuevo prototipo usando alguna herramienta para diseño de prototipos
-  ([Balsamiq](https://balsamiq.com/), [Figma](https://www.figma.com/),
-  [Google Slides](https://www.google.com/intl/es/slides/about/), etc.)
-Estos puntos los presentarás en el `README.md`.
+<img src="first-prototype.jpeg">
 
-**`README.md`**:
+### Resumen del feedback
 
-Debe contener lo siguiente:
+Respecto al primer prototipo las dudas de mis compañeras de squad fueron muchas
+y esto fue por mi falta de comunicación asertiva y, porque la segunda vista de
+mi app estaba llena de muchos elementos visuales.
 
-* Un título con el nombre de tu proyecto.
-* Un resumen de 1 o 2 líneas de qué se trata tu proyecto.
-* La imagen final de tu proyecto.
-* Investigación UX:
-  1. Explicar quiénes son los usuarios y los objetivos en relación con el
-    producto.
-  2. Explicar cómo el producto soluciona los problemas/necesidades de dichos
-    usuarios.
-  3. Luego colocarás la foto de tu primer prototipo en papel.
-  4. Agregar un resumen del feedback recibido indicando las mejoras a realizar.
-  5. Imagen del prototipo final.
+El feedback de los couches también versó en lo saturado que se encontraba mi
+segunda vista.
 
-#### Visualmente (HTML5 y CSS3)
+De acuerdo a lo anterior es que decidí limpiar más los contenidos de mis vistas
+y aunque se agregaran más vistas, el resultado fuese más claro.
 
-Deberás maquetar de forma exacta el prototipo final que hiciste en balsamiq
-utilizando HTML5 y CSS3. En este momento elegirás los colores, tipo de fuente,
-etc a usar.
+## 5 Prototipo final
 
-A continuación describimos los archivos que utilizarás:
+<video src="final-prototype.mp4 constrols poster="preview-prototype.png>
 
-**`src/index.html`**:
+#### Enlace final
 
-En este archivo va el contenido que se mostrará al usuario (esqueleto HTML).
-Encontrarás 3 etiquetas iniciales, las cuales si deseas puedes borrar y empezar
-de cero:
-
-* `<header>`: encabezado de tu proyecto.
-* `<main>`: contenido principal de tu proyecto.
-* `<footer>`: pie de página de tu proyecto.
-
-**`src/style.css`**:
-
-Este archivo debe contener las reglas de estilo. Queremos que escribas tus
-propias reglas, por eso NO está permitido el uso de frameworks de CSS3
-(Bootstrap, materialize, etc).
-
-#### Funcionalmente (JavaScript - pruebas unitarias)
-
-* La lógica del proyecto debe estar implementada completamente en JavaScript.
-* En este proyecto NO está permitido usar librerías o frameworks, sólo
-[vanilla JavaScript](https://medium.com/laboratoria-how-to/vanillajs-vs-jquery-31e623bbd46e).
-* No se debe utilizar la _pseudo-variable_ `this`.
-
-Vas a tener 2 archivos JavaScript separando responsabilidades, a continuación
-indicamos qué harás en cada archivo:
-
-**`src/cipher.js`**:
-
-Acá escribirás las 2 funciones necesarias para el usuario pueda cifrar o descifrar.
-Para esto debes implementar el **objeto `cipher`**, el cual ya se encuentra _exportado_ en el
-objeto global (`window`). Este objeto (`cipher`) contiene dos métodos:
-
-  - **`cipher.encode(offset, string)`**: `offset` es el número de posiciones que queremos
-  mover a la derecha en el alfabeto y `string` el mensaje (texto) que queremos cifrar.
-  - **`cipher.decode(offset, string)`**: `offset` es el número de posiciones que queremos
-  mover a la izquierda en el alfabeto y `string` el mensaje (texto) que queremos descifrar.
-
-**`src/index.js`**:
-
-Acá escribirás todo el código que tenga que ver con la interacción del DOM (seleccionar,
-actualizar y manipular elementos del DOM y eventos).
-Es decir, en este archivo deberás invocar a `cipher.encode(offset, string)` y
-`cipher.decode(offset, string)` según sea necesario para actualizar el resultado en la
-pantalla(UI).
-
-**`test/cipher.spec.js`**:
-
-En este archivo tendrás que completar las pruebas unitarias de las funciones
-`cipher.encode(offset, string)` y `cipher.decode(offset, string)` implementadas en `cipher.js`
-utilizando Jest.
-Tus pruebas unitarias deben dar un 70% en _coverage_ (cobertura), _statements_ (sentencias),
-_functions_ (funciones) y _lines_ (líneas); y un mínimo del 50% de _branches_ (ramas).
-
-## 6. Hacker edition
-
-Las secciones llamadas Hacker Edition son opcionales. Si terminaste con todo lo anterior y te queda tiempo, intenta completarlas. Así podrás profundizar y/o ejercitar más sobre los objetivos de aprendizaje del proyecto.
-
-La descripción general de este proyecto no menciona qué pasaría con las letras minúsculas y otros caracteres (como espacios, puntuación, ñ, ...). El boilerplate incluye algunos tests (comentados en principio) que puedes usar como punto de partida para implementar el soporte para estos casos.
-
-Tampoco se menciona qué pasaría si el offset fuera negativo. Como parte del hacker edition te invitamos a explorar también esta caso por tu cuenta.
-
-## 7. Pistas, tips y lecturas complementarias
-
-### Primeros pasos
-
-1. Antes que nada, asegúrate de tener un :pencil: editor de texto en
-  condiciones, algo como [Atom](https://atom.io/) o
-  [Code](https://code.visualstudio.com/).
-2. Para ejecutar los comandos a continuación necesitarás una :shell:
-  [UNIX Shell](https://lms.laboratoria.la/cohorts/lim-2019-09-bc-core-lim011/courses/shell),
-  que es un programita que interpreta líneas de comando (command-line
-  interpreter) así como tener [git](https://lms.laboratoria.la/cohorts/lim-2019-09-bc-core-lim011/courses/scm/01-git/01-git)
-  instalado. Si usas un sistema operativo "UNIX-like", como GNU/Linux o MacOS,
-  ya tienes una _shell_ (terminal) instalada por defecto (y probablemente `git`
-  también). Si usas Windows puedes usar [Git bash](https://git-scm.com/download/win),
-  aunque recomendaría que consideres probar :penguin: GNU/Linux.
-3. Haz tu propio :fork_and_knife: [fork](https://help.github.com/articles/fork-a-repo/)
-  del repo de tu cohort, tus _coaches_ te compartirán un _link_ a un repo y te
-  darán acceso de lectura en ese repo.
-4. :arrow_down: [Clona](https://help.github.com/articles/cloning-a-repository/)
-  tu _fork_ a tu computadora (copia local).
-5. 📦 Instala las dependencias del proyecto con el comando `npm
-  install`. Esto asume que has instalado [Node.js](https://nodejs.org/) (que
-  incluye [npm](https://docs.npmjs.com/)).
-6. Si todo ha ido bien, deberías poder ejecutar las :traffic_light:
-  pruebas unitarias (unit tests) con el comando `npm test`.
-7. Para ver la interfaz de tu programa en el navegador, usa el comando
-  `npm start` para arrancar el servidor web y dirígete a
-  `http://localhost:5000` en tu navegador.
-8. A codear se ha dicho! :rocket:
-
-### Recursos y temas relacionados
-
-A continuación un video de Michelle que te lleva a través de la fórmula
-matemática del Cifrado César y un par de cosas más que debes saber para
-resolver este proyecto. ¡Escúchala con detenimiento y sigue sus consejos! :)
-
-[![tips caesar cipher](https://img.youtube.com/vi/zd8eVrXhs7Y/0.jpg)](https://www.youtube.com/watch?v=zd8eVrXhs7Y)
-
-[https://www.youtube.com/watch?v=f0zL6Ot9y_w](https://www.youtube.com/watch?v=f0zL6Ot9y_w)
-
-Diseño de experiencia de usuario (User Experience Design):
-
-* Ideación
-* Prototipado (sketching)
-* Testeo e Iteración
-
-Desarrollo Front-end:
-
-* Valores
-* Tipos
-* Variables
-* Control de flujo
-* Tests unitarios
-* [Aprende más sobre `charCodeAt()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/String/charCodeAt)
-* [Aprende más sobre `String.fromCharCode()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/String/fromCharCode)
-* [Aprende más sobre `ASCII`](http://conceptodefinicion.de/ascii/)
-* [Documentación de NPM](https://docs.npmjs.com/)
-
-Herramientas:
-
-* GitHub y GitHub Pages.
-
-Organización del Trabajo:
-
-* [Metodologías Ágiles](https://www.youtube.com/watch?v=v3fLx7VHxGM)
-* [Scrum en menos de 2 minutos](https://www.youtube.com/watch?v=TRcReyRYIMg)
-* [Scrum en Detalle](https://www.youtube.com/watch?v=nOlwF3HRrAY&t=297s). No
-  esperamos que hagas todo eso desde este proyecto. Iremos profundizando poco a
-  poco a lo largo del -_bootcamp_.
-  
-  
+ file:///C:/Users/alvar/Desktop/CDMX009-cipher/src/index.html

@@ -5,26 +5,21 @@
       <meta charset="utf-8">
       <title>Code Clío</title>
       <link rel="stylesheet" href="style.css" />
-      <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-       <link rel="short cut icon" type="image/x-icon" href="https://image.flaticon.com/icons/png/512/120/120693.png" />
+      <meta name="viewport" content="width=device-width, user-scalable=no,
+      initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+       <link rel="short cut icon" type="image/x-icon"
+       href="https://image.flaticon.com/icons/png/512/120/120693.png" />
     </head>
 
     <body>
-      <!---<div id="custom"-overlay> [style.display]="splash ? "flex":'none'">
-      <div class="flb">
-      <div class="Aligner-item" "Aligner-item --top"></div>
-      <img src="https://img.freepik.com/vector-gratis/ilustracion-blanco-negro-rostros-mujer_102034-28.jpg?size=338&ext=jpg">
-      <div class="Aligner-item" "Aligner-item --bottom"></div>
-      </div>
-    </div>-->
-
 
   <header>
       <!--Login-->
       <div id="login" class="login-style">
         <nav class="navbar">
         <div>
-          <img class="logo-img" src="https://image.flaticon.com/icons/png/512/120/120693.png">
+          <img class="logo-img"
+          src="https://image.flaticon.com/icons/png/512/120/120693.png">
         </div>
       </nav>
         <h1 class="title">CLÍO CODE</h1>
@@ -44,32 +39,38 @@
       <!--Página de registro-->
       <div id="form" class="form-style display_none">
 
-        <div id="navbarone" class="navbarone-style">
-          <label>
+        <nav class="navbarone-style">
             <a href="javascript:back1()">
               <img src="https://image.flaticon.com/icons/png/512/120/120693.png"
-              class="back1-style">
+              class="back-style">
             </a>
-          </label>
+        </nav>
 
         <br>
         <br>
-      <form class="register" id="reg">
-            <label for="name">
-              <img class="woman-icon" src="https://image.flaticon.com/icons/png/512/103/103277.png"
-              alt="woman icon">
-              <input type="text" id="name" class="box-form" placeholder="name" required>
-            </label>
-            <br>
-            <label for="email">
-              <img class="email-icon" src="https://cdn.icon-icons.com/icons2/656/PNG/512/mail_email_message_electronic_online_web_icon-icons.com_59986.png"
-              alt="email icon">
-              <input type="email" id="email" class="box-form" placeholder="email" required>
-            </label>
-            <br>
-          <input type="submit" id="btn-send" class="btn-send" onClick="send" value="ENVIAR">
-      </form>
+
+          <form class="register" id="reg">
+                <label for="name">
+                  <img class="woman-icon"
+                  src="https://image.flaticon.com/icons/png/512/103/103277.png"
+                  alt="woman icon">
+                  <input type="text" id="name" class="box-form"
+                  placeholder="name" required>
+                </label>
+                <br>
+                <label for="email">
+                  <img class="email-icon"
+                  src="https://cdn.icon-icons.com/icons2/656/PNG/512/mail_email_message_electronic_online_web_icon-icons.com_59986.png"
+                  alt="email icon">
+                  <input type="email" id="email" class="box-form"
+                  placeholder="email" required>
+                </label>
+                <br>
+              <input type="submit" id="btn-send" class="btn-send" onClick="return send()">
+          </form>
+
       </div>
+
   </header>
         <br>
         <br>
@@ -77,27 +78,31 @@
   <main>
       <div id="first-page" class="first-page-style display_none">
 
-        <div id="navebartwo" class="navbartwo-style">
-          <label>
-            <a href="javascript:back()">
-              <img src="https://image.flaticon.com/icons/png/512/120/120693.png"
-              class="back-style">
-            </a>
-          </label>
-          <label>
-            <button class="menu-btn" onclick="menu()"><img
-            src="https://image.flaticon.com/icons/png/128/56/56763.png"
-            class="menu-style"></button>
-              <a href="#">¿CLÍO CODE?</a>
-              <a href="#">CODE-DECODE</a>
-              <a href="#">APOYO</a>
-          </label>
-
+        <div class="navbarone-style">
+              <!--Logo-->
+              <div class="log"><a href="javascript:back2()">
+                <img src="https://image.flaticon.com/icons/png/512/120/120693.png"
+                class="back-style2"></a></div>
+              <!--Listado-->
+              <div class="menu ">
+                <div class="menu-toggle">
+                  <a href="#"><img src="https://image.flaticon.com/icons/svg/2052/2052628.svg"
+                  class="menu-icon"></a>
+                </div>
+                <ul class="list">
+                  <li><a href="#" class="active">¿CLÍO CODE?</a></li>
+                  <li><a href="javascript:menu2()">ENCODE-DECODE</a></li>
+                  <li><a href="javascript:menu3()">APOYO</a></li>
+                </ul>
+              </div>
         </div>
 
           <br>
           <br>
-        <img class="woman-photo" src="https://image.freepik.com/foto-gratis/amigos-divirtiendose-parque_53876-46870.jpg" alt="woman">
+
+        <img class="woman-photo" src="https://image.freepik.com/foto-gratis/amigos-divirtiendose-parque_53876-46870.jpg"
+        alt="woman">
+
           <br>
           <br>
         <p class="title">CLÍO CODE</p>
@@ -163,6 +168,11 @@
       <br>
       <!--Página de herramienta-->
       <div id="second-page" class="decoder display_none">
+
+        <div class="log"><a href="javascript:back3()">
+          <img src="https://image.flaticon.com/icons/png/512/120/120693.png"
+          class="back-style2"></a></div>
+
         <p class="title">ENCODE-DECODE</p>
           <br>
         <!--Links de funcionamiento-->
@@ -171,7 +181,7 @@
               <a href="#" id="link-decode">Decodificar</a>
         </div>
         <!--Encode-->
-        <div id="encode" class="msg-style display_block">
+        <div id="encode" class="encode-style display_block">
               <textarea id="box-encode" class="box-style" placeholder="Escribe aquí..."></textarea>
             <div class="content-offset">
               <label class="label">Elije el número de desplazamiento</label>
@@ -196,10 +206,17 @@
         </div>
             <button onclick="clear();" class="clear-style">Limpiar</button>
       </div>
+    </div>
         <br>
       <!--Última página-->
-      <div id=last-page class="last-page-style display_none">
-          <img src="https://image.freepik.com/foto-gratis/grupo-mujeres-activistas-protestando-juntas_23-2148409924.jpg" class= "support" alt="support ong">
+      <div id="last-page" class="last-page-style display_none">
+
+        <div class="log"><a href="javascript:back4()">
+          <img src="https://image.flaticon.com/icons/png/512/120/120693.png"
+          class="back-style2"></a></div>
+
+          <img src="https://image.freepik.com/foto-gratis/grupo-mujeres-activistas-protestando-juntas_23-2148409924.jpg"
+          class= "support" alt="support ong">
           <br>
           <p class="subtitle">APOYO EMOCIONAL</p>
             <br>
@@ -211,11 +228,18 @@
             <br>
           <p class="subtitle">CODE CLÍO EMAIL</p>
             <p>app@cliocode.com</p>
+      </div>
   </main>
         <br>
         <br>
       <footer>Creación @veroalrodriguez</footer>
           <script src="index.js"></script>
           <script src="cipher.js"></script>
+
+      <div class="splash" id="splash">
+        <index type="button"><img src="https://img.freepik.com/vector-gratis/ilustracion-blanco-negro-rostros-mujer_102034-28.jpg?size=338&ext=jpg"
+        alt="woman illustration" onclick="start()">
+      </div>
+
     </body>
   </html>
