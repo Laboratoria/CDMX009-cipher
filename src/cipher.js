@@ -10,7 +10,7 @@ let mensajecifrado='';
      for (let i=0; i < mayusculas.length; i++){
        let palabra = mayusculas.charCodeAt(i);
        if (palabra >= 65 && palabra <= 90) {
-   mensajecifrado = String.fromCharCode((palabra - 65 + offset)%26 +65);
+   mensajecifrado += String.fromCharCode((palabra - 65 + offset)%26 +65);
 
            }
       }
@@ -24,7 +24,7 @@ let mensajedescifrado='';
      for (let i=0; i < mayusculas.length; i++){
        let palabra = mayusculas.charCodeAt(i);
        if (palabra >= 65 && palabra <= 90) {
-   mensajedescifrado = String.fromCharCode((palabra + 65 - offset)%26 +65);
+   mensajedescifrado += String.fromCharCode((palabra + 65 - offset)%26 +65);
 
            }
       }

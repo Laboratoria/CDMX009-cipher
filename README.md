@@ -29,36 +29,36 @@ La curiosidad es uno de los principales habilidades de los niños, resolver inco
 
 ### UX
 
-- [ X ] Diseñar la aplicación pensando y entendiendo al usuario.
-- [ X ] Crear prototipos para obtener feedback e iterar.
-- [ X ] Aplicar los principios de diseño visual (contraste, alineación, jerarquía).
+- [x] Diseñar la aplicación pensando y entendiendo al usuario.
+- [x] Crear prototipos para obtener feedback e iterar.
+- [x] Aplicar los principios de diseño visual (contraste, alineación, jerarquía).
 
 ### HTML y CSS
 
 - [ + - ] Uso correcto de HTML semántico.
 - [ + - ] Uso de selectores de CSS.
-- [ X ] Construir tu aplicación respetando el diseño realizado (maquetación).
+- [x] Construir tu aplicación respetando el diseño realizado (maquetación).
 
 ### DOM
 
-- : white_check_mark : Uso de selectores del DOM.
-- [ X ] Manejo de eventos del DOM.
-- [ X ] Manipulación dinámica del DOM.
+- [x] Uso de selectores del DOM.
+- [x] Manejo de eventos del DOM.
+- [x] Manipulación dinámica del DOM.
 
 ### Javascript
 
-- [ X ] Manipulación de strings.
+- [x] Manipulación de strings.
 - [ + - ] Uso de condicionales (if-else | switch).
 - [ + - ] Uso de bucles (for | do-while).    
 - [ + - ] Uso de funciones (parámetros | argumentos | valor de retorno).
-- [ X ] Declaración correcta de variables (const & let).
+- [x] Declaración correcta de variables (const & let).
 
 ### Testing
 - [ ] Testeo de tus funciones.
 
 ### Git y GitHub
-- [ X ] Comandos de git (add | commit | pull | status | push).
-- [ X ] Manejo de repositorios de GitHub (clone | fork | gh-pages).
+- [x] Comandos de git (add | commit | pull | status | push).
+- [x] Manejo de repositorios de GitHub (clone | fork | gh-pages).
 
 ### Buenas prácticas de desarrollo
 - [ + - ] Uso de identificadores descriptivos (Nomenclatura | Semántica).
