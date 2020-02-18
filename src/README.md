@@ -2,7 +2,7 @@
 
 ### UX
 
-- [+] Diseñar la aplicación pensando y entendiendo al usuario.
+- [ ] Diseñar la aplicación pensando y entendiendo al usuario.
 - [+] Crear prototipos para obtener feedback e iterar.
 - [+] Aplicar los principios de diseño visual (contraste, alineación, jerarquía).
 
@@ -24,7 +24,7 @@
 - [+] Uso de condicionales (if-else | switch).
 - [+] Uso de bucles (for | do-while).    
 - [+] Uso de funciones (parámetros | argumentos | valor de retorno).
-- [+] Declaración correcta de variables (const & let).
+- [ ] Declaración correcta de variables (const & let).
 
 ### Testing
 - [+] Testeo de tus funciones.
@@ -35,7 +35,7 @@
 
 ### Buenas prácticas de desarrollo
 - [ ] Uso de identificadores descriptivos (Nomenclatura | Semántica).
-- [+] Uso de linter para seguir buenas prácticas (ESLINT).
+- [ ] Uso de linter para seguir buenas prácticas (ESLINT).
 
 # TextSecure
 

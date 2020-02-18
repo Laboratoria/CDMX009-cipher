@@ -3,9 +3,11 @@ const cipher = {encode,decode};
 export default cipher;
 
 function encode(offset,myString){
+
   if(typeof(myString)!='string'){
-    throw new TypeError('Valor inválido');
-  }
+     throw new TypeError('Caracter invalido');
+    }
+
   var myStringCipher = '';
 
   for (var i = 0 ; i < myString.length ; i++){
@@ -25,7 +27,7 @@ function encode(offset,myString){
 }
     else {
 
-      throw new TypeError('caracter invalido');
+      throw new TypeError('Caracter invalido');
    //break;
 }
 }
@@ -34,6 +36,7 @@ return myStringCipher;
 
 //funcion para descifrar una cadena de texto
 function decode(offset1,myString1){
+
   var myStringDechiper ='';
 
   for(var i = 0; i< myString1.length ; i++){
