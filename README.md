@@ -12,8 +12,8 @@ resumen de feedback
 
 Imagen de prototipo final 
 
-![img](../img/prototipofinal)
-![otro](./img/prototipo)
+![img]<img src = "/src/img/prototipofinal">
+![otro]<img src ="/src/img/prototipo">
 
 Imagen proyecto final
 
