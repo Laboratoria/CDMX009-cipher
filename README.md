@@ -14,7 +14,7 @@ El usuario "N" utiliza SuperSafe Password para cifrar con Código Cesar, su cont
 
 Feedback recibido fue que lo hiciera fácil de usar y entendible para las personas mayores, a las que está dirigida la aplición.
 
-https://github.com/astridgutz/CDMX009-cipher/blob/master/src/img/prototipofinal.jpg?raw=true
+<img scr ="https://github.com/astridgutz/CDMX009-cipher/blob/master/src/img/prototipofinal.jpg?raw=true"
 
 # Cifrado César
 
