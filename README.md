@@ -69,8 +69,7 @@ Reflexiona y luego marca los objetivos que has llegado a **entender** y **aplica
 - [x] Diseñar la aplicación pensando y entendiendo al usuario.
 Realizar la aplicación para niños y adolescentes que son amenazados por sus compañeros.
 
-- [x] Crear prototipos para obtener feedback e iterar.
-Desarrollar sketch con ideas, pasarlo a wireframe con balsamiq y por ultimo la makup de html y css
+- [] Crear prototipos para obtener feedback e iterar.
 
 - [x] Aplicar los principios de diseño visual (contraste, alineación, jerarquía).
 En css, crear padding con los elementos que utilice.
@@ -88,7 +87,7 @@ Se creo la maquetación de acuerdo con el prototipo realiado en balsamiq
 
 ### DOM
 
-- [ ] Uso de selectores del DOM.
+- [x] Uso de selectores del DOM.
 - [X] Manejo de eventos del DOM.
 Se utilizo para tener hacer funcionar los botones utlizados
 - [x] Manipulación dinámica del DOM.
@@ -113,9 +112,7 @@ y retorna el resultado en un variable
 Declare las variables con const para traer los identificadores los elmentos de html
 
 ### Testing
-- [X] Testeo de tus funciones.
-Relaice pruebas, me manda dos errores que la variable "frase" no esta declarada, la cambie varia veces y me daba igual dentro de los archivo de cipher
-En archivo de index.js me manda errores de que no tengo generado espaciados en las varibles.
+- [] Testeo de tus funciones.
 
 ### Git y GitHub
 - [X] Comandos de git (add | commit | pull | status | push).
