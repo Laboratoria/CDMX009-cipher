@@ -10,7 +10,7 @@
 * [4. Feedback recibido](#4-feedback-recibido)
 * [5. Wireframe](#5-wireframe)
 * [6. Protopito final](#6-prototipo-final)
-***
+* [6. Objetivos de Aprendizaje](#7-objetivos-de-aprendizaje)
 
 ## 1. Descripción
 
@@ -51,3 +51,41 @@ Realicé en _Balsamiq_ mi prototipo final aunque no era interactivo ya que me es
 
 ![Prototype](/images/final_prototype.png)
 
+## 7. Objetivos de aprendizaje
+
+### UX
+
+- [x] Diseñar la aplicación pensando y entendiendo al usuario.
+- [x] Crear prototipos para obtener feedback e iterar.
+- [x] Aplicar los principios de diseño visual (contraste, alineación, jerarquía).
+
+### HTML y CSS
+
+- [x] Uso correcto de HTML semántico.
+- [x] Uso de selectores de CSS.
+- [ ] Construir tu aplicación respetando el diseño realizado (maquetación).
+
+### DOM
+
+- [x] Uso de selectores del DOM.
+- [x] Manejo de eventos del DOM.
+- [x] Manipulación dinámica del DOM.
+
+### Javascript
+
+- [x] Manipulación de strings.
+- [x] Uso de condicionales (if-else | switch).
+- [x] Uso de bucles (for | do-while).    
+- [x] Uso de funciones (parámetros | argumentos | valor de retorno).
+- [ ] Declaración correcta de variables (const & let).
+
+### Testing
+- [ ] Testeo de tus funciones.
+
+### Git y GitHub
+- [x] Comandos de git (add | commit | pull | status | push).
+- [x] Manejo de repositorios de GitHub (clone | fork | gh-pages).
+
+### Buenas prácticas de desarrollo
+- [x] Uso de identificadores descriptivos (Nomenclatura | Semántica).
+- [] Uso de linter para seguir buenas prácticas (ESLINT).

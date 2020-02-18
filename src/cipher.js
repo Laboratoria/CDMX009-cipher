@@ -36,5 +36,4 @@ let cipher = {
     return desencryptResult;
   },
 };
-
 export default cipher;
