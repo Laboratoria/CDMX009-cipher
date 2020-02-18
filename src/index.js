@@ -1,6 +1,6 @@
 import cipher from './cipher.js'
 
-// refs
+// referencias
 let inputNumero = document.querySelector('#numerosecreto')
 let textoInput = document.querySelector('#mensajesinconvertir')
 let cifrarboton = document.querySelector('#cifrarboton')
@@ -9,22 +9,22 @@ let descifrarboton = document.querySelector('#descifrarboton')
 
 // funciones
 function convertirTexto(){
-  // 1.- traemos los datos
+  //  traemos los datos
   let offset = inputNumero.value
   let texto = textoInput.value
-  // 2.- usamos el cipher
+  //  usamos el cipher
   let resultado = cipher.cifrar(offset, texto)
-  // 3.- Colocarlo en la pantalla
+  //  Colocarlo en la pantalla
   mensajeConvertido.value = resultado
 
 }
 function revertirTexto(){
-  // 1.- traemos los datos
+
   let offset = inputNumero.value
   let texto = textoInput.value
-  // 2.- usamos el cipher
+
   let resultado = cipher.descifrar(offset, texto)
-  // 3.- Colocarlo en la pantalla
+
   mensajeConvertido.value = resultado
 
 }
