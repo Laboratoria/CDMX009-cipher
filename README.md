@@ -12,7 +12,7 @@ resumen de feedback
 
 Imagen de prototipo final 
 
-![img](../img/prototipofinal")
+![img](../img/prototipofinal)
 ![otro](./img/prototipo)
 
 Imagen proyecto final
@@ -36,7 +36,7 @@ Reflexiona y luego marca los objetivos que has llegado a **entender** y **aplica
 ### HTML y CSS
 
 - [x] Uso correcto de HTML semántico.
-- [x] Uso de selectores de CSS.
+- [] Uso de selectores de CSS.
 - [x] Construir tu aplicación respetando el diseño realizado (maquetación).
 
 ### DOM
@@ -54,14 +54,14 @@ Reflexiona y luego marca los objetivos que has llegado a **entender** y **aplica
 - [ ] Declaración correcta de variables (const & let).
 
 ### Testing
-- [ ] Testeo de tus funciones.
+- [x] Testeo de tus funciones.
 
 ### Git y GitHub
 - [x] Comandos de git (add | commit | pull | status | push).
 - [x] Manejo de repositorios de GitHub (clone | fork | gh-pages).
 
 ### Buenas prácticas de desarrollo
-- [x] Uso de identificadores descriptivos (Nomenclatura | Semántica).
-- [x] Uso de linter para seguir buenas prácticas (ESLINT).
+- [] Uso de identificadores descriptivos (Nomenclatura | Semántica).
+- [] Uso de linter para seguir buenas prácticas (ESLINT).
 
 
