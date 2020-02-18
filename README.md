@@ -60,3 +60,35 @@ a mis Eventos por lo que tuve que solucionar con "a href" en formas de iconos.
 * Daily Standup
 * Planificación de tiempos.
 * Aprendizaje de Dom.
+
+7. Objetivos de aprendizaje
+El objetivo principal de aprendizaje es adquirir experiencia desarrollando aplicaciones web (WebApp) que interactúen con el usuario a través del navegador y la lógica, utilizando HTML5, CCS3 y JavaScript como herramientas.
+
+Reflexiona y luego marca los objetivos que has llegado a entender y aplicar en tu proyecto.
+
+### UX
+- [&#10004;] Diseñar la aplicación pensando y entendiendo al usuario.
+- [&#10004;] Crear prototipos para obtener feedback e iterar.
+- [&#10004;] Aplicar los principios de diseño visual (contraste, alineación, jerarquía).
+### HTML y CSS
+- [&#10004;] Uso correcto de HTML semántico.
+- [&#10004;] Uso de selectores de CSS.
+- [&#10004;] Construir tu aplicación respetando el diseño realizado (maquetación).
+### DOM
+- [ ] Uso de selectores del DOM.
+- [ ] Manejo de eventos del DOM.
+- [ ] Manipulación dinámica del DOM.
+### Javascript
+- [&#10004;] Manipulación de strings.
+- [&#10004;] Uso de condicionales (if-else | switch).
+- [&#10004;] Uso de bucles (for | do-while).
+- [&#10004;]Uso de funciones (parámetros | argumentos | valor de retorno).
+- [&#10004;] Declaración correcta de variables (const & let).
+### Testing
+- [ ] Testeo de tus funciones.
+### Git y GitHub
+- [&#10004;] Comandos de git (add | commit | pull | status | push).
+- [&#10004;] Manejo de repositorios de GitHub (clone | fork | gh-pages).
+### Buenas prácticas de desarrollo
+- [&#10004;] Uso de identificadores descriptivos (Nomenclatura | Semántica).
+- [ ] Uso de linter para seguir buenas prácticas (ESLINT).
