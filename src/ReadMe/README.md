@@ -1,14 +1,14 @@
 # Your real Password!!!!
 
-Es una aplicación creada para poder sobrevivir en este mundo donde nuestra vida está repleta de contraseñas que nunca podemos recordar; con esta aplicación la vida es mucho más simple. Crear una contraseña de alta seguridad nunca había sido tan fácil, como usar tu nombre, el de un familiar, tu mascota favorita etc.
+Es una aplicación creada para poder sobrevivir en este mundo donde nuestra vida está repleta de contraseñas que nunca podemos recordar; con esta aplicación la vida es mucho más simple. Crear una contraseña de alta seguridad nunca había sido tan fácil, como usar tu nombre, el de un familiar, tu mascota favorita, etc.
 Esta aplicación está diseñada para usuarios de 6 a 100 años de edad , realmente es para todos los miembros de tu familia.
-Está aplicación te ayuda a crear contraseñas seguras que sean muy fáciles de recordar. Con está aplicación podrás olvidarte de bloquear tus cuentas de e-mail, facebook, twetter, instagram, etc; sólo porque no puedes recordar la contraseña!!!!!
+Está aplicación te ayuda a crear contraseñas seguras, que sean muy fáciles de recordar. Con está aplicación podrás olvidarte de bloquear tus cuentas de e-mail, facebook, twitter, instagram, etc; sólo porque no puedes recordar la contraseña!!!!!
 
 # Proyecto Final
 ![imagen-final](yourRealPassword.png)
 # Prototipo en papel
 ![imagen-](primerprototipo.jpeg)
-Gracias a la retroalimentación que recibí por parte de mis compañeras pude centrar mejor mi ideas acerca del nombre de la app, el número de pantallas de iba a tener, el flujo durante el uso de está aplicación y principalmente definir su uso en la vida real de las personas y el impacto que puede tener para mejorar la navegación de los usuarios por toda la red. Simplemente mejorar la calidad de vida, facilitando la misma.
+Gracias a la retroalimentación que recibí por parte de mis compañeras pude centrar mejor mi ideas acerca del nombre de la app, el número de pantallas de iba a tener, el flujo durante el uso de está aplicación y principalmente definir su uso en la vida real de las personas y el impacto que puede tener para mejorar la experiencia de navegación de los usuarios por toda la red. Simplemente mejorar la calidad de vida, facilitando la misma.
 
 Mi Prototipo final lo hice en figma con el sig link pueden acceder a el:
 
