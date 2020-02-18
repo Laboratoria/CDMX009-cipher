@@ -29,15 +29,15 @@ La curiosidad es uno de los principales habilidades de los niños, resolver inco
 
 ### UX
 
-- [ : white_check_mark : ] Diseñar la aplicación pensando y entendiendo al usuario.
-- [ : white_check_mark : ] Crear prototipos para obtener feedback e iterar.
-- [ : white_check_mark : ] Aplicar los principios de diseño visual (contraste, alineación, jerarquía).
+- [ X ] Diseñar la aplicación pensando y entendiendo al usuario.
+- [ X ] Crear prototipos para obtener feedback e iterar.
+- [ X ] Aplicar los principios de diseño visual (contraste, alineación, jerarquía).
 
 ### HTML y CSS
 
-- [ ] Uso correcto de HTML semántico.
-- [ ] Uso de selectores de CSS.
-- [ : white_check_mark : ] Construir tu aplicación respetando el diseño realizado (maquetación).
+- [ + - ] Uso correcto de HTML semántico.
+- [ + - ] Uso de selectores de CSS.
+- [ X ] Construir tu aplicación respetando el diseño realizado (maquetación).
 
 ### DOM
 
@@ -61,5 +61,5 @@ La curiosidad es uno de los principales habilidades de los niños, resolver inco
 - [ X ] Manejo de repositorios de GitHub (clone | fork | gh-pages).
 
 ### Buenas prácticas de desarrollo
-- [ ] Uso de identificadores descriptivos (Nomenclatura | Semántica).
+- [ + - ] Uso de identificadores descriptivos (Nomenclatura | Semántica).
 - [ ] Uso de linter para seguir buenas prácticas (ESLINT).
