@@ -53,15 +53,7 @@ a mis Eventos por lo que tuve que solucionar con "a href" en formas de iconos.
 <img src= "cipher estructura2.jpg">
 
 ## 7. Objetivos de Aprendizaje.
-* Manipulacion de CSS.
-* Manejo de GitHub y Gitbash.
-* Desarrollo de habilidades blandas.
-* Prototipar en papel y desarrollar el prototipo en Adobe XD.
-* Daily Standup
-* Planificación de tiempos.
-* Aprendizaje de Dom.
 
-7. Objetivos de aprendizaje
 El objetivo principal de aprendizaje es adquirir experiencia desarrollando aplicaciones web (WebApp) que interactúen con el usuario a través del navegador y la lógica, utilizando HTML5, CCS3 y JavaScript como herramientas.
 
 Reflexiona y luego marca los objetivos que has llegado a entender y aplicar en tu proyecto.
