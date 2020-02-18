@@ -18,6 +18,9 @@ const cipher = {encode, decode};
     }
       return result;
    }
+     else { 
+        throw new TypeError ("Valor no válido");
+     }
 
      function decode (number, text) {
     let newText;
