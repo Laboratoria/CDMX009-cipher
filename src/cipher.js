@@ -4,7 +4,7 @@ const cipher = {
     let newCharNumber;
     let letter;
     let encoded = '';
-      if (typeof word === "string"){
+      if (typeof word === "string" && typeof offset === "number"){
         for (let i=0; i < word.length; i++){
           oldCharNumber = word.charCodeAt(i);
           newCharNumber = (oldCharNumber - 65 + offset) % 26 + 65;
@@ -22,7 +22,7 @@ const cipher = {
     let newCharNumber;
     let letter;
     let decoded = '';
-      if (typeof word === "string"){
+      if (typeof word === "string" && typeof offset === "number"){
         for (let i=0; i < word.length; i++){
           oldCharNumber = word.charCodeAt(i);
           newCharNumber = (oldCharNumber + 65 - offset) % 26 + 65;

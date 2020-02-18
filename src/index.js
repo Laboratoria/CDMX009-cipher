@@ -37,6 +37,18 @@ function capsOnly(event) {
     }
 }
 
+//Function to forbid the user from writing anything but letters
+/*
+document.getElementById('name').addEventListener('keypress', lettersOnly);
+document.getElementById('pass').addEventListener('keypress', lettersOnly);
+function lettersOnly(event) {
+    pressed = event.which;
+    if (pressed < 65 || pressed > 90) {
+      event.preventDefault();
+    }
+}
+*/
+
 //Function to get user name and continue to password
 document.getElementById('getName').addEventListener('click', getUser);
 function getUser(){
