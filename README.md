@@ -33,7 +33,7 @@ contraseña.
 
 ## 3. Imagen de mi Prototipo en Papel
 
-<img src= "IMG_20200216_132235652.jpg">
+<img src= "img/IMG_20200216_132235652.jpg">
 
 ## 4. Feedback
 Durante el Feedback con las compañeras y explicando mi idea del proyecto me
@@ -45,12 +45,12 @@ a mis Eventos por lo que tuve que solucionar con "a href" en formas de iconos.
 
 ## 5. Prototipo Final
 
-<img src= "maquetado pao.jpg">
+<img src= "img/maquetado pao.jpg">
 
 
 ## 6. La Imagen Final de mi Proyecto.
 
-<img src= "cipher estructura2.jpg">
+<img src= "img/cipher estructura2.jpg">
 
 ## 7. Objetivos de Aprendizaje.
 
