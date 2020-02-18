@@ -9,20 +9,39 @@
     <div id="root">
         
     </div>
-    <div id="alineacion">
-      <h1>MessageSecret</h1>   
+      <div id="alineacion">
+        
+      <h1>MessageSecret</h1>  
+    </div>
     </div> 
 
-   <div id="P_Cifrar">
-    <label>Ingresa el texto: <input type="text"  id='mensaje' > </label>
-   
-    <label>Selecciona un numero: <input type="number" id='posicion' name="numero" /></label> <br>
-    <button class="boton-color" onclick="getData(true)">Cifrar</button> </br>
-  </div>
-    <div>
-      <label>Resultado: <input type="text" id='messResult' title="Escribe el mensaje que deseas cifrar"></label>
+  <div class="container"> 
+   <section class="P_Cifrar">
+     <div id="P_Cifrar_a">
+     <input type="text" size="30"  id='message' class="message" placeholder="Mensaje a Cifrar" title="Escribe el mensaje que deseas cifrar"> </label>
+     <input type="number" id='position' class="position" placeholder="Selecciona número" title="number" /></label> <br>
     </div>
+    <div>
+    <button id="botoncifrar" class="button-color" >Cifrar</button> 
+    </div>
+    <textarea class="resultado" id='messResult' placeholder="Mensaje cifrado"></textarea>
+   </section>
+
+   <div class="container-descifrar">
+     <section id="P_descifrar">
+      <div id="P_descifrar_a">
+    <input type="text1" size="30"  id='message1' class="message1" placeholder="Mensaje a Descifrar" title="Escribe el mensaje que deseas descifrar"> </label>
+    <input type="number1" id='position1' class="position1" placeholder="Selecciona número" title="number" /></label> <br>
+      </div>
+    <div>
+      <button id="botondescifrar" class="button-color1">Descifrar</button> 
+    </div>
+    <textarea class="resultado1" id='messResult1' placeholder="Mensaje descifrado"></textarea>
+   
+  </section>
+
   </body>
   <script src="index.js" type="module"></script>
+  
 </html>
 

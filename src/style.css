@@ -1,11 +1,10 @@
-
 #alineacion h1{
     text-align: center;
          font-family:cursive;
-         color: gray;
+         color:white;
          font-size: 120px;
          margin:2px;
-         text-shadow: 5px 4px  #EA899A;
+         text-shadow: 6px 5px gray;
          background-image: url(images/prueba.jpg);
          /*height: 500px; width: 1500px;*/
          background-size: 30%;
@@ -16,7 +15,7 @@
 
     text-decoration: none;
     display: inline-block;
-    border: 1px solid gray;
+    border: 1px solid white;
     width: 200px;
     height: 40px;
     text-align: center;
@@ -41,7 +40,53 @@ p{
 }
 
 body{
-    background-color: #c1d2db;
-
+    background-color:#e0bbe4;
 }
-    }
+
+.message, .message1{
+
+width:50%;
+border: 3px solid #aaa;
+margin-top: auto;
+margin: auto;
+outline:none;
+padding:10px;
+box-sizing: border-box;
+border-radius: 30px;
+}
+.position, .position1{
+width:13%;
+border: 3px solid #aaa;
+margin: auto;
+outline:none;
+padding:10px;
+box-sizing: border-box;
+border-radius: 30px;
+}
+
+.button-color, .button-color1{
+    width:15%;
+    margin: 10px 10px 10px 250px;
+    padding:10px;
+    border-radius: 5px;
+}
+
+.botondescifrar{
+    width:15%;
+    margin: 10px 10px;
+    padding:10px;
+    border-radius: 5px;
+}
+.resultado, .resultado1{
+    width:50%;
+    margin: 10px 10px;
+    padding:10px;
+    border-radius: 30px;
+    box-sizing: border-box;
+    border: 3px solid #aaa;
+    outline:none;
+}
+
+.P_descifrar{
+    padding: 100%;
+}
