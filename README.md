@@ -66,41 +66,72 @@ Reflexiona y luego marca los objetivos que has llegado a **entender** y **aplica
 
 ### UX
 
-- [ ] Diseñar la aplicación pensando y entendiendo al usuario.
-- [ ] Crear prototipos para obtener feedback e iterar.
-- [ ] Aplicar los principios de diseño visual (contraste, alineación, jerarquía).
+- [x] Diseñar la aplicación pensando y entendiendo al usuario.
+Realizar la aplicación para niños y adolescentes que son amenazados por sus compañeros.
+
+- [x] Crear prototipos para obtener feedback e iterar.
+Desarrollar sketch con ideas, pasarlo a wireframe con balsamiq y por ultimo la makup de html y css
+
+- [x] Aplicar los principios de diseño visual (contraste, alineación, jerarquía).
+En css, crear padding con los elementos que utilice.
 
 ### HTML y CSS
 
-- [ ] Uso correcto de HTML semántico.
-- [ ] Uso de selectores de CSS.
-- [ ] Construir tu aplicación respetando el diseño realizado (maquetación).
+- [x] Uso correcto de HTML semántico.
+LLevar un orden y no repetir los nombres de los div e id
+
+- [x] Uso de selectores de CSS.
+Se utilizo para la especioficacion de funcion o estilo se generaba los elemtos utilizados
+
+- [x] Construir tu aplicación respetando el diseño realizado (maquetación).
+Se creo la maquetación de acuerdo con el prototipo realiado en balsamiq
 
 ### DOM
 
 - [ ] Uso de selectores del DOM.
-- [ ] Manejo de eventos del DOM.
-- [ ] Manipulación dinámica del DOM.
+- [X] Manejo de eventos del DOM.
+Se utilizo para tener hacer funcionar los botones utlizados
+- [x] Manipulación dinámica del DOM.
+Hacer la union de javascript con html
 
 ### Javascript
 
-- [ ] Manipulación de strings.
-- [ ] Uso de condicionales (if-else | switch).
-- [ ] Uso de bucles (for | do-while).    
-- [ ] Uso de funciones (parámetros | argumentos | valor de retorno).
-- [ ] Declaración correcta de variables (const & let).
+- [X] Manipulación de strings.
+Se creo para crear cadenas o resultados de una funcion de javascript
+
+- [X] Uso de condicionales (if-else | switch).
+Utilice la condición if para valodar las letras mayusculas  
+else if para validar letras minusculas 
+y else para dejarlo iguales
+
+- [x] Uso de bucles (for | do-while).
+Utilice for para crear un ciclo, del string 
+- [X] Uso de funciones (parámetros | argumentos | valor de retorno).
+Se creo funciones con el parametro de string y offset.
+y retorna el resultado en un variable
+- [x] Declaración correcta de variables (const & let).
+Declare las variables con const para traer los identificadores los elmentos de html
 
 ### Testing
-- [ ] Testeo de tus funciones.
+- [X] Testeo de tus funciones.
+Relaice pruebas, me manda dos errores que la variable "frase" no esta declarada, la cambie varia veces y me daba igual dentro de los archivo de cipher
+En archivo de index.js me manda errores de que no tengo generado espaciados en las varibles.
 
 ### Git y GitHub
-- [ ] Comandos de git (add | commit | pull | status | push).
-- [ ] Manejo de repositorios de GitHub (clone | fork | gh-pages).
+- [X] Comandos de git (add | commit | pull | status | push).
+No utilice el comando pull
+Los demas si los utlice para poder subir mis cambios al repositorio desde la git bash.
+
+- [X] Manejo de repositorios de GitHub (clone | fork | gh-pages).
+Se clono el proyecto en el ordenador.
 
 ### Buenas prácticas de desarrollo
-- [ ] Uso de identificadores descriptivos (Nomenclatura | Semántica).
-- [ ] Uso de linter para seguir buenas prácticas (ESLINT).
+- [x] Uso de identificadores descriptivos (Nomenclatura | Semántica).
+Crear los nombres diferentes de los identificadores para poder dar referencia de que es elemento.
 
+- [x] Uso de linter para seguir buenas prácticas (ESLINT).
+Cree un order de sangria en el codigo
+Comentarios pequeños para identificar cada bloque de programacion
 
 ## 4. Consideraciones generales
 
