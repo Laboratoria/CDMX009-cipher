@@ -148,7 +148,7 @@ y aunque se agregaran más vistas, el resultado fuese más claro.
 
 ## 5 Prototipo final
 
-<video src="final-prototype.mp4 constrols poster="preview-prototype.png>
+<video src="final-prototype.mp4">
 
 #### Enlace final
 
