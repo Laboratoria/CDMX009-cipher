@@ -16,7 +16,7 @@
 
 - [+] Uso de selectores del DOM.
 - [+] Manejo de eventos del DOM.
-- [ ] Manipulación dinámica del DOM.
+- [+] Manipulación dinámica del DOM.
 
 ### Javascript
 
