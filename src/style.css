@@ -48,3 +48,42 @@ p {
     width: 250px;		
     height: 200px;		
 }
+#cerdito {
+    width: 200px;
+    height: 270px;
+}
+#Age {
+    height: 20px;
+    width: 50px;
+    
+}
+#name {
+    background-color: #FFFFFF;
+   
+    border-radius: 9px;
+    text-decoration: #000000;
+    text-decoration-color: black;
+    height: 20px;
+    width: 170px;
+}
+#result {
+    border-radius: 5px;
+    height: 20px;
+    width: 170px;
+}
+#user{
+     height: 40px;	
+    width: 100px;
+}
+#datos {
+    font-size: 20px;
+}
+#dato {
+    height: 20px;
+    width: 200px;
+    border-radius: 20px;
+}
+#AgeUser{
+    height: 15px;
+    width: 30px;
+}
