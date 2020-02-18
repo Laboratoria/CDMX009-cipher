@@ -1,0 +1,157 @@
+* {
+    font-family: "Montserrat";
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/**********************************************/
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    background-color: #222831;
+    color: #ffffff;
+    position: sticky;
+    top: 0px;
+}
+
+.contenedor-logo {
+    vertical-align: middle;
+    width: 50%;
+}
+
+.logo {
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+}
+
+.lema {
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+.menu {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 50px;
+}
+
+.menu>a {
+    color: white;
+    text-decoration: none;
+    margin-right: 40px;
+    font-size: 18px;
+}
+
+
+/**********************************************/
+
+.home {
+    background-image: linear-gradient(270deg, rgba(7, 15, 31, 0.8) 0%, rgba(7, 34, 48, 0.6) 51.34%, rgba(5, 154, 161, 0.267033) 99.87%, rgba(4, 251, 251, 0) 100%, rgba(5, 147, 154, 0.287213) 100%), url(img/prueba1.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    background-color: transparent;
+    height: 545px;
+    width: 100%;
+    font-size: 18px;
+    display: flex;
+}
+
+.home>p {
+    margin-top: 0px;
+    text-align: center;
+    padding: 5%;
+}
+
+
+/*********************************************/
+
+.acercaDe {
+    text-align: center;
+    color: white;
+    background-color: transparent;
+    background-image: url(img/acercade.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* background-color: #D0D5D8; */
+    height: 500px;
+    width: 100%;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.acercaDe img {
+    height: 100px;
+    width: 100px;
+    padding: 0 40px;
+}
+
+.main {
+    background-color: transparent;
+    background-image: url(img/fondoG.jpg);
+    background-size: cover;
+    margin: 0px;
+    padding: 50px;
+    align-items: center;
+    text-align: center;
+    height: 450px;
+}
+
+.main .text1 {
+    width: 300px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.main .offset {
+    width: 100px;
+    height: 20px;
+}
+
+.main .btn:hover {
+    background-color: #6CD9D9;
+    border-radius: 10px;
+    border: none;
+    color: black;
+    height: 30px;
+}
+
+.main .result {
+    width: 300px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.main .clear:hover {
+    background-color: #6CD9D9;
+    border-radius: 10px;
+    border: none;
+    color: black;
+    height: 30px;
+}
+
+footer {
+    background: #222831;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer img {
+    padding: 20px 30px;
+}

@@ -1,14 +1,63 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <meta charset="utf-8">
-    <title>Caesar Cipher</title>
+    <title>humanSecurity</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700&display=swap">
     <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
+</head>
+
+<body>
     <div id="root">
-      <h1>Hello world!</h1>
+        <header class="header">
+            <figure class="contenedor-logo">
+                <img src="https://image.flaticon.com/icons/svg/1000/1000946.svg" class="logo" />
+                <h2 class="lema">humanSecurity</h2>
+            </figure>
+            <nav class="menu">
+                <a href="#home">Home</a>
+                <a href="#acercaDe">Caracteristicas</a>
+                <a href="#main">Probar</a>
+            </nav>
+        </header>
+        <section class="home" id="home">
+            <p>Somos una empresa dedicada a la proteccion de datos confidenciales de nuestros clientes.
+            </p>
+        </section>
+        <section class="acercaDe" id="acercaDe">
+            <img src="img/reloj.svg" alt="">
+            <img src="img/seguro1.svg" alt="">
+            <img src="img/usuario.svg" alt="">
+        </section>
+        <section class="main" id="main">
+            <form>
+                <h2>Realiza tu prueba</h2>
+                <input type="text" class="text1" id="ingresaTexto" placeholder="Ingresa tu mensaje">
+                <br>
+                <h3>Ingresa un número</h3>
+                <input type="number" class="offset" id="seleccionOffset">
+                <br>
+                <br>
+                <input type="button" class="btn" onclick="encode()" value="Codificar">
+                <input type="button" class="btn" onclick="decode()" value="Decodificar">
+                <br>
+                <br>
+                <input type="text" class="result" id="result">
+                <div class="innerText"></div>
+                <br>
+                <br>
+                <input type="reset" class="clear" value="Limpiar">
+            </form>
+        </section>
+        <footer>
+            <img src="img/algo.png" alt="" width="50px" height="50px">
+            <img src="img/algo2.png" alt="" width="50px" height="50px">
+            <img src="img/algo3.png" alt="" width="50px" height="50px">
+        </footer>
+        <script src="index.js" type="module">
+        </script>
     </div>
-    <script src="index.js" type="module"></script>
-  </body>
+</body>
+
 </html>
