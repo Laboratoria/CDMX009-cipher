@@ -39,6 +39,6 @@
  
 ![alt text](https://raw.githubusercontent.com/andreatoledo/CDMX009-cipher/master/prototipo/cap.png)
 ![alt text](https://raw.githubusercontent.com/andreatoledo/CDMX009-cipher/master/prototipo/cap2.png)
-![alt text](https://raw.githubusercontent.com/andreatoledo/CDMX009-cipher/master/prototipo/cap3.png)
+
 
 
