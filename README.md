@@ -69,15 +69,15 @@ Reflexiona y luego marca los objetivos que has llegado a **entender** y **aplica
 
 ### HTML y CSS
 
-- [ ] Uso correcto de HTML semántico.
-- [ ] Uso de selectores de CSS.
-- [ ] Construir tu aplicación respetando el diseño realizado (maquetación).
+- [X] Uso correcto de HTML semántico.
+- [X] Uso de selectores de CSS.
+- [X] Construir tu aplicación respetando el diseño realizado (maquetación).
 
 ### DOM
 
-- [ ] Uso de selectores del DOM.
-- [ ] Manejo de eventos del DOM.
-- [ ] Manipulación dinámica del DOM.
+- [X] Uso de selectores del DOM.
+- [X] Manejo de eventos del DOM.
+- [X] Manipulación dinámica del DOM.
 
 ### Javascript
 
