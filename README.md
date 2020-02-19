@@ -1,7 +1,7 @@
 
 Lost City 
 
-![introduction]<img src="/src/img2/LClogo.png">
+![introduction]<img src="src/img2/LClogo.png">
 
 
 Es el imaginario de una comunidad entregada a sentir y experimentar la alternancia de lo vívido  de compartir y construir espacios que encapsulan experiencias a travez de los sentidos y la digitalización( encarnación ) de nuestro tiempo. 
@@ -11,7 +11,7 @@ La aplicación integra tres apartados donde el usuario podra encontrar espacios 
 - Exploración de conceptos y musica con su representación visual de cada Set.
 
 
--Store para compra de merchandising acerca del concepto de cada ritual.
+- Store para compra de merchandising acerca del concepto de cada ritual.
 
 
 - Apartado para obtener la ubicación del ritual. 
@@ -77,11 +77,11 @@ PROTOTIPOS DE LA INTERFAZ
 
 ### Javascript
 
-- [ ] Manipulación de strings.
-- [ ] Uso de condicionales (if-else | switch).
+- [&#128076;&#127999; ] Manipulación de strings.
+- [  &#128076;&#127999;] Uso de condicionales (if-else | switch).
 - [ ] Uso de bucles (for | do-while).    
-- [ ] Uso de funciones (parámetros | argumentos | valor de retorno).
-- [ ] Declaración correcta de variables (const & let).
+- [&#128076;&#127999; ] Uso de funciones (parámetros | argumentos | valor de retorno).
+- [&#128076;&#127999; ] Declaración correcta de variables (const & let).
 
 ### Testing
 - [ ] Testeo de tus funciones.
