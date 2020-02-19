@@ -1,26 +1,30 @@
 body{
     font-family: 'Heebo', sans-serif;
 }
-#encabezado{
+.encabezado{
     background-color: #3F2F2F;
     padding: 3px 600px;
     position: relative;
+    height: 100px;
 
 }
+
 .safefont{
     font-family: 'Dancing Script', cursive;
     color: #F2DDDD;
     font-size:50px;
 
 }
+.hide{
+    display: none;
+}
 .menu{
     background-color: #97E9C6;
-    padding: 15px 0px;
+    height: 10px;
     font-size: .9em;
-    
-  
 }
-.menu ul{
+
+/*.menu ul{
     list-style: none ;
 
 }
@@ -29,55 +33,62 @@ img{
     width: 30px;
     height: 30px;
 
+}*/
 
-}
 .cesar{
     width: 400px;
     height: 400px;
     margin: 80px 480px;
 }
+
 li, img{
     float: left;
     margin: 0px 5px;
 }
+
 h1,span{
     font-family: 'Dancing Script', cursive;
     color: #000000;
     text-align: center;
 
 }
+
 span{
-    font-size: 20px;
+    font-size: 25px;
 }
+
 h2{
-    margin-left: 40px;
+    margin-left: 70px;
 }
-#quien{
+
+.infoquien{
     text-align: justify;
-    margin: 30px 50px;
+    margin: 30px 120px;
 }
-#ejemplo{
-    margin: 20px 150px;
-    text-align: justify;
-}
+
 p{
     text-align: center;
-    margin-top: 80px;
+    margin-top: 30px;
 }
+
 a{
     text-decoration: none;
     color: #000000;
+}
+
+.infoCesar{
+    text-decoration: underline;
+    color: #63B2B4;
 }
 
 .caja{
     border-radius: 5px;
     border-color: #97E9C6;
     margin: 30px 580px;
-    border-width: 2px;
+    border-width: 3px;
 }
-
-.boton{
-    margin: 30px 190px;
+.start{
+    margin: 30px 620px;
     text-decoration: none;
     background-color: #97E9C6;
     border-radius: 20px;
@@ -85,6 +96,23 @@ a{
     padding: 10px;
     width: 100px;
 }
+.start:hover{
+    background-color: #63B2B4 ;
+}
+.boton{
+    margin: 30px 202px;
+    text-decoration: none;
+    background-color: #97E9C6;
+    border-radius: 20px;
+    border-color:#97E9C6;
+    padding: 10px;
+    width: 100px;
+}
+
+.boton:hover{
+    background-color: #63B2B4 ;
+}
+
 .boton0{
     margin: 30px 615px;
     text-decoration: none;
@@ -95,6 +123,11 @@ a{
     width: 100px;
 
 }
+
+.boton0:hover{
+    background-color: #63B2B4 ;
+}
+
 .boton1{
     margin-left: 500px;
     text-align: center;
@@ -105,6 +138,11 @@ a{
     width: 100px;
     float: left;
 }
+
+.boton1:hover{
+    background-color: #63B2B4 ;
+}
+
 .boton2{
     margin-left: 120px;
     text-align: center;
@@ -116,34 +154,40 @@ a{
     float: left;
 }
 
-#resultado{
+.boton2:hover{
+    background-color: #63B2B4 ;
+}
+
+#paso3{
+    border-radius: 5px;
     border-color:#97E9C6;
-    background-color:#E3DBD2 ;
+    background-color:#EEEED6  ;
     border-style: solid;
     margin: 70px 400px;
-    padding: 20px;
+    padding: 10px;
 }
-.boton:hover{
-    background-color: rgb(97, 186, 189);
 
+.boton:hover{
+    background-color: #63B2B4;
 }
-#resultadocif,#resultadodes{
-    width: 50px;
-    margin: 10px 180px;
+
+#resultadocif{
+    width: 150px;
+    margin: 10px 160px;
     padding: 10px;
     text-align: center;
 
 }
 
-#pie{
+/*.pie{
     background-color: #3F2F2F;
-    padding: 55px;
+    padding: 40px;
     margin-top: 50px;
     
 }
-#pie ul li{
+.pie ul li{
     color: #F2DDDD;
     text-align: center;
     list-style: none;
     margin: 0px 4px;
-}
+}*/

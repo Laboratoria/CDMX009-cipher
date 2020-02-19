@@ -9,58 +9,58 @@
   </head>
   <body>
     <header>
-      <div id="encabezado">
+      <div class="encabezado">
         <h1 class="safefont">Safevent</h1>
       </div>
       
       <nav>
         <div class="menu">
-          <ul>
+          <!--<ul>
             <li><img src="https://pngimage.net/wp-content/uploads/2018/06/iconos-de-telefono-png.png" title="Teléfono"></li>
             <li>55-222-222-22</li>
             <li><img src="https://image.flaticon.com/icons/png/512/36/36175.png" alt="E-mail"></li>
             <li>safevent@ejemplo.com</li>
-          </ul>
+          </ul>-->
         </div>
       </nav>
     </header>
 
     <main>
-      <div>
+      <div id="inicio">
         <h1>Bienvenido</h1>
-        <h2>¿Quienes somos?</h2>
-        <p id="quien">Safevent es una empresa interesada en la seguridad de nuestros usuarios, sabemos que hoy en día la tecnología es una herramienta indispensable en nuestras vidas, sin embargo, estamos expuestos a que otras personas tengan acceso a datos personales, vulnerando nuestra  seguridad. Por ello, creamos un sistema para cifrar (crear un código) eventos o lugares en los que estarás, evitando que otras personas conozcan tu ubicación. Todo esto basándonos en el <a href="vista2.html">Código César</a> Te comparto el ejemplo de un usuario para que queden claros los usos de nuestra aplicación:</p>
+        <h2>¿Quiénes somos?</h2>
+        <p class="infoquien">Safevent es una empresa interesada en la seguridad de nuestros usuarios, sabemos que hoy en día la tecnología es una herramienta indispensable en nuestras vidas, sin embargo, estamos expuestos a que otras personas tengan acceso a datos personales, vulnerando nuestra  seguridad. Por ello, creamos un sistema para cifrar eventos o lugares en los que estarás, basándonos en el <a href="vista2.html" class= "infoCesar">Código César</a>, evitando que otras personas conozcan tu ubicación.</p>
         <br>
-        <p id="ejemplo">Héctor quería planear una fiesta, pues su cumpleaños estaba cerca, sin embargo, en veces anteriores personas que ni él ni sus amigos conocían llegaban  a sus eventos y muchas veces causaban problemas. Un conocido le platicó de <span>Safevent</span>, pues a él también le habían ocurrido situaciones similares. Lo único que Héctor tuvo que hacer fue ingresar a nuestra aplicación, ingresar el nombre del lugar de su evento y elegir el número de posiciones a recorrer el alfabeto para generar un código que pudo compartir con sus invitados. </p>
+        <button class="start" id="comenzar">Comenzar</button>
       </div>
 
-      <div>
-        <p>Paso 1. Ingresa el número de posiciones  que quieres recorrer el alfabeto para decifrar o cifrar un <span>safevent</span></p>
+      <div id="paso1" class="hide">
+        <p>Paso 1. Ingresa el número de posiciones  que quieres recorrer el alfabeto para descifrar o cifrar un <span>safevent</span></p>
         <br>
         <textarea class="caja" id="posiciones"></textarea>
         <br>
-        <button class="boton0" id="botnumber"><a href="#paso2">Ingresar</a></button>
+        <button class="boton0" id="botnumber">Ingresar</button>
         <br>
       </div >
 
-      <div id="paso2">
-        <p>Paso 2. Ingresa el nombre del lugar de tu evento (omite números)</p>
+      <div id="paso2" class="hide">
+        <p>Paso 2. Ingresa el nombre del lugar de tu evento</p>
         <br>
         <textarea type="text" class="caja" id="cadenacif"></textarea>
         <br>
-        <button class="boton1" id="botcifrar"><a href="#resultado">Cifrar</a></button>
-        <button class="boton2" id="botdescifrar"><a href="#resultado">Descifrar</a></button>
+        <button class="boton1" id="botcifrar">Cifrar</button>
+        <button class="boton2" id="botdescifrar">Descifrar</button>
         <br>
       </div>
     
-      <div id="resultado">
+      <div id="paso3" class="hide">
         <p>Paso 3. Listo! Tu <span>safevent</span> es:</p>
         <br>
         <div id="resultadocif"></div>
         <br>
-        <div id="resultadodes"></div>
         <button class="boton"><a href="index.html">Finalizar</a></button>
         <br>
+        <button class="boton">Compartir evento</button>
       <!--<button class="boton"><a href="cifrar.html">Cifrar otro evento</a></button>
       <br>
       <button class="boton"><a href="descifrar.html">Descifrar un evento</a></button>
@@ -68,8 +68,8 @@
       </div>
     </main>
 
-    <footer>
-      <div id="pie">
+    <!--<footer id="footer" class="hide">
+      <div class="pie">
         <ul>
           <li>Terminos</li>
           <li>Privacidad</li>
@@ -78,9 +78,9 @@
         </ul>
       </div>
       
-    </footer>
+    </footer>-->
     
-  <script src="index.js"></script>
-  <script src="cipher.js"></script>
+  <script src="index.js" type="module"></script>
+  
   </body>
 </html>

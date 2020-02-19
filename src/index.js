@@ -1,72 +1,52 @@
-//import cipher from './cipher.js';
+import cipher from './cipher.js';
 let offset = 0
  
-let saveNum = document.querySelector('#botnumber')
-let buttonNumber = saveNum.addEventListener('click',saveNumber)
+let inicio = document.querySelector('#comenzar')
+inicio.addEventListener('click', comenzar)
+
+function comenzar(){
+  document.getElementById('inicio').classList.add('hide');
+  document.getElementById('paso1').classList.remove('hide');
+
+}
+
+let saveNum = document.querySelector('#botnumber')//Se agregó id en el boton de ingresar (botnumber)
+saveNum.addEventListener('click',saveNumber) //Al dar click en el boton se ejecuta la func saveNumber
 
 function saveNumber(){
-  offset = parseInt(document.getElementById('posiciones').value); //localStorage
-  alert("Hola " + offset);
+  offset = parseInt(document.getElementById('posiciones').value);
+  document.getElementById('paso1').classList.add('hide');
+  document.getElementById('paso2').classList.remove('hide');
+
+  //alert("Hola " + offset);
 }
  let shootcif = document.querySelector('#botcifrar')
- let buttonEncode = shootcif.addEventListener('click', cifrar)
+ shootcif.addEventListener('click', cifrar)
 
  let shootdes = document.querySelector('#botdescifrar')
- let buttonDecode = shootdes.addEventListener('click', descifrar)
+ shootdes.addEventListener('click', descifrar)
 
 function cifrar(){
   let string = document.getElementById('cadenacif').value;
   string = string.toUpperCase();
-  for (let i = 0; i < string.length; i++) {
-    let letterCode = string[i].charCodeAt(0);
-    let space = letterCode == 32
-    if (letterCode >= 65 && letterCode <= 90) {
-    //console.log(letterCode)
-    //document.getElementById('resultadocif').innerHTML += letterCode;//Se obtuvo el código Ascii de la cadena ingeresada y se imprimieron
-    let newCode = (letterCode - 65 + offset) %26 + 65
-    //console.log(newCode)
-    console.log(offset)
-    let newLetter = String.fromCharCode(newCode)
-    document.getElementById('resultadocif').innerHTML += newLetter;
+  let resultado = cipher.cifrar(string, offset); //Para traer el resultado de la función en cipher.js
+  //console.log(resultado)
+  document.getElementById('resultadocif').innerHTML += resultado;
+  document.getElementById('paso2').classList.add('hide');
+  document.getElementById('paso3').classList.remove('hide');
       
-    }
-    if (space) {
-      newCode = (32) %65
-      let newLetter = String.fromCharCode(newCode)
-      document.getElementById('resultadocif').innerHTML += newLetter;
-      
-    }
-
-  }
 }
+    
 
-
- function descifrar(){
+function descifrar(){
+  let string = document.getElementById('cadenacif').value;
+  string = string.toUpperCase();
+  let resultado = cipher.descifrar(string, offset)
+  //console.log(resultado)
+  document.getElementById('resultadocif').innerHTML += resultado;
+  document.getElementById('paso2').classList.add('hide');
+  document.getElementById('paso3').classList.remove('hide');
   
-    let string = document.getElementById('cadenacif').value;
-    string = string.toUpperCase();
-    for (let i = 0; i < string.length; i++) {
-      let letterCode = string[i].charCodeAt(0);
-      let space = letterCode == 32
-      if (letterCode >= 65 && letterCode <= 90) {
-        let newCode = (letterCode + 65 - offset) %26 + 65
-      //console.log(newCode);
-      console.log(offset);
-      let newLetter = String.fromCharCode(newCode);
-      document.getElementById('resultadodes').innerHTML += newLetter;
-      //console.log(letterCode)
-      //document.getElementById('resultadocif').innerHTML += letterCode;//Se obtuvo el código Ascii de la cadena ingeresada y se imprimieron
-      }
-      if (space) {
-      newCode = (32) %65
-      let newLetter = String.fromCharCode(newCode);
-      document.getElementById('resultadodes').innerHTML += newLetter;
-        
-      }
-      
-
-      
-    }
 }
 //console.log(cipher);
 
