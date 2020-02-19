@@ -1,13 +1,14 @@
 const cipher = {
 
 // OBTENIENDO LOS DATOS DEL USUARIO
-paterno : document.getElementById('cifrarlo').value,
-mes : parseInt(document.getElementById('movimientos').value), 
+offset : 'movimientos', 
+string : 'cifrarlo',
+
 
 // FUNCIO PARA CIFRAR POR EL INDICE DEL ARRAY ALFABETO
-cifrado : (paterno, mes) => {
+encode : (offset, string) => {
     
-    let datoMayusculas = paterno.toUpperCase();
+    let datoMayusculas = string.toUpperCase();
     let alfabeto = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('');
     let datoCifrado = '';
 
@@ -19,13 +20,13 @@ cifrado : (paterno, mes) => {
         }
 
         let actualIndex = alfabeto.indexOf(letraActual);
-        let nuevoIndex = (actualIndex + mes) % 26;
+        let nuevoIndex = (actualIndex + offset) % 26;
 
         if(nuevoIndex > 25) {
             nuevoIndex = nuevoIndex - 26;
         } else if(nuevoIndex < 0) {
             nuevoIndex = nuevoIndex + 26;
-        } else if(paterno[i] === paterno[i].toUpperCase()) {
+        } else if(string[i] === string[i].toUpperCase()) {
             datoCifrado += alfabeto[nuevoIndex].toUpperCase();
         } else {
             datoCifrado += alfabeto[nuevoIndex]
@@ -36,10 +37,10 @@ cifrado : (paterno, mes) => {
 
 //FUNCION PARA DESCIFRAR
 
-desCifrado : (paterno, mes) => {
+decode : (offset, string) => {
     let datoDesCifrado = '';
-    mes = (26 - mes) + mes;
-    datoDesCifrado += cipher.cifrado(paterno, mes);
+    offset = (26 - offset) + offset;
+    datoDesCifrado += cipher.encode(offset, string);
 
     return datoDesCifrado
 }

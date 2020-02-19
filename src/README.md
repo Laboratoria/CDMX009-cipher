@@ -33,7 +33,7 @@ Reflexiona y luego marca los objetivos que has llegado a **entender** y **aplica
 ### UX
 
 - [X] Diseñar la aplicación pensando y entendiendo al usuario.
-- [ ] Crear prototipos para obtener feedback e iterar.
+- [X] Crear prototipos para obtener feedback e iterar.
 - [X] Aplicar los principios de diseño visual (contraste, alineación, jerarquía).
 
 ### HTML y CSS
@@ -57,15 +57,15 @@ Reflexiona y luego marca los objetivos que has llegado a **entender** y **aplica
 - [X] Declaración correcta de variables (const & let).
 
 ### Testing
-- [ ] Testeo de tus funciones.
+- [X] Testeo de tus funciones.
 
 ### Git y GitHub
 - [X] Comandos de git (add | commit | pull | status | push).
-- [-] Manejo de repositorios de GitHub (clone | fork | gh-pages).
+- [X] Manejo de repositorios de GitHub (clone | fork | gh-pages).
 
 ### Buenas prácticas de desarrollo
-- [-] Uso de identificadores descriptivos (Nomenclatura | Semántica).
-- [-] Uso de linter para seguir buenas prácticas (ESLINT).
+- [X] Uso de identificadores descriptivos (Nomenclatura | Semántica).
+- [X] Uso de linter para seguir buenas prácticas (ESLINT).
 
 
 

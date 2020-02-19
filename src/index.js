@@ -1,31 +1,32 @@
 import cipher from './cipher.js';
 
 /* DEFINIENDO LAS VARIABLES */
-let paterno = '';
-let mes = 0;
+let offset = 0;
+let string = '';
 let cifrar = document.getElementById('botonCifrar');
 let desCifrar = document.getElementById('botonDesCifrar');
 
 /* FUNCION PARA OBTENER LOS DATOS DEL USUARIO */
 function obtenerDatos() {
-    paterno = document.getElementById('cifrarlo').value;
-    mes = parseInt(document.getElementById('movimientos').value);
+    offset = parseInt(document.getElementById('movimientos', 10).value);
+    string = document.getElementById('cifrarlo').value;
+    
 }
 
 /* FUNCIONES DE CIFRAR Y DESCIFRAR */
 cifrar.onclick = function() {
-    obtenerDatos(paterno, mes);
-    document.getElementById('resultadoCifrado').value = cipher.cifrado(paterno, mes);
+    obtenerDatos(offset, string);
+    document.getElementById('resultadoCifrado').value = cipher.encode(offset, string);
 
-    document.getElementById('resultadoCifrado').innerHTML = cipher.cifrado(paterno, mes);
+    document.getElementById('resultadoCifrado').innerHTML = cipher.encode(offset, string);
 };
 
 desCifrar.onclick = function() {
-    obtenerDatos(paterno, mes);
-    document.getElementById('resultadoDesCifrado').value = cipher.desCifrado(paterno, mes);
+    obtenerDatos(offset, string);
+    document.getElementById('resultadoDesCifrado').value = cipher.decode(offset, string);
 
-    document.getElementById('resultadoDesCifrado').innerHTML = cipher.desCifrado(paterno, mes);
-} 
+    document.getElementById('resultadoDesCifrado').innerHTML = cipher.decode(offset, string);
+};
 
 console.log(cipher);
 
