@@ -12,26 +12,22 @@
       </header>
 
       <main>
-          <section>
-              <form class="formulario">
-                  <label class="instrucciones">Ingrese el texto a cifrar (sin numeros ni caracteres especiales)</label><br>
-                  <textarea class="ingresoDeTexto" id="textToEncode">Ingrese Texto</textarea><br>
+          <section class="formulario">
+            <!--  <form class="formulario">-->
+                  <label class="instrucciones">Ingrese el texto (sin numeros ni caracteres especiales)</label><br>
+                  <textarea class="ingresoDeTexto" id="text" ></textarea><br>
                   <label class="instrucciones">Offset:</label>
-                  <input type="number" id="offsetEncode">
+                  <input type="number" id="offset">
                   <div id="opciones">
-                      <button type="submit" class="botones" id="encodeButton">Enviar</button>
-                      <button type="reset" class="botones">Borrar</button>
-                      <button class="botones"><a href="index.html">Regresar</a></button>
-                  </div>
-              </form>
-          </section>
+                      <button type="submit" class="botones" id="encodeButton">Cifrar</button>
+                      <button type="submit" class="botones" id="decodeButton">Descifrar</button>
+                      <button class="botones"><a href="index.html">Regresar</a></button><br><br>
 
-          <section>
-              <form class="resultado">
-                  <label class="instrucciones">Texto cifrado:</label><br>
-                  <textarea class="ingresoDeTexto" id="encodeText"></textarea>
-              </form>
-          </section>
+                      <label class="instrucciones">Resultado:</label><br>
+                      <textarea class="ingresoDeTexto" id="resultText" readonly></textarea>
+                  </div>
+            <!--  </form>-->
+
       </main>
     
       <script src="index.js" type="module"></script>

@@ -2,23 +2,22 @@ import cipher from './cipher.js';
 
 
 let encButton = document.getElementById('encodeButton');
-encButton.addEventListener('click', encodeButton);
-
 function encodeButton() {
-    let text = document.getElementById('textToEncode').value;
-    let offset = document.getElementById('offsetEncode').value;
+    let text = document.getElementById('text').value;
+    let offset = document.getElementById('offset').value;
     let result = cipher.encode(offset,text);
-    document.getElementById('encodeText').innerHTML = result;
+    document.getElementById('resultText').innerText = result;
 }
+encButton.addEventListener('click', encodeButton)
 
 let decButton = document.getElementById('decodeButton');
-decButton.addEventListener('click', decodeButton);
 function decodeButton() {
-    let text = document.getElementById('textToDecode').value;
-    let offset = document.getElementById('offsetDecode').value;
-    let result = cipher.decode(offset,text);
-    document.getElementById('decodeText').innerHTML = result;    
+    let text = document.getElementById('text').value;
+    let offset = document.getElementById('offset').value;
+    let result2 = cipher.decode(offset,text);
+    document.getElementById('resultText').innerText = result2;    
 }
+decButton.addEventListener('click', decodeButton)
 
 //console.log(cipher);
 //variables que van a guardar los botones
