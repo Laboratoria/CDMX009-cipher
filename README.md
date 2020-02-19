@@ -1,16 +1,51 @@
 
 Lost City 
 
-<img src="logo_rituals.png">
+![introduction]<img src="/src/img2/LClogo.png">
+
+
 Es el imaginario de una comunidad entregada a sentir y experimentar la alternancia de lo vívido  de compartir y construir espacios que encapsulan experiencias a travez de los sentidos y la digitalización( encarnación ) de nuestro tiempo. 
 
-Apartado Ritual. 
+La aplicación integra tres apartados donde el usuario podra encontrar espacios para:
+
+- Exploración de conceptos y musica con su representación visual de cada Set.
 
 
-Este espacio esta creado para cangear con tu
-En este espacio, teniendo a la mano tu ticket de 
+-Store para compra de merchandising acerca del concepto de cada ritual.
+
+
+- Apartado para obtener la ubicación del ritual. 
+
+![set]<img src="src/img2/set.png">
+
+![shop]<img src="src/img2/shop.png">
+
+
 
 Apartador Rituals 
+
+ En este espacio el usuario sigue una serie de paso para revelar la ubicación del lugar:
+ 
+ 1- El dato a usar se enceuntra en el ticket de compra. (codigo a cifrar).
+ 
+ 2- Ingresando el dato te revela la ubicación del lugar y toda la información acerca de el. 
+ 
+ 3- El descuento corresponde depediendo de la sección del ticket (decifrado); y se obtiene dando click en canjear. 
+ 
+VIP - 30%
+PISTA - 20%
+GENERAL - 10%
+
+PROTOTIPOS DE LA INTERFAZ 
+
+
+
+![ticket]<img src="src/img2/ticket.png">
+
+
+![prototype]<img src="/src/img2/prototype.png">
+
+
 
 
 
@@ -56,7 +91,7 @@ Apartador Rituals
 - [&#128076;&#127999; ] Manejo de repositorios de GitHub (clone | fork | gh-pages).
 
 ### Buenas prácticas de desarrollo
-- [&#128076;&#127999; ] Uso de identificadores descriptivos (Nomenclatura | Semántica).
+- [ ] Uso de identificadores descriptivos (Nomenclatura | Semántica).
 - [ ] Uso de linter para seguir buenas prácticas (ESLINT).
 
 
