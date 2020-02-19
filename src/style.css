@@ -19,12 +19,11 @@ body {
 .navbar {
 	background: #E3C8E8;
 	color:#000000;
-	font-size: 26px;
 	display: flex;
 	padding: 20px;
 }
 
-.logo-img{
+.logo-img {
   width:100px;
   height: auto;
   margin: auto;
@@ -406,14 +405,6 @@ body {
 .support{
 	width: 40%;
 	margin:auto;
-	border-radius: 10px;
-	align-items: center;
-}
-
-.support{
-	width: 40%;
-	margin:auto;
-	display: block;
 	border-radius: 10px;
 	align-items: center;
 }

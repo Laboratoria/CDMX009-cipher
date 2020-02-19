@@ -25,9 +25,11 @@
         <h1 class="title">CLÍO CODE</h1>
         <br>
         <form class="input-style" id="input">
-            <input id="folio" type="password" maxlength="6" class="input-folio" placeholder="folio" required>
+            <input id="folio" type="password" maxlength="6" class="input-folio"
+            placeholder="folio" required>
             <br>
-            <button type="button" class="btn-enter" value="enter" onclick="enter()">ENTRAR
+            <button type="button" class="btn-enter" value="enter"
+            onclick="enter()">ENTRAR
             </button>
             <br>
             <br>
@@ -66,7 +68,11 @@
                   placeholder="email" required>
                 </label>
                 <br>
-              <input type="submit" id="btn-send" class="btn-send" onClick="return send()">
+              <input type="submit" id="btn-send" class="btn-send"
+              onClick="send()">
+              <br>
+              <p class="msg-send display_none" id="msg-send-style">"En breve nos
+                pondremos en contacto contigo -revisa tu spam-"</p>
           </form>
 
       </div>
@@ -116,35 +122,42 @@
         <p class="date">Febrero 2020</p>
           <br>
         <p>
-        Code Clío nace por la necesidad de una red de confianza para mujeres que han sufrido algún abuso: creemos en
-        la comunicación como herramienta de conscientización.
+        Code Clío nace por la necesidad de una red de confianza para mujeres que
+        han sufrido algún abuso: creemos en la comunicación como herramienta de
+        conscientización.
           <br>
-        Sabemos que toda experiencia traumática conlleva un proceso y que para sanar primero debemos estar informadas y
-        lograr identificar cuando estamos siendo abusadas.
+        Sabemos que toda experiencia traumática conlleva un proceso y que para
+        sanar primero debemos estar informadas y lograr identificar cuando
+        estamos siendo abusadas.
           <br>
-        Además, en cuanto escribes sobre los detalles de tu historia y reflexionas sobre lo ocurrido, haces un ejercicio de
-        catarsis.
+        Además, en cuanto escribes sobre los detalles de tu historia y
+        reflexionas sobre lo ocurrido, haces un ejercicio de catarsis.
         </p>
           <br>
         <p class="subtitle">Cifrado César</p>
           <br>
-        <a href="https://www.youtube.com/watch?v=sMOZf4GN3oc" target="_blank" title="Cifrado César" class="link-style">Vídeo explicativo aquí </a>
+        <a href="https://www.youtube.com/watch?v=sMOZf4GN3oc" target="_blank"
+        title="Cifrado César" class="link-style">Vídeo explicativo aquí </a>
           <br>
           <br>
         <p class="subtitle">Confidencialidad</p>
           <br>
         <p>
-        Code Clío te solicita un nombre y un correo para mantener la red segura, por lo que antes de enviarte tu número de
-        folio te contactamos vía mail para identificarte.
+        Code Clío te solicita un nombre y un correo para mantener la red segura,
+        por lo que antes de enviarte tu número de folio te contactamos vía mail
+        para identificarte.
           <br>
-        La herramienta de codificación de tu historia no requiere que ingreses datos personales al momento de escribir tu historia.
+        La herramienta de codificación de tu historia no requiere que ingreses
+        datos personales al momento de escribir tu historia.
         </p>
           <br>
         <p class="subtitle">Compartiendo</p>
           <br>
         <p>
-          Si decides compartir tu historia, únicamente envía tu mensaje codificado (el cual contendrá sólo letras mayúsculas y, agrega
-          un número al final que será el número de desplazamiento que hayas elegido al codificar tu historia, ejemplo:
+          Si decides compartir tu historia, únicamente envía tu mensaje
+          codificado (el cual contendrá sólo letras mayúsculas y, agrega
+          un número al final que será el número de desplazamiento que hayas
+          elegido al codificar tu historia, ejemplo:
           <br>
           <br>
          <p>BSDLIHSDKBVHFDVBLFXKHVBHLXKFVBKHF
@@ -157,9 +170,12 @@
           <br>
         <p>
           <br>
-          - Si decides compartir tu historia o la de alguien más con otra mujer, ella tendrá que hacer el mismo proceso que tú de identificación.</li>
+          - Si decides compartir tu historia o la de alguien más con otra mujer,
+          ella tendrá que hacer el mismo proceso que tú de identificación.</li>
           <br>
-          - Si decides solicitar apoyo emocional o ayuda jurídica, ya tendremos tus datos y ellos sabrán como ayudarte en caso de recibir un mensaje codificado con número de desplazamiento.</li>
+          - Si decides solicitar apoyo emocional o ayuda jurídica, ya tendremos
+          tus datos y ellos sabrán como ayudarte en caso de recibir un mensaje
+          codificado con número de desplazamiento.</li>
         </p>
         <br>
       <p class="welcome">Bienvenida</p>
@@ -182,7 +198,8 @@
         </div>
         <!--Encode-->
         <div id="encode" class="encode-style display_block">
-              <textarea id="box-encode" class="box-style" placeholder="Escribe aquí..."></textarea>
+              <textarea id="box-encode" class="box-style"
+              placeholder="Escribe aquí..."></textarea>
             <div class="content-offset">
               <label class="label">Elije el número de desplazamiento</label>
               <input type="number" id="offset-e" class="offset-style">
@@ -195,10 +212,11 @@
         </div>
         <!--Decode-->
         <div id="decode" class="msg-style display_none">
-              <textarea id="box-decode" class="box-style" placeholder="Escribe aquí..."></textarea>
+              <textarea id="box-decode" class="box-style"
+              placeholder="Escribe aquí..."></textarea>
             <div class="content-offset">
               <label class="label">Elije el número de desplazamiento</label>
-              <input type="number" id="offset-e" class="offset-style">
+              <input type="number" id="offset-d" class="offset-style">
             </div>
             <button id="btn-decode" class="btn-code">ENCODE-DECODE</button>
             <div id="msg-decode" class="ready-style">
@@ -220,11 +238,13 @@
           <br>
           <p class="subtitle">APOYO EMOCIONAL</p>
             <br>
-          <p>envía tu historia codificada <a href="#" class= "link-style">aquí</a></p>
+          <p>envía tu historia codificada <a href="#"
+            class= "link-style">aquí</a></p>
             <br>
           <p class=subtitle>AYUDA JURÍDICA</p>
             <br>
-          <p>envía tu historia codificada <a href="#" class="link-style">aquí</a></p>
+          <p>envía tu historia codificada <a href="#"
+            class="link-style">aquí</a></p>
             <br>
           <p class="subtitle">CODE CLÍO EMAIL</p>
             <p>app@cliocode.com</p>

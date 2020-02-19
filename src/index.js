@@ -20,12 +20,9 @@
     }
 
     //Leyenda al clickear enviar
-    let name = document.getElementById("name");
-    let email = document.getElementById("email");
     function send(){
-
-      return false;
-      }
+      document.getElementById("form").style.display = "block";
+    }
 
     //Funcionalidad de logo: de registro a Login
     function back1(){
@@ -65,10 +62,10 @@
       linkOn.addEventListener("click", function() {
         document.getElementById("link-encode").classList.add("link-active");
         document.getElementById("link-decode").classList.remove("link-active");
-        document.getElementById("box-encode").classList.remove("display_none");
-        document.getElementById("box-encode").classList.add("display_block");
-        document.getElementById("box-decode").classList.remove("display_block");
-        document.getElementById("box-decode").classList.add("display_none");
+        document.getElementById("encode").classList.remove("display_none");
+        document.getElementById("encode").classList.add("display_block");
+        document.getElementById("decode").classList.remove("display_block");
+        document.getElementById("decode").classList.add("display_none");
     });
 
       linkOff.addEventListener("click", function() {
@@ -81,7 +78,7 @@
     });
 
   //Mensaje en box-ENCODE
-  const  btnEncode= document.getElementById("btn-encode");
+  const  btnEncode = document.getElementById("btn-encode");
     btnEncode.addEventListener("click", function(){
         let storyEncode = document.getElementById("box-encode").value;
         let numberOffset  =  document.getElementById("offset-e").value;

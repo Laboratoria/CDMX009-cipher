@@ -26,7 +26,7 @@ window.cipher = {
                     //retornando el cifrado del string agregando String.fromCharCode
                     storyCipher += String.fromCharCode(storyCharacters);
                 }
-             else {
+              else {
                 storyCipher += character;
             }
         }
@@ -42,15 +42,15 @@ window.cipher = {
           //condición para descifrar mayúsuculas
                   if (string.charCodeAt(i) >= 65 && string.charCodeAt(i) <= 90) {
                     //acumulando los caracteres cifrados por medio de la formula larga
-                      let storyCharactersD = (string.charCodeAt(i) + 65 - parseInt(offset)) % 26 + 65;
+                      let storyCharacters = (string.charCodeAt(i) + 65 - parseInt(offset)) % 26 + 65;
                       //retornando el cifrado del string agregando String.fromCharCode
-                      storyDecipher += String.fromCharCode(storyCharactersD);
+                      storyDecipher += String.fromCharCode(storyCharacters);
                     //condición para descifrar minúsculas
                   } else if (string.charCodeAt(i) >= 97 && string.charCodeAt(i) <= 122) {
                     //acumulando los caracteres cifrados por medio de la formula larga
-                    storyCharactersD = ((string.charCodeAt(i) - 97 - parseInt(offset) + 52) % 26) + 97;
+                    let storyCharacters = ((string.charCodeAt(i) - 97 - parseInt(offset)) % 26) + 97;
                     //retornando el cifrado del string agregando String.fromCharCode
-                    storyDecipher += String.fromCharCode(storyCharactersD);
+                    storyDecipher += String.fromCharCode(storyCharacters);
                 } else {
                 storyDecipher += characterDecipher;
         }
