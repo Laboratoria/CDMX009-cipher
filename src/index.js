@@ -202,7 +202,7 @@ function cleanElements() {
 
 
 function questionMsg(){
-    document.getElementById("warning").innerHTML = "Elije a quien quieres mandar un mensaje."; 
+    document.getElementById("warning").innerHTML = "Elige a quien quieres mandar un mensaje."; 
     document.getElementById("warning").style.color = "rgba(3,0,39,1)";
     setTimeout(function(){ document.getElementById("warning").innerHTML = "" ; }, 3000);
 }
