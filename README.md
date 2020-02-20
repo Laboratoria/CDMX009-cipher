@@ -66,7 +66,7 @@ Reflexiona y luego marca los objetivos que has llegado a **entender** y **aplica
 
 ### UX
 
-- [x] Diseñar la aplicación pensando y entendiendo al usuario.
+- [ ] Diseñar la aplicación pensando y entendiendo al usuario.
 - [x] Crear prototipos para obtener feedback e iterar.
 - [ ] Aplicar los principios de diseño visual (contraste, alineación, jerarquía).
 
@@ -79,7 +79,7 @@ Reflexiona y luego marca los objetivos que has llegado a **entender** y **aplica
 ### DOM
 
 - [x] Uso de selectores del DOM.
-- [ ] Manejo de eventos del DOM.
+- [x] Manejo de eventos del DOM.
 - [ ] Manipulación dinámica del DOM.
 
 ### Javascript
