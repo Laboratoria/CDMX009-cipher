@@ -1,0 +1,139 @@
+* {
+    box-sizing: border-box;
+    margin: auto;
+    padding: auto;
+}
+
+
+root {
+    background: #0e2123;
+}
+
+h1 {
+
+
+    color: white;
+    letter-spacing: normal;
+
+}
+
+
+#main {
+
+    display: grid;
+    background: #0e2123;
+    width: 360px;
+    height: 640px;
+    justify-content: center;
+    align-content: center;
+    grid-area:
+        "header"
+        "main";
+}
+
+
+#step1 {
+
+
+    display: grid;
+    background: #0e2123;
+    width: 360dp;
+    height: 640dp;
+    justify-content: center;
+    align-content: center;
+
+
+
+}
+
+
+#displace {
+    width: 50px;
+    visibility: hidden;
+}
+
+#step2 {
+
+
+
+    display: none;
+    width: 360dp;
+    height: 640dp;
+    justify-content: center;
+    align-content: center;
+    background: #0e2123;
+
+
+}
+
+#step3 {
+
+
+    width: 360dp;
+    height: 640dp;
+    justify-content: center;
+    align-content: center;
+    background: #0e2123;
+    display: none;
+}
+
+#go {
+
+    width: 44px;
+    height: 44px;
+    border-radius: 74px;
+    border: solid 2px #66552a;
+    font-family: Baskerville;
+    font-size: 10px;
+    line-height: 0.87;
+    letter-spacing: normal;
+    text-align: center;
+    color: #66552a;
+    justify-content: center;
+    align-content: center;
+
+
+}
+
+#discount {
+
+    width: 44px;
+    height: 44px;
+    border-radius: 74px;
+    border: solid 2px #66552a;
+    font-family: Baskerville;
+    font-size: 10px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.87;
+    letter-spacing: normal;
+    text-align: center;
+    color: #66552a;
+
+}
+
+
+h2 {
+
+
+    color: white;
+    letter-spacing: normal;
+    font-family: Baskerville;
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.87;
+
+}
+
+
+
+p {
+
+    color: white;
+    letter-spacing: normal;
+    margin: auto;
+    text-justify: auto;
+}
