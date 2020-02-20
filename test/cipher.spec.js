@@ -1,4 +1,4 @@
-de// [Español]
+// [Español]
 // Importamos el objeto `cipher`, que contiene los métodos `encode` y `decode`
 //
 // [Português]

@@ -1,5 +1,10 @@
+//-----EL UX ES MI PASIÓN------------
+
+
+
+
 const cipher = {
-encode: (string, offset) => {
+encode: (offset, string) => {
         //mensaje recibido
 		let textChar;
         let msgCipher = "";
@@ -10,8 +15,7 @@ encode: (string, offset) => {
             if (character.match(/[a-z]/i)) {
                 if (string.charCodeAt(i) >= 65 && string.charCodeAt(i) <= 90) {
                     let textChar = (string.charCodeAt(i) - 65 + parseInt(offset)) % 26 + 65;
-                    msgCipher += String.fromCharCode(textChar);
-                } else if (string.charCodeAt(i) >= 97 && string.charCodeAt(i) <= 122) {
+                    msgCipher += String.fromCharCode(textChar);                } else if (string.charCodeAt(i) >= 97 && string.charCodeAt(i) <= 122) {
                     textChar = (string.charCodeAt(i) - 97 + parseInt(offset)) % 26 + 97;
                     msgCipher += String.fromCharCode(textChar);
                 }
@@ -21,8 +25,11 @@ encode: (string, offset) => {
         }
         return msgCipher;
 	}
+	else{
+		throw TypeError('no p')
+	}
     },
-    decode: (string, offset) => {
+    decode: (offset, string) => {
         //mensaje recibido
         let msgDecipher = "";
 
