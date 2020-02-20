@@ -66,40 +66,40 @@ Reflexiona y luego marca los objetivos que has llegado a **entender** y **aplica
 
 ### UX
 
-- [ ] Diseñar la aplicación pensando y entendiendo al usuario.
-- [ ] Crear prototipos para obtener feedback e iterar.
+- [ x] Diseñar la aplicación pensando y entendiendo al usuario.
+- [ x] Crear prototipos para obtener feedback e iterar.
 - [ ] Aplicar los principios de diseño visual (contraste, alineación, jerarquía).
 
 ### HTML y CSS
 
-- [ ] Uso correcto de HTML semántico.
-- [ ] Uso de selectores de CSS.
+- [x ] Uso correcto de HTML semántico.
+- [x ] Uso de selectores de CSS.
 - [ ] Construir tu aplicación respetando el diseño realizado (maquetación).
 
 ### DOM
 
-- [ ] Uso de selectores del DOM.
-- [ ] Manejo de eventos del DOM.
-- [ ] Manipulación dinámica del DOM.
+- [ x] Uso de selectores del DOM.
+- [x ] Manejo de eventos del DOM.
+- [x ] Manipulación dinámica del DOM.
 
 ### Javascript
 
-- [ ] Manipulación de strings.
+- [ x] Manipulación de strings.
 - [ ] Uso de condicionales (if-else | switch).
 - [ ] Uso de bucles (for | do-while).    
-- [ ] Uso de funciones (parámetros | argumentos | valor de retorno).
-- [ ] Declaración correcta de variables (const & let).
+- [ x] Uso de funciones (parámetros | argumentos | valor de retorno).
+- [x ] Declaración correcta de variables (const & let).
 
 ### Testing
-- [ ] Testeo de tus funciones.
+- [ x] Testeo de tus funciones.
 
 ### Git y GitHub
-- [ ] Comandos de git (add | commit | pull | status | push).
-- [ ] Manejo de repositorios de GitHub (clone | fork | gh-pages).
+- [ x] Comandos de git (add | commit | pull | status | push).
+- [ x] Manejo de repositorios de GitHub (clone | fork | gh-pages).
 
 ### Buenas prácticas de desarrollo
-- [ ] Uso de identificadores descriptivos (Nomenclatura | Semántica).
-- [ ] Uso de linter para seguir buenas prácticas (ESLINT).
+- [ x] Uso de identificadores descriptivos (Nomenclatura | Semántica).
+- [ x] Uso de linter para seguir buenas prácticas (ESLINT).
 
 
 ## 4. Consideraciones generales
@@ -147,12 +147,13 @@ Estos puntos los presentarás en el `README.md`.
 Debe contener lo siguiente:
 
 * Un título con el nombre de tu proyecto.
-
 TU SALARIO EN EL CODIGO
+
 * Un resumen de 1 o 2 líneas de qué se trata tu proyecto.
 
 Este proyecyo ayuda a las empresas en el area de recursos humanos , para el intercambio de nombre de personal con su salario,el cual les ayudara a que otras areas de la empresa no esten enterados del suelo de cada uno , a exepcion del area de finanzas, 
 * La imagen final de tu proyecto.
+()
 * Investigación UX:
   1. Explicar quiénes son los usuarios y los objetivos en relación con el
     producto.
@@ -167,6 +168,8 @@ Este proyecyo ayuda a las empresas en el area de recursos humanos , para el inte
 
   3. Luego colocarás la foto de tu primer prototipo en papel.
 
+ ![alt text] (https://raw.githubusercontent.com/castillojessica/CDMX009-cipher/master/READFOTO/papel.jpeg)
+
   4. Agregar un resumen del feedback recibido indicando las mejoras a realizar.
 
   Al inicio del proyecto yo queria intercambiar cifras de dinero que maneja un empresa,pero me comentaban que hiban hacer muchas letras y que en algun momento me puedo confundir, asi fue que decidi hacerlo del salario de los trabajadores.
@@ -174,6 +177,7 @@ Este proyecyo ayuda a las empresas en el area de recursos humanos , para el inte
 
   5. Imagen del prototipo final.
 
+![alt text] (https://raw.githubusercontent.com/castillojessica/CDMX009-cipher/master/READFOTO/FOTOWEB)
 
 #### Visualmente (HTML5 y CSS3)
 

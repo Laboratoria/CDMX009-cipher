@@ -33,7 +33,6 @@ window.cipher = {
         let resultado = String.fromCharCode(textoDecifrada);
 
             InfDesifrada += resultado;
-
             }
         return InfDesifrada;
         
