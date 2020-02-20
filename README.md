@@ -26,11 +26,11 @@ Apartador Rituals
 
  En este espacio el usuario sigue una serie de paso para revelar la ubicación del lugar:
  
- 1- El dato a usar se enceuntra en el ticket de compra. (codigo a cifrar).
+ 1- El dato a usar se encuentra en el ticket de compra. (codigo a cifrar).
  
  2- Ingresando el dato te revela la ubicación del lugar y toda la información acerca de el. 
  
- 3- El descuento corresponde depediendo de la sección del ticket (decifrado); y se obtiene dando click en canjear. 
+ 3- El descuento corresponde depediendo de la sección del ticket (decifrado); y se obtiene dando click para canjear. 
  
 VIP - 30%
 PISTA - 20%
