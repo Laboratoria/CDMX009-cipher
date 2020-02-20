@@ -20,7 +20,7 @@ Prototipo Figma: Use figma para hacer el prototipo ya que no pude descargar Adob
 
 ¡Resultado! Y finalmente quedo asi
 
-![Final](src/Imagenes/pantalla.jpg)
+![Final](src/Imagenes/pantalla.png)
 
 
 
