@@ -89,7 +89,7 @@ body {
   width: 300px;
   float:right;
   margin:-10px 150px;
-  border-radius: 8px;
+  border-radius: 20px;
 }
 
 #textarea4{
@@ -98,17 +98,34 @@ body {
   float:right;
   margin:-100px 150px;
   border-radius: 8px;
+
+}
+
+#textarea2{
+  height: 65px;
+  width: 370px;
+
+  margin:-90px 1px;
+  border-radius: 8px;
+}
+
+#textarea8{
+  height: 65px;
+  width: 370px;
+
+  margin:-90px 1px;
+  border-radius: 8px;
 }
 
 #descifrar1{
   float:right;
-  margin:-20px 30px;
+  margin:-40px 30px;
   border-radius: 8px;
 }
 
 #regresar{
   float:right;
-  margin:-20px 450px;
+  margin:-40px 420px;
   border-radius: 8px;
 }
 
@@ -182,6 +199,6 @@ body {
 
 #regresar1{
   float:right;
-  margin:-20px 450px;
+  margin:-20px 430px;
   border-radius: 8px;
 }

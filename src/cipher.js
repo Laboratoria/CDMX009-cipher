@@ -15,9 +15,9 @@ function encode(offset,myString){
    var cipherFormula;
    var theNewLetter;
    if (numberOfTheLetter >= 65 && numberOfTheLetter <= 90) {
-     cipherFormula = ( numberOfTheLetter - 65 + parseInt(offset)) % 26 + 65;
-     theNewLetter =  String.fromCharCode(cipherFormula);
-     myStringCipher +=theNewLetter;
+      cipherFormula = ( numberOfTheLetter - 65 + parseInt(offset)) % 26 + 65;
+      theNewLetter =  String.fromCharCode(cipherFormula);
+      myStringCipher +=theNewLetter;
    } else if (numberOfTheLetter >= 97 && numberOfTheLetter <=122) {
      cipherFormula = ( numberOfTheLetter - 97 + parseInt(offset)) % 26 + 97;
      theNewLetter = String.fromCharCode(cipherFormula);
@@ -36,6 +36,7 @@ return myStringCipher;
 
 //funcion para descifrar una cadena de texto
 function decode(offset1,myString1){
+  
 
   var myStringDechiper ='';
 
