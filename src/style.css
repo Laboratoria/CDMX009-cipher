@@ -37,13 +37,13 @@ a{
 
 }
 
-p{
+#alineacion, p{
     font-family:'Times New Roman', Times, serif
-    color:black
-    text-align: justify;
-    font-size: 30px;
-    border:90px;
-    padding: 90px;  
+    color:black;
+    text-align:justify;
+    font-size:30px;
+    border:40px;
+    padding:40px;   
 }
 
 body{
@@ -57,7 +57,7 @@ border: 3px solid #aaa;
 margin-top: auto;
 margin: auto;
 outline:none;
-padding:10px;
+padding:15px;
 box-sizing: border-box;
 border-radius: 30px;
 }
@@ -85,6 +85,7 @@ border-radius: 30px;
     padding:10px;
     border-radius: 5px;
 }
+
 .resultado, .resultado1{
     width:50%;
     margin: 10px 10px;
@@ -95,12 +96,22 @@ border-radius: 30px;
     outline:none;
 }
 
-.P_descifrar{
-    padding: 100%;
-}
-
-main{
+#P_descifrar{
+    margin: 30px;
+    padding-left: 330px;
     position: relative;
+    padding-bottom: 20px;
+    border: white 3px solid;
+    padding-top: 20px;
 }
 
+#P_Cifrar{
+    margin:30px;
+    padding-left: 350px;
+    position: relative;
+    padding-bottom: 10px;
+    border:white 3px solid;
+    padding-top: 20px;
+    font-size: 10px;
+}
 
