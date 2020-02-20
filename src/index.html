@@ -48,8 +48,8 @@
       <div class="barra-superior">
           <img src="img/tienda.png" alt="" id="tienda" width="100px">
           <img src="img/sabermas.png" alt="" id="sabermas" width="100px">
-          <button class="buttonimagen" id="change2"></button>
-          <button class="buttonimagen2" id="chinampalogo"></button>
+          <img src="img/cupones.png" alt="" id="sabermas" width="100px">
+          <button class="buttonimagen2" id="chinampalogo2"></button>
       </div>
       <div class = "mercado">
         <h1> DINÁMICA DE LOS CUPONES</h1>
@@ -57,10 +57,13 @@
         
         <div class = "img-productos">
           <h2> 1. Elige el producto</h2>
-          <img class="productos" id="2" src="img/hortaliza.png" alt="" >
-          <img class="productos" id="4" src="img/bolsa.png" alt="">
-          <img class="productos" id="6" src="img/botellas.png" alt="">
-          <img class="productos" id="10" src="img/chinampa.png" alt="">
+          <!--
+          <input type="button" class="buttonimagen3" id="hortaliza" value="2">
+            -->
+          <button class="buttonimagen3" id="hortaliza" value="2"></button>
+          <button class="buttonimagen4" id="bolsa" value="4"></button>
+          <button class="buttonimagen5" id="botellas" value="6"></button>
+          <button class="buttonimagen6" id="chinampa" value="10"></button>
         </div>
         <div class="segunda-instruccion">
           <h2>2. Introduce la palabra de tu cupón (en mayúsculas)</h2>
@@ -69,7 +72,7 @@
           <button id="buttonEncode">Genera tu código</button>
           <button id="buttonDecode">Descifra</button>
           <br>
-          <input type="text" name="codedWord" placeholder="Copia y pega"> <!-- Aquì se va a generar la palabra codificada-->
+          <p id=finalWord></p>
         <p class="copia-pega">Copia y pega tus códigos, una vez que hayas recolectado el número de códigos según el producto que elijas, mándanos un correo a contacto@cinampayolo.com</p>
         </div>
     </section> 

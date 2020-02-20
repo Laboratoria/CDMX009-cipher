@@ -104,6 +104,7 @@ p{
   .buttonimagen {
     background-image: url(img/cupones.png);
     background-repeat:no-repeat;
+    background-size: 100px 100px;
     height:100px;
     width:100px;
     background-position:center;
@@ -114,14 +115,68 @@ p{
   .buttonimagen2 {
     background-image: url(img/logo-chinampayolo.png);
     background-repeat:no-repeat;
+    background-size: 100px 100px;
+    background-color: rgb(255, 255, 255, 0);
     height:100px;
     width:100px;
     background-position:center;
     border-radius:50px;
     cursor:pointer;
   }
+
+  .buttonimagen3 {
+    background-image: url(img/hortaliza.png);
+    background-repeat: no-repeat;
+    background-size: 100px 150px;
+    background-color: rgb(255, 255, 255, 0);
+    height: 150px;
+    width: 100px;
+    background-position: center;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+  }
   
-    /* Alinear objetos dentro de la barra superior 
+  .buttonimagen4 {
+    background-image: url(img/bolsa.png);
+    background-repeat: no-repeat;
+    background-size: 100px 150px;
+    background-color: rgb(255, 255, 255, 0);
+    height: 150px;
+    width: 100px;
+    background-position: center;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .buttonimagen5 {
+    background-image: url(img/botellas.png);
+    background-repeat: no-repeat;
+    background-size: 100px 150px;
+    background-color: rgb(255, 255, 255, 0);
+    height: 150px;
+    width: 100px;
+    background-position: center;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .buttonimagen6 {
+    background-image: url(img/chinampa.png);
+    background-repeat: no-repeat;
+    background-size: 100px 150px;
+    background-color: rgb(255, 255, 255, 0);
+    height: 150px;
+    width: 100px;
+    background-position: center;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Alinear objetos dentro de la barra superior 
   .left {
   float: left;
   width: 500px;
