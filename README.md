@@ -5,7 +5,7 @@
 
 * [1. Resumen del proyecto](#1-Resumen_del_proyecto)
 * [2. Investigación UX](#2-Investigación_UX)
-* [3. Imagen de mi Prototipo en Papel](#3-Imagen_de_mi_Prototipo en Papel)
+* [3. Imagen de mi Prototipo en Papel](#3-Imagen_de_mi_Prototipo_en_Papel)
 * [4. Feedback](#4-Feedback)
 * [5. Prototipo Final](#5-Prototipo_Final)
 * [6. La Imagen Final de mi Proyecto](#6-La_Imagen_Final_de_mi_Proyecto)
@@ -74,7 +74,7 @@ Reflexiona y luego marca los objetivos que has llegado a entender y aplicar en t
 - [x] Manipulación de strings.
 - [x] Uso de condicionales (if-else | switch).
 - [x] Uso de bucles (for | do-while).
-- [x]Uso de funciones (parámetros | argumentos | valor de retorno).
+- [x] Uso de funciones (parámetros | argumentos | valor de retorno).
 - [x] Declaración correcta de variables (const & let).
 ### Testing
 - [ ] Testeo de tus funciones.
