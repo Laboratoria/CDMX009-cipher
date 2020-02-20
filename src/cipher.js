@@ -5,7 +5,6 @@ const cipher = {encode, decode};
    let result = '';
     for (let i=0; i < string.length; i++) //Recorrerá el string
     {
-       //console.log(string[i].charCodeAt());
        let codeAscii = string.charCodeAt(i);//numero de letra Ascci ----->>ERROR 
        let cipherFormula; //almacena formula
        let theNewLetter; //almacena el valor de nueva letra cifrada
@@ -19,9 +18,8 @@ const cipher = {encode, decode};
            cipherFormula= (codeAscii - 97 + parseInt(offset)) %26 +97;
            theNewLetter = String.fromCharCode(cipherFormula);
            result +=theNewLetter;
-           console.log(result);
          } else if(codeAscii === 32){
-         result += ' ';
+           result += ' ';
          }
       } 
     
