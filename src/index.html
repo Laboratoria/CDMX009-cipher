@@ -4,11 +4,123 @@
     <meta charset="utf-8">
     <title>Caesar Cipher</title>
     <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa:400,700|Didact+Gothic&display=swap" rel="stylesheet">
   </head>
   <body>
-    <div id="root">
-      <h1>Hello world!</h1>
-    </div>
-    <script src="index.js" type="module"></script>
+     
+    <article>
+      
+<!--      seccion 1-->
+      
+       <section id="section1">
+           
+			  <h1>CREA Y DESCIFRA <br> MENSAJES DE AMOR </h1>
+          
+            
+            <div class="emoji" >
+                <img src="img/emoji.svg" alt="">
+            </div>
+            
+ 			<div>
+			<a href="#section2" id="boton1" onclick="pantalla2();">CREAR</a>
+          </div>
+           
+            <a href="#section3" id="boton2" onclick="pantalla3">DESCIFRAR</a>
+            
+           
+        </section>
+       
+       
+<!--      seccion 2--> 
+
+        <section id="section2">
+            
+             <div id="titulo1">
+	        <img src="img/CREAR.svg" alt="">
+	    </div>
+	    <div > 
+            <p>INGRESA EL NUMERO A DESPLAZAR</p>
+            <textarea name="offset" id="offset" cols="10" rows="1"></textarea>
+	        
+	    </div>
+	    <div>
+	        <textarea name="texto1" id="texto1" cols="30" rows="10" placeholder="ESCRIBE TU TEXTO AQUI..."></textarea>
+	    </div>
+	    <div>
+	        <a href="index.html">
+	            <img src="img/home.svg" id="home1"  alt="">
+	        </a>
+	    </div>
+	     
+	        <a href="javascript:codificar()">
+	            <img src="img/enter.svg" id="enter1" onclick alt="">
+	        </a>
+
+	   
+	   
+        <div >
+	        <textarea name="texto2" id="cifrado1" cols="30" rows="10" placeholder="RESPUESTA"></textarea>
+	    </div>
+	    
+	    <div id="instruccion">
+	        <img src="img/bookmark.svg"  class="mark" alt="">
+	        <ul>
+	            <li>PROCURA NO USAR Ñ
+	            </li>
+	            <li>ES IMPORTANTE QUE COMPARTAS EL NUMERO DE DESPLAZAMIENTOS,<br>  PARA QUE PUEDAN LEER TU MENSAJE </li>
+	        </ul>
+	    </div>
+        </section>
+        <script src="index.js" type="module"></script>
+<!--      seccion 3-->
+  
+    <section id="section3">
+            
+        <div id="titulo2">
+	        <img src="img/DES.svg"  class="des" alt="">
+	    </div>
+	    <div > 
+            <p>SELECCIONA EL NUMERO A DESPLAZAR</p>
+            <textarea name="offset" cols="10" rows="1" id="offset1"></textarea>
+	        
+	    </div>
+	    <div>
+	        <textarea name="texto2" id="text1" cols="30" rows="10" placeholder="ESCRIBE TU MENSAJE AQUI..."></textarea>
+	    </div>
+	    <div>
+	        <a href="index.html">
+	            <img src="img/home.svg" id="home2"  alt="">
+	        </a>
+	    </div>
+	     
+	    <div>
+	        <a >
+	            <img src="img/enter.svg" id="enter2"  alt="">
+	        </a>
+	    </div>
+	    <div>
+	        <textarea name="text2" id="cifrado" cols="30" rows="10" placeholder="RESPUESTA"></textarea>
+	    </div>
+	    
+	    
+	    <div id="instruccion1">
+	        <img src="img/bookmark.svg"  class="mark" alt="">
+	        <ul>
+	            <li>PROCURA  OCUPAR EL NUMERO DE DESPLAZAMIENTOS QUE USARON <br>CON EL MENSAJE.
+	            </li>
+	            <li>EN CASO DE NO TENERLO INTENTA CON LAS TRES OPCIONES.</li>
+	        </ul>
+	    </div>
+    	
+    </section> 
+
+   
+    </article>
+
+    
+<script src="index.js" type="module"></script>
   </body>
+  <footer>
+  	
+  </footer>
 </html>
