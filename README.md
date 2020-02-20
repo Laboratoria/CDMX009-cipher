@@ -1,10 +1,10 @@
 
-Lost City 
+
 
 <img src="img2/LClogo.png">
 
 
-Es el imaginario de una comunidad entregada a sentir y experimentar la alternancia de lo vívido  de compartir y construir espacios que encapsulan experiencias a travez de los sentidos y la digitalización( encarnación ) de nuestro tiempo. 
+Lost City : Es el imaginario de una comunidad entregada a sentir y experimentar la alternancia de lo vívido  de compartir y construir espacios que encapsulan experiencias a travez de los sentidos y la digitalización( encarnación ) de nuestro tiempo. 
 
 La aplicación integra tres apartados donde el usuario podra encontrar espacios para:
 
