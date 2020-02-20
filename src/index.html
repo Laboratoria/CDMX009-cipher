@@ -4,15 +4,14 @@
     <meta charset="utf-8">
     <title>Caesar Cipher</title>
     <link rel="stylesheet" href="style.css" />
-    <script src="cipher.js"></script>
-  </head>
-  <body>
-
+    
+   </head>
+ <body>
         <div id="root">
            <br>
            <h1>¿Te gustaría un helado?</h1><br>
-             <img src="../src/img/helado1.jpeg" id="img1">
-             <img src="../src/img/helado2.jpeg" id="img2">
+             <img src="./img/helado1.jpeg" id="img1">
+             <img src="./img/helado2.jpeg" id="img2">
              <br>
              <br>
              <br>
@@ -21,14 +20,14 @@
              <br>
              <br>
              <br>
-             <input type="button" id="bttn" value="Continuar" id="continuar" onclick="mostrar();">
+             <input type="button" id="bttn" value="Continuar" id="continuar" onclick="screen();">
          </div>
 
      
      
         <div id="root2">
            <h2>HELADOS LOS TRES CERDITOS</h2><br>
-           <img src="../src/img/cerdito1.jpeg" id="pig">
+           <img src="./img/cerdito1.jpeg" id="pig">
            <p>Ingresa tus datos aquí:</p>
            <br>
            <br>
@@ -36,7 +35,7 @@
            <input type="number" placeholder="edad" id="Age">
            <br>
            <br>
-           <input type="button" id="result1" value="click aqui" onclick="encode();">
+           <input type="button" id="result1" value="click aqui" onclick="screennext();">
        </div>
 
             <div id="root3">
@@ -54,18 +53,18 @@
               <h3>OBTENIENDO DATOS DEL USUARIO</h3>
               <br>
               <p id="datos">Ingresa el codigo de promocion:</p>
-              <input type="text" name="codepromo" id="codigo" placeholder="codigo a decirfrar">
+              <input type="text" name="codepromo" id="code" placeholder="codigo a decirfrar">
               <br>
               <br>
               <br>
-              <input type="button" id="date" value="decifra" onclick="decode();">
+              <input type="button" id="decode" value="decifra" onclick="decode();">
               <br> 
               <br>
-             <input type="text" id="dato" placeholder="name">
+             <input type="text" id="nameUser" placeholder="name">
              <br> 
              <br>
              <input type="text" id="AgeUser" placeholder="Age">
           </div>
-
+ <script src="index.js" type="module"></script>
  </body>
 </html>
