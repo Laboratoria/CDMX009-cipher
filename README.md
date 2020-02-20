@@ -37,7 +37,7 @@ Reflexiona y luego marca los objetivos que has llegado a **entender** y **aplica
 
 - [✓] Diseñar la aplicación pensando y entendiendo al usuario.
 - [✓] Crear prototipos para obtener feedback e iterar.
-- [ ] Aplicar los principios de diseño visual (contraste, alineación, jerarquía).
+- [✓] Aplicar los principios de diseño visual (contraste, alineación, jerarquía).
 
 ### HTML y CSS
 
@@ -47,17 +47,17 @@ Reflexiona y luego marca los objetivos que has llegado a **entender** y **aplica
 
 ### DOM
 
-- [ ] Uso de selectores del DOM.
-- [ ] Manejo de eventos del DOM.
+- [✓] Uso de selectores del DOM.
+- [✓] Manejo de eventos del DOM.
 - [ ] Manipulación dinámica del DOM.
 
 ### Javascript
 
-- [ ] Manipulación de strings.
-- [ ] Uso de condicionales (if-else | switch).
-- [ ] Uso de bucles (for | do-while).    
+- [✓] Manipulación de strings.
+- [✓] Uso de condicionales (if-else | switch).
+- [✓] Uso de bucles (for | do-while).    
 - [ ] Uso de funciones (parámetros | argumentos | valor de retorno).
-- [ ] Declaración correcta de variables (const & let).
+- [✓] Declaración correcta de variables (const & let).
 
 ### Testing
 - [ ] Testeo de tus funciones.
