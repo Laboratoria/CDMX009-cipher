@@ -11,12 +11,22 @@
     document.getElementById("first").style.display = "none";
     document.getElementById("second").style.display= "block";
 
-    });
+  });
 
+//Boton Toggle
+  const checkbox = document.getElementById('myCheckbox')
+
+  checkbox.addEventListener('change', (event) => {
+      if (event.target.checked) {
+      alert('checked');
+    } else {
+      alert('not checked');
+    }
+  });
 
     /*pantalla cifrado*/
 
-    const cifrado = document.getElementById("page-encode");//se liga a href
+    const cifrado = document.getElementById("page-encode");//se liga a href.
 
     cifrado.addEventListener("click", function() {
       document.getElementById("text-encode").style.display = "none";
@@ -41,7 +51,6 @@
     const descifrado = document.getElementById("page-decode");//se liga a href
 
     descifrado.addEventListener("click", function() {
-
       document.getElementById("text-decode").style.display = "none";
       document.getElementById("text-decode").style.display = "block";
       document.getElementById("text-encode").style.display = "none";

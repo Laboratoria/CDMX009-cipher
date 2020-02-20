@@ -14,7 +14,7 @@
 
 ***
 
-## 1. Resumen del proyecto
+## 1. Resumen del proyecto:
 Mi proyecto lo base para aquellas personas que ponen la misma contraseña en
 todos lados y esta es una forma eficaz de mantener una seguridad de su
 contraseña.
@@ -31,11 +31,11 @@ contraseña.
   seguridad de tus redes sociales, creando contraseñas de forma facil y
   divertida.
 
-## 3. Imagen de mi Prototipo en Papel
+## 3. Imagen de mi Prototipo en Papel.
 
-<img src= "src/img/IMG_20200216_132235652.jpg">
+<img src= "/src/img/IMG_20200216_132235652.jpg">
 
-## 4. Feedback
+## 4. Feedback:
 Durante el Feedback con las compañeras y explicando mi idea del proyecto me
 hicieron mención que mi app deberia tener menos palabras e ir directamente al
 punto, por lo que decidi solo poner una primera pantalla de Advertencia y la
@@ -43,7 +43,7 @@ segunda para interactuar, en mi feedback con el coach me sugirio no poner tantos
 recuadros de texto y agregar un botón "switch" que lamentablemente no pude ligar
 a mis Eventos por lo que tuve que solucionar con "a href" en formas de iconos.
 
-## 5. Prototipo Final
+## 5. Prototipo Final.
 
 <img src= "/src/img/maquetado pao.jpg">
 
@@ -59,28 +59,28 @@ El objetivo principal de aprendizaje es adquirir experiencia desarrollando aplic
 Reflexiona y luego marca los objetivos que has llegado a entender y aplicar en tu proyecto.
 
 ### UX
-- [&#10004;] Diseñar la aplicación pensando y entendiendo al usuario.
-- [&#10004;] Crear prototipos para obtener feedback e iterar.
-- [&#10004;] Aplicar los principios de diseño visual (contraste, alineación, jerarquía).
+- [x] Diseñar la aplicación pensando y entendiendo al usuario.
+- [x] Crear prototipos para obtener feedback e iterar.
+- [x] Aplicar los principios de diseño visual (contraste, alineación, jerarquía).
 ### HTML y CSS
-- [&#10004;] Uso correcto de HTML semántico.
-- [&#10004;] Uso de selectores de CSS.
-- [&#10004;] Construir tu aplicación respetando el diseño realizado (maquetación).
+- [x] Uso correcto de HTML semántico.
+- [x] Uso de selectores de CSS.
+- [x] Construir tu aplicación respetando el diseño realizado (maquetación).
 ### DOM
-- [ ] Uso de selectores del DOM.
-- [ ] Manejo de eventos del DOM.
-- [ ] Manipulación dinámica del DOM.
+- [x] Uso de selectores del DOM.
+- [x] Manejo de eventos del DOM.
+- [x] Manipulación dinámica del DOM.
 ### Javascript
-- [&#10004;] Manipulación de strings.
-- [&#10004;] Uso de condicionales (if-else | switch).
-- [&#10004;] Uso de bucles (for | do-while).
-- [&#10004;]Uso de funciones (parámetros | argumentos | valor de retorno).
-- [&#10004;] Declaración correcta de variables (const & let).
+- [x] Manipulación de strings.
+- [x] Uso de condicionales (if-else | switch).
+- [x] Uso de bucles (for | do-while).
+- [x]Uso de funciones (parámetros | argumentos | valor de retorno).
+- [x] Declaración correcta de variables (const & let).
 ### Testing
 - [ ] Testeo de tus funciones.
 ### Git y GitHub
-- [&#10004;] Comandos de git (add | commit | pull | status | push).
-- [&#10004;] Manejo de repositorios de GitHub (clone | fork | gh-pages).
+- [x] Comandos de git (add | commit | pull | status | push).
+- [x] Manejo de repositorios de GitHub (clone | fork | gh-pages).
 ### Buenas prácticas de desarrollo
-- [&#10004;] Uso de identificadores descriptivos (Nomenclatura | Semántica).
+- [x] Uso de identificadores descriptivos (Nomenclatura | Semántica).
 - [ ] Uso de linter para seguir buenas prácticas (ESLINT).

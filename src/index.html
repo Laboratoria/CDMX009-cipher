@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html>
 
-<head>
+<header>
     <meta charset="utf-8">
     <title>Bienvenidos al creador de Password</title>
     <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-</head>
+</header>
 
-<body>
+<main>
 
 
 <div class="contenedor" id="first" class="display_block">;
@@ -20,24 +20,24 @@
       No admite caracteres<br>
       No admite numeros
 
-   <form><br>
-
-          <button type="button" id="boton">Entendido</button>
-      </form>
-      </div></div>
+  <!--Boton Entendido-->
+  <form><br>
+  <button type="button" id="boton">Entendido</button>
+  </form>
+  </div></div>
 
 <!--Segunda pantalla-->
 
 <div id="second" class="bienvenidos display_none">
     <h1>Bienvenidos al creador de Password</h1>
 
+<!--Boton Toggle-->
 
-       Cifra-Descifra
-   <div><class="toggle"><input type="checkbox">
+<div class="cifra-Descifra">Cifra-Descifra<br>
+<input id="myCheckbox" type="checkbox" /></div>;
 
 
-
-
+<!--Botones Cifrado y Descifrado-->
 <div id="encode-decode">
              <a href="#" id="page-encode"><img src= "img/abierto.png"></a>
              <a href="#" id="page-decode"><img src= "img/cerrado.png"></a>
@@ -45,7 +45,7 @@
 
          <!--display cifrar-->
 
-         <div id="text-encode" class="display_block"><!--Enlazar display-->
+         <div id="text-encode" class="display_block"><!--Enlazar styledisplay-->
            <div class="content-offset">
              <label class="label">Número de desplazamiento</label><br>
              <input type="number" id="offset_ci" class="style_offset"><!--enlaza offset a variable y css-->
@@ -70,7 +70,6 @@
              </div>
              <button onclick="location.reload();" class="recharge">Limpiar</button><!--Boton Limpiar-->
          </div>
-       </div>
 
      </section>
 
@@ -78,6 +77,7 @@
      <script src="cipher.js"></script>
      <script src="index.js"></script>
 
-</body>
+</main>
+<footer></footer>
 
 </html>
