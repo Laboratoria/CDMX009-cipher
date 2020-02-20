@@ -27,27 +27,15 @@ function getOffsetNo(){
   }
 }
 
-//Function to forbid the user from writing anything but uppercase on text input
-document.getElementById('name').addEventListener('keypress', capsOnly);
-document.getElementById('pass').addEventListener('keypress', capsOnly);
-function capsOnly(event) {
-    pressed = event.which;
-    if (pressed < 65 || pressed > 90) {
-      event.preventDefault();
-    }
-}
-
 //Function to forbid the user from writing anything but letters
-/*
 document.getElementById('name').addEventListener('keypress', lettersOnly);
 document.getElementById('pass').addEventListener('keypress', lettersOnly);
 function lettersOnly(event) {
     pressed = event.which;
-    if (pressed < 65 || pressed > 90) {
+    if (pressed < 65 || pressed > 90 && pressed <97 || pressed >122) {
       event.preventDefault();
     }
 }
-*/
 
 //Function to get user name and continue to password
 document.getElementById('getName').addEventListener('click', getUser);
@@ -56,7 +44,6 @@ function getUser(){
   if (userName != ''){
   document.getElementById('user').style.display = 'none';
   document.getElementById('keyword').style.display = 'block';
-
   }
   else {
   alert('Escribe tu usuario')

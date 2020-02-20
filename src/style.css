@@ -5,19 +5,19 @@ body {
   background-color: black;
   margin-left: 1%;
   }
-
-p {
+.subtitle {
   margin-top: 0%;
   margin-bottom: 0%;
 }
-  .text {
-    margin: 1em;
-    font-size: 100%;
-    color: rgba(224, 224, 224, 1);
-    border-color: rgba(112, 112, 112, 1);
-    border-width: 1px;
+}
+.text {
+  margin: 1em;
+  font-size: 100%;
+  color: rgba(224, 224, 224, 1);
+  border-color: rgba(112, 112, 112, 1);
+  border-width: 1px;
 
-  }
+}
   .next {
     margin: 1em;
     cursor: pointer;
@@ -27,6 +27,8 @@ p {
     margin-left: 0%;
   }
   .title {
+    margin-top: 0%;
+    margin-bottom: 0%;
     font-size: 150%;
   }
   .result {

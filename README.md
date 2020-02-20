@@ -20,19 +20,19 @@ El primer prototipo incluía las cuatro pantallas donde en cada una se ingresa e
 
 - [x] Diseñar la aplicación pensando y entendiendo al usuario.
 - [x] Crear prototipos para obtener feedback e iterar.
-- [ ] Aplicar los principios de diseño visual (contraste, alineación, jerarquía).
+- [x] Aplicar los principios de diseño visual (contraste, alineación, jerarquía).
 
 ### HTML y CSS
 
 - [x] Uso correcto de HTML semántico.
-- [x] Uso de selectores de CSS.
+- [ ] Uso de selectores de CSS.
 - [x] Construir tu aplicación respetando el diseño realizado (maquetación).
 
 ### DOM
 
 - [x] Uso de selectores del DOM.
 - [x] Manejo de eventos del DOM.
-- [ ] Manipulación dinámica del DOM.
+- [x] Manipulación dinámica del DOM.
 
 ### Javascript
 
@@ -50,5 +50,5 @@ El primer prototipo incluía las cuatro pantallas donde en cada una se ingresa e
 - [x] Manejo de repositorios de GitHub (clone | fork | gh-pages).
 
 ### Buenas prácticas de desarrollo
-- [x] Uso de identificadores descriptivos (Nomenclatura | Semántica).
+- [ ] Uso de identificadores descriptivos (Nomenclatura | Semántica).
 - [x] Uso de linter para seguir buenas prácticas (ESLINT).
