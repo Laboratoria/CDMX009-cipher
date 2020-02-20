@@ -10,7 +10,7 @@ Los usuarios finales son personas diversas que acceden a servicios bancarios con
 
 # Prototipos y testeo
 
-! [Prototipos de baja fidelidad](https://github.com/elizaolmedo/CDMX009-cipher/blob/master/src/prototype_low.jpg)
+![Prototipos de baja fidelidad](https://github.com/elizaolmedo/CDMX009-cipher/blob/master/src/prototype_low.jpg)
 
 
 El feedback recibido estuvo relacionado a proporcionar una vista general más entendible al usuario
