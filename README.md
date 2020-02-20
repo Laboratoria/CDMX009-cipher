@@ -42,7 +42,7 @@ Objetivos de aprendizaje
 - [ ] Declaración correcta de variables (const & let).
 
 ### Testing
-- [X] Testeo de tus funciones.
+- [ ] Testeo de tus funciones.
 
 ### Git y GitHub
 - [X] Comandos de git (add | commit | pull | status | push).
