@@ -10,17 +10,17 @@ El producto permitira que el acredor de un boleto de la rifa pueda descifrar el 
 
 Prototipo a papel:
 
-![Prototipo Papel](src/Imagenes/prototipopapel.jpg)
+![Prototipo Papel] (src/Imagenes/prototipopapel.jpg)
 
 Durante este primer feedback me comentaron que estaba bien, que parecia algo interesante y que parecia ser entendible, que deberia de poner una tecla que te regrese a la primera pantalla. Despues pense que deberia de hacer solamente una donde cifrara y descifrara.
 
 Prototipo Figma: Use figma para hacer el prototipo ya que no pude descargar Adobe XD pero creo que me gusto mas, ademas trae algunos valores para el codigo CSS.
 
-![Prototipo Figma](src/Imagenes/prototipofigma.png)
+![Prototipo Figma](src/Imagenes/prototipofigma.jpg)
 
 ¡Resultado! Y finalmente quedo asi
 
-![Final](src/Imagenes/pantalla.png)
+![Final](src/Imagenes/pantalla.jpg)
 
 
 
