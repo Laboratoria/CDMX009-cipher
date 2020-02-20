@@ -4,11 +4,29 @@
     <meta charset="utf-8">
     <title>Caesar Cipher</title>
     <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+
   </head>
-  <body>
-    <div id="root">
-      <h1>Hello world!</h1>
-    </div>
+  <header>
+    <img src="Ci-pass.png">
+  </header>
+<body>
+    <h1>Cifrado de contraseñas bancarias</h1>
+     <div class="container-main" id="containers">
+     <h2>01</h2><label for="">Elige un número de desplazamiento:</label>
+     <input type="number" min="0" pattern= "[0-9]" id="movements" class="input1"> 
+     <h2>02</h2><label class="label">Escribe tu contraseña</label>
+     <br><input type="text" id="password" class="identification">
+     </div>
+     <div id="events" class="buttons">
+      <button type="submit" class="buttons" id="cifrar">Cifrar</button>
+      <button type="submit" class="buttons" id="descifrar">Descifrar</button>
+     </div>
+      <br><h2>03</h2><label class="label">Contraseña cifrada</label>
+      <div id="passDecode" class="decode">
+      </div>
+    <script src="cipher.js" type="module"></script>
     <script src="index.js" type="module"></script>
-  </body>
+</body>
+
 </html>
