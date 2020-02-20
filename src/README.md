@@ -10,7 +10,7 @@ El producto permitira que el acredor de un boleto de la rifa pueda descifrar el 
 
 Prototipo a papel:
 
-![Prototipo Papel] (src/Imagenes/prototipopapel.jpg)
+![PrototipoPapel](src/Imagenes/prototipopapel.jpg)
 
 Durante este primer feedback me comentaron que estaba bien, que parecia algo interesante y que parecia ser entendible, que deberia de poner una tecla que te regrese a la primera pantalla. Despues pense que deberia de hacer solamente una donde cifrara y descifrara.
 
