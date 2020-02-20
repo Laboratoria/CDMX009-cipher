@@ -16,37 +16,37 @@ Mis compañeras me aconsejaron sobre los estilos de la página y también sobre 
 ##  Objetivos de aprendizaje
 ### UX
 
-- [0] Diseñar la aplicación pensando y entendiendo al usuario.
-- [0] Crear prototipos para obtener feedback e iterar.
-- [0] Aplicar los principios de diseño visual (contraste, alineación, jerarquía).
+- [X] Diseñar la aplicación pensando y entendiendo al usuario.
+- [] Crear prototipos para obtener feedback e iterar.
+- [X] Aplicar los principios de diseño visual (contraste, alineación, jerarquía).
 
 ### HTML y CSS
 
-- [0] Uso correcto de HTML semántico.
+- [X] Uso correcto de HTML semántico.
 - [X] Uso de selectores de CSS.
 - [X] Construir tu aplicación respetando el diseño realizado (maquetación).
 
 ### DOM
 
-- [X] Uso de selectores del DOM.
-- [X] Manejo de eventos del DOM.
-- [X] Manipulación dinámica del DOM.
+- [] Uso de selectores del DOM.
+- [] Manejo de eventos del DOM.
+- [] Manipulación dinámica del DOM.
 
 ### Javascript
 
-- [0] Manipulación de strings.
-- [X] Uso de condicionales (if-else | switch).
-- [X] Uso de bucles (for | do-while).    
-- [=] Uso de funciones (parámetros | argumentos | valor de retorno).
-- [=] Declaración correcta de variables (const & let).
+- [X] Manipulación de strings.
+- [] Uso de condicionales (if-else | switch).
+- [] Uso de bucles (for | do-while).    
+- [] Uso de funciones (parámetros | argumentos | valor de retorno).
+- [] Declaración correcta de variables (const & let).
 
 ### Testing
-- [x] Testeo de tus funciones.
+- [X] Testeo de tus funciones.
 
 ### Git y GitHub
-- [0] Comandos de git (add | commit | pull | status | push).
-- [0] Manejo de repositorios de GitHub (clone | fork | gh-pages).
+- [X] Comandos de git (add | commit | pull | status | push).
+- [X] Manejo de repositorios de GitHub (clone | fork | gh-pages).
 
 ### Buenas prácticas de desarrollo
-- [0] Uso de identificadores descriptivos (Nomenclatura | Semántica).
-- [0] Uso de linter para seguir buenas prácticas (ESLINT).
+- [X] Uso de identificadores descriptivos (Nomenclatura | Semántica).
+- [X] Uso de linter para seguir buenas prácticas (ESLINT).
