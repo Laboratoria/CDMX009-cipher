@@ -68,10 +68,10 @@ PROTOTIPOS DE LA INTERFAZ
 
 ### Javascript
 
-- [&#128076;&#127999; ] Manipulación de strings.
-- [  &#128076;&#127999;] Uso de condicionales (if-else | switch).
+- [ &#128076;&#127999; ] Manipulación de strings.
+- [  ] Uso de condicionales (if-else | switch).
 - [ ] Uso de bucles (for | do-while).    
-- [&#128076;&#127999; ] Uso de funciones (parámetros | argumentos | valor de retorno).
+- [ ] Uso de funciones (parámetros | argumentos | valor de retorno).
 - [&#128076;&#127999; ] Declaración correcta de variables (const & let).
 
 ### Testing
