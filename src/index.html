@@ -7,16 +7,16 @@
   </head>
   <body>
 
-    <!-- Inicio con animación de logo -->
-    <section id="inicioAnimacionLogo">
+    <!-- Inicio con animación de logo (primer pantalla)-->
+    <!--<section id="inicio-animacion-logo">
       <img src="img/logotemp-huella.svg" alt="Logo Temporal" class="logoPawsCause">
       <h1>PawsCause</h1>
-    </section>
+    </section>-->
 
     <!-- Inicio con navegación -->
 
-    <!-- Inicio sesión y registro -->
-    <section id="navegacion">
+    <!-- Inicio sesión y registro (segunda pantalla) -->
+    <section id="inicio-menu">
       <!-- Header de pantalla inicio (sin buscador) -->
       <header id="headerInicio">
           <img src="img/notificaciones.svg" alt="Ícono Notificaciones" class="logosHeader">
@@ -30,18 +30,20 @@
         <p">Regístrate</p>
       </div>
 
-      <div><!-- Navegación -->
+      <div class="navegacion-inicio"><!-- Navegación -->
         <img src="img/quienes somos.svg" alt="Ícono ¿Quiénes Somos?">
         <p>¿Quienes Somos?</p>
-        <img src="img/aportaciones.svg" alt="Ícono Aportaciones">
-        <p>Aportaciones</p>
+        <button>
+          <img src="img/aportaciones.svg" alt="Ícono Aportaciones">
+          <p>Aportaciones</p>
+        </button>   
         <img src="img/subastas.svg" alt="Ícono Subastas">
         <p>Subastas</p>
       </div>
-    </section>
+    </section><!-- Inicio sesión y registro -->
 
     <!-- Aportaciones -->
-    <section>
+    <section id="aportaciones">
       <div><!-- Publicación -->
         <p>Meta:</p>
         <p>Costal de alimento para perro.</p>
@@ -74,13 +76,13 @@
         <input type=image src="img/pet-food.svg">
         <input type=image src="img/accesories.svg">
       </aside>
-    </section>
+    </section><!-- Aportaciones -->
 
     <!--Elegir aportación-->
-    <section>
+    <section id="elegir-aport">
       <div><!--¿Cómo te gustaría aportar-->
         <h3>¿Cómo te gustaría aportar?</h3>
-          <div id="menu">
+          <div id="menu"><!-- Menú en tabs -->
             <ul class="tabsAportacion">
               <li>
                 <a href="#tab1">En especie</a>
@@ -133,19 +135,19 @@
                 <p>Ipsam animi facere eos illo a repellat, eveniet quis inventore nihil mollitia excepturi culpa, doloremque alias incidunt tempora! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod saepe quaerat perspiciatis. </p>
               </article>
             </div> <!-- Contenido tabs--> 
-          </div>
-      </div>
-    </section>
+          </div><!-- Menú en tabs -->
+      </div><!--¿Cómo te gustaría aportar-->
+    </section><!--Elegir aportación-->
 
     <!-- Alert: Confirmación de aportación. -->
-    <section>
+    <section id="alert-confirm-aport">
       <h3>¡Muchas gracias por aportar a nuestra causa peluda!</h3>
       <p>Cantidad aportada:</p>
       <button>Regalo</button>
     </section>
 
     <!--Cupones-->
-    <section>
+    <section id="cupones-disp">
       <p>LEPANDACOBO</p>
       <p>5% descuento en pantalones para dama corte boyfriend.
         Levis</p>
@@ -153,13 +155,15 @@
     </section>
 
     <!-- Alert: Confirmación de cupón obtenido y código del mismo. -->
-    <section>
+    <section id="alert-confirm-cupon">
       <h3>¡Felicidades! Haz obtenido:</h3>
       <p>5% descuento en pantalones para dama corte boyfriend.
         Levis</p>
       <p>Código:</p>
       <p>Muestra éste código al hacer tu compra o ingrésalo al comprar en línea.</p>
     </section>
+    
     <script src="index.js" type="module"></script>
   </body>
 </html>
+
