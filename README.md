@@ -52,17 +52,17 @@ Reflexiona y luego marca los objetivos que has llegado a **entender** y **aplica
 - [x] Manipulación de strings.
 - [x] Uso de condicionales (if-else | switch).
 - [x] Uso de bucles (for | do-while).    
-- [x] Uso de funciones (parámetros | argumentos | valor de retorno).
+- [ ] Uso de funciones (parámetros | argumentos | valor de retorno).
 - [ ] Declaración correcta de variables (const & let).
 
 ### Testing
 
-- [ ] Testeo de tus funciones.
+- [x] Testeo de tus funciones.
 
 ### Git y GitHub
 
 - [x] Comandos de git (add | commit | pull | status | push).
-- [x] Manejo de repositorios de GitHub (clone | fork | gh-pages).
+- [ ] Manejo de repositorios de GitHub (clone | fork | gh-pages).
 
 ### Buenas prácticas de desarrollo
 

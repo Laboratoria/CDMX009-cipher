@@ -1,4 +1,4 @@
-const cipher = {
+window.cipher = {
   encode: (desplazamiento, mensajeOriginal) => {
     let mensajeCifrado = '';
     //Ciclo for para realizar una acción mientras la condición se cumpla
@@ -29,7 +29,7 @@ const cipher = {
         let textoDescifrado = (txtCode + 65 - parseInt(desplazamiento)) % 26 + 65;
         mensajeDescifrado += String.fromCharCode(textoDescifrado);
     } else if (txtCode>= 97 && txtCode<= 122) {
-        let textoDescifrado = (txtCode - 97 - parseInt(desplazamiento)) % 26 + 97;
+        let textoDescifrado = (txtCode - 97 - parseInt(desplazamiento) + 26) % 26 + 97;
         mensajeDescifrado += String.fromCharCode(textoDescifrado);
 
       } else {
