@@ -8,15 +8,18 @@ El offset dentro del cifrado se realiza a través de su número de usuarias en D
 
 * Investigación UX:
 
-  1. Usuarios: Laboratorians
+  * 1. Usuarios: Laboratorians
      Objetivos: Obtener un estímulo a través de un mensaje, así como tener interacción con el cifrado y descifrado de acuerdo a su      número de usuaria, esto lo hace más especial.
      
-  2. La aplicación ofrece a las usuarias interactuar entre sí generando contenido en mensajes para todas las que deseen participar.
+  * 2. La aplicación ofrece a las usuarias interactuar entre sí generando contenido en mensajes para todas las que deseen participar.
   
     
-  3. Luego colocarás la foto de tu primer prototipo en papel.
-  4. Agregar un resumen del feedback recibido indicando las mejoras a realizar.
-  5. ![prototipo final](https://github.com/AnaRodea/CDMX009-cipher/blob/master/prototipo.jpg)
+  * 3. Luego colocarás la foto de tu primer prototipo en papel.
+  
+  * 4. Agregar un resumen del feedback recibido indicando las mejoras a realizar.
+  
+  * Prototipo final
+  5. ![prototipo final] (https://github.com/AnaRodea/CDMX009-cipher/blob/master/prototipo.jpg)
 
 
 
