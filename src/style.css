@@ -1,0 +1,135 @@
+body {
+  background: #ED0778;
+  font-family: 'Sriracha';
+  cursive;
+}
+
+.desktop {
+  position: relative;
+  width: 100%;
+  height: 900px;
+  margin: auto;
+  background: #D9E9FF;
+}
+
+.imagenCipher {
+  width: 482px;
+  height: 347px;
+  left: -7px;
+  top: 10px;
+}
+
+.encabezado {
+  position: absolute;
+  width: 525px;
+  left: 520px;
+  top: 0px;
+  font-size: 96px;
+  line-height: 112px;
+}
+
+.subtitulo {
+  position: absolute;
+  left: 530px;
+  top: 150px;
+  font-size: 30px;
+}
+
+.saludo {
+  position: absolute;
+  width: 403px;
+  height: 21px;
+  left: 540px;
+  top: 225px;
+  font-size: 30px;
+  line-height: 35px;
+}
+
+.estilomensaje {
+  position: absolute;
+  width: 403px;
+  height: 108px;
+  left: 540px;
+  top: 350px;
+  resize: none;
+}
+
+.labelDesplazo {
+  position: absolute;
+  width: 403px;
+  height: 108px;
+  left: 550px;
+  top: 490px;
+  font-size: 20px;
+}
+
+.estiloDesplazo {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: 905px;
+  top: 475px;
+  font-size: 16px;
+}
+
+.btnDeco {
+  /* background y degradado de botones*/
+  background: #faec4d;
+  background-image: linear-gradient(to bottom, #faec4d, #2079b0);
+  /*bordes curveados*/
+  border-radius: 28px;
+  text-shadow: 3px 2px 1px #9daef5;
+  box-shadow: 6px 5px 24px #666666;
+  font-size: 27px;
+  text-decoration: none;
+  position: absolute;
+  width: 200px;
+  height: 80px;
+  left: 800px;
+  top: 550px;
+}
+
+.btnCodi {
+  /* background y degradado de botones*/
+  background: #faec4d;
+  background-image: linear-gradient(to bottom, #faec4d, #2079b0);
+  /*bordes curveados*/
+  border-radius: 28px;
+  text-shadow: 3px 2px 1px #9daef5;
+  box-shadow: 6px 5px 24px #666666;
+  font-size: 27px;
+  text-decoration: none;
+  position: absolute;
+  width: 200px;
+  height: 80px;
+  left: 500px;
+  top: 550px;
+}
+
+.btnCodi:hover, .btnDeco:hover {
+  /*al poner cursor sobre el boton*/
+  background: #2079b0;
+  background-image: linear-gradient(to bottom, #2079b0, #faec4d);
+  text-decoration: none;
+}
+
+.labelMensaje {
+  position: absolute;
+  top: 660px;
+  left: 600px;
+  font-size: 24px;
+}
+
+.btnClean {
+  position: absolute;
+  top: 800px;
+  left: 700px;
+  background: #faec4d;
+  background-image: linear-gradient(to bottom, #faec4d, #2079b0);
+  /*bordes curveados*/
+  border-radius: 28px;
+  text-shadow: 3px 2px 1px #9daef5;
+  box-shadow: 6px 5px 24px #666666;
+  font-size: 27px;
+  text-decoration: none;
+}
