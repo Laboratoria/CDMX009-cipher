@@ -1,7 +1,7 @@
 
 Lost City 
 
-<img src="img2/LClogo.png">
+<img src="CDMX009-cipher/img2/LClogo.png">
 
 
 Es el imaginario de una comunidad entregada a sentir y experimentar la alternancia de lo vívido  de compartir y construir espacios que encapsulan experiencias a travez de los sentidos y la digitalización( encarnación ) de nuestro tiempo. 
@@ -16,9 +16,9 @@ La aplicación integra tres apartados donde el usuario podra encontrar espacios 
 
 - Apartado para obtener la ubicación del ritual. 
 
-![set]<img src="img2/set.png">
+<img src="img2/set.png">
 
-![shop]<img src="img2/shop.png">
+<img src="img2/shop.png">
 
 
 
@@ -40,10 +40,10 @@ PROTOTIPOS DE LA INTERFAZ
 
 
 
-![ticket]<img src="img2/ticket.png">
+<img src="img2/ticket.png">
 
 
-![prototype]<img src="img2/prototype.png">
+<img src="img2/prototype.png">
 
 
 
