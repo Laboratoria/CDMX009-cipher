@@ -138,7 +138,7 @@ Reflexiona y luego marca los objetivos que has llegado a **entender** y **aplica
 - [x] Uso de condicionales (if-else | switch).
 - [ ] Uso de bucles (for | do-while).    
 - [x] Uso de funciones (parámetros | argumentos | valor de retorno).
-- [x] Declaración correcta de variables (const & let).
+- [ ] Declaración correcta de variables (const & let).
 
 ### Testing
 - [ ] Testeo de tus funciones.
