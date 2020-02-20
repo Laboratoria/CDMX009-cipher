@@ -108,13 +108,13 @@ Pasword Creater
 
 Es una aplicación que crea contraseñas de alta seguridad para los colaboradores de una empresa.
 
-![passwordcreater](src="./imagens/passwordcreater.png") imagen
+![passwordcreater](src/imagens/passwordcreater.png) imagen
 Esta aplicación es de uso empresarial con el objetivo de generar contraseñas de alta seguridad para cada colaborador, ya que cada inicio de mes hay que hacer cambio de esta.
 
 Los colaboradores reciben en sus correos  una palabra  y el número de offset a introducir en la app de Password Creater y de manera inmediata obtendrán su contraseña.
 
- ![sketch](scr="./imagens/sketch.jpg")
+ ![sketch](scr/imagens/sketch.jpg)
 
 Durante la sesiones de feedback me pidieron que explicara como el usuario sabria que número de ofsset a utilizar, por lo cual se deja en claro que este es indicado así como la palabra en el correo eléctronico de cada usuario. En la aplicación solo se introduce los datos indicados. También se hace las especificaciones de que solo se aceptan las letras mayúsculas.
 
-![prototipo](src="./imagens/prototipo.png")
+![prototipo](src/imagens/prototipo.png)
