@@ -9,7 +9,7 @@ let parrafo1 = document.getElementById("resultado1");
 let string = document.getElementById("text").value;
 let texto = string.toUpperCase();
 let offset= document.getElementById('offsetnum').value;
-let result= cipher.encode(texto,offset);
+let result= cipher.encode(offset,texto);
 console.log(result);
 parrafo1.innerHTML=result;
 
@@ -29,7 +29,7 @@ let parrafo2 = document.getElementById("resultado2");
 let string2 = document.getElementById("text").value;
 let texto2 = string2.toUpperCase();
 let offset2= document.getElementById('offsetnum').value;
-let result2= cipher.decode(texto2,offset2);
+let result2= cipher.decode(offset2,texto2);
 console.log(result2);
 parrafo2.innerHTML=result2;
 }

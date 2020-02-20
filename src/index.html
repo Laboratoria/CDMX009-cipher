@@ -15,11 +15,11 @@
     <p>Por favor de introducir en la caja de texto una palabra y  el  número de offset(número de desplazamiento)que desee, según sea el caso seleccionar cifrar o descifrar.<br/>
       Esta aplicación únicamente funciona con letras mayúsculas, sin espacios ni símbolos.</p>
     </div>
-    <div = id "introducir datos">
-    <input type id= "text" placeholder="Texto">
-    <input type id= "offsetnum" placeholder="Offset">
+    <div  id = "introducir datos">
+    <input type = "text" id= "text" placeholder="Texto">
+    <input type = "number" id= "offsetnum" placeholder="Offset">
     </div>
-    <div =class "seleccionar boton">
+    <div  class ="seleccionar boton">
       <button id="button1">Cifrar</button>
       <button id="button2">Descifrar</button>
     </div>
@@ -28,12 +28,14 @@
    <div>
      <img id="candadoabierto" src="imagens/candadoab.jpg">
    </div>
-   <div>
-   <p1> La palabra cifrada es:</p1>
+   <br>
+   <br>
+   <div class="texto cifrado">
+   <p1> La palabra cifrada es:  </p1>
    <br>
   <br>
+  <p2 id="resultado1"></p2>
  </div>
- <p2 id="resultado1"></p2>
  <br>
 <br>
    <div class="boton">
@@ -44,7 +46,11 @@
    <div>
      <img id= "candadocerrado" src= "./imagens/candadoce.jpg">
    </div>
+   <br>
+   <br>
    <p2>La palabra descifrado es</p2>
+   <br>
+   <br>
    <p3 id="resultado2"></p3>
    <div class="boton">
    <button id= "volver2">Volver</button>
