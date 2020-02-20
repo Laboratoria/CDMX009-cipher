@@ -16,7 +16,7 @@ El offset dentro del cifrado se realiza a través de su número de usuarias en D
     
   3. Luego colocarás la foto de tu primer prototipo en papel.
   4. Agregar un resumen del feedback recibido indicando las mejoras a realizar.
-  5. ![prototipo final](AnaRodea/CDMX009-cipher/prototipo.jpg) (AnaRodea/CDMX009-cipher/blob/master/prototipo.jpg)
+  5. ![prototipo final](https://github.com/AnaRodea/CDMX009-cipher/blob/master/prototipo.jpg)
 
 
 
