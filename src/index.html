@@ -1,14 +1,83 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<header>
     <meta charset="utf-8">
-    <title>Caesar Cipher</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div id="root">
-      <h1>Hello world!</h1>
-    </div>
-    <script src="index.js" type="module"></script>
-  </body>
+    <title>Bienvenidos al creador de Password</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</header>
+
+<main>
+
+
+<div class="contenedor" id="first" class="display_block">;
+
+      <div class= "contenedor1"><h1>¡Advertencia!</h1><br>
+
+      No admite letra "Ñ"<br>
+      No admite caracteres<br>
+      No admite numeros
+
+  <!--Boton Entendido-->
+  <form><br>
+  <button type="button" id="boton">Entendido</button>
+  </form>
+  </div></div>
+
+<!--Segunda pantalla-->
+
+<div id="second" class="bienvenidos display_none">
+    <h1>Bienvenidos al creador de Password</h1>
+
+<!--Boton Toggle-->
+
+<div class="cifra-Descifra">Cifra-Descifra<br>
+<input id="myCheckbox" type="checkbox" /></div>;
+
+
+<!--Botones Cifrado y Descifrado-->
+<div id="encode-decode">
+             <a href="#" id="page-encode"><img src= "img/abierto.png"></a>
+             <a href="#" id="page-decode"><img src= "img/cerrado.png"></a>
+         </div>
+
+         <!--display cifrar-->
+
+         <div id="text-encode" class="display_block"><!--Enlazar styledisplay-->
+           <div class="content-offset">
+             <label class="label">Número de desplazamiento</label><br>
+             <input type="number" id="offset_ci" class="style_offset"><!--enlaza offset a variable y css-->
+           </div>
+             <br><textarea id="box-msg-encode" class="box-text-style" placeholder="Introduce el texto a cifrar..."></textarea><br><!--Caja de texto-->
+             <button id="btn_encode" class="send">Enviar</button><br><!--Boton enviar-->
+             <div id="msg-encode" class="text-result"><p id="msg-encode-check"></p><!--Demo-->
+             </div>
+             <button onclick="location.reload();" class="recharge">Limpiar</button><!--Boton Limpiar-->
+            </div>
+
+         <!--display descifrar-->
+
+         <div id="text-decode" class= "display_none"><!--Enlazar style.display-->
+           <div class="content-offset">
+             <label class="label">Número de desplazamiento</label><br>
+             <input type="number" id="offset_des" class="style_offset"><!--enlaza offset a variable y css-->
+           </div>
+             <br><textarea id="box-msg-decode" class="box-text-style" placeholder="Introduce el texto a descifrar..."></textarea><br><!--Caja de texto-->
+             <button id="btn_decode" class="send">Enviar</button><br><!--Boton enviar-->
+             <div id="msg-decode" class="text-result"><p id="msg-decode-check"></p><!--Demo-->
+             </div>
+             <button onclick="location.reload();" class="recharge">Limpiar</button><!--Boton Limpiar-->
+         </div>
+
+     </section>
+
+
+     <script src="cipher.js"></script>
+     <script src="index.js"></script>
+
+</main>
+<footer></footer>
+
 </html>
