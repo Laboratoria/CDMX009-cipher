@@ -7,15 +7,20 @@
      text-align: center;
  }
 
-h1, h2 {
+h1 {
+    font-size: 60px;
     font-family: 'Caveat', cursive; 
     background: darkblue;
     text-align: center;
     color: white 
 }
 
-h1 {
-    font-size: 60px;
+h2 {
+    font-family: 'Caveat', cursive; 
+    background: darkblue;
+    text-align: center;
+    color: white 
+    
 }
 
 p {

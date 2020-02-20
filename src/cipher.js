@@ -21,7 +21,6 @@ const cipher = {encode,decode};
             resultTwo +=String.fromCharCode(decodeAscii);
             } return resultTwo; 
             }   
-        
             
             //console.log(cipher.encode("ABCD",3));
 

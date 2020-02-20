@@ -19,3 +19,4 @@ function decode () {
     let resultTwo= cipher.decode(nameAlias,letterOffset);
     document.getElementById("resultBox").value=resultTwo;      
 }
+
