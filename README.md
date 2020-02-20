@@ -1,3 +1,31 @@
+
+# Chinampayolo. El corazón de la chinampa
+
+Chinampayolo es un grupo de chinamperos que se dedican al cultivo de hortalizas libres de agroquímicos, promoviendo el intercambio de consumibles sin intermediarios y el rescate de la cultura chinampera de Xochimilco. El proyecto trata de acumular cierto número de códigos cifrados (generados por cupones incluidos en cada compra de una canasta básica) para ser canjeados por ciertos productos como hortalizas, un termo, una bolsa ecológica o un paseo por una Chinampa. 
+
+## Imagen final del producto
+![Imagen final](src/img/chinampayolo-producto-final-uno.jpg)
+![Imagen final](src/img/chinampayolo-producto-final-dos.jpg)
+![Imagen final](src/img/chinampayolo-producto-final-tres.jpg)
+
+Los usuarios son hombres y mujeres de la CDMX y alrededores que buscan hortalizas de calidad sin intermediarios para su consumo cotidiano.
+
+El producto no es una solución si no una alternativa de consumo de ciertas hortalizas generadas sin agroquimicos, apoyando así la recuperación de los productos Chinamperos y el comercio justo.
+
+Primer prototipo de papel
+![Imagen final](src/img/primer-prototipo.jpg)
+Gracias al feedback, me di cuenta que mi app era muy larga, había cosas que se podian juntar e una misma disminuyendo así el numero de pantallas.
+
+## Prototipo final.
+![Imagen final](src/img/prototipo-uno.jpg)
+![Imagen final](src/img/prototipo-dos.jpg)
+![Imagen final](src/img/prototipo-tres.jpg)
+
+
+
+
+
+
 # Cifrado César
 
 ## Índice
