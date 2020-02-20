@@ -11,7 +11,7 @@ iii. https://github.com/YeraldinCasas/CDMX009-cipher/blob/master/src/imagenes/Pr
 
 iV.Feedback: Eran demasiadas pantallas, mucho texto y no estaba claro para que serviría encriptar un nombre de contacto.
 
-v. src= "imagenes/FinalPrototipo.png"
+v. https://github.com/YeraldinCasas/CDMX009-cipher/blob/master/src/imagenes/FinalPrototipo.png 
 
 Objetivos de aprendizaje
 
