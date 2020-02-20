@@ -47,7 +47,7 @@ El nombre de la página es: ***Dream Tickets.***
 
  >El objetivo principal de aprendizaje es adquirir experiencia desarrollando aplicaciones web (WebApp) que interactúen con el usuario a través del navegador y la lógica, utilizando HTML5, CCS3 y JavaScript como herramientas.
 
-**git*Reflexiona y luego marca los objetivos que has llegado a entender y aplicar en tu proyecto.***
+***Reflexiona y luego marca los objetivos que has llegado a entender y aplicar en tu proyecto.***
 
 ***UX*** <br>
 ✅Diseñar la aplicación pensando y entendiendo al usuario.<br>
