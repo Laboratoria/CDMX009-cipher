@@ -16,7 +16,7 @@ Durante este primer feedback me comentaron que estaba bien, que parecia algo int
 
 Prototipo Figma: Use figma para hacer el prototipo ya que no pude descargar Adobe XD pero creo que me gusto mas, ademas trae algunos valores para el codigo CSS.
 
-![Prototipo Figma](src/Imagenes/prototipofigma.jpg)
+![Prototipo Figma](src/Imagenes/prototipofigma.png)
 
 ¡Resultado! Y finalmente quedo asi
 
