@@ -1,7 +1,8 @@
 
-.header{
- background-color: #2CA3F9;
+header{
+ background-color: #C95361;
  color: white;
+ font-family: 'Muli', sans-serif;
  padding: 2rem 0;
  position: fixed;
  font-size: 2rem;
@@ -10,79 +11,39 @@
  right: 0;
 }
 
-.header :hover {
+header :hover {
   background-color: #56274A
 }
-.header a :hover {
+header a :hover {
   color: azure;
+}
+p1{
+  padding-right: 50px;
 }
 
 body{
-  font-family: georgia, times, serif;
-  color:#5E2281;
-  font size: 2rem;
-  line-height: 2em;
-  background-color:#E9DDC3;
-  margin: 0;
-}
-
-p1{
-  color:#5E2281;
-  font size: 2rem;
-  line-height: 2em;
+  background-color: #000034;
+  background-image: url("imagen.jpg");
+  background-size: cover;
+  font-family: 'Muli', sans-serif;
+  color: #C95361;
+  font size: 40px;
+  line-height: 4em;
 }
 
 
 main {
   padding-top: 10rem;
+  padding-right: 20rem;
 }
 
 footer {
-  background: #C97130;
   padding: 20px;
   margin top: 40px;
-  text-align: right;
+  text-align: left;
   bottom: 0;
 }
 
-footer a {
-		color: white;
-	}
 #pantallaDos, #pantallaTres{
     display:none;
   }
-
-
-/*
-//Café para las letras #5E2281C
-
-//Naranja #C15D2
-//vermellon #D14E4E
-//Light carmin pink #D96E6E
-
-//PAle cooper #CA866C
-
-//Indian red-rosaranja #C95D63
-//PINK-RED #ff6972
-//inverso de pink-red #00968D
-
-//Bronze-mostaza #C97130
-
-//Midnight green-Turquesa #0C485E
-
-//Japanese Violet-morado cósmico #56274A
-//Patriarca #800080
-
-
-//Azul maya #73C2FB
-//Azul maya máás oscuro #2CA3F9
-
-
-//Rojo sandía  	#C03E3E
-//Salmón #FA8072
-//Jade #34C2A7
-//Coral #EB6362
-
-//Lino #D7D0B7
-//Blanco navajo #FFDEAD
-//Beige #E9DDC3
