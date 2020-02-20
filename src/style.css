@@ -4,11 +4,6 @@ body {
   color: rgba(224, 224, 224, 1);
   background-color: black;
   margin-left: 1%;
-  }
-.subtitle {
-  margin-top: 0%;
-  margin-bottom: 0%;
-}
 }
 .text {
   margin: 1em;
@@ -16,71 +11,60 @@ body {
   color: rgba(224, 224, 224, 1);
   border-color: rgba(112, 112, 112, 1);
   border-width: 1px;
-
 }
-  .next {
-    margin: 1em;
-    cursor: pointer;
-  }
-  .logo {
-    margin-top: 0%;
-    margin-left: 0%;
-  }
-  .title {
-    margin-top: 0%;
-    margin-bottom: 0%;
-    font-size: 150%;
-  }
-  .result {
-    border-color: rgba(112, 112, 112, 1);
-    border-width: 1px;
-    background-color: rgba(221, 215, 251, 1);
-    margin: 1em;
-    text-transform: uppercase;
-    font-size: 100%;
-  }
-
-#home {
-    display: block;
-  }
-    #homeImage {
-      cursor: pointer;
-      margin-top: 5%;
-    }
-
-#number {
-  display: none;
-  }
-    #dayNo {
-      border-color: rgba(112, 112, 112, 1);
-      border-width: 1px;
-      color: rgba(224, 224, 224, 1);
-      background: rgba(33, 49, 109, 0.53);
-      margin-top: 2em;
-      margin-left: 4em;
-      margin-bottom: 1em
-    }
-
-#user {
-    display: none;
-  }
-    #name {
-      background-color: rgba(193, 19, 35, 0.53);
-      margin: 1em;
-    }
-
-#keyword {
-    display: none;
-  }
-    #pass{
-      background-color: rgba(243, 185, 16, 0.52);
-      margin: 1em;
-    }
-
-#results {
-    display: none;
-  }
-    #backhome {
-      margin-left: 5.5em;
-      cursor: pointer;
-    }
+.next {
+  margin: 1em;
+  cursor: pointer;
+}
+.logo {
+  margin-top: 0%;
+  margin-left: 0%;
+}
+.title {
+  margin-top: 0%;
+  margin-bottom: 0%;
+  font-size: 150%;
+}
+.subtitle {
+  margin-top: 0%;
+  margin-bottom: 0%;
+}
+.result {
+  border-color: rgba(112, 112, 112, 1);
+  border-width: 1px;
+  background-color: rgba(221, 215, 251, 1);
+  margin: 1em;
+  text-transform: uppercase;
+  font-size: 100%;
+}
+.home {
+  display: block;
+}
+.hidden {
+  display :none;
+}
+.start {
+  cursor: pointer;
+  margin-top: 5%;
+}
+.boxNumber {
+  border-color: rgba(112, 112, 112, 1);
+  border-width: 1px;
+  color: rgba(224, 224, 224, 1);
+  background: rgba(33, 49, 109, 0.53);
+  margin-top: 2em;
+  margin-left: 4em;
+  margin-bottom: 1em
+}
+#name {
+  background-color: rgba(193, 19, 35, 0.53);
+  margin: 1em;
+}
+#pass{
+  background-color: rgba(243, 185, 16, 0.52);
+  margin: 1em;
+}
+#backhome {
+  margin-left: 5.5em;
+  cursor: pointer;
+}
