@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Secret Love</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- logotipo--->
+    <header class="encabezado"> <img src="images/logo.png">
+
+    </header>
+
+<!-- Aquí comienza pantalla uno--->
+
+    <main class="cajaprincipal" id="pantallaUno"> 
+        <section class="caja1">¿Quieres decirle algo a esa persona especial? 
+            Atrévete a expresarlo o a descubrirlo con esta webapp. 
+            Manda un mensaje secreto que sólo tú y la otra persona 
+            podrán ver con una clave secreta (de 3 digítos).</section>
+<!-- FORMULARIO--->  
+        <section class="caja2">
+        <form id="formulario">
+            <!-- ADVERTENCIA--->  
+            <p id="advertencia" class="advertencia"></p>
+            <!-- PEDIR NOMBRE--->  
+            <input id="cajanombre" class="cajanombre" placeholder="Pon tu nombre aquí">
+            <br> 
+            <br> 
+            <!-- BOTÓN SIGUIENTE--->  
+            <button type="button" class="boton" id="siguiente">SIGUIENTE</button>
+
+        </form>
+        </section>
+    </main>
+ <!-- Aquí comienza pantalla dos/mensaje--->
+    <section id="pantallaDos">
+        <section>
+            <!-- mensaje bienvenida con nombre de usuario--->
+           <h1 id="bienvenido" class="bienvenido">Bienvenid@</h1> 
+           <!-- CASILLA PARA INGRESAR DESPLAZAMIENTO --->
+            <form>
+                Ingresa tu clave secreta   <input id="cajaClave" class="cajaClave"> 
+            </form>
+            <p id="advertencia2" class="advertencia"></p>
+           <!-- caja para ingresar mensaje a cifrar/descifrar --->
+               <textarea id="cajaMensaje" class="cajatexto" placeholder="Coloca tu mensaje secreto aquí"></textarea>
+               <br> 
+               <br> 
+               <!-- BOTÓN PARA CIFRAR --->
+               <button class="boton" id="cifrando">CIFRAR</button>
+               <!-- BOTÓN PARA DESCIFRAR --->
+               <button class="boton" id="descifrado">DESCIFRAR</button>
+           
+   
+    </section>
+           
+       <!-- Aquí comienza pantalla resultado--->
+       <section id="pantallaResultado">
+           <!-- Texto para dar resultado--->
+           <h1 id="respuesta">Tu mensaje para este 14 de Febrero es:</h1> 
+           <!-- AQUÍ ARROJA CLAVE DE DESPLAZAMIENTO--->
+           <p></p>
+           <div class="cajaRespuesta">
+            <data id="tuClave" class="cajaTuClave"></data>
+            <br>
+            <!-- caja para mostrar resultado--->
+            <data id="cajaResultado" class="respuesta" ></data>
+            </div>
+            <br> 
+               <br> 
+               <!-- BOTÓN PARA VOLVER--->
+               <button id="volver" class="boton">VOLVER</button>
+               <!-- BOTÓN PARA SALIR--->
+               <button id= "salir" class="boton">SALIR</button>
+       </section>
+       <!-- Aquí termina sección de resultado de mensaje --->
+
+    </section>
+
+       <!-- Aquí comienza pantalla SALIDA--->
+       <section id="pantallaSalida">
+           <h3>VUELVE PRONTO</h3>
+        <img src="./images/logoGde.png" alt="">
+    </section>
+    <!-- Aquí termina sección de resultado de mensaje --->
+    <footer class="footer">
+        Creado por Edith Ortiz
+    </footer>
+    <script type="module" src="index.js"></script>
+</body>
+</html>
