@@ -10,24 +10,23 @@
   <header>
     <img src="Ci-pass.png">
   </header>
-  <body>
-    <div id="root">
+<body>
     <h1>Cifrado de contraseñas bancarias</h1>
-    <div class="container-main" id="containers">
+     <div class="container-main" id="containers">
      <h2>01</h2><label for="">Elige un número de desplazamiento:</label>
-     <input type="number" min="0" pattern= "[0-9]"id="input-desplazamiento" class="input1"> 
+     <input type="number" min="0" pattern= "[0-9]" id="movements" class="input1"> 
      <h2>02</h2><label class="label">Escribe tu contraseña</label>
-       <br><input type="text" id="text-in" class=pass></br>
+     <br><input type="text" id="password" class="identification">
+     </div>
+     <div id="events" class="buttons">
+      <button type="submit" class="buttons" id="cifrar">Cifrar</button>
+      <button type="submit" class="buttons" id="descifrar">Descifrar</button>
+     </div>
+      <br><h2>03</h2><label class="label">Contraseña cifrada</label>
+      <div id="passDecode" class="decode">
       </div>
-        <div id="events" class="buttons">
-         <button type="submit" class=buttons id="cifrar">Cifrar</button>
-         <button type="submit" class=buttons id="descifrar">Descifrar</button>
-        </div>
-     <br><h2>03</h2><label class="label">Contraseña cifrada</label></br>
-     <div id="pass-decode" class="decode">
-     <br><p id="pass-decode"></p></br>
-  </div>
-  <script src="index.js" type="module"></script>
-  </body>
-</div>
+    <script src="cipher.js" type="module"></script>
+    <script src="index.js" type="module"></script>
+</body>
+
 </html>

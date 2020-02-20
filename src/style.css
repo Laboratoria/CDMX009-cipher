@@ -30,19 +30,30 @@ h2{font-weight: bolder;
 
 }
 .input1{background:#EDEAF1;
-    border-radius: 35px;
+    border-radius: 25px;
     height: 40px;
+    color: #405280;
+    font-size: 24px;
+    width: 140px;
+    text-align: center;
 }
-.decode{height: 88px;
+.decode{height: 100px;
     background: #EDEAF1;
     width: 620px;
     border-radius: 25px;
     margin-bottom: 90px;
+    color: #405280;
+    font-size: 24px;
+    text-align: center;
+    
 }
-.pass{ height: 88px;
+.identification { height: 88px;
     background: #EDEAF1;
     width: 620px;
     border-radius: 20px;
+    font-size: 24px;
+    color: #405280;
+    text-align: center;
 }
 #cifrar{float: left;
     width: 130px;
