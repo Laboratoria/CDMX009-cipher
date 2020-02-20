@@ -8,98 +8,83 @@
 </head>
 
 <body>
-  <!--<div id="Initial"> Es inecesario?--> 
+  <div id="Initial">
     <header>
       <p>Proyecto Cifher Cesar</p>
     </header>
-
     <section>
       <h1>Bienvenidx a Our Secret <br>¿Qué quieres hacer hoy?</h1>
-      
-      <a href="#pageCifher">
+      <a href="#encode">
         <input class="button" type="button" value="Cifrar un mensaje">
       </a>
-
-      <a href="#pageDecifher">
+      <a href="#decode">
         <input class="button" type="button" value="Descifrar un mensaje">
       </a>
+    </section>
   </div>
 
   <article>
-   <!-- <div id="pageCifher" class="page"> Puedo agregar css pero cómo navego ahora??-->
-
+    <div id="encode" class="page">
       <h1>Ingresa tu mensaje</h1>
-      <form action="/cifher.js" method="get">
+      <form action="/index.js" method="get">
         <label for="simpleText">Ingresa tu texto:</label>
         <input type="text" id="simpleText" name="simpleText"><br><br>
-        <label for="offset"><strong> Ingresa una contraseña</strong> <br><em>(solo dos dígitos)</em>:</label>
-        <input type="number" id="offset" name="offset"><br><br>
-        <input class="button" type="submit" value="Enter">
+        <label for="offset"><strong> Ingresa una contraseña</strong></label>
+        <input type="number" id="offsetEncode" name="offset"><br><br>
+        <a href="#pageMessageCode">
+          <input class="button" type="button" id="cifrar" value="Enter">
+        </a>
       </form>
-
-      <!--Aquí me debería llevar a pageMessage-->
-
-      <article>
-        <div id="pageMessageCode" class="page">
-          <h1>Tu mensaje es: <br> </h1>
-          <!--Aquí debe mostrar mensaje Cifrado importado de index.js--> <br>
-          <a href="#pageCifher">
-            <input class="button" type="button" value="Cifrar un mensaje">
-          </a>
-          <a href="#pageDecifher">
-            <input class="button" type="button" value="Descifrar un mensaje">
-          </a>
-
-        </div>
-      </article>
-
-      <article>
-        <div id="pageDecifher" class="page">
-          <h1>Ingresa tu mensaje</h1>
-          <form action="/cifher.js" method="get">
-            <label for="codeText">Ingresa tu texto:</label>
-            <input type="text" id="codeText" name="codeText"><br><br>
-            <label for="offset"><strong> Ingresa una contraseña</strong> </label>
-            <input type="number" id="offset" name="offset"><br><br>
-            <input class="button" type="submit" value="Enter">
-          <!--Si me falla formula limitar el nuero de desplazamientos
-            <label for="displace">Elige una contraseña:</label>
-
-<select id="numberDisplace">
-  <option value="1">1</option>
-  <option value="2">2</option>
-  <option value="3">3</option>
-  <option value="...">...</option>
-</select>-->
-          </form>
-        </div>
-      </article>
-
-      <article>
-        <div id="pageMessageDecode" class="page">
-          <h1>Tu mensaje es:</h1>
-          <!--Aquí debe mostrar mensaje Decifrado--> <br>
-          <a href="#pageCifher">
-            <input class="button" type="button" value="Cifrar un mensaje">
-          </a>
-          <a href="#pageDecifher">
-            <input class="button" type="button" value="Descifrar un mensaje">
-          </a>
-
-        </div>
-      </article>
-
-
-    </section>
-
     </div>
-    <footer>
-      <p>
-        <strong> Paz Karina</strong> <br>
-      <img src="/Karina/Imagenes/laboratoria.png"/>
-      </p>
-    </footer>
-    <script src="index.js" type="module"></script>
-</body>
+  </article>
 
+  <article>
+    <div id="pageMessageCode" class="page">
+      <h1>Tu mensaje es: <br> </h1>
+      <div id="resultado"></div><br>
+      <!--Aquí debe mostrar mensaje Cifrado importado de index.js-->
+      <a href="#code">
+        <input class="button" type="button" value="Cifrar un mensaje">
+      </a>
+      <a href="#decode">
+        <input class="button" type="button" value="Descifrar un mensaje">
+      </a>
+    </div>
+  </article>
+
+  <article>
+    <div id="decode" class="page">
+      <h1>Ingresa tu mensaje</h1>
+      <form action="/cifher.js" method="get">
+        <label for="codeText">Ingresa tu texto:</label>
+        <input type="text" id="codeText" name="codeText"><br><br>
+        <label for="offset"><strong> Ingresa una contraseña</strong> </label>
+        <input type="number" id="offsetDecode" name="offset"><br><br>
+        <input class="button" type="submit" id="descifrar" value="Enter">
+      </form>
+    </div>
+  </article>
+
+  <article>
+    <div id="pageMessageDecode" class="page">
+      <h1>Tu mensaje es:</h1>
+         <!--Aquí debe mostrar mensaje Decifrado-->
+      <a href="#encode">
+        <input class="button" type="button" value="Cifrar un mensaje">
+      </a>
+      <a href="#decode">
+        <input class="button" type="button" value="Descifrar un mensaje">
+      </a>
+    </div>
+  </article>
+ 
+
+  <footer>
+    <p>
+      <strong>Paz Karina by Laboratoria.</strong> <br>
+    </p>
+  </footer>
+
+  <script src="/src/index.js" type="module"></script>
+</body>
 </html>
