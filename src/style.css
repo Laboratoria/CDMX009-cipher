@@ -1,0 +1,28 @@
+/*Globales*/
+/* *{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}*/
+
+/* Header */
+.logosHeader {
+    width: 2rem;
+}
+
+/* Inicio con animacipon de logo*/
+.logoPawsCause {
+    width: 10rem;
+}
+
+/* Inicio con navegación */
+/* Navegación */
+.navegacion-inicio img {
+    width: 3rem;
+}
+
+aside input {
+    width: 3rem;
+}

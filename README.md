@@ -67,13 +67,13 @@ Reflexiona y luego marca los objetivos que has llegado a **entender** y **aplica
 ### UX
 
 - [ ] Diseñar la aplicación pensando y entendiendo al usuario.
-- [ ] Crear prototipos para obtener feedback e iterar.
+- [X] Crear prototipos para obtener feedback e iterar.
 - [ ] Aplicar los principios de diseño visual (contraste, alineación, jerarquía).
 
 ### HTML y CSS
 
-- [ ] Uso correcto de HTML semántico.
-- [ ] Uso de selectores de CSS.
+- [X] Uso correcto de HTML semántico.
+- [X] Uso de selectores de CSS.
 - [ ] Construir tu aplicación respetando el diseño realizado (maquetación).
 
 ### DOM
@@ -84,21 +84,21 @@ Reflexiona y luego marca los objetivos que has llegado a **entender** y **aplica
 
 ### Javascript
 
-- [ ] Manipulación de strings.
-- [ ] Uso de condicionales (if-else | switch).
+- [X] Manipulación de strings.
+- [X] Uso de condicionales (if-else | switch).
 - [ ] Uso de bucles (for | do-while).    
-- [ ] Uso de funciones (parámetros | argumentos | valor de retorno).
-- [ ] Declaración correcta de variables (const & let).
+- [X] Uso de funciones (parámetros | argumentos | valor de retorno).
+- [X] Declaración correcta de variables (const & let).
 
 ### Testing
 - [ ] Testeo de tus funciones.
 
 ### Git y GitHub
-- [ ] Comandos de git (add | commit | pull | status | push).
-- [ ] Manejo de repositorios de GitHub (clone | fork | gh-pages).
+- [X] Comandos de git (add | commit | pull | status | push).
+- [X] Manejo de repositorios de GitHub (clone | fork | gh-pages).
 
 ### Buenas prácticas de desarrollo
-- [ ] Uso de identificadores descriptivos (Nomenclatura | Semántica).
+- [X] Uso de identificadores descriptivos (Nomenclatura | Semántica).
 - [ ] Uso de linter para seguir buenas prácticas (ESLINT).
 
 
@@ -147,16 +147,24 @@ Estos puntos los presentarás en el `README.md`.
 Debe contener lo siguiente:
 
 * Un título con el nombre de tu proyecto.
+*Título del Proyecto: PawsCause
 * Un resumen de 1 o 2 líneas de qué se trata tu proyecto.
+*Es una aplicación web que genera un código particular para aquellos que al realizar una aportación eligen un cupón en específico. Se utilizará la cantidad aportada como offset para codificar la descripcion del cupón electo. Después éste podrá ser decodificado en las tiendas y así ver la descripción del cupón. 
 * La imagen final de tu proyecto.
 * Investigación UX:
-  1. Explicar quiénes son los usuarios y los objetivos en relación con el
-    producto.
-  2. Explicar cómo el producto soluciona los problemas/necesidades de dichos
-    usuarios.
+  1. Explicar quiénes son los usuarios y los objetivos en relación con el producto.
+*Los usuarios serían aquellos que requieran de cifrar los códigos que eligen sus usuarios para proporcionarles un código personal, así como los usuarios de estos. Tal código podrá ser mostrado en tienda o ingresarse al comprar en línea para que a través de descifrar el mismo la empresa (en la que el usuario desea comprar) acceda a la descripción del cupón obtenido por la persona. 
+  2. Explicar cómo el producto soluciona los problemas/necesidades de dichos usuarios.
+*Ambos, tanto las empresas que brindan los cupones como aquellos que los obtienen requieren estar ciertos de que el cupon que proporcionan/obtienen no podrá ser replicado facilmente por otros usuarios (voluntariamente). Por ello la app cifrará (utilizando como offset la cantidad aportada por el usuario) tanto la descripción del cupón como una palabra clave que se le solicitará al usuario para personalizar su cupón.   
   3. Luego colocarás la foto de tu primer prototipo en papel.
+  ![Sketch 1](src/img/Sketch 1.jpg)
+  ![Sketch 1](src/img/Sketch 2.jpg)
+  ![Sketch 1](src/img/Sketch 3.jpg)
+  ![Sketch 1](src/img/Sketch 4.jpg)
   4. Agregar un resumen del feedback recibido indicando las mejoras a realizar.
+*Mis compañeras me comentaron que era necesario simplificar la interfaz puesto que no era lo suficientemente intuitiva como para que el usuario navegara a través de la misma sin confundirse o no saber para qué servían algunos botones y secciones. También me comentaron que por la cantidad de pantallas era posible que no alcanzara a terminar el proyecto en tiempo.
   5. Imagen del prototipo final.
+  ![Prototipo Final](src/img/PawsCause.png)
 
 #### Visualmente (HTML5 y CSS3)
 
