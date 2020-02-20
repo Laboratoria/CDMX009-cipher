@@ -1,8 +1,7 @@
 import cipher from './cipher.js';
-console.log(cipher);
+//console.log(cipher);
 
 function pantalla2(){
-console.log('bluis');
 document.getElementById("screen1").style.display="none";
 document.getElementById("screen2").style.display= "block";
 let parrafo1 = document.getElementById("resultado1");
@@ -12,7 +11,6 @@ let offset= document.getElementById('offsetnum').value;
 let result= cipher.encode(offset,texto);
 console.log(result);
 parrafo1.innerHTML=result;
-
 }
 document.getElementById("button1").addEventListener("click",pantalla2);
 
