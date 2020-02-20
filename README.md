@@ -1,3 +1,29 @@
+# OracLab
+
+* OracLab es un oráculo pensado en las chicas de laboratoria, para cuando llegan momentos de estrés y necesitamos un mensaje divino o algún tipo de estímulo a través de palabras, aquí está. 
+Ofrece a las usuarias tener una interacción a través de mensajes que pueden "DEJAR", para quienes quieran dejar un mensaje o "ABRIR", para quienes necesiten abrir un mensaje. De esta manera al momento de DEJAR o ABRIR un mensaje proporciona la opción de cifrar y descifrar.
+El offset dentro del cifrado se realiza a través de su número de usuarias en Discord.
+
+* El prototipo se puede ver en el siguiente enlace, (donde solo se muestra funcional la parte de DEJAR; aún no está implementado para ABRIR un mensaje ) (https://invis.io/A3W1XFC2CSE#/405738179_01)
+
+* Investigación UX:
+
+  1. Usuarios: Laboratorians
+     Objetivos: Obtener un estímulo a través de un mensaje, así como tener interacción con el cifrado y descifrado de acuerdo a su      número de usuaria, esto lo hace más especial.
+     
+  2. La aplicación ofrece a las usuarias interactuar entre sí generando contenido en mensajes para todas las que deseen participar.
+  
+    
+  3. Luego colocarás la foto de tu primer prototipo en papel.
+  4. Agregar un resumen del feedback recibido indicando las mejoras a realizar.
+  5. ![prototipo final](AnaRodea/CDMX009-cipher/prototipo.jpg)
+
+
+
+
+
+
+
 # Cifrado César
 
 ## Índice
