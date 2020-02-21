@@ -1,4 +1,4 @@
-OBJETIVOS DE APRENDIZAJE 
+OBJETIVOS DE APRENDIZAJE <br>
 **UX** <br>
 ✅ Diseñar la aplicación pensando y entendiendo al usuario <br>
 ✅ Crear prototipos para obtener feedback e iterar<br>
