@@ -1,4 +1,38 @@
-# PERSONAL DATA PROTECTION
+ OBJETIVOS DE APRENDIZAJE 
+UX
+✅ Diseñar la aplicación pensando y entendiendo al usuario 
+✅ Crear prototipos para obtener feedback e iterar
+✅ Aplicar los principios de diseño visual (contraste, alineación, jerarquía)
+
+Html y CSS
+✅ Uso correcto de html semántico
+✅ Uso de selectores de css
+✅ Construir tu aplicación respetando el diseño realizado (maquetación)
+
+DOM
+✅Uso de selectores del DOM
+✅Manejo de eventos del DOM
+✅Manipulación dinámica del DOM
+
+Javascript
+✅ Manipulación de strings
+🤔 Uso de condicionales (if-else, switch)
+🤔 Uso de bucles (for, do-while)
+🤔 Uso de funciones (parámetros, argumentos, valor de retorno)
+✅ Declaración correcta de variables (const & let)
+
+Testing
+☹ Testeo de funciones
+
+Git y GitHub
+✅ Comando de git (add, commit, pull, status, push)
+✅ Manejo de repositorios de GitHub (clone, fork, gh-pages)
+
+Buenas practicas de desarrollo
+✅ Uso de identificadores descriptivos (Nomenclatura, Semántica)
+✅ Uso de linter para seguir buenas prácticas (ESLINT)
+
+P E R S O N A L      D A T A       P R O T E C T I O N
 
  1. Resumen del proyecto
  
@@ -39,6 +73,4 @@
  
 ![alt text](https://raw.githubusercontent.com/andreatoledo/CDMX009-cipher/master/prototipo/cap.png)
 ![alt text](https://raw.githubusercontent.com/andreatoledo/CDMX009-cipher/master/prototipo/cap2.png)
-
-
 
