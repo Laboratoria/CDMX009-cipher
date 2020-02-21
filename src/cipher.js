@@ -1,54 +1,29 @@
-function mostrar(){
-   div1 = document.getElementById("root").style.display = 'none';
-   div2 = document.getElementById("root2").style.display = 'block';
-
-}
-
-
-function  encode(){
-   div =  document.getElementById("root2").style.display = 'none';
-  div4 = document.getElementById("root3").style.display= 'block';
-
-    let name = document.getElementById("name").value;
-    let offset = document.getElementById("Age").value;
-    let string = name.toUpperCase();
-
-    let newString = [''];
-
- 
-    offset = offset % 26;
-    for(let i = 0; i < string.length; i++){
-      let codestring = string.charCodeAt(i);
-      if (codestring >= 65 && codestring <= 90){
-    newString +=  String.fromCharCode((codestring - 65 + offset)% 26 + 65);
-    result = document.getElementById("result").value =  newString;
-   
-    }
-     }
-    }
-
-    function next(){
-      div5 = document.getElementById("root3").style.display = "none";
-       div6 = document.getElementById("root4").style.display = "block";
- }
-
-function decode(){
-
-      let edad = document.getElementById("codigo").value;
-      let codedecode = document.getElementById("Age").value;
-       let code =  [''];
-
-     codedecode = codedecode % 26;
-     for(let i = 0; i < edad.length; i++){
-       let AgeCode  = edad.charCodeAt(i);
-       if (AgeCode >= 65 && AgeCode <= 90){
-     code +=  String.fromCharCode((AgeCode + 65 - codedecode)% 26 + 65);
-     resultt = document.getElementById("dato").value = code;
-     Ageuser = document.getElementById("AgeUser").value = codedecode;
-       }
+const cipher =  { 
+     encode: function(string , offset){
+    let newString = '';
+    for (let i = 0; i < string.length; i++ ){
+        let codeChar = string.charCodeAt(i);
+        if(codeChar >= 65 && codeChar <=90 ){
+            newString += String.fromCharCode((codeChar - 65 + offset)% 26 + 65);
       }
+    }
+    return newString;
+  },
 
+decode : function(codepromo, age){
+    let dateUser = '';
+    let ageuser = '';
+    for(let i = 0; i < codepromo.length; i++){
+        let Agecode = codepromo.charCodeAt(i);
+        if(Agecode >= 65 && Agecode <= 90){
+        dateUser += String.fromCharCode((Agecode + 65 - age)%26 +65);
+        name = document.getElementById('nameUser').value = dateUser;
+       user = document.getElementById('Age').value = ageuser;
+        }
+    }
+    return name;
 }
-    
+};
+export default cipher;
 
-    
+
