@@ -1,6 +1,5 @@
 import cipher from './cipher.js';
 
-
 let encButton = document.getElementById('encodeButton');
 function encodeButton() {
     let text = document.getElementById('text').value;
