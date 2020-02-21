@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+
+body {
+    background-image: url("backgroundImage.jpg");
+}
+h1, h2 {
+    text-align: center;
+    font-family: Josefin Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 38px;
+    background-color: rgba(110, 139, 139, 0.534);
+    color: rgb(0, 0, 0);
+}
+.formulario {
+    position: relative;
+    left: 70px;
+    top: 50px;
+}
+.instrucciones {
+    font-family: Josefin Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 20px;
+    background-color: rgba(110, 139, 139, 0.534);
+    color: rgb(0, 0, 0);
+}
+.ingresoDeTexto {
+    width: 1153px;
+    height: 135px;
+}
+.resultado {
+    position: relative;
+    left: 70px;
+    top: 100px;
+}
+.botones {
+    background:    #062037;
+    background:    linear-gradient(#062037, #000101);
+    border:        1px solid #556699;
+    border-radius: 5px;
+    width:         200px;
+    height:        35px;
+    color:         #e4f1f5;
+    font:          normal bold 25px/34px Josefin sans;
+    text-align:    center;
+    text-shadow:   1px 1px #000000;
+}
+.bienvenida {
+    position: relative;
+    left: 300px;
+    top: 70px;
+    width: 700px;
+    height: 150px;
+    text-align: center; 
+    background-color: rgba(110, 139, 139, 0.534);
+}
+#botonPrincipal {
+    position: relative;
+    left: 550px;
+    top: 100px;
+    background:    #062037;
+    background:    linear-gradient(#062037, #000101);
+    border:        1px solid #556699;
+    border-radius: 5px;
+    width:         230px;
+    height:        65px;
+    color:         #e4f1f5;
+    font:          normal bold 40px/34px Josefin sans;
+    text-align:    center;
+    text-shadow:   1px 1px #000000;
+}
