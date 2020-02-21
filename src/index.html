@@ -2,13 +2,73 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Caesar Cipher</title>
+    <title>Comunicación segura</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <div id="root">
-      <h1>Hello world!</h1>
-    </div>
+      <section id="header">    <header  class="header">Red de comunicación segura </header> </section>
+      <section id="pantallaUno">
+        <br>
+        <br>
+        <br>
+        <br>
+          <p> En esta página podrás cifrar y descifrar texto usando<br>
+            la técnica de <strong>Cifrado César.</strong><br>
+            Cifrado César es una técnica de reemplazo de caracteres,<br>
+            Los mensajes cifrados <br> generados en esta aplicación <br>
+            los puedes mandar a través de cualquier canal que eligas,<br>
+            por ejemplo correo electrónico,<br>
+            y hacer de esta forma un poco más segura la comunicación.<br>
+            Te recomendamos que el número de desplazamiento o contraseña<br>
+            utilizada para cifrar el mensaje lo compartes por una vía diferente,<br>
+            por ejemplo por llamada teléfonica,<br>
+            en persona, etc., de esta forma harás más segura la comunicación.
+          </p><br>
+          <br>
+          <button class="button" id="Entrar"> ¡Entendido, comenzar!</button>
+          <br>
+      </section>
+<section id="pantallaDos">
+<br>
+<br>
+<br>
+        <label for="story">Aquí puedes escribir el texto que quieres cifrar o descifrar</label><br>
+        <textarea id="inputString" name="inputString"
+                  rows="15" cols="50"></textarea>
+<br>
+Elige el número con el que quieres cifrar o descifrar el mensaje,<br>
+éste servirá como contraseña:
+<br>
+<label for="offset">Contraseña:</label>
+<input type="number" id="offset" name="offset"
+       min="1">
+<br><br><br>
+<button class="button" id="Cifrar">Cifrar </button>         <button class="button" id="Descifrar"> Descifrar </button>
+<br>
+<br>
+</section>
+<section id="pantallaTres">
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<label for="story"> ¡Genial!¡Comparte tu texto con quien tengas confianza!</label><br>
+<p1 id="output"></p1>
+<br>
+<br>
+<!--<button class=button id="Copiar"> Copiar</button>-->
+<br><br>
+<button class="button" id="Volver">Volver al inicio</button>
+<br>
+<br>
+</section>
     <script src="index.js" type="module"></script>
-  </body>
+<footer class="footer">
+		<p> Proyecto desarrollado por Ania Cuapio para Laboratoria</p>
+</footer> <!-- / #main-footer -->
+</div>
+</body>
 </html>
