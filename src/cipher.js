@@ -57,15 +57,15 @@ function encode(offset,str) {
 
 //DECODE con soporte para todos los caracteres imprimibles
 function decode(offset,str) {
-  if (typeof offset !=="number" && typeof str !=="string") {
-    throw new TypeError
-  } else {
+//  if (typeof offset !=="number" && typeof str !=="string") {
+//    throw new TypeError
+//  } else {
     let solved;
     for (let i=0; i<str.length; i++) {          //Esta parte le dice al bucle que debe repetirse hasta llegar a la última letra.
       let asciiNum = str.charCodeAt(i);           //Esto genera el códigos ascii de cada letra
        asciiNum = (asciiNum-parseInt(offset))%255;//Esto genera el número por el que se debe desplazar el alfabeto y lo suma a la posicion original de cada letra
       solved += String.fromCharCode(asciiNum);  //Esta parte llama a la nueva letra a partir de los nuevos codigos ascii de las nuevas posiciones.
-    }
+//    }
   }
     return(solved);
 }

@@ -5,18 +5,13 @@ header{
  font-family: 'Muli', sans-serif;
  padding: 2rem 0;
  position: fixed;
- font-size: 2rem;
+ font-size: 40PX;
+ align-content: center;
  left:0;
  top: 0;
  right: 0;
 }
 
-header :hover {
-  background-color: #56274A
-}
-header a :hover {
-  color: azure;
-}
 p1{
   padding-right: 50px;
 }
@@ -26,11 +21,13 @@ body{
   background-image: url("imagen.jpg");
   background-size: cover;
   font-family: 'Muli', sans-serif;
-  color: #C95361;
-  font size: 40px;
-  line-height: 4em;
+  color: #F0FF28;
+  font-size: 20px;
+  line-height: 1.5em;
+  padding-right: 100;
+  text-align: left;
 }
-
+#
 
 main {
   padding-top: 10rem;
