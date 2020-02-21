@@ -22,7 +22,7 @@ document.cipherecode
 =======
 
 //console.log(cipher);
-//console.log(cipher.encode("HOLA", 4));
+// console.log(cipher.encode(33, 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'));
 
 function contribution() {
   document.querySelector("#ingresar-datos").style.display = "block";
@@ -40,10 +40,10 @@ function processUser() {
   let userName = inputUser.value.toUpperCase();
   let offset = userName.length;
   if (offset == 0) {
-    output.textContent = "usuario";  
+    output.textContent = "usuario";
   } else {
-    let nombreCifrado = cipher.encode(userName, offset);
-    let nombreDescifrado = cipher.decode(nombreCifrado, offset * -1);
+    let nombreCifrado = cipher.encode(offset, userName);
+    let nombreDescifrado = cipher.decode(offset, nombreCifrado);
     output.textContent = nombreCifrado + " (" + nombreDescifrado + ")";
   }
 }
