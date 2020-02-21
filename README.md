@@ -1,35 +1,35 @@
- OBJETIVOS DE APRENDIZAJE 
-UX
-✅ Diseñar la aplicación pensando y entendiendo al usuario 
-✅ Crear prototipos para obtener feedback e iterar
+OBJETIVOS DE APRENDIZAJE 
+**UX** <br>
+✅ Diseñar la aplicación pensando y entendiendo al usuario <br>
+✅ Crear prototipos para obtener feedback e iterar<br>
 ✅ Aplicar los principios de diseño visual (contraste, alineación, jerarquía)
 
-Html y CSS
-✅ Uso correcto de html semántico
-✅ Uso de selectores de css
+**HTML y CSS**<br>
+✅ Uso correcto de html semántico<br>
+✅ Uso de selectores de css<br>
 ✅ Construir tu aplicación respetando el diseño realizado (maquetación)
 
-DOM
-✅Uso de selectores del DOM
-✅Manejo de eventos del DOM
+**DOM**<br>
+✅Uso de selectores del DOM<br>
+✅Manejo de eventos del DOM<br>
 ✅Manipulación dinámica del DOM
 
-Javascript
-✅ Manipulación de strings
-🤔 Uso de condicionales (if-else, switch)
-🤔 Uso de bucles (for, do-while)
-🤔 Uso de funciones (parámetros, argumentos, valor de retorno)
+**Javascript**<br>
+✅ Manipulación de strings<br>
+🤔 Uso de condicionales (if-else, switch)<br>
+🤔 Uso de bucles (for, do-while)<br>
+🤔 Uso de funciones (parámetros, argumentos, valor de retorno)<br>
 ✅ Declaración correcta de variables (const & let)
 
-Testing
+**Testing**<br>
 ☹ Testeo de funciones
 
-Git y GitHub
-✅ Comando de git (add, commit, pull, status, push)
+**Git y GitHub**<br>
+✅ Comando de git (add, commit, pull, status, push)<br>
 ✅ Manejo de repositorios de GitHub (clone, fork, gh-pages)
 
-Buenas practicas de desarrollo
-✅ Uso de identificadores descriptivos (Nomenclatura, Semántica)
+**Buenas practicas de desarrollo**<br>
+✅ Uso de identificadores descriptivos (Nomenclatura, Semántica)<br>
 ✅ Uso de linter para seguir buenas prácticas (ESLINT)
 
 P E R S O N A L      D A T A       P R O T E C T I O N
