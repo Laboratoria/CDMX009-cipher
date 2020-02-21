@@ -18,7 +18,6 @@
 
 ## IMAGEN DE PROTOTIPO FINAL: 
 
-# ![GitHub Logo](CDMX009-cipher/Captura de pantalla de 2020-02-21 10-33-11.png) 
-# ![GitHub Logo](CDMX009-cipher/Captura de pantalla de 2020-02-21 10-37-06.png) 
-# ![GitHub Logo](CDMX009-cipher/Captura de pantalla de 2020-02-21 10-37-31.png)
-# ![GitHub Logo](CDMX009-cipher/Captura de pantalla de 2020-02-21 10-37-45.png)
+# ![PrototipoFigma](CDMX009-cipher/Captura de pantalla de 2020-02-21 10-33-11.png) 
+# ![PrototipoFigma1](CDMX009-cipher/Captura de pantalla de 2020-02-21 10-37-06.png) 
+
