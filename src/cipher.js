@@ -1,29 +1,33 @@
-const cipher =  { 
-     encode: function(string , offset){
-    let newString = '';
-    for (let i = 0; i < string.length; i++ ){
-        let codeChar = string.charCodeAt(i);
-        if(codeChar >= 65 && codeChar <=90 ){
-            newString += String.fromCharCode((codeChar - 65 + offset)% 26 + 65);
-      }
-    }
-    return newString;
-  },
-
-decode : function(codepromo, age){
-    let dateUser = '';
-    let ageuser = '';
-    for(let i = 0; i < codepromo.length; i++){
-        let Agecode = codepromo.charCodeAt(i);
-        if(Agecode >= 65 && Agecode <= 90){
-        dateUser += String.fromCharCode((Agecode + 65 - age)%26 +65);
-        name = document.getElementById('nameUser').value = dateUser;
-       user = document.getElementById('Age').value = ageuser;
-        }
-    }
-    return name;
+function encode (){
+let string = document.getElementById('name').value;
+let offset = document.getElementById('Age').value;
+let name = string.toUpperCase();
+let newName = '';
+offset = offset %26;
+for(let i = 0; i < name.length; i++){
+let codename = name.charCodeAt(i);
+if(codename >= 65 && codename <=90){
+newName += String.fromCharCode((codename - 65 + offset)%26 +65);
+document.getElementById('result').value = newName;
+   }
+  }
 }
-};
-export default cipher;
+
+ function decode(){
+   let codeprom = document.getElementById('code').value;
+   let offset = document.getElementById('Age').value;
+   let codedecode = '';
+   offset = offset %26;
+   for(let i = 0; i < codeprom.length; i++){
+     let code = codeprom.charCodeAt(i);
+     if(code >= 65 && code <= 90){
+       codedecode += String.fromCharCode((code + 65 - offset)%26 +65);
+       document.getElementById('nameUser').value = codedecode;
+       document.getElementById('AgeUser').value = offset;
+     }
+    }
+   }
+
+
 
 
