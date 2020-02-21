@@ -66,40 +66,40 @@ Reflexiona y luego marca los objetivos que has llegado a **entender** y **aplica
 
 ### UX
 
-- [ ] Diseñar la aplicación pensando y entendiendo al usuario.
-- [ ] Crear prototipos para obtener feedback e iterar.
+- [x] Diseñar la aplicación pensando y entendiendo al usuario.
+- [x] Crear prototipos para obtener feedback e iterar.
 - [ ] Aplicar los principios de diseño visual (contraste, alineación, jerarquía).
 
 ### HTML y CSS
 
 - [ ] Uso correcto de HTML semántico.
-- [ ] Uso de selectores de CSS.
-- [ ] Construir tu aplicación respetando el diseño realizado (maquetación).
+- [x] Uso de selectores de CSS.
+- [x] Construir tu aplicación respetando el diseño realizado (maquetación).
 
 ### DOM
 
-- [ ] Uso de selectores del DOM.
+- [x] Uso de selectores del DOM.
 - [ ] Manejo de eventos del DOM.
 - [ ] Manipulación dinámica del DOM.
 
 ### Javascript
 
-- [ ] Manipulación de strings.
-- [ ] Uso de condicionales (if-else | switch).
-- [ ] Uso de bucles (for | do-while).    
+- [x] Manipulación de strings.
+- [x] Uso de condicionales (if-else | switch).
+- [x] Uso de bucles (for | do-while).    
 - [ ] Uso de funciones (parámetros | argumentos | valor de retorno).
-- [ ] Declaración correcta de variables (const & let).
+- [x] Declaración correcta de variables (const & let).
 
 ### Testing
-- [ ] Testeo de tus funciones.
+- [x] Testeo de tus funciones.
 
 ### Git y GitHub
-- [ ] Comandos de git (add | commit | pull | status | push).
-- [ ] Manejo de repositorios de GitHub (clone | fork | gh-pages).
+- [x] Comandos de git (add | commit | pull | status | push).
+- [x] Manejo de repositorios de GitHub (clone | fork | gh-pages).
 
 ### Buenas prácticas de desarrollo
-- [ ] Uso de identificadores descriptivos (Nomenclatura | Semántica).
-- [ ] Uso de linter para seguir buenas prácticas (ESLINT).
+- [x] Uso de identificadores descriptivos (Nomenclatura | Semántica).
+- [x] Uso de linter para seguir buenas prácticas (ESLINT).
 
 
 ## 4. Consideraciones generales
@@ -143,21 +143,24 @@ cómo tu aplicación lo soluciona.
 Estos puntos los presentarás en el `README.md`.
 
 **`README.md`**:
+Titulo: Girls Support Girls
+Pagina creada para denuncias basado en el movimiento #Metoo
 
-Debe contener lo siguiente:
+Imagen final del proyecto 
+![(Pagina1]<img src= "img/pagina.jpg>
+![Pagina2]<img src= img/pagina2.jpg>
 
-* Un título con el nombre de tu proyecto.
-* Un resumen de 1 o 2 líneas de qué se trata tu proyecto.
-* La imagen final de tu proyecto.
-* Investigación UX:
-  1. Explicar quiénes son los usuarios y los objetivos en relación con el
-    producto.
-  2. Explicar cómo el producto soluciona los problemas/necesidades de dichos
-    usuarios.
-  3. Luego colocarás la foto de tu primer prototipo en papel.
-  4. Agregar un resumen del feedback recibido indicando las mejoras a realizar.
-  5. Imagen del prototipo final.
-
+Investigación UX
+1.- Sus usurios son mujeres jovenes/adultas y el objetivo es que puedan expresar libremente y denunciar una situación de acoso que hayan vivido.
+2.-El producto soluciona los problemas de manera que por medio del cifrado la denuncia se vuelve totalmente anonima, respetando la privacidad de las usuarias y con ello lleva a que las usuarias al sentirse seguras de que su infromación personal no será revelada se cumple la necesidad de libertad de expresión.
+3.- Prototipo de papel
+![sketch1] <img src= "img/sketch.JPG"> sketch antes del feedback
+![skecth] <img src="img/sketch2.JPG"> sketch despues del feedback
+4.- FeedBack: 
+ El feedback me ayudo mucho, ya que mis compañeras me ayudaron mucho a aterrizar mi idea y con el primer sketch, por que a la principio yo quería hacer una pagina con un montonn de paginas, sin embargo ellas me dieron el feedback de que no al usuario no le gusta estar pasndo de pagina en pagina y tambien recibí feedback por parte de personas fuera de Laboratoria (como mi familia).
+ 5.- Prototipo final (en mi caso wireframe)
+ ![wireframe1] <img src= img/wireframe.jpg>
+ ![wireframe2] <img src= img/wireframe2.jpg>
 #### Visualmente (HTML5 y CSS3)
 
 Deberás maquetar de forma exacta el prototipo final que hiciste en balsamiq
