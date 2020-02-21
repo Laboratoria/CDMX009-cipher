@@ -1,14 +1,54 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1,
+    maximum-scale=1">
     <meta charset="utf-8">
-    <title>Caesar Cipher</title>
+    <title>OracLab</title>
     <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light&display=swap" rel="stylesheet">
   </head>
+
   <body>
-    <div id="root">
-      <h1>Hello world!</h1>
-    </div>
+    <header>
+      <section id="pag1"> <!--pagina1-->
+        <div id="inicio">
+        <h1>¡ÉSTA ES LA SEÑAL QUE BUSCABAS!</h1>
+        <h2>Si buscabas una señal, aquí está!</h2>
+        <h3>Abre un mensaje cifrado y descifralo,
+        <br> deja un mensaje para que alguien más lo descifre</h3>
+
+        <h3>ingresa tu número de usuaria en Discord</h3> <!--este numero va a ser el offset-->
+        <input type="number" name="numero" value="inputnumber" min="1" max="66"><br>
+        <input type="submit" name="" value="abrir">
+
+        <!--button type="button" name="button"> abrir</button-->
+        <img src="handok.png" alt="workplace">
+      </div>
+      </section>
+
+      <section id="pag2"> <!--pagina2-->
+        <div id="insrtmsj">
+        <h2>Este es tu mensaje:</h2>
+        <form class="" action="index.html" method="post">
+          <textarea name="mensaje" rows="8" cols="60">inserta un mensaje</textarea><br>
+          <input type="submit" name="Codificar" value="cifrar"><br>
+          <input type="submit" name="Decodificar" value="descifrar">
+        </form><br>
+        <button type="button"  onclick="alert(Debes dejar un mensaje para que alguien lo lea)">Dejar msj</button>
+        </div>
+      </section>
+
+      <section id="pag3">
+        <div class="final">
+          <h2>Mensaje listo! Vuelve pronto!</h2>
+          <img src="hand3.png" alt="workplace">
+        </div>
+      </section>
+    </header>
+
+
     <script src="index.js" type="module"></script>
   </body>
 </html>
+

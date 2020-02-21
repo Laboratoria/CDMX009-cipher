@@ -1,3 +1,30 @@
+# OracLab
+
+* OracLab es un oráculo pensado en las chicas de laboratoria, para cuando llegan momentos de estrés y necesitamos un mensaje divino o algún tipo de estímulo a través de palabras, aquí está. 
+Ofrece a las usuarias tener una interacción a través de mensajes que pueden "DEJAR", para quienes quieran dejar un mensaje o "ABRIR", para quienes necesiten abrir un mensaje. De esta manera al momento de DEJAR o ABRIR un mensaje proporciona la opción de cifrar y descifrar.
+El offset dentro del cifrado se realiza a través de su número de usuarias en Discord.
+
+* El prototipo se puede ver en el siguiente enlace, (donde solo se muestra funcional la parte de DEJAR; aún no está implementado para ABRIR un mensaje ) (https://invis.io/A3W1XFC2CSE#/405738179_01)
+
+* Investigación UX:
+
+  1. Usuarios: Laboratorians
+     Objetivos: Obtener un estímulo a través de un mensaje, así como tener interacción con el cifrado y descifrado de acuerdo a su      número de usuaria, esto lo hace más especial.
+     
+  2. La aplicación ofrece a las usuarias interactuar entre sí generando contenido en mensajes para todas las que deseen participar.
+  
+  3. Luego colocarás la foto de tu primer prototipo en papel.
+  
+  4. Dentro del feedback, las mejoras a realizar fueron que las usuarias abran un mensaje y a cambio deban dejar otro para alguna otra usuaria.
+     
+  5. ![prototipo final] (https://github.com/AnaRodea/CDMX009-cipher/blob/master/prototipo.jpg)
+
+
+
+
+
+
+
 # Cifrado César
 
 ## Índice
@@ -66,15 +93,15 @@ Reflexiona y luego marca los objetivos que has llegado a **entender** y **aplica
 
 ### UX
 
-- [ ] Diseñar la aplicación pensando y entendiendo al usuario.
-- [ ] Crear prototipos para obtener feedback e iterar.
-- [ ] Aplicar los principios de diseño visual (contraste, alineación, jerarquía).
+- [x] Diseñar la aplicación pensando y entendiendo al usuario.
+- [x] Crear prototipos para obtener feedback e iterar.
+- [x] Aplicar los principios de diseño visual (contraste, alineación, jerarquía).
 
 ### HTML y CSS
 
 - [ ] Uso correcto de HTML semántico.
-- [ ] Uso de selectores de CSS.
-- [ ] Construir tu aplicación respetando el diseño realizado (maquetación).
+- [x] Uso de selectores de CSS.
+- [x] Construir tu aplicación respetando el diseño realizado (maquetación).
 
 ### DOM
 
