@@ -15,7 +15,7 @@ El offset dentro del cifrado se realiza a través de su número de usuarias en D
   
   3. Luego colocarás la foto de tu primer prototipo en papel.
   
-  4. Agregar un resumen del feedback recibido indicando las mejoras a realizar.
+  4. Dentro del feedback, las mejoras a realizar fueron que las usuarias abran un mensaje y a cambio deban dejar otro para alguna otra usuaria.
      
   5. ![prototipo final] (https://github.com/AnaRodea/CDMX009-cipher/blob/master/prototipo.jpg)
 
@@ -93,15 +93,15 @@ Reflexiona y luego marca los objetivos que has llegado a **entender** y **aplica
 
 ### UX
 
-- [*] Diseñar la aplicación pensando y entendiendo al usuario.
-- [*] Crear prototipos para obtener feedback e iterar.
-- [*] Aplicar los principios de diseño visual (contraste, alineación, jerarquía).
+- [x] Diseñar la aplicación pensando y entendiendo al usuario.
+- [x] Crear prototipos para obtener feedback e iterar.
+- [x] Aplicar los principios de diseño visual (contraste, alineación, jerarquía).
 
 ### HTML y CSS
 
 - [ ] Uso correcto de HTML semántico.
-- [*] Uso de selectores de CSS.
-- [*] Construir tu aplicación respetando el diseño realizado (maquetación).
+- [x] Uso de selectores de CSS.
+- [x] Construir tu aplicación respetando el diseño realizado (maquetación).
 
 ### DOM
 
