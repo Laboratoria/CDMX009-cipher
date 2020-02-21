@@ -1,14 +1,49 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Caesar Cipher</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div id="root">
-      <h1>Hello world!</h1>
-    </div>
-    <script src="index.js" type="module"></script>
-  </body>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>Caesar Cipher</title>
+ 
+        <link rel="stylesheet" href="style.css">
+</head>
+ 
+<body>
+  <header id="main-header">
+       
+        
+    <MARQUEE>  <big> <h1>P E R S O N A L 🔍 D A T A 🔍 P R O T E C T I O N</h1>  </big> </MARQUEE>
+  
+    
+  </header>
+
+<div id= "cifrar">
+<h2 id="instruccion"> I N S T R U C C I O N E S:
+</h2>
+<p> Seleccciona una clave del 1 al 33.
+<p> CLAVE </p>
+<br>
+<input type="number" value min="1" id="offset">
+<br> Escribe el texto que deseas cifrar
+<p><textarea id="message"  placeholder="Escribe aquí"  cols="35" rows="4"> 
+    
+</textarea>
+<textarea id="container"  placeholder="RESULTADO" name="" cols="35" rows="4">
+</textarea></p>
+<p><input type="button" value="C I F R A R" id="btncifrar">
+  <input type="button" value="D E S C I F R A R" id="btndescifrar">
+  <input type="reset" value="B O R R A R" id="resetbtn">
+</p>
+</div>
+<div id= "enviar">
+  <p><a href= index1.html target=_blank><button>VOLVER AL INICIO </button></a> </p>
+  <footer id="main-footer">
+    <p>&copy; 2020 @Andrea Toledo</a></p>
+  </footer> 
+</div>
+<div id="root">
+<script src="index.js"></script>
+<script src="cipher.js"></script>
+</div>
+</div>
+</body>
 </html>
