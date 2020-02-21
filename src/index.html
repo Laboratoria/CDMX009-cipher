@@ -2,13 +2,44 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Caesar Cipher</title>
+    <title>GirlSupportGirls</title>
     <link rel="stylesheet" href="style.css" />
   </head>
+  <! -- Pagina principal -->
   <body>
-    <div id="root">
-      <h1>Hello world!</h1>
-    </div>
+     <header id="principalPage">
+      <img src= "img/woman.jpg" id= "img-woman" >
+       <h1>Girls Support Girls</h1>
+       <h2>Bienvenida</h2>
+       <p>Este es un espacio para realizar denuncias y/o compartirnos experiencias acerca de acoso de manera confidencial, sientete libre de expresarte.
+       </p> 
+        <section id="writeExperience">
+       <form>
+         <br>
+         <label for = "experiencia">
+       <textarea id= "textarea" name="texto " rows="10" cols="40" laceholder="Escriba algo" required></textarea>
+         </label>
+       <p>*Nota* Introduce un solo nombre y en mayúsculas.</p>
+       <label for = "userName">
+       <p>Nombre<input type="text" name="nombre" id="name"required> </p>  
+       </label>
+       <input id="submit" type="submit" value="Enviar" />
+       </form> <br>
+       <button type="button" id="siguiente">Siguiente</button>
+      </section>
+         <img src= "img/girlpower.jpg" id= "img-girlpower">
+         <img src="img/girlstogether.jpg" id= "img-girlstogether">   
+        </header>
+    <! -- Impresión de texto -->
+     <section id="print">
+       <h3>Gracias por tu aportación</h3>
+       <p id = "textareaPrint">Tu aportación es:"" </p> 
+       <p id= "cipherName"></p> 
+      </section>
+
+     <footer> <cite>"No one can make you feel inferior without your consent" <br>       
+      Elena Roosevelt
+     </cite></footer>
     <script src="index.js" type="module"></script>
   </body>
 </html>
