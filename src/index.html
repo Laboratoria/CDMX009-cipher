@@ -1,14 +1,120 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
     <meta charset="utf-8">
-    <title>Caesar Cipher</title>
+    <title>Logins Extra Secure - To Go!</title>
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body>
-    <div id="root">
-      <h1>Hello world!</h1>
-    </div>
-    <script src="index.js" type="module"></script>
+  <body id="root">
+      <header class="logins_header">
+        <button class="faqs_page_button" id="go-to-faqs" onclick="faqsPage()">?</button>
+        <h1>Logins Extra Secure - To Go!</h1><br><br>
+      </header>
+      <!-- first page starts -->
+      <section id="logins-main-page">
+        <h3>Con esta herramienta agregas seguridad extra para tus <br>contraseñas y
+          podrás guardar todos tus inicios de sesión <br> en un archivo, visible para
+          los demás pero imposible <br> de descifrar por cualquiera.
+      </h3>
+      <h2>Elige una opción:</h2><br>
+      <div class="buttons_main_page">
+        <button class="buttons_logins_display" id="go-to-encrypt" onclick="pageEncrypt()">CIFRAR</button>
+        <button class="buttons_logins_display" id="go-to-desencrypt" onclick="pageDesencrypt()">DESCIFRAR</button>
+      </div>
+    </section>
+    <!-- first page end -->
+    <!-- second page starts (encrypt) -->
+    <section id="page-for-encrypt">
+      <div class="number_of_scroll">
+        <p>
+          Para que sólo tu sepas como descifrar tu código, <br>
+          ingresa un número que recuerdes fácilmente
+        </p>
+        <label for="scrollNumber">Número de desplazamiento (1-25):</label> <br>
+        <input type="number" id="scroll-number-encrypt" min="1" max="25"> <br><br>
+      </div>
+      <ul class="advertise_text">
+        <li>Utiliza sólo mayúsculas</li>
+        <li>La letra "Ñ" no está permitida</li>
+      </ul>
+      <div class="password_input">
+        <label class="label_password">Ingresa tu contraseña:</label><br><br>
+        <textarea id="input-password-encrypt" class="input_logins" rows="3" cols="20"></textarea><br><br>
+      </div>
+      <div class="generic_pages">
+        <button class="generic_button encrypt-button" id="encrypt-password" onclick="valueToEncrypt()">CIFRAR</button><br><br>
+      </div>
+      <div class="container_text_area">
+        <label class="textarea_label_password">Ésta es tu contraseña extra segura:</label><br><br>
+        <textarea id="input-password-encrypt-result" class="input_logins" rows="3" cols="20"></textarea><br><br>
+      </div>
+      <div class="generic_pages">
+        <button class="generic_button return_buttons" id="back-to-main" onclick="returnMainPage()">REGRESAR</button>
+      </div>   
+    </section>
+      <!-- second page ends -->
+      <!-- third page starts (desencrypt)-->
+      <section id="page-for-desencrypt">
+        <div class="number_of_scroll">
+        Ingresa tu número de desplazamiento el cual ya conoces: <br><br>
+          <label for="scrollnumber">Número de desplazamiento (1-25):</label> <br>
+          <input type="number" id="scroll-number-desencrypt" min="1" max="25"><br><br>
+        </div>
+          <div class="password_input">
+            <label class="label_password">Ingresa tu contraseña extra segura:</label><br><br>
+            <textarea class="input_logins" id="input-password-desencrypt" rows="3" cols="20"></textarea><br><br>
+          </div>
+          <div class="generic_pages">
+            <button class="generic_button encrypt-button" id="desencrypt-password" onclick="valueToDesencrypt()">DESCIFRAR</button><br><br>
+          </div>
+          <div class="container_text_area">
+            <label class="textarea_label_password">Ésta es tu contraseña descifrada:</label><br><br>
+            <textarea class="input_logins" id="input-password-desencrypt-result" rows="3" cols="20"></textarea><br><br>
+          </div>
+          <div class="generic_pages">
+            <button class="generic_button return_buttons" id="back-to-main" onclick="returnMainPage()">REGRESAR</button>
+          </div>
+      </section>
+      <!-- third page ends -->
+      <!-- FAQ's page starts -->
+      <section class="faqs" id="faqs_page">
+        <h1>Preguntas Frecuentes</h1><br>
+          <div class="text_faqs">
+            <p>
+              <b>¿Para que sirve esta herramienta?</b>
+            </p>
+            <p>
+              <i>“Login extra secure - to go!”</i>  Sirve para codificar (y decodificar)
+              las contraseñas con las cuales accedes a tus distintas redes sociales.
+              Con la idea de que guardes todas en un lugar tan inseguro como una nota
+              pero que sea imposible para descifrar para otra persona.
+            </p>
+            <p>
+              <b>¿Qué significa <i>”Logins extra secure - to go!”?</i></b>
+            </p>
+            <p>
+              Las contraseñas ya deberían ser seguras, así que con esta herramienta se da un extra
+              a esa seguridad, pudiendo anotar esas contraseñas en cualquier lado
+              sin que expongas tus datos.
+            </p>
+            <p><b>¿Cómo funciona?</b></p>
+            <p>
+              Utilizando el Cifrado César, al ingresar una palabra el alfabeto
+              se moverá los espacios establecidos por ti para cifrar la contraseña
+              que hayas ingresado, por ejemplo:
+              Si eliges el número uno para desplazar, la letra A se convertira en B,
+              la B en C y así sucesivamente.
+            </p>
+            <p><b>¡Recuerda que la herramienta sólo acepta texto alfabético!</b></p>
+          </div>
+        <div class="generic_pages">
+          <button class="generic_button return_buttons" id="back-to-main" onclick="returnMainPage()">REGRESAR</button>
+        </div>
+      </section>
+      <footer class="logins_footer">
+        <p>Created by Di.</p>
+      </footer>
+      <script type="module" src="index.js"></script>
   </body>
 </html>
