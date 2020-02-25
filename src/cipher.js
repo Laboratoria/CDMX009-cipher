@@ -13,11 +13,15 @@ let cipher = {
       let lastUppercaseNumberCode = 90;
       let totalCharacterAlphabetNumber = 26;
       // created a conditional to set a range 
-      if(codeCharacter >= firstUppercaseNumberCode && codeCharacter <= lastUppercaseNumberCode){
+      if(codeCharacter >= firstUppercaseNumberCode && codeCharacter <= lastUppercaseNumberCode) {
           // increases the result in variable 
           /* letter code in ASCCI - number of the letter in ASCII + scroll number
               the total module of letters in alphabet + ASCII number of letter A in result 0 */ 
           encryptResult += String.fromCharCode((codeCharacter - firstUppercaseNumberCode + scrollNumber) % totalCharacterAlphabetNumber + firstUppercaseNumberCode);
+      } else if (codeCharacter >= 97 && codeCharacter <= 122) {
+        encryptResult += String.fromCharCode((codeCharacter - 97 + scrollNumber) % totalCharacterAlphabetNumber + 97);
+      } else {
+        encryptResult += stringPassword.charCodeAt(i);
       }
     }
     return encryptResult;
