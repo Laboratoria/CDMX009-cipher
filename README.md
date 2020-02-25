@@ -21,8 +21,8 @@ El  feedback recibido, se centró en disminuir la cantidad de vistas, y botones,
 
 # Objetivos de aprendizaje
  # UX
- [] Diseñar la aplicación pensando y entendiendo al usuario.
- [x] Crear prototipos para obtener feedback e iterar.
+ [ ] Diseñar la aplicación pensando y entendiendo al usuario.
+ [ ] Crear prototipos para obtener feedback e iterar.
  [x] Aplicar los principios de diseño visual: Tamaño, contraste, color, alineación
 # HTML y CSS
  [x] Uso correcto de HTML semántico: header, main, footer
