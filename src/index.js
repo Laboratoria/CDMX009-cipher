@@ -28,7 +28,7 @@ function recogeDatos() {
         let resultadoMensaje= cipher.encode(texto,desplazamiento);
         document.getElementById("cajaResultado").innerHTML=resultadoMensaje;      
     }
-
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
     function descifrar () {
         let texto= document.getElementById("cajaMensaje").value;
         let desplazamiento= document.getElementById("cajaClave").value;
