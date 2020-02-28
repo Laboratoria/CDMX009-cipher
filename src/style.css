@@ -1,0 +1,130 @@
+body {
+    background-color: #FFB5A4;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 20px;
+    line-height: 24px;
+    margin: 0;
+    text-align: center;
+}
+
+.encabezado {
+    height: 100px;
+}
+
+.cajaprincipal {
+    text-align: center;
+    position: relative;
+    margin-top: 50px;
+}
+
+.caja1 {
+    width: 85%;
+  max-width: 850px;
+  margin: 0 auto;
+  margin-top: 70px;
+}
+
+
+.cajanombre {
+    margin-top: 15px;
+    width: 550px; 
+    height: 40px;
+    font-size: 28px;
+    text-align: center;
+    border-radius: 10px;
+    color: #FF8970;
+    border: none;
+    
+}
+
+.boton {
+    width: 200px; 
+    height: 40px; 
+    background-color: #FF8970;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 23px;
+    font-weight: bold;
+    transition: background-color .5s;
+    margin-right: 50px;
+    margin-left: 50px;
+
+}
+
+.footer {
+margin-top: 150px;
+}
+
+footer {
+    display: block;
+}
+
+.cajatexto {
+    margin-top: 30px;
+    width: 500px; 
+    height: 100px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    border-radius: 10px;
+    color: #FF8970;
+    border: none;
+}
+
+    .advertencia {
+        color: #FF5733;
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+    }
+
+#pantallaDos {
+    display: none;
+}
+
+#pantallaSalida {
+    display: none;
+}
+
+
+.pantalla2 {
+    display: none;
+}
+
+
+.cajaClave {
+    margin-top: 10px;
+    width: 100px; 
+    height: 30px;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 30px;
+    color: #FF8970;
+    border: none;
+}
+
+h1 {
+    font-size: 22;
+    margin-top: 60px;
+}
+
+h2 {
+    font-size: 20px;   
+}
+
+h3 {
+    margin-top: 150px;
+    font-size: 40px;
+}
+
+.cajaRespuesta {
+    background-color: #FD8066;
+    width: 500px; 
+    height: 100px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
