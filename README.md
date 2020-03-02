@@ -1,5 +1,6 @@
 # A65 codificador
 
+
 Este codificador de texto está diseñado para que las personas usuarias puedan enviar mensajes secretos mediante el cifrado César, que desplaza una letra tantas posiciones como se desee para crear un texto, a primera vista, ininteligible.
 Este fue el primer proyecto del bootcamp Laboratoria, generación 09.
 
@@ -11,7 +12,7 @@ Este fue el primer proyecto del bootcamp Laboratoria, generación 09.
 ![Segunda pantalla final](https://github.com/maranyil/CDMX009-cipher/blob/master/src/images/figmapantalla2.png)
 
 
-Está diseñado para personas en situación de riesgo, activistas, colectivas, asociaciones que necesiten enviar mensajes que no puedan leerse de manera fácil si caen en manos equivocadas. La aplicación puede codificar letras mayúsculas y minúsculas, conservando los números y espacios en su poscición original. El diseño es sobrio y la interfaz sencilla, con sólo dos pantallas.
+La aplicación puede codificar letras mayúsculas y minúsculas, conservando los números y espacios en su poscición original. El diseño es sobrio y la interfaz sencilla, con sólo dos pantallas.
 
 
 
