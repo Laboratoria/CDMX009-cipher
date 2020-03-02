@@ -9,8 +9,8 @@
       <link rel="stylesheet" href="style.css" />
       <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic:400,700&display=swap" rel="stylesheet">
 
-     <section id="pantalla1">
-       <h1> <img id="logo" src="images/logoopia.png"/> </h1>
+     <section id="pantalla1" class="screen">
+       <h1> <img id="logo" src="images/logoopia.png" class="logo"/> </h1>
         <p>El cifrado César sustituye una letra por otra <br>
           que se encuentra a un número de posciones fijas delante en el alfabeto. <br>
           Por ejemplo, en un desplazamiento de 3,<br> la A es sustituída por la D y así sucesivamente.
@@ -26,15 +26,16 @@
         <button id="ir" class="button" type="button"> IR </button>
      </section>
 
-    <section id="pantalla2">
+    <section id="pantalla2" class="segundapantalla">
       <h2> <img id="logo" src="images/logoopia.png"/> </h2>
         <p> Selecciona un número de desplazamiento <br> para cifrar o descifrar tu mensaje </p>
-        <input id="desplaza" type="number" min="1" max="25" name="desplaza"/>
+        <input id="desplaza" class="number" type="number" min="1" max="25" name="desplaza"/>
         <br>
         <div>
          <textarea id="mensajeor" type="text" maxlength="200" placeholder="Mensaje Original"></textarea>
          <textarea id="resultado" type="text" maxlength="200" placeholder="Mensaje Cifrado"></textarea>
         </div>
+        <br>
 
        <button id="bcifrar" class="button" type="submit"> Cifrar </button>
        <button id="bdescifrar" class="button" type="submit"> Descifrar </button>
