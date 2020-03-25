@@ -31,5 +31,5 @@ function descifraMensaje() {
 function limpia() {
   document.getElementById('desplaza').value = '';
   document.getElementById('mensajeor').value = '';
-  document.getElementById('resultado').value = '';
+  document.getElementById('resultado').innerHTML = '';
 }
