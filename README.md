@@ -1,28 +1,19 @@
-# A65 codificador
+# Lenguaje Salvaje
 
 
-Este codificador de texto está diseñado para que las personas usuarias puedan enviar mensajes secretos mediante el cifrado César, que desplaza una letra tantas posiciones como se desee para crear un texto, a primera vista, ininteligible.
-Este fue el primer proyecto del bootcamp Laboratoria, generación 09.
+Esta es la segunda versión del primer proyecto de Laboratoria-009, cipher. En el primer intento no logré un buen diseño, por eso he trabajado un poco más en este, dirigiéndolo a un público infantil, pensando en que puedan crear mensajes secretos.
 
 ### Investigación UX
 
-
-![Primera pantalla final](https://github.com/maranyil/CDMX009-cipher/blob/master/src/images/figmapantalla1.png)
-
-![Segunda pantalla final](https://github.com/maranyil/CDMX009-cipher/blob/master/src/images/figmapantalla2.png)
-
-
-La aplicación puede codificar letras mayúsculas y minúsculas, conservando los números y espacios en su poscición original. El diseño es sobrio y la interfaz sencilla, con sólo dos pantallas.
-
+Investigué sobre tipografías que resultaran sencillas a niñas y niños, cuyas características son tener el eje X bajo, pocos adornos
+y no exceder su estilización. El resto de la aplicación es sencilla, de sólo dos pantallas, con botones grandes, claros y colores sencillos.
 
 
 ### Feedback en el prototipado
 
-![Boceto en papel](https://github.com/maranyil/CDMX009-cipher/blob/master/src/images/bocetopapel.jpg)
-
-
-En la primera idea sobre la aplicación pensé utilizar 4 pantallas, pero con el feedback descubrí que era innecesario para mi producto final. También me hicieron notar que podía ser muy similar a un traductor, haciéndome  más fácil el diseño para las pantallas de ingresar el texto y los resultados.
-
+En la primera idea sobre la aplicación pensé utilizar 4 pantallas, pero con el feedback descubrí que era innecesario para mi producto final. 
+También me hicieron notar que podía ser muy similar a un traductor, haciéndome  más fácil el diseño para las pantallas de ingresar el texto y los resultados.
+Después de recibir feedback de coaches, decidí cambiar el diseño, ayudándome en lo que aprendí del segundo proyecto: Data Lovers.
 
 ## 3. Objetivos de aprendizaje
 
