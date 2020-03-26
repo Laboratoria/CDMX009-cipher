@@ -10,14 +10,13 @@ body {
   margin-left: auto;
   margin-right: auto;
   margin-top: 10px;
-  width: 5em;
-  height: 5em;
+  width: 6em;
+  height: 6em;
 }
 
 section {
   background-image: url(https://www.masterofthesky.com/wp-content/uploads/2017/02/notebook-wallpaper-1.jpg);
   width: 90%;
-  height: 90%;
   padding: 3px;
   padding-bottom: 3px;
   border-radius: 10px;
@@ -47,8 +46,8 @@ div {
   text-align: center;
 }
 div img {
-  width: 100%;
-  height: 100%;
+  width: 80%;
+  height: 60%;
   display: block;
   margin-left: auto;
   margin-right: auto;
