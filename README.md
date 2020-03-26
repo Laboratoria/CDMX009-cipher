@@ -72,7 +72,7 @@ Reflexiona y luego marca los objetivos que has llegado a **entender** y **aplica
 - [x] Comandos de git (add | commit | pull | status | push).
       Aprendí los comandos para hacer uso del git y github a través de la terminal.
 - [x] Manejo de repositorios de GitHub (clone | fork | gh-pages).
-      Aprendí a hacer el fork de un repositorio y clonarlo. Intenté usar gh-pages pero aun no me queda claro su uso.
+      Aprendí a hacer el fork de un repositorio y clonarlo. 
 
 ### Buenas prácticas de desarrollo
 - [x] Uso de identificadores descriptivos (Nomenclatura | Semántica).
