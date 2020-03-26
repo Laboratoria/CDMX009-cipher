@@ -16,7 +16,6 @@ body {
 section {
   background-image: url(https://www.masterofthesky.com/wp-content/uploads/2017/02/notebook-wallpaper-1.jpg);
   width: 70%;
-  height: 70%;
   padding: 5px;
   padding-bottom: 5px;
   border-radius: 10px;
@@ -45,7 +44,7 @@ p {
 div {
   width: 60%;
   height: 65%;
-  display: flex;
+  display: block;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
