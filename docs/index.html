@@ -1,1 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Caesar Cipher</title>
+     </head>
+      <body>
+    <!-- esta cosa fue para aplicar una fuente a toda la página -->
+      <link rel="stylesheet" href="style.css" />
+      <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
 
+     <section id="pantalla1" class="screen1">
+       <h1> <img id="logo" src="images/logoopia.png" class="logo"/> </h1>
+        <p>Lenguaje salvaje es una aplicación
+          que convertirá tus mensajes ¡en lenguaje salvaje!<br>
+          Por ejemplo, si desplazas 2 lugares, la letra A ahora será la C y así sucesivamente.
+         <br>
+         <img class="info" src="images/ccesar.png"> </img>
+         <br>
+         (Este es un método muy antiguo para mandar mensajes secretos)
+        </p>
+        <br>
+        <button id="ir" class="button" type="button"> IR </button>
+     </section>
+
+    <section id="pantalla2" class="screen2">
+      <h2> <img class="logo" src="images/logoopia.png"/> </h2>
+        <p> Selecciona un número de desplazamiento <br> para cifrar o descifrar tu mensaje </p>
+        <input id="desplaza" class="number" type="number" min="1" max="25" name="desplaza"/>
+        <div>
+         <textarea id="mensajeor" type="text" maxlength="200" placeholder="Mensaje Original"></textarea>
+         <textarea id="resultado" type="text" maxlength="200" placeholder="Mensaje Cifrado"></textarea>
+        </div>
+        <br>
+
+       <button id="bcifrar" class="button" type="submit"> Cifrar </button>
+       <button id="bdescifrar" class="button" type="submit"> Descifrar </button>
+       <button id="limpiar" class="button" type="submit"> Limpiar </button>
+   </section>
+     <script src="index.js"> </script>
+     <script src="cipher.js"> </script>
+   </body>
+</html>
