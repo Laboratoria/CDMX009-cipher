@@ -27,15 +27,16 @@
       <h2> <img class="logo" src="images/logoopia.png"/> </h2>
         <p> Selecciona un número de desplazamiento <br> para cifrar o descifrar tu mensaje </p>
         <input id="desplaza" class="number" type="number" min="1" max="25" name="desplaza"/>
-        <div>
+        <div class="textarea">
          <textarea id="mensajeor" type="text" maxlength="200" placeholder="Mensaje Original"></textarea>
          <textarea id="resultado" type="text" maxlength="200" placeholder="Mensaje Cifrado"></textarea>
         </div>
-        <br>
-
-       <button id="bcifrar" class="button" type="submit"> Cifrar </button>
-       <button id="bdescifrar" class="button" type="submit"> Descifrar </button>
-       <button id="limpiar" class="button" type="submit"> Limpiar </button>
+           <br>
+       <div class="buttonss">
+         <button id="bcifrar" class="button" type="submit"> Cifrar </button>
+         <button id="bdescifrar" class="button" type="submit"> Descifrar </button>
+         <button id="limpiar" class="button" type="submit"> Limpiar </button>
+       </div>
    </section>
      <script src="index.js"> </script>
      <script src="cipher.js"> </script>
