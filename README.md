@@ -47,9 +47,9 @@ Reflexiona y luego marca los objetivos que has llegado a **entender** y **aplica
 
 - [x] Uso de selectores del DOM.
       Aprendí cuales son los selectores del DOM que sirven para a llamar los elementos por ID, name o query.
-- [X] Manejo de eventos del DOM.
+- [x] Manejo de eventos del DOM.
       Aprendí a usar eventos del DOM como click, onload.
-- [ ] Manipulación dinámica del DOM.
+- [x] Manipulación dinámica del DOM.
 
 ### Javascript
 
@@ -65,7 +65,7 @@ Reflexiona y luego marca los objetivos que has llegado a **entender** y **aplica
       Aprendí la forma correcta de escribir una variable.
 
 ### Testing
-- [x] Testeo de tus funciones.
+- [ ] Testeo de tus funciones.
       Realicé los testeos de mi proyecto.
 
 ### Git y GitHub

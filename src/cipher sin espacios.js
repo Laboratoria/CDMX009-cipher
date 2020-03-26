@@ -1,3 +1,5 @@
+
+
 const cipher = {
   encode,
   decode
@@ -11,14 +13,9 @@ let steps = Number(keyNumber);
 let texto = '';
   for(let i = 0; i<textUp.length; i++){
     let textAscii = textUp.charCodeAt(i);
-    if (textAscii === 32) {
-      texto += String.fromCharCode(textAscii); 
-    }
-    else {
     let switchText = parseInt(((textAscii + 65 + steps) % 26 )+ 65);
     texto += String.fromCharCode(switchText);
   }
-}
   return texto;
 }
 
@@ -28,14 +25,8 @@ function decode(keyNumber, mensaje) {
   let texto = '';
     for(let i = 0; i<textUp.length; i++){
       let textAscii = textUp.charCodeAt(i);
-      if (textAscii === 32) {
-        texto += String.fromCharCode(textAscii); 
-      }
-      else {
       let switchText = parseInt(((textAscii + 65 - steps) % 26 )+ 65);
       texto += String.fromCharCode(switchText);
     }
-  }
     return texto;
   }
-  

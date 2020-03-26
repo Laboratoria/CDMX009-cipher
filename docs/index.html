@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>spx | Caesar Cipher</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+  </head>
+  <body>
+  <section id="home" class="home">
+    <header>
+      <img src="img/mainLogo.svg" alt="spx">
+    </header>
+    <nav> 
+      <a href="#code"><img src="img/hideButton.png" alt="Cifrar"></a>
+      <img src="img/bridgeGlass.png">
+      <a href="#decode"><img src="img/showButton.png" alt="Descifrar"></a>
+    </nav>
+    <footer>
+      <button id="faqHome">
+      <img src="img/faqButton.svg" alt="Ayuda">
+      </button>
+    </footer>
+  </section>
+  <section class="contenido" id="code">
+    <script src="index.js" type="module"></script>
+    <nav>
+      <a href="#home"><button id="specsLogo">
+        <img src="img/mainLogo.svg" alt="Inicio">
+      </button></a>
+    </nav>
+    <div>
+    <img class="secretKey" src="img/pencil.svg">
+      <input id= "numBox" class="num">
+    </div>
+      <div>
+      <textarea id="textBox" class="box"></textarea>
+      <button class="button" id="getBoton">
+        <img src="img/cipherButton.png">
+      </button>
+      </div>
+      <div>
+        <textarea id="demo" class="box"></textarea>
+        <button class="button" type="button" id="copyBoton">
+        <img src="img/likeButton.svg" alt="Copiar">
+      </button>
+    </div>
+    <footer>
+      <div id="faqButtonCode">
+        <img src="img/faqButton.svg" alt="Ayuda">
+      </div>
+    </footer>
+  </section>
+  <section class="contenido" id="decode">
+    <nav>
+      <a href="#home"><button id="homeLogo">
+        <img src="img/mainLogo.svg" alt="Inicio">
+      </button></a>
+    </nav>
+    <div>
+    <img class="secretKey" src="img/pencil.svg">
+      <input id= "numDeBox" class="num">
+    </div>
+      <div>
+      <textarea id="decodeBox" class="box"></textarea>
+      <button class="button" id="letBoton">
+        <img src="img/decipherButton.svg">
+      </button>
+      </div>
+      <div>
+        <textarea id="decodeDemo" class="box"></textarea>
+        <button class="button" type="button" id="copyDeBoton">
+        <img src="img/likeButton.svg" alt="Copiar">
+      </button>
+    </div>
+    <footer>
+      <div id="faqButtonDecode">
+        <img src="img/faqButton.svg" alt="Ayuda">
+      </div>
+    </footer>
+  </section>
+  </body>
+</html>
