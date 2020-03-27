@@ -1,3 +1,112 @@
+# Proyecto: IRIS 
+
+Es una aplicación para mandar mensaje cifrados en situaciones de conflicto, protestas o cuando no hay acceso a internet, a través de la conexión bluetooth a cualquier contacto que cuente con la app y que se encuentre en un rango tal que sea posible trazar un camino a través de otros usuarios que también cuenten con la app. 
+
+
+<img src="readmeImages/IRIS_inicio.png" alt="Inicio aplicacion final" width="250"/>
+<img src="readmeImages/IRIS_cifrar.png" alt="Cifrado aplicacion final" width="250"/>
+<img src="readmeImages/IRIS_descifrar.png" alt="Descifrado aplicacion final" width="250"/>
+
+## Investigación UX
+
+Esta aplicación está pensada para cualquier persona que se encuentre en una situación de conflicto o que es partícipe de una protesta y no cuenta con un medio seguro para comunicarse, ya sea por represión o falta de canales de comunicación, en particular internet. 
+
+### Necesidades de usuario
+
+* Poder mandar y recibir mensajes cifrados.
+* Una aplicación cuyo uso sea rápido e intuitivo. 
+* Interfaz discreta. 
+* No debe haber respaldo ni historial de mensajes. 
+* Enviar y recibir mensajes por canales de bluetooth. 
+* Mensajería personalizada a contactos de confianza. 
+
+### IRIS como solución a las necesidades del usuario
+
+Esta aplicación fue realizada con el fin de cubrir las necesidades de los usuarios a quienes esta dirigida. 
+Es una herramiente eficiente, ya que muestra sus componentes en una misma pantalla. No hay pantallas extra que obstaculicen la interacción del usuario. Los colores son discretos, está pensada para uso con luz de día. Es intuitiva en su uso, al presentar los elementos en el orden en el que van siendo usados. Contiene dos botones que ayudan al usuario en caso de no saber cómo usarla, con mensajes discreto al final de la aplicación. 
+El cifrado admite, en tres anillos, letras mayúsculas, minúsculas y números, también admite, aunque no cifra, caracteres especiales y puntuación para que el usuario pueda mandar un mensaje con toda la información que necesita expresar. Finalmente, en caso de equivocarse, valida la entrada de valores diferentes a un número y admite valores negativos para el offset, clave necesaria en el cifrado y descifrado.
+
+### Skecth de aplicación
+
+<img src="readmeImages/IRISsketch.jpeg" alt="Skecth" width="250"/>
+
+#### Feedback y prototipado
+
+En el primer skecth de la aplicación se propuso que toda la funcionalidad quedase en una sola pantalla, sin embargo,no quedaba tan claro el uso de componentes y como los elementos podran funcionar para mandar y recibir mensajes. También se sugirió que no había un contacto claro con quien se estuviese realizando la comunicación. Se agregó un habilitador para el canal de bluetooth que además muestre quienes son los contactos en rango pues por ese canal no es posible comunicarse con todos los contactos disponibles. Se cambiaron aspectos en la funcionalidad para validar la información que usa la aplicación. 
+
+Al aplicarse los cambios sugeridos y probar su usabilidad se obtuvo el siguiente resultado.
+
+<img src="readmeImages/iris_inicioApp.png" alt="Inicio prototipo" width="250"/>
+<img src="readmeImages/irisCifrar_ver.png" alt="Cifrar prototipo" width="250"/>
+<img src="readmeImages/irisDescifrar_ver.png" alt="Descifrar prototipo" width="250"/>
+
+## Objetivos de aprendizaje alcanzados
+
+### UX
+
+- [x] Diseñar la aplicación pensando y entendiendo al usuario.
+- [x] Crear prototipos para obtener feedback e iterar.
+- [x] Aplicar los principios de diseño visual (contraste, alineación, jerarquía).
+
+Para la estapa de desarrollo de UX, se investigaron las necesidades del usuario respondiendo las siguientes preguntas: 
+-¿quién es el usuario?
+-¿qué busca conseguir?
+-¿cuándo utilizan el producto?
+-¿por qué deciden usarlo?
+
+Se investigaron aplicaciones con usos similares y se cosideró la problemática que ya había resuelto la más popular en el mercado: bridgefy. 
+
+Se eligió el nombre IRIS por se la mensajera de los dioses en la mitología griega y se eligió un colibrí como logotipo por ser el animal que representa al mensajero de los dioses en la mitología maya. La paleta de colores usa como base el color azul con la intención de representar confianza y seriedad. La tipografía es sans-serif para que el susuario pueda leer fácilmente los textos y el uso de la aplicación sea fluído. Lo elementos se alinearon para que el usuario tenga acceso a cada uno en forma de cascada según los va requiriendo. 
+
+Como parte del diseño de la interfaz de usuario, se realizó el skecth, los wireframes y el prototipo. En cada caso se dio feedback para iterar y finalmente aplicar mejoras en el proyecto final.  
+
+### HTML y CSS
+
+- [x] Uso correcto de HTML semántico.
+- [x] Uso de selectores de CSS.
+- [x] Construir tu aplicación respetando el diseño realizado (maquetación).
+
+Se usaron las etiquetas definidas para cada elemento y se les asignaron id, name, class, value, etc. según fue necesario.
+Se crearon los estilos llamando a los elementos con selectores de acuerdo al atributo asigando. 
+El proyecto final corresponde con el diseño de prototipo. 
+
+### DOM
+
+- [x] Uso de selectores del DOM.
+- [x] Manejo de eventos del DOM.
+- [x] Manipulación dinámica del DOM.
+
+Se manejó el DOM para hacer cumplir distintas validaciones en la interfaz y evitar errores en el ingreso de información. 
+
+### Javascript
+
+- [x] Manipulación de strings.
+- [x] Uso de condicionales (if-else | switch).
+- [x] Uso de bucles (for | do-while).    
+- [x] Uso de funciones (parámetros | argumentos | valor de retorno).
+- [x] Declaración correcta de variables (const & let).
+
+Se usaron las funciones for e if-else para generar la función cypher, y se manejaron datos tipo booleano, string, number. 
+Se crearon mas funciones para la interacción del usuario con la interfaz mandando parámetros, condicionando argumentos y retornando resultados. 
+Debido a la funcionalidad, las variables se declararon como let.
+
+### Testing
+- [x] Testeo de tus funciones.
+
+Con base en las pruebas unitarias para la primera edición del proyecto, las pruebas resultaron al 100%. 
+
+### Git y GitHub
+- [x] Comandos de git (add | commit | pull | status | push).
+- [x] Manejo de repositorios de GitHub (clone | fork | gh-pages).
+
+Se creó una cuenta en github, se intalaron los sistemas necesarios. Se dio fork al proyecto original para crear un repositorio propio en el cual trabajar, se clonó y editó, actualizando y descargando versiones por medio de los comandos status, add, commit, pull, push. Se publicó el proyecto.  
+
+### Buenas prácticas de desarrollo
+- [x] Uso de identificadores descriptivos (Nomenclatura | Semántica).
+- [x] Uso de linter para seguir buenas prácticas (ESLINT).
+
+Se aplicaron las mejores prácticas. ESLINT formó parte de la paquetería de tests. 
+
 # Cifrado César
 
 ## Índice
@@ -66,39 +175,39 @@ Reflexiona y luego marca los objetivos que has llegado a **entender** y **aplica
 
 ### UX
 
-- [ ] Diseñar la aplicación pensando y entendiendo al usuario.
-- [ ] Crear prototipos para obtener feedback e iterar.
-- [ ] Aplicar los principios de diseño visual (contraste, alineación, jerarquía).
+- [x] Diseñar la aplicación pensando y entendiendo al usuario.
+- [x] Crear prototipos para obtener feedback e iterar.
+- [x] Aplicar los principios de diseño visual (contraste, alineación, jerarquía).
 
 ### HTML y CSS
 
-- [ ] Uso correcto de HTML semántico.
-- [ ] Uso de selectores de CSS.
-- [ ] Construir tu aplicación respetando el diseño realizado (maquetación).
+- [x] Uso correcto de HTML semántico.
+- [x] Uso de selectores de CSS.
+- [x] Construir tu aplicación respetando el diseño realizado (maquetación).
 
 ### DOM
 
-- [ ] Uso de selectores del DOM.
-- [ ] Manejo de eventos del DOM.
-- [ ] Manipulación dinámica del DOM.
+- [x] Uso de selectores del DOM.
+- [x] Manejo de eventos del DOM.
+- [x] Manipulación dinámica del DOM.
 
 ### Javascript
 
-- [ ] Manipulación de strings.
-- [ ] Uso de condicionales (if-else | switch).
-- [ ] Uso de bucles (for | do-while).    
-- [ ] Uso de funciones (parámetros | argumentos | valor de retorno).
-- [ ] Declaración correcta de variables (const & let).
+- [x] Manipulación de strings.
+- [x] Uso de condicionales (if-else | switch).
+- [x] Uso de bucles (for | do-while).    
+- [x] Uso de funciones (parámetros | argumentos | valor de retorno).
+- [x] Declaración correcta de variables (const & let).
 
 ### Testing
 - [ ] Testeo de tus funciones.
 
 ### Git y GitHub
-- [ ] Comandos de git (add | commit | pull | status | push).
+- [x] Comandos de git (add | commit | pull | status | push).
 - [ ] Manejo de repositorios de GitHub (clone | fork | gh-pages).
 
 ### Buenas prácticas de desarrollo
-- [ ] Uso de identificadores descriptivos (Nomenclatura | Semántica).
+- [x] Uso de identificadores descriptivos (Nomenclatura | Semántica).
 - [ ] Uso de linter para seguir buenas prácticas (ESLINT).
 
 
