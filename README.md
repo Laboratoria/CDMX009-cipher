@@ -9,7 +9,7 @@ Es una aplicación para mandar mensaje cifrados en situaciones de conflicto, pro
 
 ## Investigación UX
 
-Esta aplicación está pensada para cualquier persona que se encuentre en una situacin de conflicto o que es partícipe de una protesta y no cuenta con un medio seguro para comunicarse, ya sea por represión o falta de canales de comunicación como internet. 
+Esta aplicación está pensada para cualquier persona que se encuentre en una situación de conflicto o que es partícipe de una protesta y no cuenta con un medio seguro para comunicarse, ya sea por represión o falta de canales de comunicación, en particular internet. 
 
 ### Necesidades de usuario
 
@@ -91,21 +91,21 @@ Se crearon mas funciones para la interacción del usuario con la interfaz mandan
 Debido a la funcionalidad, las variables se declararon como let.
 
 ### Testing
-- [ ] Testeo de tus funciones.
+- [x] Testeo de tus funciones.
 
-Hubo errores en testeo del objeto cypher. 
+Con base en las pruebas unitarias para la primera edición del proyecto, las pruebas resultaron al 100%. 
 
 ### Git y GitHub
 - [x] Comandos de git (add | commit | pull | status | push).
-- [ ] Manejo de repositorios de GitHub (clone | fork | gh-pages).
+- [x] Manejo de repositorios de GitHub (clone | fork | gh-pages).
 
-Se creó una cuenta en github, se intalaron los sistemas necesarios. Se dio fork al proyecto original para crear un repositorio propio en el cual trabajar, se clonó y editó, actualizando y descargando versiones por medio de los comandos status, add, commit, pull, push. 
+Se creó una cuenta en github, se intalaron los sistemas necesarios. Se dio fork al proyecto original para crear un repositorio propio en el cual trabajar, se clonó y editó, actualizando y descargando versiones por medio de los comandos status, add, commit, pull, push. Se publicó el proyecto.  
 
 ### Buenas prácticas de desarrollo
 - [x] Uso de identificadores descriptivos (Nomenclatura | Semántica).
-- [ ] Uso de linter para seguir buenas prácticas (ESLINT).
+- [x] Uso de linter para seguir buenas prácticas (ESLINT).
 
-Se palicaron las mejores prácticas. 
+Se aplicaron las mejores prácticas. ESLINT formó parte de la paquetería de tests. 
 
 # Cifrado César
 
