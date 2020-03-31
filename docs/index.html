@@ -18,10 +18,26 @@
       <a href="#decode"><img src="img/showButton.png" alt="Descifrar"></a>
     </nav>
     <footer>
-      <button id="faqHome">
+      <a href="#modal-one"><button id="faqHome">
       <img src="img/faqButton.svg" alt="Ayuda">
-      </button>
+      </button></a> 
     </footer>
+    <!-- Modal -->
+    <div class="modal" id="modal-one" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-header">
+          <h2>Guia</h2>
+          <a href="#" class="btn-close" aria-hidden="true">×</a>
+        </div>
+      <div class="modal-body">
+      <h3>Bienvenido a SPX</h3>
+      <p>Presione el rayo sobre el lente para cifrar su información.</p>
+      <p>Presione el círculo sobre el lente para descifrar su información.</p>
+    </div>
+  </div>
+</div>
+<!-- /Modal -->
+
   </section>
   <section class="contenido" id="code">
     <script src="index.js" type="module"></script>
@@ -47,10 +63,29 @@
       </button>
     </div>
     <footer>
-      <div id="faqButtonCode">
-        <img src="img/faqButton.svg" alt="Ayuda">
-      </div>
+      <a href="#modal-two">
+        <button id="faqHome">
+          <img src="img/faqButton.svg" alt="Ayuda">
+        </button>
+      </a> 
     </footer>
+    <!-- Modal -->
+    <div class="modal" id="modal-two" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-header">
+          <h2>Guia</h2>
+          <a href="#" class="btn-close" aria-hidden="true">×</a>
+        </div>
+        <div class="modal-body">
+          <h3>Cuidamos su información de forma segura</h3>
+          <p>Elija un número de su preferencia y escríbalo en el recuadro junto al lápiz. 
+          Éste será su clave confidencial de cifrado.</p>
+          <p>Ingrese la información a cifrar en la caja de texto superior y de click en el botón a la derecha, en forma de caja.</p>
+          <p>Una vez cifrada la información aparecerá en el campo inferior. Para copiar al portapapeles de click en el botón Like.</p>
+        </div>
+      </div>
+    </div>
+    <!-- /Modal -->
   </section>
   <section class="contenido" id="decode">
     <nav>
@@ -75,10 +110,28 @@
       </button>
     </div>
     <footer>
-      <div id="faqButtonDecode">
-        <img src="img/faqButton.svg" alt="Ayuda">
-      </div>
+      <a href="#modal-three">
+        <button id="faqHome">
+          <img src="img/faqButton.svg" alt="Ayuda">
+        </button>
+      </a> 
     </footer>
+    <!-- Modal -->
+    <div class="modal" id="modal-three" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-header">
+          <h2>Guia</h2>
+          <a href="#" class="btn-close" aria-hidden="true">×</a>
+        </div>
+        <div class="modal-body">
+          <h3>Devolvemos su información de forma segura</h3>
+          <p>Escriba su número confidencial de cifrado en el recuadro junto al ícono en forma de lápiz.</p>
+          <p>Ingrese la información a descifrar en la caja de texto superior y de click en el botón a la derecha, en forma de caja.</p>
+          <p>Una vez descifrada la información aparecerá en el campo inferior.</p>
+        </div>
+      </div>
+    </div>
+    <!-- /Modal -->
   </section>
-  </body>
+</body>
 </html>
