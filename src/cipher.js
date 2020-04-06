@@ -1,41 +1,41 @@
 window.cipher = {
-  encode: (desplazamiento, mensajeOriginal) => {
-    let mensajeCifrado = '';
+  encode: (displace, originalMsg) => {
+    let encodeMsg = '';
     //Ciclo for para realizar una acción mientras la condición se cumpla
-    for (let i = 0; i < mensajeOriginal.length; i++) {
-      let txtCode = mensajeOriginal.charCodeAt(i);
+    for (let i = 0; i < originalMsg.length; i++) {
+      let txtCode = originalMsg.charCodeAt(i);
       // se establece un límite para la condición numérica de mayúsculas y minúsculas
       if (txtCode >= 97 && txtCode <= 122) {
-        let textoCifrado = (txtCode - 97 + parseInt(desplazamiento)) % 26 + 97;
-        mensajeCifrado += String.fromCharCode(textoCifrado);
-      } else if (txtCode >= 65 && mensajeOriginal.charCodeAt(i) <= 90) {
-        let textoCifrado = (txtCode - 65 + parseInt(desplazamiento)) % 26 + 65;
-        mensajeCifrado += String.fromCharCode(textoCifrado);
+        let encodeTxt = (txtCode - 97 + parseInt(displace)) % 26 + 97;
+        encodeMsg += String.fromCharCode(encodeTxt);
+      } else if (txtCode >= 65 && originalMsg.charCodeAt(i) <= 90) {
+        let encodeTxt = (txtCode - 65 + parseInt(displace)) % 26 + 65;
+        encodeMsg += String.fromCharCode(encodeTxt);
         // Para respetar espacios y otros caracteres
       } else {
-        mensajeCifrado += mensajeOriginal[i];
+        encodeMsg += originalMsg[i];
       }
     }
-    return mensajeCifrado;
+    return encodeMsg;
   },
 
-  decode: (desplazamiento, mensajeOriginal) => {
-    let mensajeDescifrado = '';
+  decode: (displace, originalMsg) => {
+    let decodeMsg = '';
 
-    for (let i = 0; i < mensajeOriginal.length; i++) {
-      let txtCode = mensajeOriginal.charCodeAt(i);
+    for (let i = 0; i < originalMsg.length; i++) {
+      let txtCode = originalMsg.charCodeAt(i);
 
       if (txtCode >= 65 && txtCode <= 90) {
-        let textoDescifrado = (txtCode + 65 - parseInt(desplazamiento)) % 26 + 65;
-        mensajeDescifrado += String.fromCharCode(textoDescifrado);
+        let decodeTxt = (txtCode + 65 - parseInt(displace)) % 26 + 65;
+        decodeMsg += String.fromCharCode(decodeTxt);
     } else if (txtCode>= 97 && txtCode<= 122) {
-        let textoDescifrado = (txtCode - 97 - parseInt(desplazamiento) + 26) % 26 + 97;
-        mensajeDescifrado += String.fromCharCode(textoDescifrado);
+        let decodeTxt = (txtCode - 97 - parseInt(displace) + 26) % 26 + 97;
+        decodeMsg += String.fromCharCode(decodeTxt);
 
       } else {
-        mensajeDescifrado += mensajeOriginal[i];
+        decodeMsg += originalMsg[i];
       }
     }
-    return mensajeDescifrado;
+    return decodeMsg;
   }
 };
