@@ -3,18 +3,6 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-
-/* color del los bordes  #96A0AF */
-
-
-/*azul otra opción para header #048FCA */
-
-
-/*en el header iba este y coloqué rojo. background: #96A0AF*/
-
-
-/* color de fondo de la página #C4C4C4 */
-
 header {
     height: 100px;
     width: 100%;
@@ -30,11 +18,8 @@ header {
 
 #logo {
     width: 100%;
-    /*la caja del logo*/
     font-size: 50px;
-    /*tamaño de fuente del logotipo*/
     float: left;
-    /*el float nos mueve el elemento, en este caso a un lado*/
     margin-top: 35px;
     margin-bottom: 5px;
 }
@@ -43,19 +28,12 @@ header {
     display: block;
     float: left;
     height: 70px;
-    /*cambiando tamaño de la imagen*/
     margin-top: -5px;
     margin-right: 1px;
     animation: latir infinite 5s linear;
 }
 
 @keyframes latir {
-    /*para colocar ANIMACIONES se usa KEYFRAMES
-en este caso  usamos FROM que es un keyframe desde que empieza la animación
-hasta que acaba con el to
-
-Hacemos que gire con el transform, la cual nos permite modificar el elemento
-sin afectar a los elementos que tengamos al lado, por lo tanto no se van a mover (cero deg = cero grados */
     0% {
         transform: scale(1, 1);
     }
@@ -88,7 +66,6 @@ sin afectar a los elementos que tengamos al lado, por lo tanto no se van a mover
 #menu {
     font-size: 18px;
     text-align: center;
-    margin-bottom: 5%;
 }
 
 #menu ul li {
@@ -103,7 +80,6 @@ sin afectar a los elementos que tengamos al lado, por lo tanto no se van a mover
     text-decoration: none;
     color: #048FCA;
     transition: 300ms all;
-    /* si hago hover sobre los elementos del menú me cambia de color al pasar el mouse*/
     border-radius: 8px;
     border: 1px solid #DFA437;
     padding: 4px;
@@ -305,30 +281,12 @@ div#terminos {
 }
 
 .presentsBox:hover {
-    /* filter: grayscale(80%); */
-    /* filter: blur(5px); */
     filter: opacity(.9);
     transform: scale(1.1);
 }
 
-
-/* .ipadUser {
-    width: 50%;
-    height: auto;
-    border-radius: 90% 60%;
-    box-shadow: 6px 5px 24px #666666;
-}
-
-.ipadUser:hover {
-    transform: rotateY(180deg);
-    transform-style: preserve-3d;
-    transition: all .7s ease-in-out;
-} */
-
 .row {
     display: flex;
-    margin-bottom: 5%;
-    text-align: center;
 }
 
 .column {
@@ -386,31 +344,36 @@ img.foundUs:hover {
 }
 
 .animation {
-    position: absolute;
-    border-radius: 2rem 2rem 0 0;
+    position: relative;
+    z-index: 3;
+    border-radius: 50px;
     animation-name: animar;
-    animation-duration: 5s;
+    animation-duration: 4s;
     animation-iteration-count: infinite;
 }
 
 @keyframes animar {
     0% {
-        left: 0;
-        top: 0;
+        left: 0px;
+        top: 0px;
     }
-    10% {
-        left: 5rem;
-        top: 0rem;
+    25% {
+        left: 150px;
+        top: 0px;
         color: #9b59b6;
     }
-    30% {
-        top: 5rem;
-        left: 5rem;
+    35% {
+        left: 150px;
+        top: 0px;
+    }
+    50% {
+        top: 150px;
+        left: 150px;
         color: white;
     }
-    60% {
-        top: 5rem;
-        left: 0;
+    75% {
+        top: 150px;
+        left: 0px;
         color: #9b59b6;
     }
     100% {
