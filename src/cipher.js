@@ -11,7 +11,11 @@ N  O  P  Q  R  S  T  U  V  W  X  Y  Z
 78 79 80 81 82 83 84 85 86 87 88 89 90
 
 a              z
-97......     122 */
+97......     122
+
+
+NOTA: En cipher.spec.js la funcion de test espera que const cipher sea un objeto por eso encode y decode estan como objetos.
+*/
 var resultado = ""; //vendría siendo mi output
 
 const cipher = {
