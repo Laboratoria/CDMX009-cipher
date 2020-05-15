@@ -1,0 +1,45 @@
+ * {
+     margin: auto;
+ }
+
+   body {
+     background-color: cornflowerblue;
+     text-align: center;
+ }
+
+h1 {
+    font-size: 60px;
+    font-family: 'Caveat', cursive; 
+    background: darkblue;
+    text-align: center;
+    color: white 
+}
+
+h2 {
+    font-family: 'Caveat', cursive; 
+    background: darkblue;
+    text-align: center;
+    color: white 
+    
+}
+
+p {
+    font-family: 'Caveat', cursive; 
+    background: rgba(38, 226, 236, 0.88);
+    text-align: center;
+    font-size: 30px;
+}
+
+#text{
+    font-family: 'Caveat', cursive; 
+    background: #3094DC;
+    font-size: 40px;
+    text-align: right;
+
+}
+
+#footer{
+    font-size: 20px;
+    text-align: left;
+}
+

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>AliaSECRETO</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Caveat&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div id="title">
+      <h1>AliaSECRETO</h1>
+      <h2>Sabemos que los quieres... ¡Ahórrales el susto!</h2>
+    </div>
+    <p>
+      Cuando queremos a alguien haríamos cualquier cosa por su bienestar y eso
+      nos vuelve un blanco fácil para extorsionadores.
+      <br />
+      <b>AliaSECRETO</b> es una herramienta que oculta la identidad de tus
+      contactos por medio del cifrado César para que en caso de robo o extravío
+      de tu teléfono celular no puedan comunicarse con tus seres queridos para
+      extorsión o simulación de secuestro.
+    </p>
+    <div id="image">
+      <img  class="photo" src="imagenes/Imagenselfie.png" />
+    </div>
+
+    <div id="text">
+      Nombre/Alias <input id="aliasName" type="text" />
+      <br />
+      ¿Cuántas letras nos movemos?
+      <input id="offset" type="number" min="1" max="100" value="Enviar datos" />
+      <br />
+      <input
+        id="encryptButton"
+        type="button"
+        value="Cifrar Nombre"
+        onclick="encode(nameAlias,letterOffset)"
+      />
+      <input
+        id="decodeButton"
+        type="button"
+        value="Descifrar Alias"
+        onclick="decode(nameAlias,letterOffset)"
+      />
+      <br />
+      Resultado <input id="resultBox" type="text" />
+    </div>
+    <br />
+
+    <div id="footer">
+      <a
+        target="a_blank"
+        href="https://es.wikipedia.org/wiki/Cifrado_C%C3%A9sar"
+        >¿Criptado César?</a
+      >
+    </div>
+    <script src="index.js" type="module"></script>
+  </body>
+</html>
+
