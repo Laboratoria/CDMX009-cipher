@@ -1,268 +1,380 @@
-    @import url('https://fonts.googleapis.com/css?family=Zhi+Mang+Xing&display=swap');
-    body {
-        font-family: 'Montserrat', sans-serif;
-    }
-    /* color del los bordes  #96A0AF */
-    /*azul otra opción para header #048FCA */
-    /*en el header iba este y coloqué rojo. background: #96A0AF*/
-    /* color de fondo de la página #C4C4C4 */
-    
-    header {
-        height: 100px;
-        width: 100%;
-        background: #96A0AF;
-        border-top: 5px solid #5E6E86;
-        background: #04C9FD;
-    }
-    
-    #center {
-        width: 64%;
-        margin: 0px auto;
-        /* cuando le ponemos AUTO centra automáticamente
-ese elementro dentro o en el centro del div que contiene el elemento*/
-    }
-    
-    #logo {
-        width: 100%;
-        /*la caja del logo*/
-        font-size: 50px;
-        /*tamaño de fuente del logotipo*/
-        float: left;
-        /*el float nos mueve el elemento, en este caso a un lado*/
-        margin-top: 35px;
-        margin-bottom: 5px;
-    }
-    
-    #logo img {
-        display: block;
-        float: left;
-        height: 70px;
-        /*cambiando tamaño de la imagen*/
-        margin-top: -5px;
-        margin-right: 1px;
-        animation: latir infinite 5s linear;
-    }
-    
-    @keyframes latir {
-        /*para colocar ANIMACIONES se usa KEYFRAMES
-en este caso  usamos FROM que es un keyframe desde que empieza la animación
-hasta que acaba con el to
+@import url('https://fonts.googleapis.com/css?family=Zhi+Mang+Xing&display=swap');
+body {
+    font-family: 'Montserrat', sans-serif;
+}
 
-Hacemos que gire con el transform, la cual nos permite modificar el elemento
-sin afectar a los elementos que tengamos al lado, por lo tanto no se van a mover (cero deg = cero grados */
-        0% {
-            transform: scale(1, 1);
-        }
-        20% {
-            transform: scale(0.8, 0.8);
-        }
-        40% {
-            transform: scale(0.6, 0.6);
-        }
-        60% {
-            transform: scale(0.4, 0.4);
-        }
-        70% {
-            transform: scale(0.6, 0.6);
-        }
-        85% {
-            transform: scale(0.8, 0.8);
-        }
-        100% {
-            transform: scale(1, 1);
-        }
+header {
+    height: 100px;
+    width: 100%;
+    background: #96A0AF;
+    border-top: 5px solid #5E6E86;
+    background: #04C9FD;
+}
+
+#center {
+    width: 64%;
+    margin: 0px auto;
+}
+
+#logo {
+    width: 100%;
+    font-size: 50px;
+    float: left;
+    margin-top: 35px;
+    margin-bottom: 5px;
+}
+
+#logo img {
+    display: block;
+    float: left;
+    height: 70px;
+    margin-top: -5px;
+    margin-right: 1px;
+    animation: latir infinite 5s linear;
+}
+
+@keyframes latir {
+    0% {
+        transform: scale(1, 1);
     }
-    
-    #brand {
-        display: block;
-        margin: 0px;
-        float: left;
+    20% {
+        transform: scale(0.8, 0.8);
     }
-    
-    #menu {
-        width: 70%;
-        float: right;
-        font-size: 18px;
-        /*para que el menú sea un poquito más grande a nivel de la fuente*/
+    40% {
+        transform: scale(0.6, 0.6);
     }
-    
-    #menu ul li {
-        list-style: none;
-        display: inline-block;
-        height: 46px;
-        scroll-margin-left: 15px;
-        margin-right: 15px;
+    60% {
+        transform: scale(0.4, 0.4);
     }
-    
-    #menu a {
-        text-decoration: none;
-        /*esto es para que me quite el susbrayado que tienen debajo los enlaces
-TEXT-DECORATION:NONE*/
-        color: black;
-        transition: 300ms all;
-        /* si hago hover sobre los elementos del menú me cambia de color al pasar el mouse*/
+    70% {
+        transform: scale(0.6, 0.6);
     }
-    
-    #menu a:hover {
-        color: #DFA437;
+    85% {
+        transform: scale(0.8, 0.8);
     }
-    
-    #resaltar {
-        font-size: 20px;
+    100% {
+        transform: scale(1, 1);
     }
-    
-    .slider {
-        width: 90%;
-        height: 90%;
-        margin: auto;
-        overflow: hidden;
+}
+
+#brand {
+    display: block;
+    margin: 0px;
+    float: left;
+}
+
+#menu {
+    font-size: 18px;
+    text-align: center;
+}
+
+#menu ul li {
+    list-style: none;
+    display: inline-block;
+    height: 46px;
+    scroll-margin-left: 15px;
+    margin-right: 15px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: #048FCA;
+    transition: 300ms all;
+    border-radius: 8px;
+    border: 1px solid #DFA437;
+    padding: 4px;
+    box-shadow: 6px 5px 24px #666666;
+}
+
+#menu a:hover {
+    color: #DFA437;
+}
+
+#resaltar {
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+.slider {
+    width: 90%;
+    height: 90%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.slider ul {
+    display: flex;
+    width: 250%;
+    animation: cambio 30s infinite alternate linear;
+}
+
+.slider li {
+    list-style: none;
+}
+
+.slider img {
+    width: 95%;
+}
+
+@keyframes cambio {
+    0% {
+        margin-left: -150%;
     }
-    
-    .slider ul {
-        display: flex;
-        width: 250%;
-        animation: cambio 30s infinite alternate linear;
+    20% {
+        margin-left: -110%;
     }
-    
-    .slider li {
-        list-style: none;
+    35% {
+        margin-left: -70;
     }
-    
-    .slider img {
-        width: 95%;
+    55% {
+        margin-left: -1%;
     }
-    
-    @keyframes cambio {
-        0% {
-            margin-left: -150%;
-        }
-        20% {
-            margin-left: -110%;
-        }
-        35% {
-            margin-left: -70;
-        }
-        55% {
-            margin-left: -1%;
-        }
-        75% {
-            margin-left: -70%;
-        }
-        85% {
-            margin-left: -110%;
-        }
-        100% {
-            margin-left: -150%;
-        }
+    75% {
+        margin-left: -70%;
     }
-    /*CARDS*/
-    
-    #separacion {
-        font-weight: bold;
+    85% {
+        margin-left: -110%;
     }
-    
-    .flex-container {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: flex-start;
+    100% {
+        margin-left: -150%;
     }
-    
-    .contenedor-card-item {
-        border-radius: 5px 5px 0 0;
-        display: inline-block;
-        font-weight: bold;
-        width: 33.33%;
-        box-sizing: border-box;
-        padding: 60px;
+}
+
+
+/*CARDS*/
+
+#separacion {
+    font-weight: bold;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-bottom: 90px;
+}
+
+.contenedor-card-item {
+    border-radius: 5px 5px 0 0;
+    display: inline-block;
+    font-weight: bold;
+    width: 33.33%;
+    box-sizing: border-box;
+    padding: 60px;
+}
+
+.contenedor-card-item img {
+    width: 100%;
+    height: auto;
+}
+
+.contenedor-card-item:hover {
+    box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.artist {
+    color: black;
+}
+
+
+/*BOTONES*/
+
+.buttonall {
+    background: #048FCA;
+    color: white;
+    line-height: 35px;
+    box-shadow: 0px 0px 5px rgb(88, 88, 88);
+    margin-top: 25px;
+    border-radius: 12px;
+    transition: 300ms all;
+    font-weight: bolder;
+    cursor: pointer;
+    border-radius: 14px;
+    box-shadow: 6px 5px 24px #666666;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+}
+
+select#numerosCodificar {
+    margin-bottom: 25px;
+}
+
+button#comprar {
+    margin-bottom: 25px;
+}
+
+.buttonall:hover {
+    background-color: #E4E7DF;
+    color: #048FCA;
+}
+
+#footer {
+    width: 100%;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+    color: black;
+    background-color: #96A0AF;
+}
+
+#footer p {
+    margin: 0px;
+    padding: 0px;
+}
+
+#expliaciondeentrada {
+    text-align: center;
+    margin: auto;
+    font-weight: bolder;
+}
+
+h3 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    border-bottom: 1px solid #eee;
+    border-bottom-style: groove;
+    padding-top: 50px;
+}
+
+textarea {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #DFA437;
+    border-radius: 8px;
+    box-shadow: 2px 3px 3px #666666;
+}
+
+#ejemplo,
+#olvidar,
+#terminos,
+#clave,
+#numbers {
+    text-align: center;
+}
+
+div#terminos {
+    font-size: 0.8em;
+}
+
+#resultadocifrado,
+#resultadodescifrado {
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    margin: 30px;
+}
+
+.presentsBox {
+    width: 50%;
+    height: auto;
+    /* display: flex; */
+    margin: 0 auto;
+    display: flex;
+}
+
+.presentsBox:hover {
+    filter: opacity(.9);
+    transform: scale(1.1);
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 50%;
+}
+
+.clear {
+    clear: both;
+}
+
+.container-contacts {
+    background: url(pictures/apps.jpg);
+}
+
+.container-box {
+    top: 0;
+    left: 0px;
+    padding: 20%;
+}
+
+.container-text-box {
+    background: white;
+    font-size: 1.6em;
+    margin: auto;
+    padding: 40px 80px;
+    display: flex;
+    box-shadow: 4px 4px 4px #666666;
+    border-radius: 8px;
+}
+
+img.foundUs {
+    max-width: 20%;
+    height: auto;
+    border-radius: 50% 50%;
+    padding-right: 3%;
+    padding-left: 3%;
+}
+
+img.foundUs:hover {
+    transform: rotateY(180deg);
+    transform-style: preserve-3d;
+    transition: all .5s ease-in-out;
+}
+
+.plus-image {
+    background: url(pictures/concert-2.jpg);
+    padding: 80px;
+}
+
+.down-box {
+    background: white;
+    opacity: 0.9;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.animation {
+    position: relative;
+    z-index: 3;
+    border-radius: 50px;
+    animation-name: animar;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animar {
+    0% {
+        left: 0px;
+        top: 0px;
     }
-    
-    .contenedor-card-item img {
-        width: 100%;
-        height: auto;
+    25% {
+        left: 150px;
+        top: 0px;
+        color: #9b59b6;
     }
-    
-    .contenedor-card-item:hover {
-        box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.2);
+    35% {
+        left: 150px;
+        top: 0px;
     }
-    
-    .artist {
-        color: black;
-    }
-    /*BOTONES*/
-    
-    .buttonall {
-        background: #DFA437;
-        color: black;
-        line-height: 35px;
-        box-shadow: 0px 0px 5px rgb(88, 88, 88);
-        margin-top: 25px;
-        border-radius: 4px;
-        transition: 300ms all;
-        font-weight: bolder;
-        cursor: pointer;
-        -webkit-border-radius: 28;
-        -moz-border-radius: 28;
-        border-radius: 28px;
-        text-shadow: 3px 2px 1px #9daef5;
-        -webkit-box-shadow: 6px 5px 24px #666666;
-        -moz-box-shadow: 6px 5px 24px #666666;
-        box-shadow: 6px 5px 24px #666666;
-    }
-    
-    .buttonall:hover {
-        background-color: #048FCA;
+    50% {
+        top: 150px;
+        left: 150px;
         color: white;
     }
-    /*PIE DE PÁGINA*/
-    
-    #footer {
-        width: 100%;
-        height: 70px;
-        line-height: 70px;
-        text-align: center;
-        color: black;
-        background-color: #96A0AF;
+    75% {
+        top: 150px;
+        left: 0px;
+        color: #9b59b6;
     }
-    
-    #footer p {
-        margin: 0px;
-        padding: 0px;
-        margin-top: 70px;
+    100% {
+        top: 0;
+        left: 0;
     }
-    
-    #expliaciondeentrada {
-        text-align: center;
-        margin-top: 100px;
-        margin-bottom: 70px;
-    }
-    
-    h3 {
-        text-align: center;
-    }
-    
-    h2 {
-        text-align: center;
-        border-bottom: 1px solid #eee;
-        border-bottom-style: groove;
-        padding-top: 50px;
-    }
-    
-    textarea {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    
-    #ejemplo,
-    #olvidar,
-    #terminos,
-    #clave,
-    #numbers {
-        text-align: center;
-    }
-    
-    #resultadocifrado,
-    #resultadodescifrado {
-        text-align: center;
-        color: #DFA437;
-    }
+}

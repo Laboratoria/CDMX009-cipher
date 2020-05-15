@@ -8,54 +8,57 @@
 </head>
 
 <body>
-    <!--PASO x   Header-->
-    <!--El header representa LA CABECERA del sitio web-->
     <header id="header">
 
         <div id="center">
-            <!-- LOGO -->
             <div id="logo">
                 <img src="pictures/logo.png" class="app_logo" alt="logotipo" />
                 <span id="brand">
-                <!--brand es como la marca del sitio-->
-                <!--el titulo del sitio-->
-                    <strong>Dream</strong>Tickets
+                    <strong >Dream</strong>Tickets
                 </span>
+                <div class="clear"></div>
             </div>
-            <!-- la etiqueta NAV representa todos los links de navegación que vamos a utizar-->
-            <nav id="menu">
-                <ul>
-                    <li>
-                        <a href="index.html">Inicio</a>
-                    </li>
-
-                    <li>
-                        <a href="ticketspersonalizados.html">Tickets Personalizados</a>
-                    </li>
-
-                    <li>
-                        <a href="">Contacto</a>
-                    </li>
-                </ul>
-            </nav>
         </div>
     </header>
-    <div id="expliaciondeentrada">
-        <p>
-            Ahora puedes personalizar los boletos, ¡es fácil!
-        </p>
-        <p>
-            si quieres sorprender a tu pareja invitándola a ver a su artista favorito, <br>a un amigo, conocido, familiar o hasta para ti mismo...
-        </p>
-        <p>
-            Los tickets pueden contener mensajes especiales escritos por ti.
-        </p>
+
+    <nav id="menu">
+        <ul>
+            <li>
+                <a href="index.html">Inicio</a>
+            </li>
+
+            <li>
+                <a href="ticketspersonalizados.html">Tickets Personalizados</a>
+            </li>
+
+            <li>
+                <a href="contacts.html">Contacto</a>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="row">
+        <div id="expliaciondeentrada" class="column">
+            <p>
+                Ahora puedes personalizar los boletos, ¡es fácil!
+            </p>
+            <p>
+                si quieres sorprender a tu pareja invitándola a ver a su artista favorito, <br>a un amigo, conocido, familiar o hasta para ti mismo...
+            </p>
+            <p>
+                Los tickets pueden contener mensajes especiales escritos por ti.
+            </p>
+        </div>
+        <div class="column"><img class="ipadUser animation" src="pictures/ticket transparente pequeño.png" alt="people using ipad"></div>
     </div>
-    <!--PASO UNO CIFRAR EL CÓDIGO-->
+
+    <div>
+        <img class="presentsBox" src="pictures/dreamTickets-presents.jpg" alt="presentsBox">
+    </div>
+
     <section id="cifradoydescifrado">
         <div>
             <h3 id="resaltar">Ingresa el Texto que quieras Personalizar, solo son válidas letras,<br> si ingresas números o caracteres no se podrá realizar el proceso.</h3>
-            <!--input es un campo de entrada donde el usuario puede ingresar datos-->
             <textarea id="mensajeInput" rows="4" cols="50" placeholder="texto personalizado aquí"></textarea>
             <p id="clave">Primero debes elegir cual será tu número que servirá como tu clave</p>
             <div id="numbers">
@@ -82,36 +85,38 @@
                     <option value="20 ">20</option>
                 </select>
             </div>
-            <center><button id="cifrar" class="buttonall">Click Para generar tu código</button></center> <br>
+            <button id="cifrar" class="buttonall">Click Para generar tu código</button><br>
             <div id="resultadocifrado">
             </div>
-            <!--PASO DOS  DESCIFRAR EL CÓDIGO-->
-            <p id="olvidar">¿Olvidaste el mensaje que colocaste en tú personalización?</p>
-            <center><button id="descifrar" class="buttonall">Descifra tu código</button></center> <br>
-            <div id="resultadodescifrado">
+        </div>
+
+        <div class="plus-image">
+            <div class="down-box">
+                <p id="olvidar">¿Olvidaste el mensaje que colocaste en tú personalización?</p>
+                <button id="descifrar" class="buttonall">Descifra tu código</button><br>
+                <div id="resultadodescifrado">
+                </div>
+
+                <div id="terminos">
+                    <p>Recuerda que antes de hacer el pago debes estar seguro de la personalización que hiciste</p>
+                    <p>Una vez ingresado el código cifrado en los datos de compra y habiendo efectuado todo el proceso de pago, <br>
+                        <strong>No hay cambios, ni devoluciones</strong>
+                    </p>
+                </div>
+                <button id="comprar" class="buttonall"><strong>Quiero comprar</strong></button>
             </div>
         </div>
     </section>
-    <!--PASO TRES  OPCIONES Y CONDICIONES DE PAGO-->
-    <div id="terminos">
-        <P>Recuerda que antes de hacer el pago debes estar seguro de la personalización que hiciste</P>
-        <p>Una vez ingresado el código cifrado en los datos de compra y habiendo efectuado todo el proceso de pago, <br>
-            <STrong>No hay cambios, ni devoluciones</STrong>
-        </p>
-        <p>En caso de querer cambiar lo que escribiste refresca la página y empieza otra vez</p>
-    </div>
-    <center><button id="comprar" class="buttonall"><strong>Quiero comprar</strong></button></center>
+
+
     <footer id="footer">
         <div class="clearfix"></div>
-        </div>
         <div class="center">
             <p>
                 &copy; 2020 DreamTickets @Dianyela-Maldonado</p>
-            <!-- &copy; es para que salga la C tipo copright en el pie de página-->
         </div>
     </footer>
-    <script src="cipher.js"></script>
-    <script src="index.js"></script>
+    <script type="module" src="index.js"></script>
 </body>
 
 </html>
