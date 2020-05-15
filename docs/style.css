@@ -1,0 +1,89 @@
+body {		
+    background: url(./img/helado\ fondo.jpg);		
+text-align: center;		
+}		
+p {
+    font-size: 30px;
+}
+
+  #bttn {		
+      text-align: center;		
+     background-color: #FFFFFF ;		
+     border-bottom:#707070;		
+     border-radius: 10px;		
+     border-color: bisque;		
+     height: 50px;	
+     width: 150px;
+ }	
+ #result1		
+ {		
+     text-decoration: black;		
+     text-align: center;		
+     border-radius: 50px;		
+     background-color: #D17595;		
+
+  }		
+#root {		
+
+     text-align: center;		
+}		
+
+ #root2 {		
+
+     display: none;		
+}		
+
+ #root3 {		
+    display: none;		
+}		
+
+ #root4 {		
+    display: none;		
+}		
+#img1 {		
+  width: 250px;		
+  height: 200px;		
+}		
+#img2 {		
+    width: 250px;		
+    height: 200px;		
+}
+#cerdito {
+    width: 200px;
+    height: 270px;
+}
+#Age {
+    height: 20px;
+    width: 50px;
+    
+}
+#name {
+    background-color: #FFFFFF;
+   
+    border-radius: 9px;
+    text-decoration: #000000;
+    text-decoration-color: black;
+    height: 20px;
+    width: 170px;
+}
+#result {
+    border-radius: 5px;
+    height: 20px;
+    width: 170px;
+}
+#user{
+     height: 40px;	
+    width: 100px;
+}
+#datos {
+    font-size: 20px;
+}
+#dato {
+    height: 20px;
+    width: 200px;
+    border-radius: 20px;
+}
+#AgeUser{
+    height: 15px;
+    width: 30px;
+}
