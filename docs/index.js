@@ -1,4 +1,4 @@
-import cipher from '../src/cipher.js';
+import cipher from './cipher.js';
 
 const buttonEncode = document.getElementById("encodebutton");
 const buttonDecode = document.getElementById("decodebutton");
