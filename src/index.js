@@ -1,21 +1,19 @@
-document.getElementById("startButton").addEventListener("click", screen)
-document.getElementById("startButton").addEventListener("click",function() { changeBackground('#BF52FF') })
-document.getElementById("clean").addEventListener("click", cleanScreen)
+import cipher from '../cipher.js';
 
 const buttonEncode = document.getElementById("encodebutton");
 const buttonDecode = document.getElementById("decodebutton");
+document.getElementById("startButton").addEventListener("click", screen);
+document.getElementById("clean").addEventListener("click", cleanScreen)
+buttonEncode.addEventListener("click", encode);
+buttonDecode.addEventListener("click", decode);
 
 //función que sirve para cambiar pantallas
-function screen() { 
+function screen(){ 
     let screens = document.getElementById("firstPage")
     screens.style = "display:none";
     document.getElementById("secondPage").style.display = "block";
 }
 
-//Función que sirve para cambiar de color la pantalla 
-function changeBackground(color) {
-    document.body.style.background = color;
-}
 
 //función para limpiar página
 function cleanScreen() {
@@ -26,19 +24,18 @@ function cleanScreen() {
 
 
 // función donde se definen variables para cipher.js
-  buttonEncode.addEventListener("click", () => {
+function encode(){ 
+    const cipherFunct = cipher;
     let message = document.getElementById("textleft").value;
     let offsetNumber = document.getElementById("offset").value;
-    let finalResult = cipher.encode (message, offsetNumber);
+    let finalResult = cipherFunct.encode (offsetNumber, message);
     document.getElementById("textright").innerHTML = finalResult;
-  })
+  }
 
-
-  buttonDecode.addEventListener("click", () => {
+function decode(){
+   const cipherFunct = cipher;
    let messageD = document.getElementById("textleft").value;
    let offsetNumberD = document.getElementById("offset").value;
-   let finalResultD = cipher.decode(messageD, offsetNumberD);
+   let finalResultD = cipherFunct.decode(offsetNumberD, messageD);
    document.getElementById("textright").innerHTML = finalResultD;
-  })
-
-
+}

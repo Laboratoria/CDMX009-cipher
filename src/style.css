@@ -1,6 +1,9 @@
 body{
   background-color: #2DCC77;
 }
+body:hover{
+  background-color: #BF52FF;
+}
 .titles{
   color: #BF52FF;
   font-family: 'Press Start 2P';
@@ -45,6 +48,7 @@ h1{
   position:absolute;
   right: 108px;
   box-shadow: 6px 8px black;
+  animation: pulse 2s infinite;
 }
 .secondpage{
   display: none;
@@ -88,11 +92,13 @@ h1{
   position: absolute;
   bottom: 120px ;
   left: 542px;
+  animation: pulse 2s infinite;
 }
 #decodebutton{
   position: absolute;
   bottom: 200px ;
   left: 542px;
+  animation: pulse 2s infinite;
 }
 #numD{
   background-color: #F2C94C;
@@ -132,6 +138,9 @@ h1{
   bottom: 30px;
   box-shadow: 6px 8px black;
 }
+#clean:hover{
+  animation: pulse 2s infinite;
+}
 
 .footer{
   font-family: monospace;
@@ -142,3 +151,14 @@ h1{
    color: white;
    text-align: center;
  }
+ @keyframes pulse{
+  0%{
+      transform: scale(.93);
+  }
+  50%{
+      transform: scale(1);   
+  }
+  100%{
+      transform: scale(.9);
+  }
+}

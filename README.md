@@ -49,29 +49,29 @@ con el fin de no hacer el proceso de cifrado tedioso o confuso para el usuario.
 
 #### UX
 
-- [· ] Diseñar la aplicación pensando y entendiendo al usuario.
-- [· ] Crear prototipos para obtener feedback e iterar.
-- [· ] Aplicar los principios de diseño visual (contraste, alineación, jerarquía).
+- [·] Diseñar la aplicación pensando y entendiendo al usuario.
+- [ ] Crear prototipos para obtener feedback e iterar.
+- [·] Aplicar los principios de diseño visual (contraste, alineación, jerarquía).
 
 #### HTML y CSS
 
-- [· ] Uso correcto de HTML semántico.
-- [· ] Uso de selectores de CSS.
-- [· ] Construir tu aplicación respetando el diseño realizado (maquetación).
+- [·] Uso correcto de HTML semántico.
+- [·] Uso de selectores de CSS.
+- [·] Construir tu aplicación respetando el diseño realizado (maquetación).
 
 #### DOM
 
-- [· ] Uso de selectores del DOM.
-- [· ] Manejo de eventos del DOM.
-- [ ] Manipulación dinámica del DOM.
+- [·] Uso de selectores del DOM.
+- [·] Manejo de eventos del DOM.
+- [·] Manipulación dinámica del DOM.
 
 #### Javascript
 
-- [· ] Manipulación de strings.
-- [· ] Uso de condicionales (if-else | switch).
-- [· ] Uso de bucles (for | do-while).    
-- [· ] Uso de funciones (parámetros | argumentos | valor de retorno).
-- [ ] Declaración correcta de variables (const & let).
+- [·] Manipulación de strings.
+- [·] Uso de condicionales (if-else | switch).
+- [·] Uso de bucles (for | do-while).    
+- [·] Uso de funciones (parámetros | argumentos | valor de retorno).
+- [·] Declaración correcta de variables (const & let).
 
 #### Testing
 - [ ] Testeo de tus funciones.

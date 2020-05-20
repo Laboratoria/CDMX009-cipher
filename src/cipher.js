@@ -1,5 +1,5 @@
-window.cipher = {
-        encode: (message, offsetNumber) => {
+const cipher = {
+        encode: (offsetNumber, message) => {
             let encodeMessage = "";
             for (let i = 0; i < message.length; i++) {
                  let character = message[i];
@@ -8,13 +8,16 @@ window.cipher = {
                 let messageAscii = (upperCaseMessage.charCodeAt(i) - 65 + parseInt(offsetNumber)) % 26 + 65;
                 encodeMessage += String.fromCharCode(messageAscii);
             }
+            else if(message === null || offsetNumber === 0) {
+                throw new TypeError
+            }  
             else{
                 encodeMessage += character;
-            }               
+            }             
             }
             return encodeMessage;
         },
-        decode: (message, offsetNumber) => {
+        decode: (offsetNumber, message) => {
             let decodeMessage = "";
             for (let i = 0; i < message.length; i++) {
                 let characterD = message[i];
@@ -23,6 +26,9 @@ window.cipher = {
                 let messageAsciiD = (upperCaseMessageD.charCodeAt(i) + 65 - parseInt(offsetNumber))% 26 +65;
                 decodeMessage += String.fromCharCode(messageAsciiD);
             }
+            else if(message === null || offsetNumber === 0) {
+                throw new TypeError
+            } 
             else{
                 decodeMessage += characterD;
             }
@@ -30,3 +36,4 @@ window.cipher = {
             return decodeMessage;
         }
     }
+export default cipher;
