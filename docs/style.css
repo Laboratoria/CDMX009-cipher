@@ -1,0 +1,164 @@
+body{
+  background-color: #2DCC77;
+}
+body:hover{
+  background-color: #BF52FF;
+}
+.titles{
+  color: #BF52FF;
+  font-family: 'Press Start 2P';
+}
+.welcomeMessage{
+  background-color: white;
+  width: 950px;
+  height: 455px;
+  padding: 20px 55px;
+  text-align: center;
+  line-height: 25px;
+  margin: 100px 100px;
+  box-shadow: 6px 8px black;
+}
+h1{
+  font-size: 27px;
+}
+.mainType{
+  font-family: monospace;
+  font-size: 16px
+}
+.instructions{
+  margin: 30px 0px 30px 450px;
+  text-align: right;
+}
+#note{
+  color: #BF52FF;
+  padding: 0px 160px;
+  text-align: justify;
+  margin: 30px;
+}
+.startBttn {
+  background-color: #F2C94C;
+  border: none;
+  color: black;
+  width: 200px;
+  height: 45px;
+  text-align: center;
+  display: inline-block;
+  font-family: 'Press Start 2P';
+  font-size: 18px;
+  position:absolute;
+  right: 108px;
+  box-shadow: 6px 8px black;
+  animation: pulse 2s infinite;
+}
+.secondpage{
+  display: none;
+}
+.contentMessage{
+  background-color: white;
+  border: none;
+  box-shadow: 6px 8px black;
+  display: inline;
+}
+#textleft{
+  float: left;
+  width: 420px;
+  height: 600px;
+  position: absolute;
+  top: 60px;
+  left: 100px;
+}
+#textright{
+  float: right;
+  width: 420px;
+  height: 600px;
+  position: absolute;
+  top: 50px ;
+  right: 100px;
+}
+.button-encodeDecode{
+  background-color: #F2C94C;
+  border: none;
+  color: black;
+  width: 200px;
+  height: 45px;
+  text-align: center;
+  font-family: 'Press Start 2P';
+  font-size: 18px;
+  box-shadow: 6px 8px black;
+  display: block;
+  
+}
+#encodebutton{
+  position: absolute;
+  bottom: 120px ;
+  left: 542px;
+  animation: pulse 2s infinite;
+}
+#decodebutton{
+  position: absolute;
+  bottom: 200px ;
+  left: 542px;
+  animation: pulse 2s infinite;
+}
+#numD{
+  background-color: #F2C94C;
+  border: none;
+  color: black;
+  width: 180px;
+  height: 30px;
+  text-align: center;
+  font-family: 'Press Start 2P';
+  font-size: 13px;
+  box-shadow: 6px 8px black;
+  display: block;
+  padding: 10px;
+  position: absolute;
+  bottom: 400px;
+  left: 542px;
+}
+.offsetnumber{
+  width: 194px;
+  height: 30px;
+  position: absolute;
+  bottom: 462px;
+  left: 542px;
+}
+#clean{
+  background-color: #F2C94C;
+  border: none;
+  color: black;
+  width: 200px;
+  height: 45px;
+  text-align: center;
+  display: inline-block;
+  font-family: 'Press Start 2P';
+  font-size: 18px;
+  position:absolute;
+  right: 102px;
+  bottom: 30px;
+  box-shadow: 6px 8px black;
+}
+#clean:hover{
+  animation: pulse 2s infinite;
+}
+
+.footer{
+  font-family: monospace;
+  position: fixed;
+   left: 0;
+   bottom: 4px;
+   width: 100%;
+   color: white;
+   text-align: center;
+ }
+ @keyframes pulse{
+  0%{
+      transform: scale(.93);
+  }
+  50%{
+      transform: scale(1);   
+  }
+  100%{
+      transform: scale(.9);
+  }
+}
