@@ -36,14 +36,7 @@ con el fin de no hacer el proceso de cifrado tedioso o confuso para el usuario.
 <img src = "img/bocetoDos.png">
 
 ### Prototipo final
-
-<img src = "img/pantallaPrincipal.png">
-
-<img src = "img/pantallaDos.png">
-
-<img src = "img/pantallaCifrar.png">
-
-<img src = "img/pantallaDecifrar.png">
+http://g.recordit.co/LtIeXrcNz8.gif
 
 ### Objetivos de Aprendizaje
 
