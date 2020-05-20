@@ -36,7 +36,7 @@ con el fin de no hacer el proceso de cifrado tedioso o confuso para el usuario.
 <img src = "img/bocetoDos.png">
 
 ### Prototipo final
-<a href="http://g.recordit.co/LtIeXrcNz8.gif"><img src="http://g.recordit.co/LtIeXrcNz8.gif" alt="Image from Gyazo" width="272"/></a>
+<a href="http://g.recordit.co/LtIeXrcNz8.gif"><img src="http://g.recordit.co/LtIeXrcNz8.gif" alt="Image from Gyazo" width="600"/></a>
 
 ### Objetivos de Aprendizaje
 
