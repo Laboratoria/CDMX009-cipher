@@ -10,7 +10,6 @@ let desCifrar = document.getElementById('botonDesCifrar');
 function obtenerDatos() {
     offset = parseInt(document.getElementById('movimientos', 10).value);
     string = document.getElementById('cifrarlo').value;
-    
 }
 
 /* FUNCIONES DE CIFRAR Y DESCIFRAR */
