@@ -27,5 +27,5 @@ desCifrar.onclick = function() {
     document.getElementById('resultadoDesCifrado').innerHTML = cipher.decode(offset, string);
 };
 
-console.log(cipher);
+//console.log(cipher);
 

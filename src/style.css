@@ -4,14 +4,12 @@
 }
 
 /* ESTILOS GENERALES DEL BODY */
-
 body {
     font-family: 'Lato', sans-serif;  
     text-align: center;
 }
 
 /* ESTILOS PAGINA 1 */
-
 #pagina1 {
     border: 1px solid red;
     border-radius: 10px;
@@ -51,8 +49,7 @@ h1 {
 .datos label {
     font-size: large;
     font-weight: bold;
-    color: blue;
-    
+    color: blue;    
 }
 
 .boton {
@@ -69,7 +66,6 @@ h1 {
 }
 
 /* ESTILOS PAGINA 2 */
-
 .contenedor {
     border: 1px solid red;
     border-radius: 10px;
