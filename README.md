@@ -3,21 +3,23 @@ El siguiente proyecto se trata de una aplicación para generar códigos mediante
 
 # Usuarios y Objetivos 
 El usuario que ingresa a Safevent son personas de sexo indistinto y de edad entre 13 años en adelante. Usuarios que buscan privacidad y seguridad al momento de realizar eventos.
+![Final1](https://github.com/LizethRivera04/CDMX009-cipher/blob/master/src/Final1.PNG)
+![Final2](https://github.com/LizethRivera04/CDMX009-cipher/blob/master/src/Final2.PNG)
 
 # Solución de problemas
 Los usuarios buscan tranquilidad y confianza que las personas que  asistan a sus eventos, estén seguras de disfrutar una fiesta, sin inconvenientes a causa de personas que no están invitadas, así como mantener la confidencialidad de su ubicación.
 
 # Foto Prototipo
-../imagenes/Prototipo.jpeg
+![Prototipo](https://github.com/LizethRivera04/CDMX009-cipher/blob/master/src/Prototipo.jpeg)
 
 
 # Feedback recibido
 El  feedback recibido, se centró en disminuir la cantidad de vistas, y botones, ayudando a una mejor experiencia y entendimiento para el usuario.
 
 # Imagen prototipo final
-../imagenes/Wireframe1.png
-../imagenes/Wireframe2.png
-../imagenes/Wireframe3.png
+![Wireframe1](https://github.com/LizethRivera04/CDMX009-cipher/blob/master/src/Wireframe1.PNG)
+![Wireframe2](https://github.com/LizethRivera04/CDMX009-cipher/blob/master/src/Wireframe2.PNG)
+![Wireframe3](https://github.com/LizethRivera04/CDMX009-cipher/blob/master/src/Wireframe3.PNG)
 
 # Objetivos de aprendizaje
  # UX
