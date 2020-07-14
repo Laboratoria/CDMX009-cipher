@@ -100,14 +100,22 @@ a{
 .start:hover{
     background-color: #63B2B4 ;
 }
+
+.flex-center{
+    display: flex;
+    justify-content: center;
+}
+.btn-inicio{
+    display: flex;
+    justify-content: center;
+}
 .boton{
-    margin: 30px 202px;
+    margin: 5px;
     text-decoration: none;
     background-color: #97E9C6;
     border-radius: 20px;
     border-color:#97E9C6;
     border-style: solid;
-    padding: 10px;
     width: 100px;
 }
 
@@ -116,7 +124,7 @@ a{
 }
 
 .boton0{
-    margin: 30px 615px;
+   
     text-decoration: none;
     background-color: #97E9C6;
     border-radius: 20px;
@@ -132,15 +140,15 @@ a{
 }
 
 .boton1{
-    margin-left: 500px;
+    margin: 10px;
     text-align: center;
     background-color: #97E9C6;
     border-radius: 20px;
     border-color:#97E9C6;
     border-style: solid;
-    padding: 10px;
+    height: 40px;
     width: 100px;
-    float: left;
+  
 }
 
 .boton1:hover{
@@ -148,21 +156,25 @@ a{
 }
 
 .boton2{
-    margin-left: 120px;
+   
+    margin: 10px;
     text-align: center;
     background-color: #97E9C6;
     border-radius: 20px;
     border-color:#97E9C6;
     border-style: solid;
-    padding: 10px;
+    height: 40px;
     width: 100px;
-    float: left;
+    
 }
 
 .boton2:hover{
     background-color: #63B2B4 ;
 }
-
+.btn-choose{
+    display: flex;
+    justify-content: center;
+}
 #paso3{
     border-radius: 20px;
     border-color:#97E9C6;
@@ -177,11 +189,7 @@ a{
 }
 
 #resultadocif{
-    width: 150px;
-    margin: 10px 160px;
-    padding: 10px;
     text-align: center;
-
 }
 
 /*.pie{

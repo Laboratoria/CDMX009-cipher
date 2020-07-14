@@ -38,26 +38,45 @@
         cifrar eventos o lugares en los que estarás, basándonos en el <a href="vista2.html" class="infoCesar">Código
           César</a>, evitando que otras personas conozcan tu ubicación.</p>
       <br>
-      <button class="start" id="comenzar">Comenzar</button>
+      <div class="btn-inicio">
+        <button class="start" id="comenzar">Comenzar</button>
+
+      </div>
+
     </div>
 
     <div id="paso1" class="hide">
       <p>Paso 1. Ingresa el número de posiciones que quieres recorrer el alfabeto para descifrar o cifrar un
         <span>safevent</span></p>
       <br>
-      <textarea class="caja" id="posiciones"></textarea>
+      <div class="flex-center">
+        <textarea class="caja" id="posiciones"></textarea>
+      </div>
+
       <br>
-      <button class="boton0" id="botnumber">Ingresar</button>
+      <div class="flex-center">
+        <button class="boton0" id="botnumber">Ingresar</button>
+      </div>
+
       <br>
     </div>
 
     <div id="paso2" class="hide">
       <p>Paso 2. Ingresa el nombre del lugar de tu evento</p>
       <br>
-      <textarea type="text" class="caja" id="cadenacif"></textarea>
+      <div class=flex-center>
+        <textarea type="text" class="caja" id="cadenacif"></textarea>
+      </div>
+
+
+
+
       <br>
-      <button class="boton1" id="botcifrar">Cifrar</button>
-      <button class="boton2" id="botdescifrar">Descifrar</button>
+      <div class="btn-choose">
+        <button class="boton1" id="botcifrar">Cifrar</button>
+        <button class="boton2" id="botdescifrar">Descifrar</button>
+      </div>
+
       <br>
     </div>
 
@@ -66,9 +85,13 @@
       <br>
       <div id="resultadocif"></div>
       <br>
-      <button class="boton"><a href="index.html">Finalizar</a></button>
-      <br>
-      <button class="boton">Compartir evento</button>
+      <div class="btn-choose">
+
+        <button class="boton"><a href="index.html">Finalizar</a></button>
+        <br>
+        <button class="boton">Compartir evento</button>
+      </div>
+
       <!--<button class="boton"><a href="cifrar.html">Cifrar otro evento</a></button>
       <br>
       <button class="boton"><a href="descifrar.html">Descifrar un evento</a></button>
