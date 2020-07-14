@@ -23,31 +23,31 @@ El  feedback recibido, se centró en disminuir la cantidad de vistas, y botones,
 
 # Objetivos de aprendizaje
  # UX
- [ ] Diseñar la aplicación pensando y entendiendo al usuario.
- [ ] Crear prototipos para obtener feedback e iterar.
- [x] Aplicar los principios de diseño visual: Tamaño, contraste, color, alineación
+- [ ] Diseñar la aplicación pensando y entendiendo al usuario.
+- [ ] Crear prototipos para obtener feedback e iterar.
+- [x] Aplicar los principios de diseño visual: Tamaño, contraste, color, alineación
 # HTML y CSS
- [x] Uso correcto de HTML semántico: header, main, footer
- [x] Uso de selectores de CSS: class, id, element selectors
- [x] Construir tu aplicación respetando el diseño realizado (maquetación).
+- [x] Uso correcto de HTML semántico: header, main, footer
+- [x] Uso de selectores de CSS: class, id, element selectors
+- [x] Construir tu aplicación respetando el diseño realizado (maquetación).
 # DOM
- [x] Uso de selectores del DOM: p, div, h1, a...
- [x] Manejo de eventos del DOM: id-addEventListener
- [x] Manipulación dinámica del DOM: id-document.getElementById, document.querySelector
+- [x] Uso de selectores del DOM: p, div, h1, a...
+- [x] Manejo de eventos del DOM: id-addEventListener
+- [x] Manipulación dinámica del DOM: id-document.getElementById, document.querySelector
 # Javascript
- [x] Manipulación de strings.
- [x] Uso de condicionales (if-else | switch): if-else
- [x] Uso de bucles (for | do-while): for
- [x] Uso de funciones: parámetros | argumentos | valor de retorno
- [x] Declaración correcta de variables (const & let).
+- [x] Manipulación de strings.
+- [x] Uso de condicionales (if-else | switch): if-else
+- [x] Uso de bucles (for | do-while): for
+- [x] Uso de funciones: parámetros | argumentos | valor de retorno
+- [x] Declaración correcta de variables (const & let).
 # Testing
- [] Testeo de tus funciones.
+- [] Testeo de tus funciones.
 # Git y GitHub
- [x] Comandos de git (add | commit | pull | status | push).
- [x] Manejo de repositorios de GitHub (clone | fork | gh-pages).
+- [x] Comandos de git (add | commit | pull | status | push).
+- [x] Manejo de repositorios de GitHub (clone | fork | gh-pages).
 # Buenas prácticas de desarrollo
- [x] Uso de identificadores descriptivos (Nomenclatura(Camel Case) | Semántica).
- [x] Uso de linter para seguir buenas prácticas (ESLINT).
+- [x] Uso de identificadores descriptivos (Nomenclatura(Camel Case) | Semántica).
+- [x] Uso de linter para seguir buenas prácticas (ESLINT).
 
 
   
