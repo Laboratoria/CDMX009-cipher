@@ -16,9 +16,10 @@ function cipher(offNum, nTxt) {
   var offNum = parseInt(elNumber.value);
   var i = 0;
   var finalTxt = "";
-
-for (i = 0; i < nTxt.length; i++) {
-  place = nTxt.charCodeAt(i);
+  
+  clear()
+  for (i = 0; i < nTxt.length; i++) {
+    place = nTxt.charCodeAt(i);
 
   if (place>=65 && place<=90){
     r = (place - 65 + offNum) % 26 + 65;
@@ -30,7 +31,7 @@ for (i = 0; i < nTxt.length; i++) {
     finalTxt += nTxt.charAt(i);
   }
 }
-showResult.textContent += finalTxt;
+  showResult.textContent += finalTxt;
 }
 
 function decipher(offNum, nTxt) {
@@ -39,7 +40,8 @@ function decipher(offNum, nTxt) {
   var i = 0;
   var finalTxt = "";
 
-for (i = 0; i < nTxt.length; i++) {
+  clear()
+  for (i = 0; i < nTxt.length; i++) {
   place = nTxt.charCodeAt(i);
 
   if (place>=65 && place<=90){
@@ -55,6 +57,9 @@ for (i = 0; i < nTxt.length; i++) {
 showResult.textContent += finalTxt;
 }
 
+function clear(){
+  showResult.innerHTML = ''
+}
 
 
 // export default cipher;
