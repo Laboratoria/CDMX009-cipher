@@ -35,4 +35,5 @@ La página sirve para agregar interactividad al juego y darle a los nuevos usuar
 Recibí feedback en cuanto al diseño inicial que incluía circulos, y aunque era bonito visualmente, no se entendía mucho el propósito. 
 
 **Prototipo final**
+
 ![Prototipo Figma](README_img/prototipo.png)
