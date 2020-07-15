@@ -30,6 +30,7 @@ Decodificar
 La página sirve para agregar interactividad al juego y darle a los nuevos usuarios una idea de lo que los elementos que encontrarn en el mismo.
 
 **Primer prototipo**
+
 ![Sketch](README_img/sketch.png)
 
 Recibí feedback en cuanto al diseño inicial que incluía circulos, y aunque era bonito visualmente, no se entendía mucho el propósito. 
