@@ -10,6 +10,9 @@ decodeButton.onclick = decode1;//llamando a decodeButton
 let cleanButton = document.getElementById("clean");//llamando a cleanButton
 cleanButton.onclick = clean;//llamando a cleanButton
 
+let copyButton=document.getElementById("copy");
+copyButton.onclick = copy;
+
 function encode1(){//funcion para cuando se presione el boton encode1 se realicen estas operaciones
     let cipherText = document.getElementById("text");//llamar el texto del input
     let text = cipherText.value;//guardar el valor del texto en una variable
@@ -37,8 +40,16 @@ function decode1(){//funcion para cuando se presione el boton decode1 se realice
     }
 
 function clean (){//funcion para cuando se presione el boton limpiar se limpie el div de resultado 
-    document.getElementById("result").innerText="";//se pone un div vacio 
+    document.getElementById("text").value=" ";//se pone un div vacio 
     }
+
+function copy(){
+    let copyText = document.getElementById("result");
+  copyText.select();
+  copyText.setSelectionRange(0, 99999)
+  document.execCommand("copy");
+  
+}
 
 console.log(cipher);
 
