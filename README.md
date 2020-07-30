@@ -12,7 +12,7 @@ El nombre de la página es: ***Dream Tickets.***
 >En la segunda pestaña de la barra de navegación explicamos al usuario de lo que trata el cifrado Cesar y se podrán generar los tickets o boletos personalizados.
 >Ya en la tercera pestaña se encuentran los contactos en donde el usuario puede iterar con la app, en este caso Dream-Tickets.
 
-![alt text](https://raw.githubusercontent.com/DianyelaMaldonado/CDMX009-cipher/master/prototiposCipher/ciphertablet.png)
+![alt text](https://raw.githubusercontent.com/DianyelaMaldonado/CDMX009-cipher/master/prototiposCipher/ciphertablet.jpg)
 
 
 
