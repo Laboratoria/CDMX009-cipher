@@ -6,9 +6,35 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div id="root">
-      <h1>Hello world!</h1>
+   <div id="root">
+      <h1><center>TU SALARIO EN CODIGO</center></h1>
+        <h2><center>BIENVENIDO CONSULTA TU SALARIO</center></h2>
+          <p>Bienvenido a esta nueva tendencia la cual te ayudara a tener un contacto con las personas de recursos humanos,
+              para la obtencion de sueldo en codigo, pimer paso escribe el sueldo en el apartado y ya desides si quieres
+              CODIFICA TU MENSAJE Y DESCIFRAR.</p>
+      <fieldset>
+        <legend>CODIGO</legend>
+          <center><div>
+            <div class="eligeNumero">Elige número de desplazamiento</div>
+                <input type="number" placeholder="#" id="offsetsaltos" min="2" max="25">
+            <div></center>
+              <br>
+              <br>
+        <center><textarea id="datosPersonales" cols="60" rows="10" placeholder="Escribe aquí"></textarea></center>
+            <p id="codigo"><strong>Tu resultado es:</strong></p>
+              <br>       
+              <br>
+        <center><div id="botones">
+                <button type="submit" id="cifrar"> cifrar </button>
+                <button type="submit" id="descifrar"> descifrar </button>
+            </div></center>
+        </fieldset>
     </div>
-    <script src="index.js" type="module"></script>
   </body>
+
+
+  <script src="index.js"></script>
+  <script src="cipher.js"></script>
+  
+  
 </html>
