@@ -3,7 +3,7 @@
 
 >El proyecto se basa en una página web que se encarga de la parte de conciertos, en este caso se utiliza un código para personalizar las entradas con mensajes especiales, en caso de que vayas a regalar el boleto tengas algo que escribiste tu mismo. Te cifra cuando escribes el texto, lo descifras en caso de que hayas olvidado lo que escribiste. Su finalidad en si es cifrar y descifrar.
 
-![alt text](https://raw.githubusercontent.com/DianyelaMaldonado/CDMX009-cipher/master/prototiposCipher/logo.png)
+![alt text](https://raw.githubusercontent.com/DianyelaMaldonado/CDMX009-cipher/master/prototiposCipher/logo-cipher.jpg)
 El nombre de la página es: ***Dream Tickets.***
 
 
@@ -43,11 +43,12 @@ El nombre de la página es: ***Dream Tickets.***
 
 
 
+
 ***Prototipo final.***
 
  >En esta parte trabajé de una manera más real el cómo quería que se viera mi proyecto, los colores, el fondo, la ubicación de los botones, las imágenes, llegué al punto de que en mi mente ya sabía cómo se iba a ver, y por lo tanto al prototipar la página principal, ya fue suficiente para plasmarlo en código.
 
-  ![alt text](https://raw.githubusercontent.com/DianyelaMaldonado/CDMX009-cipher/master/prototiposCipher/prototipofinalcipher.jpg).
+  ![alt text](https://raw.githubusercontent.com/DianyelaMaldonado/CDMX009-cipher/master/prototiposCipher/prototipo-cipher.jpg)
   
   ***Feedback***
  > En cuanto al feedback primero enseñé a algunas personas la idea de lo que sería el proyecto, seguidamente el prototipo final, en lo que solo coincidía la opinión de cambiar el color, la cual tomé en cuenta y el resultado final tuvo una buena percepción de los mismos.
