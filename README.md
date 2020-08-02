@@ -4,7 +4,7 @@
 # RESUMEN DE LO QUE TRATA EL PROYECTO
 Aplicacion para la generacion y descarga de facturas y sellos digitales.
 
-# iMGENES FINALES DEL PROYECTO EN:
+# IMGENES FINALES DEL PROYECTO EN:
 <img src='src/imgs/Cipher_H1.png'>
 <img src='src/imgs/Cipher_H2.png'>
 
