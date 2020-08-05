@@ -1,15 +1,15 @@
-# TITULO DEL PROYECTO
+## TITULO DEL PROYECTO
 **Cifrado César**
 
-# RESUMEN DE LO QUE TRATA EL PROYECTO
+## RESUMEN DE LO QUE TRATA EL PROYECTO
 Aplicacion para la generacion y descarga de facturas y sellos digitales.
 
-# IMGENES FINALES DEL PROYECTO EN:
+## IMGENES FINALES DEL PROYECTO EN:
 <img src='src/imgs/Cipher_H1.png'>
 <img src='src/imgs/Cipher_H2.png'>
 
 
-# INVESTIGACION UX
+## INVESTIGACION UX
     i.- Contribuyentes (Personas fisicas y morales), que pagan impuestos y facturan sus productos y/o servicios.
 
     ii.- Con esta aplicación y por medio de un despacho de contadores, obtener ante la SHCP la autorización para la generación de sellos digitales que incluye la facturación electrónica.
