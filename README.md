@@ -14,11 +14,7 @@ Aplicacion para la generacion y descarga de facturas y sellos digitales.
 
     ii.- Con esta aplicación y por medio de un despacho de contadores, obtener ante la SHCP la autorización para la generación de sellos digitales que incluye la facturación electrónica.
 
-    iii.- 
 <img src= 'https://github.com/EstherManrique/CDMX009-cipher/blob/master/src/imgs/Primer_Protipo.jpeg'>
 
-    iv.-  que enfocar mi aplicación, confiar en lo que se, Organizarme mejor.
-
-    v.- 
 <img src= 'https://github.com/EstherManrique/CDMX009-cipher/blob/master/src/imgs/Prototipo_final.jpeg'>
 
