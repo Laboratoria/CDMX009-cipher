@@ -2,7 +2,7 @@
 **Cifrado César**
 
 ## RESUMEN DE LO QUE TRATA EL PROYECTO
-Aplicacion para la generacion y descarga de facturas y sellos digitales.
+Aplicacion para la generacion, descarga de facturas y sellos digitales.
 
 ## IMGENES FINALES DEL PROYECTO EN:
 <img src='src/imgs/Cipher_H1.png'>
