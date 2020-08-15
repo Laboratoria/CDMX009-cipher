@@ -2,13 +2,51 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Caesar Cipher</title>
+    <title>Mamamoo FanKey</title>
+    <link rel = "icon" type = "image/png" href = "images\mmmicon.png">
+    <link rel = "apple-touch-icon" type = "image/png" href = "images\mmmicon.png"/>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div id="root">
-      <h1>Hello world!</h1>
-    </div>
-    <script src="index.js" type="module"></script>
+    <section id="home" class="home">
+      <img src="images\MainLogo.svg" id="homeImage" class="start"/>
+    </section>
+    <section id="offsetNumber" class="hidden">
+      <img src="images\LogoS.svg" class="logo"/>
+      <p class="title"> Número del día</p>
+      <p>Es el número de la fecha de hoy</p>
+      <input type="number" id="dayNumber" class="boxNumber" maxlength="2" min="1" max="31"/>
+      <br>
+      <img src="images\NextS.svg" id="getOffset" class="next"/>
+    </section>
+    <section id="inputUser" class="hidden">
+      <img src="images\LogoM.svg" class="logo"/>
+      <p class="title">Ingresa tu usuario para cifrar</p>
+      <p>Recuerda que solo se permiten mayúsculas</p>
+      <input type="text" class="text" id="name" maxlength="30"/>
+      <br>
+      <img src="images\NextM.svg" id="getName" class="next"/>
+    </section>
+    <section id="inputKeyword" class="hidden">
+      <img src="images\LogoH.svg" class="logo"/>
+      <p class="title">Ingresa la palabra clave</p>
+      <p>Se encuentra en el foro de MamamooMX</p>
+      <p>Solo letras</p>
+      <input type="text" class="text" id="pass" maxlength="30"/>
+      <br>
+      <img id="getPass" src="images\NextH.svg" class="next"/>
+    </section>
+    <section id="results" class="hidden">
+      <img src="images\LogoW.svg" class="logo"/>
+      <p class="title">Tu usuario cifrado es:</p>
+      <input type="text" class= "result" id="ciphered" readonly><br>
+      <p class="title">La clave es:</p>
+      <input type="text" class= "result" id="deciphered" readonly><br>
+      <p>¡Ya puedes ingresar al Fan Café Exclusivo!</p>
+      <br>
+      <img src="images\homebutton.svg" id="backhome"/>
+    </section>
+    <script type="module" src="index.js"></script>
   </body>
+
 </html>
