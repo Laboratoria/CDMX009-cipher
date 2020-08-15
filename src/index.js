@@ -1,4 +1,6 @@
-dayNumberimport cipher from './cipher.js';
+import cipher from './cipher.js';
+
+let dayNumber;
 let offsetNo;
 let pressed;
 let userName;
@@ -28,7 +30,7 @@ document.getElementById('name').addEventListener('keypress', lettersOnly);
 document.getElementById('pass').addEventListener('keypress', lettersOnly);
 function lettersOnly(event) {
     pressed = event.which;
-    if (pressed < 65 || pressed > 90 && pressed <97 || pressed >122) {
+    if (pressed < 65 || pressed > 90) {
       event.preventDefault();
     }
 }
