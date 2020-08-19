@@ -11,13 +11,11 @@ Aplicacion para la generacion, descarga de facturas y sellos digitales, por medi
 
 - Con esta aplicación y por medio de un despacho de contadores, obtener ante la SHCP la autorización para la generación de sellos digitales que incluye la facturación electrónica.
 
-## PROTOTIPO
-
+## PROTOTIPO  
 <img src= 'src/imgs/Prototipo_final.png'>
 
 ## IMGEN FINAL DEL PROYECTO:
-<img src='src/imgs/Cipher_H1.png'>
-<img src='src/imgs/Cipher_H2.png'>
+<img src= 'src/imgs/anigif.gif'>
 
 ## TECNOLOGIA UTILIZADA:
 
