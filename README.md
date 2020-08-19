@@ -1,6 +1,8 @@
 ## PROYECTO
 ***Cifrado César***
 
+**Aplicación diseñada para Desktop**
+
 Aplicacion para la generacion, descarga de facturas y sellos digitales, por medio clabes cifradas.
 
 ## USUARIOS
