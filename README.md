@@ -15,7 +15,3 @@ Aplicacion para la generacion, descarga de facturas y sellos digitales, por medi
     
 <img src= 'src/imgs/Prototipo_final.png'>
 
-<img src= 'https://github.com/EstherManrique/CDMX009-cipher/blob/master/src/imgs/Primer_Protipo.jpeg'>
-
-
-
