@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* ESTILOS GENERALES DEL BODY */
+body {
+    font-family: 'Lato', sans-serif;  
+    text-align: center;
+}
+
+/* ESTILOS PAGINA 1 */
+#pagina1 {
+    border: 1px solid red;
+    border-radius: 10px;
+    width: max-content;
+    margin: 25px auto 300px;
+    padding: 5px 20px 15px;
+    box-shadow: 5px 5px 10px rgb(173, 173, 173);
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.logo img {
+    width: 15% ;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+    color: blue;
+}
+
+.datos {
+    background-color: rgb(216, 236, 255);
+    border: 1px solid blue;
+    box-shadow: 5px 5px 10px rgb(173, 173, 173);
+    border-radius: 8px;
+    width: max-content;
+    margin: auto;
+    padding: 15px 30px;
+}
+
+.datos label {
+    font-size: large;
+    font-weight: bold;
+    color: blue;    
+}
+
+.boton {
+    width: 100px;
+    height: 35px;
+    background-color: rgb(50, 50, 250);
+    color: #fff;
+    font-style: italic;    
+}
+
+.datos input {
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* ESTILOS PAGINA 2 */
+.contenedor {
+    border: 1px solid red;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgb(173, 173, 173);
+    width: max-content;
+    margin: 50px auto;
+    padding: 25px;
+}
+
+p {
+    color: red;
+    margin: 15px auto;
+    font-size: 1.2em;
+}
+
+#clabeCifrada, #clabeDescifrada {
+    border: 1px solid blue;
+    border-radius: 5px; 
+    box-shadow: 3px 3px 3px rgb(173, 173, 173);
+    background-color: rgb(228, 228, 228);
+    height: 50px;      
+}
+
+#clabeCifrada .dato, #clabeDescifrada .dato {
+    display: block;
+    margin-top: 15px;
+    color: #000000;
+}
+
+#cifrada p, #descifrada p {
+    color: red;
+}
+
+div p {
+    color: blue;
+}
+
+.contenedor input {
+    width: 100px;
+    height: 30px;
+    background-color: rgb(50, 50, 250);
+    color: #fff;
+    font-style: italic; 
+}
+
+#salida {
+    margin-bottom: 10px;
+}
+
+#salida p {
+    margin-top: 30px;
+}
+
+.desencriptar .btnsi {
+    margin-right: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
