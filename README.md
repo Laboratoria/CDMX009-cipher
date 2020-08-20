@@ -14,7 +14,7 @@ Aplicacion para la generacion, descarga de facturas y sellos digitales, por medi
 ## PROTOTIPO  
 <img src= 'src/imgs/Prototipo_final.png'>
 
-## IMGEN FINAL DEL PROYECTO:
+## IMAGEN FINAL DEL PROYECTO:
 <img src= 'src/imgs/anigif.gif'>
 
 ## TECNOLOGIA UTILIZADA:
