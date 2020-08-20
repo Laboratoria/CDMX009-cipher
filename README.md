@@ -7,12 +7,15 @@
 El nombre de la página es: ***Dream Tickets.***
 
 
-***La imagen final de mi proyecto***
+***La imagen final del proyecto***
+
+![alt text](https://raw.githubusercontent.com/DianyelaMaldonado/CDMX009-cipher/master/prototiposCipher/anigif-dream-tickets.gif)
+
 >La página principal, presenta contenido en el slider de redes sociales, publicidad de lo que son los tickets personalizados, aparte de información de los artistas,con un menú de navegación en donde iríamos a la página de cifrar y descifrar.
 >En la segunda pestaña de la barra de navegación explicamos al usuario de lo que trata el cifrado Cesar y se podrán generar los tickets o boletos personalizados.
 >Ya en la tercera pestaña se encuentran los contactos en donde el usuario puede iterar con la app, en este caso Dream-Tickets.
 
-![alt text](https://raw.githubusercontent.com/DianyelaMaldonado/CDMX009-cipher/master/prototiposCipher/anigif_dream_tickets.gif)
+
 
 
 >SI QUIERES VISUALIZAR LA APP FUNCIONAL, DA CLICK EN EL SIGUIENTE ENLACE:
@@ -26,7 +29,7 @@ https://dianyelamaldonado.github.io/CDMX009-cipher/src/index.html
 | CSS | 
 
 
-![alt text](https://raw.githubusercontent.com/DianyelaMaldonado/CDMX009-cipher/master/prototiposCipher/cipher-sections.jpg
+![alt text](https://raw.githubusercontent.com/DianyelaMaldonado/CDMX009-cipher/master/prototiposCipher/cipher-sections.jpg)
 
 
 
