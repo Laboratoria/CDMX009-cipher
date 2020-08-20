@@ -1,7 +1,7 @@
 ***Cifrado César***
 ***(caesar cipher)***
 
->El proyecto se basa en una página web que se encarga de la parte de conciertos, en este caso se utiliza un código para personalizar las entradas con mensajes especiales, en caso de que vayas a regalar el boleto tengas algo que escribiste tu mismo. Te cifra cuando escribes el texto, lo descifras en caso de que hayas olvidado lo que escribiste. Su finalidad en si es cifrar y descifrar.
+>El proyecto se basa en una página web desarrollada para Desktop que se encarga de la parte de conciertos, en este caso se utiliza un código para personalizar las entradas con mensajes especiales, en caso de que vayas a regalar el boleto tengas algo que escribiste tu mismo. Te cifra cuando escribes el texto, lo descifras en caso de que hayas olvidado lo que escribiste. Su finalidad en si es cifrar y descifrar.
 
 ![alt text](https://raw.githubusercontent.com/DianyelaMaldonado/CDMX009-cipher/master/prototiposCipher/logo-cipher.jpg)
 El nombre de la página es: ***Dream Tickets.***
@@ -12,8 +12,21 @@ El nombre de la página es: ***Dream Tickets.***
 >En la segunda pestaña de la barra de navegación explicamos al usuario de lo que trata el cifrado Cesar y se podrán generar los tickets o boletos personalizados.
 >Ya en la tercera pestaña se encuentran los contactos en donde el usuario puede iterar con la app, en este caso Dream-Tickets.
 
-![alt text](https://raw.githubusercontent.com/DianyelaMaldonado/CDMX009-cipher/master/prototiposCipher/ciphertablet.jpg)
+![alt text](https://raw.githubusercontent.com/DianyelaMaldonado/CDMX009-cipher/master/prototiposCipher/anigif_dream_tickets.gif)
 
+
+>SI QUIERES VISUALIZAR LA APP FUNCIONAL, DA CLICK EN EL SIGUIENTE ENLACE:
+https://dianyelamaldonado.github.io/CDMX009-cipher/src/index.html
+
+
+| Tecnologías usadas| 
+| :-------------:|
+| Javascript     | 
+| HTML    | 
+| CSS | 
+
+
+![alt text](https://raw.githubusercontent.com/DianyelaMaldonado/CDMX009-cipher/master/prototiposCipher/cipher-sections.jpg
 
 
 
@@ -55,6 +68,9 @@ El nombre de la página es: ***Dream Tickets.***
 
  **Retos**
  >Como en todo proyecto de código siempre vamos encontrando bloqueos, pero el ser auto-didacta me ayudo a encontrar la solución y poder resolverlo.
+
+
+
 
 
 
