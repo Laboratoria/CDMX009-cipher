@@ -66,40 +66,40 @@ Reflexiona y luego marca los objetivos que has llegado a **entender** y **aplica
 
 ### UX
 
-- [ ] Diseñar la aplicación pensando y entendiendo al usuario.
-- [ ] Crear prototipos para obtener feedback e iterar.
-- [ ] Aplicar los principios de diseño visual (contraste, alineación, jerarquía).
+- [x] Diseñar la aplicación pensando y entendiendo al usuario.
+- [x] Crear prototipos para obtener feedback e iterar.
+- [x] Aplicar los principios de diseño visual (contraste, alineación, jerarquía).
 
 ### HTML y CSS
 
-- [ ] Uso correcto de HTML semántico.
-- [ ] Uso de selectores de CSS.
-- [ ] Construir tu aplicación respetando el diseño realizado (maquetación).
+- [x] Uso correcto de HTML semántico.
+- [] Uso de selectores de CSS.
+- [x] Construir tu aplicación respetando el diseño realizado (maquetación).
 
 ### DOM
 
-- [ ] Uso de selectores del DOM.
-- [ ] Manejo de eventos del DOM.
-- [ ] Manipulación dinámica del DOM.
+- [x] Uso de selectores del DOM.
+- [x] Manejo de eventos del DOM.
+- [x] Manipulación dinámica del DOM.
 
 ### Javascript
 
-- [ ] Manipulación de strings.
-- [ ] Uso de condicionales (if-else | switch).
-- [ ] Uso de bucles (for | do-while).    
-- [ ] Uso de funciones (parámetros | argumentos | valor de retorno).
-- [ ] Declaración correcta de variables (const & let).
+- [x] Manipulación de strings.
+- [x] Uso de condicionales (if-else | switch).
+- [x] Uso de bucles (for | do-while).    
+- [x] Uso de funciones (parámetros | argumentos | valor de retorno).
+- [x] Declaración correcta de variables (const & let).
 
 ### Testing
-- [ ] Testeo de tus funciones.
+- [] Testeo de tus funciones.
 
 ### Git y GitHub
-- [ ] Comandos de git (add | commit | pull | status | push).
-- [ ] Manejo de repositorios de GitHub (clone | fork | gh-pages).
+- [x] Comandos de git (add | commit | pull | status | push).
+- [x] Manejo de repositorios de GitHub (clone | fork | gh-pages).
 
 ### Buenas prácticas de desarrollo
-- [ ] Uso de identificadores descriptivos (Nomenclatura | Semántica).
-- [ ] Uso de linter para seguir buenas prácticas (ESLINT).
+- [x] Uso de identificadores descriptivos (Nomenclatura | Semántica).
+- [] Uso de linter para seguir buenas prácticas (ESLINT).
 
 
 ## 4. Consideraciones generales
@@ -147,16 +147,44 @@ Estos puntos los presentarás en el `README.md`.
 Debe contener lo siguiente:
 
 * Un título con el nombre de tu proyecto.
+TITULO : CIFRACIL
 * Un resumen de 1 o 2 líneas de qué se trata tu proyecto.
+RESUMEN:
+Fue diseñada con el fin de ayudar a los jóvenes para que puedan enviar mensajes de una manera más discreta y que no cualquier persona pueda entender de lo que están hablando.
+
 * La imagen final de tu proyecto.
+
+![caeser-cipher](imagen-final.png)
+
+
 * Investigación UX:
   1. Explicar quiénes son los usuarios y los objetivos en relación con el
     producto.
+
+      USUARIOS: jovenes 
+
   2. Explicar cómo el producto soluciona los problemas/necesidades de dichos
     usuarios.
+
+      ¿A cuántos de nosotros no nos ha pasado que estamos mostrando alguna cosa en nuestro celular ya sea un video o un buen meme y de pronto nos llega un mensaje un tanto comprometedor? 
+      Por esa razón ahora podemos crear texto cifrado. Solo necesitamos mandar el mensaje y el número de desplazamientos para que la persona que lo reciba pueda entender lo que le intentamos comunicar.
+
   3. Luego colocarás la foto de tu primer prototipo en papel.
+
+      ![caeser-cipher](prototipo-en-papel.jpg)
+
+
+
   4. Agregar un resumen del feedback recibido indicando las mejoras a realizar.
+
+      RESUMEN:
+      hacer la app mas sencilla , no mostrar mucho texto y permitir que fuera oscura para que fuera del agrado de mas personas
+
   5. Imagen del prototipo final.
+
+    ![caeser-cipher](prototipo-final.png)
+
+
 
 #### Visualmente (HTML5 y CSS3)
 
